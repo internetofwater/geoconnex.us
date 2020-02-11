@@ -1,13 +1,11 @@
 Permanent Identifiers for US Hydrologic Features
 ================================================
 
-## geoconnex.us URIs
-
 This is the registry for URIs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic features in the United States. 
 
-Adding a Permanent Identifier to w3id.org
+Adding a Permanent Identifier to geoconnex.us
 =========================================
-THe process for adding a URI is similar to that used by [w3id.org](https://github.com/perma-id/w3id.org)
+The process for adding a URI is similar to that used by [w3id.org](https://github.com/perma-id/w3id.org)
 
 The preferred way to create the redirects yourself is by following these steps:
 
