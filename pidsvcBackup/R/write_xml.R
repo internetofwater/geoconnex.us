@@ -31,10 +31,14 @@ write_xml <- function(in_f, out_f, root = "https://geoconnex.us") {
                  conditions = conditions)
   }, in_f = in_f)
 
-  out <- list(backup = out_xml)
-  doc <- xml2::as_xml_document(out)
 
-  xml2::write_xml(doc, out_f)
+  attr(out_xml, "xmlns") <- "urn:csiro:xmlns:pidsvc:backup:1.0"
+
+  out_xml <- list(backup = out_xml)
+
+  out_xml <- xml2::as_xml_document(out_xml)
+
+  xml2::write_xml(out_xml, out_f)
 
   return(invisible(out_f))
 }
