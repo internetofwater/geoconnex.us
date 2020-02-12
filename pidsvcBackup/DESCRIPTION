@@ -1,0 +1,16 @@
+Package: pidsvcBackup
+Type: Package
+Title: Persistant Ientifier Service Backup
+Version: 0.1.0
+Authors@R: c(person(given = "David", 
+                    family = "Blodgett", 
+                    role = c("aut", "cre"), 
+                    email = "dblodgett@usgs.gov"))
+Description: Creates XML Backup Files for Upload to a PID Service
+Depends:
+    R (>= 3.5.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: xml2
+RoxygenNote: 6.1.1

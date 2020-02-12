@@ -1,0 +1,2 @@
+"id","target","creator","description","c1_type","c1_match","c1_value","c2_type","c2_match","c2_value"
+"https://geoconnex.us/example","https://geoconnex.internetofwater.dev","dblodgett@usgs.gov","This is an example PID with two conditions","QueryString","f?=.*","https://geoconnex.internetofwater.dev?f=${C:f:1}","Extension","^.html$","https://geoconnex.internetofwater.dev.html"
