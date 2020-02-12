@@ -19,6 +19,6 @@ example <- data.frame(id = "https://geoconnex.us/example",
                       c2_value = "https://geoconnex.internetofwater.dev.html",
                       stringsAsFactors = FALSE)
 
-write.csv(example, example_file)
+write.csv(example, example_file, row.names = FALSE)
 
 pidsvcBackup::write_xml(example_file, example_out)

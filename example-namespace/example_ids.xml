@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<backup>
+<backup xmlns="urn:csiro:xmlns:pidsvc:backup:1.0">
   <mapping>
-    <path>1</path>
+    <path>/example</path>
     <type>1:1</type>
-    <description>dblodgett@usgs.gov</description>
-    <creator>https://geoconnex.internetofwater.dev</creator>
+    <description>This is an example PID with two conditions</description>
+    <creator>dblodgett@usgs.gov</creator>
     <action>
       <type>303</type>
       <name>location</name>
-      <value>https://geoconnex.us/example</value>
+      <value>https://geoconnex.internetofwater.dev</value>
     </action>
     <conditions>
       <condition>
-        <type>This is an example PID with two conditions</type>
-        <match>QueryString</match>
+        <type>QueryString</type>
+        <match>f?=.*</match>
         <actions>
           <action>
             <type>303</type>
             <name>location</name>
-            <value>f?=.*</value>
+            <value>https://geoconnex.internetofwater.dev?f=${C:f:1}</value>
           </action>
         </actions>
       </condition>
       <condition>
-        <type>https://geoconnex.internetofwater.dev?f=${C:f:1}</type>
-        <match>Extension</match>
+        <type>Extension</type>
+        <match>^.html$</match>
         <actions>
           <action>
             <type>303</type>
             <name>location</name>
-            <value>^.html$</value>
+            <value>https://geoconnex.internetofwater.dev.html</value>
           </action>
         </actions>
       </condition>
