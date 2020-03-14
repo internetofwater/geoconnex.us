@@ -1,7 +1,7 @@
 Permanent Identifiers for US Hydrologic Features
 ================================================
 
-This is the registry for URIs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic features in the United States. 
+This is the registry for URIs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic features in the United States as an implementation [Internet of Water](https://www.aspeninstitute.org/tag/internet-of-water/) principles. Persistent identifiers are important for maintaining a production system of linked hydrologic data systems, of the sort that [SELFIE](https://github.com/opengeospatial/SELFIE) experimented. 
 
 Adding a Permanent Identifier to geoconnex.us
 =========================================
