@@ -12,6 +12,11 @@ The preferred way to create the redirects yourself is by following these steps:
 1. Fork the [`internetofwater/geoconnex.us`](https://github.com/internetofwater/geoconnex.us) repository.
 2. Add a directory corresponding to the namespace you want. For example '/example-namespace/
 3. Add a set of redirects using the [csv template](https://github.com/internetofwater/geoconnex.us/blob/master/example-namespace/example_ids.csv)
+
+  * The only required fields are "id" (the geoconnex URI you want), "target" (where the URI should redirect to), and "creator" (your email address).
+  * Optionally include latitude and longitude to refer to resources about places with point locations on Earth.
+  * Optionally include more complex redirects for content negotiarion using the c1_ and c2_ fields.
+
 4. (Optional) Add a `README.md` detailing contact persons and 
    (a subset of) your permanent identifiers in your namespace directory. For an example, 
    see [`example-namespace/README.md`](example-namespace/README.md)
