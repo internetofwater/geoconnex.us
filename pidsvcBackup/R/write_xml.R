@@ -18,21 +18,25 @@ write_xml <- function(in_f, out_f, root = "https://geoconnex.us") {
 
     r <- in_d[i, ]
 
-    if(grepl("https://geoconnex.us", r[1, 1])) {
-      r[1, 1] <- gsub("https://geoconnex.us", "", r[1, 1])
+    if(grepl("https://geoconnex.us", r$id[1])) {
+      r$id <- gsub("https://geoconnex.us", "", r$id)
     }
 
     conditions <- NULL
 
-    if(ncol(r) > 4) {
-      conditions <- lapply(seq_len((ncol(r) - 4) / 3),
-                           function(x, r) {
-                             col <- 5 + (x - 1) * 3
-                             c(r[1, col], r[1, col + 1], r[1, col + 2])
-                           }, r = r)
+    conditions_data <- r[1, grepl("^c[1-9]", names(r))]
+
+    if(!ncol(conditions_data) %% 3 == 0) stop("must pass multiple of 3 columns of conditions")
+
+    if(ncol(conditions_data) > 0) {
+      conditions <- lapply(seq_len((ncol(conditions_data)) / 3),
+                           function(x, cd) {
+                             col <- (x - 1) * 3 + 1
+                             c(cd[1, col], cd[1, col + 1], cd[1, col + 2])
+                           }, cd = conditions_data)
     }
 
-    make_mapping(r[1, 1], r[1, 2], r[1, 3], r[1, 4],
+    make_mapping(r$id, r$target, r$creator, r$description,
                  conditions = conditions)
   }, in_d = in_d)
 
