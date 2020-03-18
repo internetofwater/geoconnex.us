@@ -45,3 +45,24 @@ test_that("geojson", {
   expect_equal(check$backup[[1]]$description[[1]],
                "For testing!! RIO GRANDE NEAR DEL NORTE, CO")
 })
+
+test_that("basic make mapping", {
+  out <- write_xml("data/example_ids.csv", tempfile(fileext = ".xml"))
+
+  check <- xml2::as_list(xml2::read_xml(out))
+
+  expect_equal(check$backup[[1]]$path[[1]],
+               "/iow/sites/1")
+
+  expect_equal(check$backup[[1]]$description[[1]], "This is an example PID with two conditions")
+
+  expect_equal(check$backup[[1]]$action$value[[1]],
+               "https://internetofwater.org/sites/1")
+
+  expect_equal(check$backup[[1]]$conditions[[1]]$actions[[1]]$value[[1]],
+               "https://internetofwater.org/sites/1?f=${C:f:1}")
+
+  expect_equal(check$backup[[1]]$conditions[[2]]$actions[[1]]$value[[1]],
+               "https://internetofwater.org/sites/1.html")
+
+})
