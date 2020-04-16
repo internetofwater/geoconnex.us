@@ -7,7 +7,7 @@ This is the registry for URIs with the base https://geoconnex.us, principally to
 
 The process for adding a URI is generally similar to that used by [w3id.org](https://github.com/perma-id/w3id.org).
 
-There is a strong preference for creating "[1:1](#adding-11-redirects-to-geoconnex.us)" redirects. That is, specifying an exact redirect from a geoconnex.us-based URI to the URI of the hydrologic feature you have a web resource about, for each and every individual feature. However, if you need to create a large number of redirects (>= 10,000) for a given collection of features, we will require a [regular expression matching redirect](#adding-regular-expression-redirects-to-geoconnex.us). 
+There is a strong preference for creating "[1:1](#adding-11-redirects-to-geoconnexus)" redirects. That is, specifying an exact redirect from a geoconnex.us-based URI to the URI of the hydrologic feature you have a web resource about, for each and every individual feature. However, if you need to create a large number of redirects (>= 10,000) for a given collection of features, we will require a [regular expression matching redirect](#adding-regular-expression-redirects-to-geoconnexus). 
 
 If you have >=10,000 features, but these features can be split in a consistent way into sub-collections, all of which number <10,000 features (as might be the case for features that can be divided by geography, jurisdiction, theme, or type), then you might consider submitting multiple collections of 1:1 redirects.
 
