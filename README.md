@@ -1,13 +1,18 @@
-Permanent Identifiers for US Hydrologic Features
+# Permanent Identifiers for US Hydrologic Features
 ================================================
 
 This is the registry for URIs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic features in the United States as an implementation [Internet of Water](https://www.aspeninstitute.org/tag/internet-of-water/) principles. Persistent identifiers are important for maintaining a production system of linked hydrologic data systems, of the sort that [SELFIE](https://github.com/opengeospatial/SELFIE) experimented. 
 
-Adding a Permanent Identifier to geoconnex.us
-=========================================
+## Adding Permanent Identifiers to geoconnex.us
+
 The process for adding a URI is generally similar to that used by [w3id.org](https://github.com/perma-id/w3id.org).
 
-There is a strong preference for creating "1:1" redirects. That is, specifying an exact redirect from a geoconnex.us-based URI to the URI of the hydrologic feature you have a web resource about, for each and every individual feature. However, if you need to create a large number of redirects (>= 10,000) for a given collection of features, we will require a regular expression matching redirect.
+There is a strong preference for creating "[1:1](#adding-1:1-redirects-to-geoconnex.us)" redirects. That is, specifying an exact redirect from a geoconnex.us-based URI to the URI of the hydrologic feature you have a web resource about, for each and every individual feature. However, if you need to create a large number of redirects (>= 10,000) for a given collection of features, we will require a regular expression matching redirect. 
+
+If you have >=10,000 features, but these features can be split in a consistent way into sub-collections, all of which number <10,000 features (as might be the case for features that can be divided by geography, jurisdiction, theme, or type), then you might consider submitting multiple collections of 1:1 redirects.
+
+### Adding 1:1 redirects to geoconnex.us
+
 
 The preferred way to create the redirects yourself is by following these steps:
 
