@@ -30,14 +30,5 @@ The preferred way to create the redirects yourself is by following these steps:
 
 ### Adding regular expression redirects to geoconnex.us
 
-If you have a collection of >10,000 features that cannot be easily and consistently subdivided, please submit a request for a regular expression redirect. To do so, you may either:
+If you have a collection of >10,000 features that cannot be easily and consistently subdivided, please submit a request for a regular expression redirect. To do so, you may create an issue of type "Request regex redirect" and fill out the template.
 
-1. Create an issue of type "Request regex redirect" and fill out the template (strongly preferred)
-2. Email kyle.onda@duke.edu with the following information
-      * Your name
-      * Your contact information
-      * Your organization
-      * Your organization website
-      * The base PID pattern you would like (e.g. https://geoconnex.us/example-namespace/features/)
-      * Your desired redirect target URI base pattern (e.g. https://example.org/features?query=)
-      * A description of the kind of expressions that would be matched from the end of the the PID and target URI patterns. (e.g. 9 digit numbers, 12 character alphanumeric strings, variable-length strings that include numbers & letters & specified special characters, etc)
