@@ -33,7 +33,7 @@ The preferred way to create the redirects yourself is by following these steps:
 If you have a collection of >10,000 features that cannot be easily and consistently subdivided, please submit a request for a regular expression redirect. To do so, you may either:
 
 1. Create an issue of type "Request regex redirect" and fill out the template (strongly preferred)
-2. Email kyle.onda@duke or dblodgett@usgs.gov (Dave, think we should setup something like support@geoconnex.us that forwards to an email account that we and a growing group of admins have access to?) with the following information
+2. Email kyle.onda@duke.edu with the following information
       * Your name
       * Your contact information
       * Your organization
