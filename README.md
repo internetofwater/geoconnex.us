@@ -39,5 +39,5 @@ If you have a collection of >10,000 features that cannot be easily and consisten
       * Your organization
       * Your organization website
       * The base PID pattern you would like (e.g. https://geoconnex.us/example-namespace/features/)
-      * Your desired redirect target base pattern (e.g. https://example.org/features?query=)
-      * A description of the kinds of expressions that would be appended to the 
+      * Your desired redirect target URI base pattern (e.g. https://example.org/features?query=)
+      * A description of the kind of expressions that would be matched from the end of the the PID and target URI patterns. (e.g. 9 digit numbers, 12 character alphanumeric strings, variable-length strings that include numbers & letters & specified special characters, etc)
