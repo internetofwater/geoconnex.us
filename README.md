@@ -5,7 +5,9 @@ This is the registry for URIs with the base https://geoconnex.us, principally to
 
 Adding a Permanent Identifier to geoconnex.us
 =========================================
-The process for adding a URI is similar to that used by [w3id.org](https://github.com/perma-id/w3id.org)
+The process for adding a URI is generally similar to that used by [w3id.org](https://github.com/perma-id/w3id.org).
+
+There is a strong preference for creating "1:1" redirects. That is, specifying an exact redirect from a geoconnex.us-based URI to the URI of the hydrologic feature you have a web resource about, for each and every individual feature. However, if you need to create a large number of redirects (>= 10,000) for a given collection of features, we will require a regular expression matching redirect.
 
 The preferred way to create the redirects yourself is by following these steps:
 
