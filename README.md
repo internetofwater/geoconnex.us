@@ -18,7 +18,7 @@ The preferred way to create the redirects yourself is by following these steps:
 
 1. Fork the [`internetofwater/geoconnex.us`](https://github.com/internetofwater/geoconnex.us) repository.
 2. Add a directory corresponding to the namespace you want. For example '/example-namespace/
-3. Add a set of redirects using the [csv template](https://github.com/internetofwater/geoconnex.us/blob/master/example-namespace/example_ids.csv)
+3. Add a set of redirects using the [csv template](https://github.com/internetofwater/geoconnex.us/blob/master/example-namespace/example_ids.csv) or a geoJSON file with the exact same field names as the csv template
 4. (Optional) Add a `README.md` detailing contact persons and 
    (a subset of) your permanent identifiers in your namespace directory. For an example, 
    see [`example-namespace/README.md`](example-namespace/README.md)
