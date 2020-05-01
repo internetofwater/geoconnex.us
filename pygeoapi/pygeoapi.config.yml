@@ -29,8 +29,8 @@
 
 server:
     bind:
-        host: 0.0.0.0
-        port: 5000
+        host: info.geoconnex.us
+        port: 80
     url: https://info.geoconnex.us
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
