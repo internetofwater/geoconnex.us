@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  pygeoapi:
+    image: geopython/pygeoapi:latest
+    user: root
+    ports:
+      - "5000:80"
+    volumes:
+      - ./ext_data:/ext_data
+      - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
