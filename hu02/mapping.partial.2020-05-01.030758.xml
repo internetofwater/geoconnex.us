@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<backup type="partial" scope="record" xmlns="urn:csiro:xmlns:pidsvc:backup:1.0"><mapping><path>^/hu02/([0-9]+).*$</path><type>Regex</type><title>HUC2 community pages at info.geoconnex.us</title><creator>iow</creator><action><type>303</type><name>location</name><value>https://info.geoconnex.us/collections/hu02/items/$1</value></action></mapping></backup>
