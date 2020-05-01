@@ -29,9 +29,9 @@
 
 server:
     bind:
-        host: info.geoconnex.us
+        host: info.geoconnex.us #change to your hostname if running your own instance
         port: 80
-    url: https://info.geoconnex.us
+    url: https://info.geoconnex.us #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
     language: en-US
