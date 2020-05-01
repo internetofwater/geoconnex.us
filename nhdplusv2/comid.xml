@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup type="partial" scope="record" xmlns="urn:csiro:xmlns:pidsvc:backup:1.0"><mapping><path>^/nhdplusv2/comid/([0-9]+).*$</path><type>Regex</type><title>NHDPlusV2 NLDI comids</title><creator>iow</creator><action><type>303</type><name>location</name><value>https://labs.waterdata.usgs.gov/api/nldi/linked-data/comid/13293376</value></action></mapping></backup>
