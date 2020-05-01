@@ -8,8 +8,6 @@ The semantic markup and formalism of these resources will expand over time.
 
 
 ```
-docker stop [container name]
-docker system prune -a
 svn checkout https://github.com/internetofwater/geoconnex.us/trunk/pygeoapi
 cd pygeoapi
 docker-compose up
