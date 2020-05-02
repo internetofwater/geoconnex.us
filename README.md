@@ -17,16 +17,16 @@ That being said, 1:1 redirects are preferred where possible because they are sim
 The preferred way to create the redirects yourself is by following these steps:
 
 1. Fork the [`internetofwater/geoconnex.us`](https://github.com/internetofwater/geoconnex.us) repository.
-2. Add a directory corresponding to the namespace you want. For example '/example-namespace/
-3. Add a set of redirects using the [csv template](https://github.com/internetofwater/geoconnex.us/blob/master/example-namespace/example_ids.csv) or a geoJSON file with the exact same field names as the csv template. You may consider adding multiple separate sets of redirects, as long as each set is comprised of <=10,000 
+2. Add a directory corresponding to the namespace you want in the `namespaces` directory. For example 'namespaces/example-namespace/
+3. Add a set of redirects using the [csv template](https://github.com/internetofwater/geoconnex.us/blob/master/namespaces/example-namespace/example_ids.csv) or a geoJSON file with the exact same field names as the csv template. You may consider adding multiple separate sets of redirects, as long as each set is comprised of <=10,000 
 
   * The only required fields are "id" (the geoconnex URI you want), "target" (where the URI should redirect to), and "creator" (your email address).
   * Optionally include latitude and longitude, lines, or polygons in a geojson file to refer to resources about places with distinct locations on Earth.
-  * Optionally include more complex redirects for content negotiarion using the c1_ and c2_ fields.
+  * Optionally include more complex redirects for content negotiation using the c1_ and c2_ fields.
 
-4. (Optional) Add a `README.md` detailing contact persons and 
+4. (Optional but strongly suggested) Add a `README.md` detailing contact persons and 
    (a subset of) your permanent identifiers in your namespace directory. For an example, 
-   see [`example-namespace/README.md`](example-namespace/README.md)
+   see [`namespaces/example-namespace/README.md`](namespaces/example-namespace/README.md)
 5. Commit your changes and submit a 
    [pull request](https://github.com/internetofwater/geoconnex.us/pulls).
 6. geoconnex.us administrators will review your pull request and merge it if 
