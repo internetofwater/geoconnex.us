@@ -105,6 +105,7 @@ resources:
         type: collection
         title: National Aquifers
         description: National Aquifers of the United States
+        uri_stem: https://geoconnex.us/ref/nat_aq/
         keywords:
             - National Aquifers
             - Principle Aquifers
@@ -133,4 +134,3 @@ resources:
             name: GeoJSON
             data: /ext_data/nat_aq.geojson
             id_field: NAT_AQFR_CD
-            uri_stem: https://geoconnex.us/ref/nat_aq/
