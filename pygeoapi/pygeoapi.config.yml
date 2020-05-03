@@ -133,3 +133,4 @@ resources:
             name: GeoJSON
             data: /ext_data/nat_aq.geojson
             id_field: NAT_AQFR_CD
+            uri_stem: https://geoconnex.us/ref/nat_aq/
