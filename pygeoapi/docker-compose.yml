@@ -9,3 +9,4 @@ services:
     volumes:
       - ./ext_data:/ext_data
       - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
+      - ./schemas.opengis.net:/opt/schemas.opengis.net
