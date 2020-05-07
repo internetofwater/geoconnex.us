@@ -6,11 +6,14 @@ This is a work in progress aiming to provide basic landing pages for resources r
 
 The semantic markup and formalism of these resources will expand over time.
 
+## Install
 
 ```
 svn checkout https://github.com/internetofwater/geoconnex.us/trunk/pygeoapi
 cd pygeoapi
 mkdir schemas.opengis.net
+cd schemas.opengis.net
 curl -O http://schemas.opengis.net/SCHEMAS_OPENGIS_NET.zip  && unzip SCHEMAS_OPENGIS_NET.zip
-docker-compose up
+cd ..
+docker-compose up -d
 ```
