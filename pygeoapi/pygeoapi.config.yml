@@ -78,26 +78,61 @@ resources:
     hu02:
         type: collection
         title: HU02
-        description: Hydrologic Regions
+        description: Two-digit Hydrologic Regions
         keywords:
             - Hydrologic Regions
         context:
             - NAME: https://schema.org/name
-            - GNIS_ID: https://schema.org/subjectOf
+            - gnis_url: https://schema.org/subjectOf
+            - uri: "@id"
         links:
-            - type: application/zip
+            - type: application/html
               rel: canonical
-              title: data
+              title: data source
               href: https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products
               hreflang: en-US
         extents:
             spatial:
-                bbox: [-180,-90,180,90]
+                bbox: [-170,15,-51,72]
                 crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
             temporal:
-                begin: 2011-11-11
+                begin: null
                 end: null
         provider:
             name: GeoJSON
             data: /ext_data/hu02.geojson
             id_field: HUC2
+    nat_aq:
+        type: collection
+        title: National Aquifers
+        description: National Aquifers of the United States
+        uri_stem: https://geoconnex.us/ref/nat_aq/
+        keywords:
+            - National Aquifers
+            - Principle Aquifers
+        context:
+            - AQ_NAME: https://schema.org/name
+            - LINK: https://schema.org/subjectOf
+            - uri: "@id"
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://cida.usgs.gov/ngwmn/
+              hreflang: en-US
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://cida.usgs.gov/ngwmn/
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: GeoJSON
+            data: /ext_data/nat_aq.geojson
+            id_field: NAT_AQFR_CD
