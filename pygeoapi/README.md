@@ -42,8 +42,14 @@ The features hosed in the https://info.geoconnex.us are intended to provide land
 
 These reference features are intended to be ["community reference locations"](https://github.com/internetofwater/geoconnex.us/wiki/Community-Reference-Locations) and will be created based on broadly-recognized reference data or by a community group interested in registering a wholistic set of reference identifiers that unify multiple organization's identifiers of a similar type. Please open a new general issue to discuss an idea for a new set of reference identifiers.
 
+## Install
+
 ```
 svn checkout https://github.com/internetofwater/geoconnex.us/trunk/pygeoapi
 cd pygeoapi
-docker-compose up
+mkdir schemas.opengis.net
+cd schemas.opengis.net
+curl -O http://schemas.opengis.net/SCHEMAS_OPENGIS_NET.zip  && unzip SCHEMAS_OPENGIS_NET.zip
+cd ..
+docker-compose up -d
 ```
