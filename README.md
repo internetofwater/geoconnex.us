@@ -39,4 +39,8 @@ The preferred way to create the redirects yourself is by following these steps:
 
 If you have a collection of >10,000 features that cannot be easily and consistently subdivided, please submit a request for a regular expression redirect. To do so, you may [create an issue of type "Request regex redirect"](https://github.com/internetofwater/geoconnex.us/issues/new?assignees=dblodgett-usgs%2C+ksonda&labels=PID+request&template=request-regex-redirect.md&title=[regex+redirect+request) and fill out the template.
 
-![](https://internetofwater.org/wp-content/uploads/2019/12/iow_logo_horizontal_rgb_TM_header.png)![](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/USGS_logo_green_SQUARE.png)
+### Adding geospatial reference features to info.geoconnex.us
+
+https://info.geoconnex.us is available to host community reference features. See the readme in the [pygeoapi](pygeoapi) folder for more info.
+
+[![](https://internetofwater.org/wp-content/uploads/2019/12/iow_logo_horizontal_rgb_TM_header.png)](https://internetofwater.org/)[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/USGS_logo_green.svg/320px-USGS_logo_green.svg.png)](https://www.usgs.gov/mission-areas/water-resources)
