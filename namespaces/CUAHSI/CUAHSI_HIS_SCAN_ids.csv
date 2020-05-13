@@ -1,4 +1,4 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_valuec2_type,c2_match,c2_valuec3_type,c3_match,c3_value
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value,c2_type,c2_match,c2_value
 https://geoconnex.us/cuahsi/his/SCAN/2057_AL_SCAN,http://selfie.cuahsi.org/SCAN/2057_AL_SCAN,acastronova@cuahsi.org,AAMU-JTG,34.783329010009766,-86.550003051757813,Extension,^.html$,http://selfie.cuahsi.org/SCAN/2057_AL_SCAN,Extension,^.json$,http://selfie.cuahsi.org/SCAN/2057_AL_SCAN?jsonld
 https://geoconnex.us/cuahsi/his/SCAN/2092_KS_SCAN,http://selfie.cuahsi.org/SCAN/2092_KS_SCAN,acastronova@cuahsi.org,Abrams,37.131301879882813,-97.085899353027344,Extension,^.html$,http://selfie.cuahsi.org/SCAN/2092_KS_SCAN,Extension,^.json$,http://selfie.cuahsi.org/SCAN/2092_KS_SCAN?jsonld
 https://geoconnex.us/cuahsi/his/SCAN/2015_NM_SCAN,http://selfie.cuahsi.org/SCAN/2015_NM_SCAN,acastronova@cuahsi.org,Adams Ranch #1,34.25,-105.41667175292969,Extension,^.html$,http://selfie.cuahsi.org/SCAN/2015_NM_SCAN,Extension,^.json$,http://selfie.cuahsi.org/SCAN/2015_NM_SCAN?jsonld
