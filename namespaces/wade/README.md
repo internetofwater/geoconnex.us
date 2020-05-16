@@ -8,7 +8,7 @@ These mappings are for Western States Water Council Water Data Exchange (WaDE) s
 
 ## Sites
 
-All ofe the Site UUIDs used by the WaDE2.0 API are included
+All of the Site UUIDs used by the [WaDE2.0 API](https://app.swaggerhub.com/apis/WesternStatesWater/WaDE2.0/1.0.0) are included
 
 Examples:
 * A site: https://geoconnex.us/wade/sites/ID_8140
