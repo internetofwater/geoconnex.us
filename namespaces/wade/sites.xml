@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup xmlns="urn:csiro:xmlns:pidsvc:backup:1.0" scope="record" type="partial">
+  <mapping>
+    <path>^/wade/sites/(([A-Z])([A-Z])(_)[A-Za-z0-9\-\_]+).*$</path>
+    <type>Regex</type>
+    <title>WaDE Sites</title>
+    <creator>iow</creator>
+    <action>
+    <type>303</type>
+    <name>location</name>
+    <value>https://wade-api-qa.azure-api.net/v1/SiteAllocationAmounts?SiteUUID=$1</value>
+    </action>
+  </mapping>
+</backup>
