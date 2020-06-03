@@ -129,7 +129,7 @@ resources:
             name: GeoJSON
             data: /ext_data/hu04.geojson
             id_field: HUC4
-    hu02:
+    hu06:
         type: collection
         title: HU06
         description: Six-digit Hydrologic Basins
@@ -156,7 +156,7 @@ resources:
             name: GeoJSON
             data: /ext_data/hu06.geojson
             id_field: HUC6
-    hu02:
+    hu08:
         type: collection
         title: HU08
         description: Eight-digit Hydrologic Subbasins
@@ -183,7 +183,7 @@ resources:
             name: GeoJSON
             data: /ext_data/hu08.geojson
             id_field: HUC8
-    hu02:
+    hu10:
         type: collection
         title: HU10
         description: Ten-digit Watersheds
