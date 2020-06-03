@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup xmlns="urn:csiro:xmlns:pidsvc:backup:1.0" type="partial" scope="record">
+  <mapping>
+    <path>^/ref/hu10/([0-9]+).*$</path>
+    <type>Regex</type>
+    <title>Ten Digit Hydrologic Units</title>
+    <creator>iow</creator>
+    <action>
+      <type>303</type>
+      <name>location</name>
+      <value>https://info.geoconnex.us/collections/hu10/items/$1</value>
+    </action>
+    <conditions>
+      <condition>
+        <type>QueryString</type>
+        <match>f?=.*</match>
+        <actions>
+          <action>
+            <type>303</type>
+            <name>location</name>
+            <value>https://info.geoconnex.us/collections/hu10/items/$1?f=${C:f:1}</value>
+          </action>
+        </actions>
+      </condition>
+    </conditions>
+  </mapping>
+</backup>
