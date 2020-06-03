@@ -9,7 +9,7 @@ Data hosted by the server can be found in [ext-data](ext-data)
 ## Contributing new content
 
 Three pieces of information are required for a new contribution:  
-1. spatial feature geometry and attributes in [ext-data](ext-data)
+1. spatial feature geometry and attributes contributed to: https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/
 1. a pygeoapi resource configuration in [pygeoapi.config.yml](pygeoapi.config.yml)
 1. PIDs registered with the `geoconnex.us` pid server for the features
 
