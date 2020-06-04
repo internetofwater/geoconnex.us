@@ -14,7 +14,7 @@ Three pieces of information are required for a new contribution:
 1. PIDs registered with the `geoconnex.us` pid server for the features
 
 ### Spatial Features
-Spatial feature data should be contributed in `geojson` format and be optimized for simple web-preview. This means the geometry should be simplified as much as is practical and attributes should be useful to a general audience.
+Spatial feature data should be contributed in `SQLite GeoPackage` (preferably) or `geojson` format and be optimized for simple web-preview. This means the geometry should be simplified as much as is practical and attributes should be useful to a general audience.
 
 At a minimum, the features should include attributes containing a name for the features and the PIDs of the features. The PIDs should be in an attribute titled `uri`. 
 
