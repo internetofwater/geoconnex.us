@@ -8,7 +8,20 @@
     <action>
     <type>303</type>
     <name>location</name>
-    <value>https://wade-api-qa.azure-api.net/v1/SiteAllocationAmounts?SiteUUID=$1</value>
+    <value>https://wade-test.geoconnex.us/collections/WaDE/items/$1</value>
     </action>
+    <conditions>
+      <condition>
+        <type>QueryString</type>
+        <match>f=.*</match>
+        <actions>
+          <action>
+            <type>303</type>
+            <name>location</name>
+            <value>https://wade-test.geoconnex.us/collections/WaDE/items/$1?f=${C:f}</value>
+          </action>
+        </actions>
+      </condition>
+    </conditions>
   </mapping>
 </backup>
