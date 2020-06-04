@@ -1,7 +1,7 @@
 # Permanent Identifiers (PIDs) for US Hydrologic Features
 ================================================
 
-This is the registry for PIDs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic features in the United States as an implementation [Internet of Water](https://github.com/opengeospatial/SELFIE/blob/master/docs/demo/internet_of_water.md) principles. Persistent identifiers are important for maintaining a production system of linked hydrologic data systems, of the sort that [SELFIE](https://github.com/opengeospatial/SELFIE) experimented, in order to reduce the problem of broken links when data publishers change URLs.
+This is the registry for PIDs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic features in the United States as an implementation of [Internet of Water](https://github.com/opengeospatial/SELFIE/blob/master/docs/demo/internet_of_water.md) principles. Persistent identifiers are important for maintaining a production system of linked hydrologic data systems, of the sort that [SELFIE](https://github.com/opengeospatial/SELFIE) experimented, in order to reduce the problem of broken links when data publishers change URLs and maintain the integrity of search indexes built by web crawlers.
 
 ### See the [Wiki](https://github.com/internetofwater/geoconnex.us/wiki) for more details on participating!
 
@@ -39,3 +39,8 @@ The preferred way to create the redirects yourself is by following these steps:
 
 If you have a collection of >10,000 features that cannot be easily and consistently subdivided, please submit a request for a regular expression redirect. To do so, you may [create an issue of type "Request regex redirect"](https://github.com/internetofwater/geoconnex.us/issues/new?assignees=dblodgett-usgs%2C+ksonda&labels=PID+request&template=request-regex-redirect.md&title=[regex+redirect+request) and fill out the template.
 
+### Adding geospatial reference features to info.geoconnex.us
+
+[https://info.geoconnex.us](https://info.geoconnex.us) is available to host community reference features. See the readme in the [pygeoapi](pygeoapi) folder for more info.
+
+[![](https://internetofwater.org/wp-content/uploads/2019/12/iow_logo_horizontal_rgb_TM_header.png)](https://internetofwater.org/)[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/USGS_logo_green.svg/320px-USGS_logo_green.svg.png)](https://www.usgs.gov/mission-areas/water-resources)
