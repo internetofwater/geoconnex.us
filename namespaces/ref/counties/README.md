@@ -1,0 +1,15 @@
+ref/counties
+===
+
+Homepage:
+* https://data.census.gov/cedsci/
+
+This is a reference collection of U.S. Counties as described by the Profile web pages from the U.S. Census Center for Enterprise Dissemination Services and Consumer Innovation (CEDSCI) at [https://data.census.gov/cedsci](https://data.census.gov/cedsci) These are the National Aquifers that underpin the National Groundwater Monitoring Network. All data were derived from the current [U.S. Census current Cartographic Boundary Files.](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html)
+
+The current implementation creating these ids and landing-content is in: https://github.com/ksonda/geoconnex_prep/tree/master/census and hosted on https://info.geoconnex.us/collections/counties. GeoPackage source for the landing content is available in [hydroshare.](https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/counties.gpkg)
+
+Example:
+https://geoconnex.us/ref/counties/08031
+
+Contacts: 
+* Kyle Onda <kyle.onda@duke.edu>
