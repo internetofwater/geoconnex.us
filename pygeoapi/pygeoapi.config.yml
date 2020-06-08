@@ -391,7 +391,7 @@ resources:
             - Urban Areas
             - Census
         context:
-            - NAME: https://schema.org/name
+            - NAME10: https://schema.org/name
             - uri: "@id"
         links:
             - type: application/html
