@@ -1,0 +1,2 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/SagehenCreek/sgck1,http://selfie.cuahsi.org/SagehenCreek/sgck1,acastronova@cuahsi.org,Sagehen Creek,39.4325,-120.236944,QueryString,f?=.*,http://selfie.cuahsi.org/SagehenCreek/sgck1?f=${C:f:1}

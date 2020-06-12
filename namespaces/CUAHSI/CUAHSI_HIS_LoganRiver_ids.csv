@@ -1,0 +1,5 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/LoganRiver/USU-LR-Chokecherry,http://selfie.cuahsi.org/LoganRiver/USU-LR-Chokecherry,acastronova@cuahsi.org,Logan River at Chokecherry Summer Home bridge.,41.77034,-111.6579,QueryString,f?=.*,http://selfie.cuahsi.org/LoganRiver/USU-LR-Chokecherry?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/LoganRiver/USU-LR-Forestry,http://selfie.cuahsi.org/LoganRiver/USU-LR-Forestry,acastronova@cuahsi.org,Logan River at USU Forestry Research Camp bridge.,41.87609,-111.5647,QueryString,f?=.*,http://selfie.cuahsi.org/LoganRiver/USU-LR-Forestry?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/LoganRiver/USU-LR-Franklin,http://selfie.cuahsi.org/LoganRiver/USU-LR-Franklin,acastronova@cuahsi.org,Logan River at Franklin Basin Road first bridge.,41.93315,-111.5664,QueryString,f?=.*,http://selfie.cuahsi.org/LoganRiver/USU-LR-Franklin?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/LoganRiver/USU-LR-Wally,http://selfie.cuahsi.org/LoganRiver/USU-LR-Wally,acastronova@cuahsi.org,Logan River at Wally's Bridge.,41.8149,-111.6185,QueryString,f?=.*,http://selfie.cuahsi.org/LoganRiver/USU-LR-Wally?f=${C:f:1}

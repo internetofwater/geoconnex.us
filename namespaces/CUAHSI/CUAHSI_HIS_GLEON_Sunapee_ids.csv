@@ -1,0 +1,2 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/GLEON_Sunapee/SUNAPEE,http://selfie.cuahsi.org/GLEON_Sunapee/SUNAPEE,acastronova@cuahsi.org,Lake Sunapee,43.3913333,-72.0576666,QueryString,f?=.*,http://selfie.cuahsi.org/GLEON_Sunapee/SUNAPEE?f=${C:f:1}

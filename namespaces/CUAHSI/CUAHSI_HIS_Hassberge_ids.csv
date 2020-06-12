@@ -1,0 +1,2 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/Hassberge/15164805,http://selfie.cuahsi.org/Hassberge/15164805,acastronova@cuahsi.org,Climate station Sechsthal,50.05575916,10.58600525,QueryString,f?=.*,http://selfie.cuahsi.org/Hassberge/15164805?f=${C:f:1}
