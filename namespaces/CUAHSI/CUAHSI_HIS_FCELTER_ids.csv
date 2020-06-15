@@ -1,0 +1,2 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/FCELTER/EVERGLADES,http://selfie.cuahsi.org/FCELTER/EVERGLADES,acastronova@cuahsi.org,EVERGLADES  FL US,25.8489,-81.3896,QueryString,f?=.*,http://selfie.cuahsi.org/FCELTER/EVERGLADES?f=${C:f:1}

@@ -1,0 +1,3 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/GLEON_Dorset/HPRAFT,http://selfie.cuahsi.org/GLEON_Dorset/HPRAFT,acastronova@cuahsi.org,Harp Lake  Instrumented Buoy,45.379987,-79.133965,QueryString,f?=.*,http://selfie.cuahsi.org/GLEON_Dorset/HPRAFT?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/GLEON_Dorset/TMRAFT,http://selfie.cuahsi.org/GLEON_Dorset/TMRAFT,acastronova@cuahsi.org,Three Mile Lake  Instrumented Buoy,45.1921,-79.4648,QueryString,f?=.*,http://selfie.cuahsi.org/GLEON_Dorset/TMRAFT?f=${C:f:1}

@@ -1,0 +1,4 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/Para_La_Naturaleza/Rio_Toro_Negro,http://selfie.cuahsi.org/Para_La_Naturaleza/Rio_Toro_Negro,acastronova@cuahsi.org,Río Toro Negro,18.28559,-66.4903,QueryString,f?=.*,http://selfie.cuahsi.org/Para_La_Naturaleza/Rio_Toro_Negro?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/Para_La_Naturaleza/Quebrada_Batista,http://selfie.cuahsi.org/Para_La_Naturaleza/Quebrada_Batista,acastronova@cuahsi.org,Quebrada Batista,18.19699,-66.32992,QueryString,f?=.*,http://selfie.cuahsi.org/Para_La_Naturaleza/Quebrada_Batista?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/Para_La_Naturaleza/Rio_Grande_de_Manati,http://selfie.cuahsi.org/Para_La_Naturaleza/Rio_Grande_de_Manati,acastronova@cuahsi.org,Río Grande de Manatí,18.2144,-66.28665,QueryString,f?=.*,http://selfie.cuahsi.org/Para_La_Naturaleza/Rio_Grande_de_Manati?f=${C:f:1}
