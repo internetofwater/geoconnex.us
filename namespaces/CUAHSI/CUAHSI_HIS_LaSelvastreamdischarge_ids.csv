@@ -1,0 +1,3 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/LaSelvastreamdischarge/Arboleda,http://selfie.cuahsi.org/LaSelvastreamdischarge/Arboleda,acastronova@cuahsi.org,Arboleda Watershed Outlet,10.42917,-84.001,QueryString,f?=.*,http://selfie.cuahsi.org/LaSelvastreamdischarge/Arboleda?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/LaSelvastreamdischarge/Taconazo,http://selfie.cuahsi.org/LaSelvastreamdischarge/Taconazo,acastronova@cuahsi.org,Taconazo Watershed Outlet,10.43214,-84.013,QueryString,f?=.*,http://selfie.cuahsi.org/LaSelvastreamdischarge/Taconazo?f=${C:f:1}
