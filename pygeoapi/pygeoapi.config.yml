@@ -491,6 +491,7 @@ resources:
             - NAME: https://schema.org/name
             - ST_uri: https://schema.org/geoWithin
             - SDWIS: https://schema.org/subjectOf
+            - PROVIDER: https://schema.org/isBasedOn
         links: 
             - type: application/html
               rel: canonical
