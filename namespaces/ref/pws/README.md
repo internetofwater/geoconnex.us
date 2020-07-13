@@ -16,8 +16,9 @@ The landing-content is based on Service Area Boundaries where available, which i
  - NJ
  - PA
  - TX
+ 
 
-Landing-content for everywhere else is based on the centroid of the state in which the water sysstem is.
+Landing-content for everywhere else is based on the Census Place boundary if EPA SDWIS sepcifies the "CITY SERVED" and this name could be matched to the U.S. Census Places. If no such match was available, the centroid of the state in which the water system is.
 
 The .gpkg source for the landing content is available [here.](https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/pws.gpkg)
 
