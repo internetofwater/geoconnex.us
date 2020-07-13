@@ -19,7 +19,7 @@ The landing-content is based on Service Area Boundaries where available, which i
 
 Landing-content for everywhere else is based on the centroid of the state in which the water sysstem is.
 
-with gpkg source for the landing content is available [here.]https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/pws.gpkg)
+The .gpkg source for the landing content is available [here.](https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/pws.gpkg)
 
 Contacts: 
 * Creator: <kyle.onda@duke.edu>
