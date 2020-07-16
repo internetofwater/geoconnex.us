@@ -1,9 +1,10 @@
 # Permanent Identifiers (PIDs) for US Hydrologic Features
-================================================
 
 This is the registry for PIDs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic and other spatial features in the United States as an implementation of [Internet of Water](https://github.com/opengeospatial/SELFIE/blob/master/docs/demo/internet_of_water.md) principles. Persistent identifiers are important for maintaining a production system of linked environmental data systems, of the sort that [SELFIE](https://github.com/opengeospatial/SELFIE) experimented, in order to reduce the problem of broken links when data publishers change URLs and maintain the integrity of search indexes built by web crawlers.
 
 The geoconnex.us project is intentionally incremental -- seeking to build useful capabilities incrementally as we scale up adoption and capabilities.
+
+### Features in geoconnex.us
 
 The registry contains three kinds of spatial features. The distinctions between these are not strong -- some sets of features may function as more than one type.
 
@@ -14,6 +15,8 @@ The registry contains three kinds of spatial features. The distinctions between 
 These are all registered in the [namespaces](namespaces) folder. Namespaces contains organizations, datasets, and a special `https://geoconnex.us/ref` namespace reserved for community reference and cataloging features not owned by a single organization.
 
 **See the [Wiki](https://github.com/internetofwater/geoconnex.us/wiki) for more details on participating!**
+
+**See the [OGC API Features](https://info.geoconnex.us/) for the reference features hosted by geoconnex.us**
 
 ### Geoconnex.us-related presentations and publications.
 - [Roundtable presentation including geoconnex.us](https://www.westernstateswater.org/wp-content/uploads/2020/06/CO_Roundable_IoW.pdf)
