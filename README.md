@@ -12,7 +12,7 @@ The registry contains three kinds of spatial features. The distinctions between 
 1. organizational features: features owned by a particular organizational entity
 1. cataloging features: features used to catalog data that are not monitoring or directly observable environmental features.
 
-These are all registered in the [namespaces](namespaces) folder. Namespaces contains organizations, datasets, and a special `https://geoconnex.us/ref` namespace reserved for community reference and cataloging features not owned by a single organization.
+These are all registered in the [namespaces](https://github.com/internetofwater/geoconnex.us/tree/master/namespaces) folder. Namespaces contains organizations, datasets, and a special `https://geoconnex.us/ref` namespace reserved for community reference and cataloging features not owned by a single organization.
 
 **See the [Wiki](https://github.com/internetofwater/geoconnex.us/wiki) for more details on participating!**
 
