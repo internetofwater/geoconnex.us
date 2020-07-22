@@ -23,6 +23,6 @@ These are all registered in the [namespaces](namespaces) folder. Namespaces cont
 - [Second Environmental Linked Features Interoperability Experiment](https://github.com/opengeospatial/SELFIE) 
 - [ESIP Sessions on Structured Data in the Web](https://2020esipsummermeeting.sched.com/event/cIvv/structured-data-on-the-web-putting-best-practice-to-work) [slides](https://docs.google.com/presentation/d/1LSXHz2_Y7hrkGZPC_sNoJWl8AIujI8AAWktl9amIR4E/edit#slide=id.g8250495469_1_30)
 
-## [Guidance for contributing PIDs and reference features is available here.](CONTRIBUTING.md) 
+## [Guidance for contributing PIDs and reference features is available here.](https://github.com/internetofwater/geoconnex.us/blob/master/CONTRIBUTING.md) 
 
 [![](https://internetofwater.org/wp-content/uploads/2019/12/iow_logo_horizontal_rgb_TM_header.png)](https://internetofwater.org/)[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/USGS_logo_green.svg/320px-USGS_logo_green.svg.png)](https://www.usgs.gov/mission-areas/water-resources)
