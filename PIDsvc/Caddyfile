@@ -1,0 +1,14 @@
+geoconnex.us {
+   
+   @pidsvc {
+      path /pidsvc/*
+   }
+   
+   @normal {
+      not path /pidsvc/*
+   }
+   
+   reverse_proxy @pidsvc localhost:8095
+   reverse_proxy @normal localhost:8096
+
+{
