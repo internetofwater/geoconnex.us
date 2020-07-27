@@ -15,7 +15,7 @@ services:
                 - POSTGRESQL_REPLICATION_MODE=master
                 - POSTGRESQL_REPLICATION_USER=pidsvc-admin
                 - POSTGRESQL_REPLICATION_PASSWORD=apassword
-        pidsvcMaster:
+        pidsvc-master:
             build:
                 context: .
                 dockerfile: Dockerfile-pidsvcMaster
@@ -24,18 +24,20 @@ services:
             expose:
                 - "8080"
                 - "8009"
-        apacheMaster:
+        apache-master:
             build:
                 context: .
                 dockerfile: Dockerfile-ApacheMaster
             depends_on:
-                - tomcat3
+                - pidsvc-master
             ports:
                 - "8095:80"
         postgres-replica:
             image: "bitnami/postgresql:latest"
             ports:
                 - "5432"
+            depends_on:
+                - postgres-master
             environment:
                 - POSTGRESQL_USERNAME=pidsvc-admin
                 - POSTGRESQL_DATABASE=pidsvc
