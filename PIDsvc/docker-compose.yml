@@ -20,7 +20,7 @@ services:
                 context: .
                 dockerfile: Dockerfile-pidsvcMaster
             depends_on:
-                - postgresql-master
+                - postgres-master
             expose:
                 - "8080"
                 - "8009"
