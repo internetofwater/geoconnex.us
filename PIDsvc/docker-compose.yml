@@ -15,6 +15,7 @@ services:
                 - POSTGRESQL_REPLICATION_MODE=master
                 - POSTGRESQL_REPLICATION_USER=pidsvc-admin
                 - POSTGRESQL_REPLICATION_PASSWORD=apassword
+                - POSTGRESQL_POSTGRES_PASSWORD=postgres
         pidsvc-master:
             build:
                 context: .
