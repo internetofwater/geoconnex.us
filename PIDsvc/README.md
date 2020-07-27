@@ -1,20 +1,18 @@
 # Persistent Identifier Service (PID Service)
-This is a deployment system using docker for the PIDsvc developed by CSIRO. https://www.seegrid.csiro.au/wiki/Siss/PIDService#Prerequisites
+The geoconnex.us persistent identifiers are resolved by the Persistent Identifier Service (PIDsvc) deployed here. 
+The PIDsvc was originally developed by CSIRO. https://www.seegrid.csiro.au/wiki/Siss/PIDService#Prerequisites
 
-1. [Overview](#overview)
+The geoconnex.us deployment is based on a Dockerized version of the PIDsvc maintained by the [Internet of Water](https://internetofwater.org) at https://github.com/internetofwater/IoW-PIDsvc. A full description of the PIDsvc and its API is available [here](https://github.com/internetofwater/IoW-PIDsvc/tree/master/PIDsvc).
+
+The remainder of this document describes the deployment system for the geoconnex.us PID Service for easy restoration or migration to other services
+
+1. [Architecture](#architecture)
 2. [Deployment](#deployment)
-3. [API Request Templates](#api-request-templates)
-* [Batch import](#batch-import-via-xml-file) 
-* [Delete individual mapping](#delete-individual-mapping) 
 
-# Overview
-The Persistent Identifier Service (PID Service) enables resolution of persistent identifiers. All incoming HTTP requests are intercepted by an Apache HTTP web server level and passed to a dispatcher servlet that matches a pattern of an incoming request and compares it with the patterns configured in the PID Service and stored in a persistent relational data store (e.g. PostgreSQL) and then performs a set of user-defined actions, such as, HTTP header manipulation, redirects, proxying requests, delegating resolution to another service, etc. It features extendable architecture for future improvements and supports multiple control interfaces - visual user interface (UI) as well as programmable API for remote user-less management of URI mapping rules.
+# Architecture
+All requests to the domain https://geoconnex.us are first intercepted by a proxy server, in this case, [Caddy 2](https://caddyserver.com/). If the request involves either the PIDsvc user interface or write requests (to create, modify or delete any PIDs and redirects), the proxy server redirects the request to a writeable instance of the PIDsvc that requires authentication. The database of this instance is replicated to multiple read-only databases using write-ahead logging (WAL). If the request involves a normal GET request for a PID, the proxy server routes the request to a read-only instance of the PIDsvc, which matches PIDs against read-only databases load balanced by Docker Engine, and dispatches matched PIDs towards the targeted redirect URLs. See figure below to visualize this architecture.
 
-Implementation has taken into account findings, requirements and observations discovered during technology review and prototype implementation phases that immediately preceded implementation of the PID Service:
-https://www.seegrid.csiro.au/wiki/bin/view/SISS4BoM/PIDTechnologyReview
-https://www.seegrid.csiro.au/wiki/bin/view/SISS4BoM/PIDPrototypeSolution
-
-This docker configuration includes 3 images: a postgres database, tomcat (with a pidsvc .war for the dispatcher, API, and user interface) and apache2 as a request interceptor and load balancer. It is designed to easily allow deployment of the PIDsvc, including with load balancing for greater scalability. Scaled to 5 replicas, it has been tested to drop less than 20 of 1,000,000 requests made over 160 minutes (~1000/s).
+![deployment figure](https://user-images.githubusercontent.com/44071350/87054857-9b891780-c1d1-11ea-9d1e-c1876b65e65f.png)
 
 
 # Deployment
@@ -22,17 +20,12 @@ This assumes a machine running Ubuntu 18.04 LTS with at least 10GB of disk space
 
 1. [Install Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 2. [Install Docker-Compose](https://docs.docker.com/compose/install/)
-3. ```git clone []``` to your Server (ubuntu 18.04 LTS)
-4. Change ```POSTGRES_USER```in docker-compose ```environment:``` AND ```username``` in ```context.xml``` to your desired preference
-5. Change ```POSTGRES_PASSWORD```in docker-compose ```environment:``` AND ```password``` in ```context.xml``` to your desired preference
-4. Move to IoW-PIDsvc/PIDsvc directory, then ```docker-compose build```
-5. ```docker-compose up --scale tomcat3=5``` One can set tomcat3=n, where n is number of pidsvc instances desired for apache to load balance to over docker internal round-robin DNS
-6. Pidsvc is deployed at http://localhost:8095, with GUI at http://localhost:8095/pidsvc
+3. ```git clone https://github.com/internetofwater/geoconnex.us``` to your server
+4. ```cd``` into the directory ```path/to/geoconnex.us/PIDsvc
+5. Change ```POSTGRESQL_PASSWORD```, ```POSTGRESQL_REPLICATION_USER``` and ```POSTGRESQL_REPLICATION_PASSWORD``` in docker-compose ```environment:``` for ```postgres-master``` and ```postgres-replica``` AND ```username``` and ```password``` in ```context_master.xml``` and ```context_replica.xml``` to your desired preferences/
+6. ```docker-compose up --scale postgres-replica=5 -d``` One can set postgres-replica=```n```, where ```n``` is number of read-only databases desired for the read-only PIDsvc to load balance to over docker internal round-robin DNS
+7. The write-enabled PIDsvc is deployed at http://localhost:8095, with GUI at http://localhost:8095/pidsvc. The read-only PIDsvc is accessed at http://localhost:8096 
 
-## Managing data persistence
-The ```docker-compose.yml``` file configures a persistent copy of the postgres database as a docker data volume (which can be mapped directly to other docker containers). Alternatively, you may create a directory in the host environment and map that directory to the postgres docker container persistence database. See ```docker-compose-persistence-directory.yml``` for an example.
-
-In either case, the persistent data directory must be empty, or the docker data volume removed before the first postgres image is built. After this, the data will persist int he chosen storage volume even after the docker containers are stopped and their images removed.
 
 ## Optional: Enable https
 
@@ -47,77 +40,3 @@ The most straightforward way to serve the PID service over https is to set up a 
   * Password hashes to be stored in this configuration in /apache/.htpasswd
   * In apache/httpd-vhosts.conf, the allowed users need to be added to the ```Require user``` directive
 
-# API Request Templates
-
-## Batch import via xml file
-Import an xml file of 1:1 mappings located at path/<import-file.xml>. Note, any mappings for paths already registered will be overwritten by default.
-
-### Using shell/ curl
-```
-curl --user [name]:[password] https://geoconnex.us/pidsvc/controller?cmd=import -X POST -F "source=@<path>/import-file.xml" -H "Content-Type: multipart/mixed" 
-```
-
-### Using R
-```
-library(httr)
-
-# URL of API endpoint + command
-api <- "https://geoconnex.us/pidsvc/controller?cmd=import"
-
-# set path to xml code desired
-payload <- list(y = upload_file("<path>/import-file.xml", type = "text/xml"))
-
-# POST with authentication and appropriate header
-x <- POST(api, body = payload, authenticate("user", "password"), encode = c("multipart"))
-```
-
-### Using Python
-```
-import requests
-
-#URL of API endpoint + command
-api = 'https://geoconnex.us/pidsvc/controller?cmd=import'
-
-#POST the file with authentication
-with open('<path>/import-file.xml') as f:
-    r = requests.post(api, files={'<path>/import-file.xml': f}, auth=('user','password'))
-
-```
-
-
-## Delete individual mapping
-Delete a mapping for /namespace/path/endofpath. Note that this does not actually delete the mapping but deprecates and inactivates it. Full version histories are kept in the persistent data store.
-
-### Using shell/ curl
-```
-curl --user [name]:[password] https://geoconnex.us/pidsvc/controller?cmd=delete_mapping -d "mapping_path=/namespace/path/endofpath" -X POST
-```
-
-### Using R
-```
-library(httr)
-
-# URL of API endpoint + command
-api <- "https://geoconnex.us/pidsvc/controller?cmd=delete_mapping"
-
-# specify the individual path to be deleted
-payload <- list(mapping_path = "/namespace/path/endofpath")
-
-# POST with authentication
-x <- POST(api, body = payload, authenticate("user", "password"), encode = "form")
-```
-
-### Using Python
-```
-import requests
-
-#URL of API endpoint + command
-api ='https://geoconnex.us/pidsvc/controller?cmd=delete_mapping'
-
-#specify the individual path to be deleted
-payload = {'mapping_path':'/namespace/path/endofpath'}
-
-#POST with authentication
-r = requests.post(api, data = payload, auth=('user','password'))
-
-```
