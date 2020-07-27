@@ -10,10 +10,10 @@ services:
                 - POSTGRES_USER=pidsvc-admin
                 - POSTGRES_DB=pidsvc
                 - POSTGRES_PASSWORD=apassword
-        tomcat3:
+        pidsvcMaster:
             build:
                 context: .
-                dockerfile: Dockerfile-Tomcat
+                dockerfile: Dockerfile-pidsvcMaster
             depends_on:
                 - postgres
             expose:
