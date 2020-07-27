@@ -24,7 +24,7 @@ This assumes a machine running Ubuntu 18.04 LTS with at least 10GB of disk space
 3. ```git clone https://github.com/internetofwater/geoconnex.us``` to your server
 4. ```cd``` into the directory ```path/to/geoconnex.us/PIDsvc```
 5. Change ```POSTGRESQL_PASSWORD```, ```POSTGRESQL_REPLICATION_USER``` and ```POSTGRESQL_REPLICATION_PASSWORD``` in docker-compose ```environment:``` for ```postgres-master``` and ```postgres-replica``` AND ```username``` and ```password``` in ```context_master.xml``` and ```context_replica.xml``` to your desired preferences/
-6. ```docker-compose up --scale postgres-replica=5 -d``` One can set postgres-replica=```n```, where ```n``` is number of read-only databases desired for the read-only PIDsvc to load balance to over docker internal round-robin DNS
+6. ```docker-compose up --scale postgres-replica=5 -d``` One can set postgres-replica=```n```, where ```n``` is the number of read-only databases desired for the read-only PIDsvc to load balance to over docker internal round-robin DNS
 7. The write-enabled PIDsvc is deployed at http://localhost:8095, with GUI at http://localhost:8095/pidsvc. The read-only PIDsvc is accessed at http://localhost:8096 
 
 ## Caddy
