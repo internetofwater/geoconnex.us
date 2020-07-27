@@ -1,31 +1,65 @@
 version: '3'
 services:
-        postgres:
+        postgres-master:
             build:
                 context: .
                 dockerfile: Dockerfile-PostgreSQL
+            ports:
+                - "5432"
             volumes:
-                - data_volume:/var/lib/postgresql/data
+                - data_volume:/bitnami/postgresql
             environment:
-                - POSTGRES_USER=pidsvc-admin
-                - POSTGRES_DB=pidsvc
-                - POSTGRES_PASSWORD=apassword
+                - POSTGRESQL_USERNAME=pidsvc-admin
+                - POSTGRESQL_DATABASE=pidsvc
+                - POSTGRESQL_PASSWORD=apassword
+                - POSTGRESQL_REPLICATION_MODE=master
+                - POSTGRESQL_REPLICATION_USER=pidsvc-admin
+                - POSTGRESQL_REPLICATION_PASSWORD=apassword
         pidsvcMaster:
             build:
                 context: .
                 dockerfile: Dockerfile-pidsvcMaster
             depends_on:
-                - postgres
+                - postgresql-master
             expose:
                 - "8080"
                 - "8009"
-        apache:
+        apacheMaster:
             build:
                 context: .
-                dockerfile: Dockerfile-Apache
+                dockerfile: Dockerfile-ApacheMaster
             depends_on:
                 - tomcat3
             ports:
                 - "8095:80"
+        postgres-replica:
+            image: "bitnami/postgresql:latest"
+            ports:
+                - "5432"
+            environment:
+                - POSTGRESQL_USERNAME=pidsvc-admin
+                - POSTGRESQL_DATABASE=pidsvc
+                - POSTGRESQL_PASSWORD=apassword
+                - POSTGRESQL_REPLICATION_MODE=slave
+                - POSTGRESQL_REPLICATION_USER=pidsvc-admin
+                - POSTGRESQL_REPLICATION_PASSWORD=apassword
+                - POSTGRESQL_MASTER_PORT_NUMBER=5432
+        pidsvc-replica:
+            build:
+                context: .
+                dockerfile: Dockerfile-pidsvcReplica
+            depends_on:
+                - postgres-replica
+            expose:
+                - "8080"
+                - "8009"
+        apache-replica:
+            build:
+                context: .
+                dockerfile: Dockerfile-ApacheReplica
+            depends_on:
+                - pidsvc-replica
+            ports:
+                - "8099:80"       
 volumes:
     data_volume:
