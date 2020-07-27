@@ -2,7 +2,7 @@ FROM tomcat:8.0
 WORKDIR /usr/local/tomcat/webapps
 COPY ./pidsvc-latest.war pidsvc.war
 WORKDIR /usr/local/tomcat/conf
-COPY ./context.xml .
+COPY ./context_master.xml .
 COPY ./postgresql-9.4-1202.jdbc41.jar /usr/local/tomcat/lib
 ENV TOMCAT_HOME=/usr/local/tomcat/  
 ENV HOSTNAME=localhost 
