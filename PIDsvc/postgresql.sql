@@ -26,7 +26,6 @@ DROP TABLE lookup_behaviour_type CASCADE;
 DROP FUNCTION delete_mapping_default_action() CASCADE;
 DROP FUNCTION set_original_mapping_path() CASCADE;
 */
-ALTER USER "pidsvc-admin" WITH REPLICATION;
 
 -- Table: configuration
 -- DROP TABLE configuration;
