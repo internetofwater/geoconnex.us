@@ -42,6 +42,7 @@ sudo apt install caddy
 
 ```
 cp Caddyfile /etc/caddy/Caddyfile
+cd /etc/caddy
 sudo caddy reload
 ```
 
