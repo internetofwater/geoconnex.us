@@ -32,8 +32,7 @@ This assumes a machine running Ubuntu 18.04 LTS with at least 10GB of disk space
 8. Install Caddy 2:  
 
 ```
-echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" 
-    | sudo tee -a /etc/apt/sources.list.d/caddy-fury.list
+echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | sudo tee -a /etc/apt/sources.list.d/caddy-fury.list
 sudo apt update
 sudo apt install caddy
 ```
