@@ -39,12 +39,11 @@ services:
             depends_on:
                 - postgres-master
             environment:
-                - POSTGRESQL_USERNAME=pidsvc-admin
-                - POSTGRESQL_DATABASE=pidsvc
-                - POSTGRESQL_PASSWORD=apassword
                 - POSTGRESQL_REPLICATION_MODE=slave
                 - POSTGRESQL_REPLICATION_USER=pidsvc-admin
                 - POSTGRESQL_REPLICATION_PASSWORD=apassword
+                - POSTGRESQL_MASTER_HOST=postgres-master
+                - POSTGRESQL_PASSWORD=apassword
                 - POSTGRESQL_MASTER_PORT_NUMBER=5432
         pidsvc-replica:
             build:
