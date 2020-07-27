@@ -39,7 +39,7 @@
     auth="Container"
     type="javax.sql.DataSource"
     driverClassName="org.postgresql.Driver"
-    url="jdbc:postgresql://postgres_master:5432/pidsvc"
+    url="jdbc:postgresql://postgres-master:5432/pidsvc"
     username="pidsvc-admin"
     password="apassword"
     maxTotal="-1"
