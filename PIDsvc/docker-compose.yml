@@ -15,6 +15,7 @@ services:
                 - POSTGRESQL_REPLICATION_USER=pidsvc-admin
                 - POSTGRESQL_REPLICATION_PASSWORD=apassword
                 - POSTGRESQL_POSTGRES_PASSWORD=postgres
+            restart: always
         pidsvc-master:
             build:
                 context: .
@@ -24,6 +25,7 @@ services:
             expose:
                 - "8080"
                 - "8009"
+            restart: always    
         apache-master:
             build:
                 context: .
@@ -32,6 +34,7 @@ services:
                 - pidsvc-master
             ports:
                 - "8095:80"
+            restart: always    
         postgres-replica:
             image: "bitnami/postgresql:latest"
             ports:
@@ -45,6 +48,7 @@ services:
                 - POSTGRESQL_MASTER_HOST=postgres-master
                 - POSTGRESQL_PASSWORD=apassword
                 - POSTGRESQL_MASTER_PORT_NUMBER=5432
+            restart: always    
         pidsvc-replica:
             build:
                 context: .
@@ -54,6 +58,7 @@ services:
             expose:
                 - "8080"
                 - "8009"
+            restart: always                
         apache-replica:
             build:
                 context: .
@@ -61,6 +66,7 @@ services:
             depends_on:
                 - pidsvc-replica
             ports:
-                - "8099:80"       
+                - "8099:80" 
+            restart: always                
 volumes:
     data_volume:
