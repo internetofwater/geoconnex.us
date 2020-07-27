@@ -18,25 +18,25 @@ All requests to the domain https://geoconnex.us are first intercepted by a proxy
 # Deployment
 This assumes a machine running Ubuntu 18.04 LTS with at least 10GB of disk space and 2GB of RAM
 
+## Docker-Compose 
 1. [Install Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 2. [Install Docker-Compose](https://docs.docker.com/compose/install/)
 3. ```git clone https://github.com/internetofwater/geoconnex.us``` to your server
-4. ```cd``` into the directory ```path/to/geoconnex.us/PIDsvc
+4. ```cd``` into the directory ```path/to/geoconnex.us/PIDsvc```
 5. Change ```POSTGRESQL_PASSWORD```, ```POSTGRESQL_REPLICATION_USER``` and ```POSTGRESQL_REPLICATION_PASSWORD``` in docker-compose ```environment:``` for ```postgres-master``` and ```postgres-replica``` AND ```username``` and ```password``` in ```context_master.xml``` and ```context_replica.xml``` to your desired preferences/
 6. ```docker-compose up --scale postgres-replica=5 -d``` One can set postgres-replica=```n```, where ```n``` is number of read-only databases desired for the read-only PIDsvc to load balance to over docker internal round-robin DNS
 7. The write-enabled PIDsvc is deployed at http://localhost:8095, with GUI at http://localhost:8095/pidsvc. The read-only PIDsvc is accessed at http://localhost:8096 
 
+## Caddy
 
-## Optional: Enable https
+8. Install Caddy 2:  
+echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" 
+    | sudo tee -a /etc/apt/sources.list.d/caddy-fury.list
+sudo apt update
+sudo apt install caddy
 
-The most straightforward way to serve the PID service over https is to set up a reverse proxy that routes all https traffic coming through port 443 to the "backend service" running on the tomcat docker image on port 8095, and redirects all http traffic coming through port 80 to port 443. The simplest way to do this is with the [Caddy server](https://caddyserver.com/docs/), which by default provisions and renews free SSL certificates from [letsencrypt.org](https://letsencrypt.org).
+9.
 
-### Installing and configuring Caddy is simple 
-1. [Manual Install caddy server for Linux](https://caddyserver.com/docs/install)
-2. caddy reverse-proxy --from example.com --to localhost.IP.address:8095
-
-## Optional: Security
-1. BasicAuth implemented on virtual host, with password hashes stored on server. When BasicAuth is enabled, the GUI import/restore feature does not work. Long term, this either needs to be fixed or in production all batch mappings need to be done through the API by an authorized user/ machine.
-  * Password hashes to be stored in this configuration in /apache/.htpasswd
-  * In apache/httpd-vhosts.conf, the allowed users need to be added to the ```Require user``` directive
+## Security/Authentication
+Can be implemented via varied Caddy settings or an external LDAP
 
