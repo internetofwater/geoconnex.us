@@ -9,7 +9,6 @@ services:
             volumes:
                 - data_volume:/bitnami/postgresql
             environment:
-                - POSTGRESQL_USERNAME=pidsvc-admin
                 - POSTGRESQL_DATABASE=pidsvc
                 - POSTGRESQL_PASSWORD=apassword
                 - POSTGRESQL_REPLICATION_MODE=master
