@@ -84,7 +84,6 @@ resources:
         context:
             - NAME: https://schema.org/name
             - gnis_url: https://schema.org/subjectOf
-            - uri: "@id"
         links:
             - type: application/html
               rel: canonical
@@ -103,6 +102,7 @@ resources:
             data: /ext_data/hu02.gpkg
             id_field: HUC2
             table: hu02
+            uri_field: uri
     hu04:
         type: collection
         title: HU04
@@ -112,7 +112,6 @@ resources:
         context:
             - NAME: https://schema.org/name
             - gnis_url: https://schema.org/subjectOf
-            - uri: "@id"
         links:
             - type: application/html
               rel: canonical
@@ -131,6 +130,7 @@ resources:
             data: /ext_data/hu04.gpkg
             id_field: HUC4
             table: hu04
+            uri_field: uri
     hu06:
         type: collection
         title: HU06
@@ -140,7 +140,6 @@ resources:
         context:
             - NAME: https://schema.org/name
             - gnis_url: https://schema.org/subjectOf
-            - uri: "@id"
         links:
             - type: application/html
               rel: canonical
@@ -159,6 +158,7 @@ resources:
             data: /ext_data/hu06.gpkg
             id_field: HUC6
             table: hu06
+            uri_field: uri
     hu08:
         type: collection
         title: HU08
@@ -168,7 +168,6 @@ resources:
         context:
             - NAME: https://schema.org/name
             - gnis_url: https://schema.org/subjectOf
-            - uri: "@id"
         links:
             - type: application/html
               rel: canonical
@@ -187,6 +186,7 @@ resources:
             data: /ext_data/hu08.gpkg
             id_field: HUC8
             table: hu08
+            uri_field: uri
     hu10:
         type: collection
         title: HU10
@@ -195,8 +195,7 @@ resources:
             - Watersheds
         context:
             - NAME: https://schema.org/name
-            - gnis_url: https://schema.org/subjectOf
-            - uri: "@id"
+            - gnis_url: https://schema.org/subjectOf"
         links:
             - type: application/html
               rel: canonical
@@ -215,6 +214,7 @@ resources:
             data: /ext_data/hu10.gpkg
             id_field: HUC10
             table: hu10
+            uri_field: uri
     nat_aq:
         type: collection
         title: National Aquifers
@@ -226,7 +226,6 @@ resources:
         context:
             - AQ_NAME: https://schema.org/name
             - LINK: https://schema.org/subjectOf
-            - uri: "@id"
         links:
             - type: application/html
               rel: canonical
@@ -250,3 +249,266 @@ resources:
             data: /ext_data/nat_aq.gpkg
             id_field: NAT_AQFR_CD
             table: nat_aq
+            uri_field: uri
+    gages:
+        type: collection
+        title: Reference Gages
+        description: US Reference Stream Gage Monitoring Locations
+        keywords:
+            - Stream Gage
+        context:
+            - name: https://schema.org/name
+            - description: https://schema.org/description
+            - subjectOf: https://schema.org/subjectOf
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://github.com/dblodgett-usgs/ref_gages
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/ref_gages.gpkg
+            id_field: id
+            table: ref_gages
+            uri_field: uri
+    states:
+        type: collection
+        title: States
+        description: U.S. States
+        uri_stem: https://geoconnex.us/ref/states/
+        keywords:
+            - States
+            - Census
+        context:
+            - NAME: https://schema.org/name
+            - census_profile: https://schema.org/subjectOf
+        links:
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+              hreflang: en-US
+            - type: application/html
+              rel: canonical
+              title: Census data source
+              href: https://data.census.gov/cedsci
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/states.gpkg
+            id_field: GEOID
+            table: states
+            uri_field: uri
+    counties:
+        type: collection
+        title: Counties
+        description: U.S. Counties
+        uri_stem: https://geoconnex.us/ref/counties/
+        keywords:
+            - Counties
+            - Census
+        context:
+            - NAME: https://schema.org/name
+            - census_profile: https://schema.org/subjectOf
+        links:
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+              hreflang: en-US
+            - type: application/html
+              rel: canonical
+              title: Census data source
+              href: https://data.census.gov/cedsci
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/counties.gpkg
+            id_field: GEOID
+            table: counties
+            uri_field: uri
+    aiannh:
+        type: collection
+        title: American Indian/Alaska Native Areas/Hawaiian Home Lands (AIANNH)
+        description: Native American Lands
+        uri_stem: https://geoconnex.us/ref/aiannh/
+        keywords:
+            - American Indian Areas
+            - Alaska Native Areas
+            - Hawaiian Home Lands
+            - Census
+        context:
+            - NAME: https://schema.org/name
+        links:
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/aiannh.gpkg
+            id_field: GEOID
+            table: aiannh
+            uri_field: uri
+    cbsa:
+        type: collection
+        title: Core-based statistical areas (CBSA)
+        description: U.S. Metropolitan and Micropolitan Statistical Areas
+        uri_stem: https://geoconnex.us/ref/cbsa/
+        keywords:
+            - Core-based statistical areas
+            - Metropolitan Statistical Areas
+            - Micropolitan Statistical Areas
+            - Census
+        context:
+            - NAME: https://schema.org/name
+        links:
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/cbsa.gpkg
+            id_field: GEOID
+            table: cbsa
+            uri_field: uri
+    ua10:
+        type: collection
+        title: Urban Areas
+        description: Urbanized Areas and Urban Clusters (2010 Census)
+        uri_stem: https://geoconnex.us/ref/ua10/
+        keywords:
+            - Urban Areas
+            - Census
+        context:
+            - NAME10: https://schema.org/name
+        links:
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+              hreflang: en-US
+            - type: application/html
+              rel: canonical
+              title: descriptive data source
+              href: https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural/2010-urban-rural.html
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/ua10.gpkg
+            id_field: GEOID10
+            table: ua10
+            uri_field: uri
+    places:
+        type: collection
+        title: Places
+        description: U.S. legally incororated and Census designated places
+        uri_stem: https://geoconnex.us/ref/places/
+        keywords:
+            - Places
+            - Census
+        context:
+            - NAME: https://schema.org/name
+            - census_profile: https://schema.org/subjectOf
+        links:
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+              hreflang: en-US
+            - type: application/html
+              rel: canonical
+              title: Census data source
+              href: https://data.census.gov/cedsci
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/places.gpkg
+            id_field: GEOID
+            table: places
+            uri_field: uri
+    pws:
+        type: collection
+        title: Public Water Systems
+        description: U.S. Public Water Systems
+        uri_stem: https://geoconnex.us/ref/pws/
+        keywords:
+            - Public Water Systems
+        context:
+            - NAME: https://schema.org/name
+            - ST_uri: https://schema.org/geoWithin
+            - SDWIS: https://schema.org/subjectOf
+            - PROVIDER: https://schema.org/isBasedOn
+            - CITY_SERVED_uri: https://schema.org/geoIntersects
+        links: 
+            - type: application/html
+              rel: canonical
+              title: EPA PWSID List source
+              href: https://echo.epa.gov/tools/data-downloads/sdwa-download-summary
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170,15,-51,72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        provider:
+            name: SQLiteGPKG
+            data: /ext_data/pws.gpkg
+            id_field: PWSID
+            table: pws
+            uri_field: uri

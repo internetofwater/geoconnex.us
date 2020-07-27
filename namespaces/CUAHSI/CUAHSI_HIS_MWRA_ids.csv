@@ -1,0 +1,79 @@
+id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
+https://geoconnex.us/cuahsi/his/MWRA/36,http://selfie.cuahsi.org/MWRA/36,acastronova@cuahsi.org,Carson Beach 036,42.327564,-71.045702,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/36?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/48,http://selfie.cuahsi.org/MWRA/48,acastronova@cuahsi.org,Moon Is. 048,42.30954,-70.98974,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/48?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/38,http://selfie.cuahsi.org/MWRA/38,acastronova@cuahsi.org,N. Dorchester Bay 038,42.322741,-71.022699,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/38?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/54,http://selfie.cuahsi.org/MWRA/54,acastronova@cuahsi.org,Neponset River 054,42.27691,-71.054621,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/54?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/42,http://selfie.cuahsi.org/MWRA/42,acastronova@cuahsi.org,Neponset River 042,42.27075,-71.055136,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/42?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/41,http://selfie.cuahsi.org/MWRA/41,acastronova@cuahsi.org,Commercial Point 041,42.301764,-71.042934,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/41?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/40,http://selfie.cuahsi.org/MWRA/40,acastronova@cuahsi.org,Malibu Bay 040,42.305827,-71.051174,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/40?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/39,http://selfie.cuahsi.org/MWRA/39,acastronova@cuahsi.org,Columbia Point 039,42.307858,-71.040359,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/39?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/33,http://selfie.cuahsi.org/MWRA/33,acastronova@cuahsi.org,Carson Beach 033,42.328579,-71.034093,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/33?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/14,http://selfie.cuahsi.org/MWRA/14,acastronova@cuahsi.org,Upper inner harbor 014,42.370223,-71.050659,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/14?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/15,http://selfie.cuahsi.org/MWRA/15,acastronova@cuahsi.org,Upper inner harbor 015,42.382904,-71.045852,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/15?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/19,http://selfie.cuahsi.org/MWRA/19,acastronova@cuahsi.org,Fort Point Channel 019,42.359062,-71.045509,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/19?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/22,http://selfie.cuahsi.org/MWRA/22,acastronova@cuahsi.org,Reserved Channel 022,42.342855,-71.026969,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/22?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/24,http://selfie.cuahsi.org/MWRA/24,acastronova@cuahsi.org,Inner harbor mouth 024,42.345456,-71.009288,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/24?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/44,http://selfie.cuahsi.org/MWRA/44,acastronova@cuahsi.org,N. Dorchester Bay 044,42.332577,-71.004224,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/44?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/47,http://selfie.cuahsi.org/MWRA/47,acastronova@cuahsi.org,Quincy Bay 047,42.277891,-71.004396,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/47?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/50,http://selfie.cuahsi.org/MWRA/50,acastronova@cuahsi.org,Outer Harbor 050,42.33686,-70.898824,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/50?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/18,http://selfie.cuahsi.org/MWRA/18,acastronova@cuahsi.org,Fort Point Channel 018,42.350416,-71.052356,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/18?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/65,http://selfie.cuahsi.org/MWRA/65,acastronova@cuahsi.org,Outer Harbor 065,42.339132,-70.983176,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/65?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/27,http://selfie.cuahsi.org/MWRA/27,acastronova@cuahsi.org,Chelsea Creek 027,42.384509,-71.032357,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/27?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/52,http://selfie.cuahsi.org/MWRA/52,acastronova@cuahsi.org,Mystic mouth 052,42.395096,-71.075787,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/52?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/69,http://selfie.cuahsi.org/MWRA/69,acastronova@cuahsi.org,Mystic mouth 069,42.389834,-71.072612,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/69?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/75,http://selfie.cuahsi.org/MWRA/75,acastronova@cuahsi.org,Fort Point Channel 075,42.345166,-71.059007,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/75?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/77,http://selfie.cuahsi.org/MWRA/77,acastronova@cuahsi.org,Quincy Bay 077,42.276085,-70.98397,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/77?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/79,http://selfie.cuahsi.org/MWRA/79,acastronova@cuahsi.org,Former Nut Is. outfall 079,42.283959,-70.958221,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/79?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/80,http://selfie.cuahsi.org/MWRA/80,acastronova@cuahsi.org,Hingham Bay 080,42.272274,-70.944831,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/80?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/81,http://selfie.cuahsi.org/MWRA/81,acastronova@cuahsi.org,Former Nut Is. outfall 081,42.294626,-70.963714,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/81?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/82,http://selfie.cuahsi.org/MWRA/82,acastronova@cuahsi.org,Former Nut Is. outfall 082,42.291579,-70.956504,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/82?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/84,http://selfie.cuahsi.org/MWRA/84,acastronova@cuahsi.org,Columbia Point 084,42.308846,-71.035468,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/84?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/89,http://selfie.cuahsi.org/MWRA/89,acastronova@cuahsi.org,Commercial Point 089,42.298689,-71.043708,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/89?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/105,http://selfie.cuahsi.org/MWRA/105,acastronova@cuahsi.org,Outer Harbor 105,42.326299,-70.948951,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/105?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/106,http://selfie.cuahsi.org/MWRA/106,acastronova@cuahsi.org,Outer Harbor 106,42.330614,-70.966117,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/106?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/117,http://selfie.cuahsi.org/MWRA/117,acastronova@cuahsi.org,Hingham Bay 117,42.291261,-70.916335,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/117?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/118,http://selfie.cuahsi.org/MWRA/118,acastronova@cuahsi.org,Outer Harbor 118,42.331629,-70.936248,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/118?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/124,http://selfie.cuahsi.org/MWRA/124,acastronova@cuahsi.org,Hingham Bay 124,42.275767,-70.899513,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/124?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/138,http://selfie.cuahsi.org/MWRA/138,acastronova@cuahsi.org,Mid-inner harbor 138,42.361063,-71.040962,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/138?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/140,http://selfie.cuahsi.org/MWRA/140,acastronova@cuahsi.org,Neponset mouth 140,42.307005,-71.043021,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/140?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/139,http://selfie.cuahsi.org/MWRA/139,acastronova@cuahsi.org,Quincy Bay 139,42.280086,-70.970237,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/139?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/141,http://selfie.cuahsi.org/MWRA/141,acastronova@cuahsi.org,Outer Harbor 141,42.30472,-70.936248,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/141?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/142,http://selfie.cuahsi.org/MWRA/142,acastronova@cuahsi.org,Outer Harbor 142,42.341273,-70.936935,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/142?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/137,http://selfie.cuahsi.org/MWRA/137,acastronova@cuahsi.org,Mystic mouth 137,42.386934,-71.065337,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/137?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/129,http://selfie.cuahsi.org/MWRA/129,acastronova@cuahsi.org,Winthrop Bay 129,42.356751,-70.98088,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/129?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/130,http://selfie.cuahsi.org/MWRA/130,acastronova@cuahsi.org,Winthrop Bay 130,42.365376,-70.991008,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/130?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/154,http://selfie.cuahsi.org/MWRA/154,acastronova@cuahsi.org,Fort Point Channel 154,42.355165,-71.049459,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/154?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/178,http://selfie.cuahsi.org/MWRA/178,acastronova@cuahsi.org,Fort Point Channel 178,42.350154,-71.052806,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/178?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/55,http://selfie.cuahsi.org/MWRA/55,acastronova@cuahsi.org,Neponset River 055,42.271385,-71.067882,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/55?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/1,http://selfie.cuahsi.org/MWRA/1,acastronova@cuahsi.org,Upstream of lower basin1,42.360123,-71.170606,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/1?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/11,http://selfie.cuahsi.org/MWRA/11,acastronova@cuahsi.org,Downstream of lower basin11,42.368747,-71.067095,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/11?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/10,http://selfie.cuahsi.org/MWRA/10,acastronova@cuahsi.org,Lower basin10,42.363928,-71.075506,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/10?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/9,http://selfie.cuahsi.org/MWRA/9,acastronova@cuahsi.org,Lower basin9,42.358093,-71.079454,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/9?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/8,http://selfie.cuahsi.org/MWRA/8,acastronova@cuahsi.org,Lower basin8,42.357205,-71.084432,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/8?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/2,http://selfie.cuahsi.org/MWRA/2,acastronova@cuahsi.org,Upstream of lower basin2,42.362977,-71.14623,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/2?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/7,http://selfie.cuahsi.org/MWRA/7,acastronova@cuahsi.org,Lower basin7,42.354668,-71.097307,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/7?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/6,http://selfie.cuahsi.org/MWRA/6,acastronova@cuahsi.org,Lower basin6,42.352575,-71.107864,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/6?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/5,http://selfie.cuahsi.org/MWRA/5,acastronova@cuahsi.org,Upstream of lower basin5,42.353146,-71.113271,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/5?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/4,http://selfie.cuahsi.org/MWRA/4,acastronova@cuahsi.org,Upstream of lower basin4,42.362216,-71.117005,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/4?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/3,http://selfie.cuahsi.org/MWRA/3,acastronova@cuahsi.org,Upstream of lower basin3,42.373313,-71.13254,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/3?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/12,http://selfie.cuahsi.org/MWRA/12,acastronova@cuahsi.org,Upstream of lower basin12,42.36498,-71.191391,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/12?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/144,http://selfie.cuahsi.org/MWRA/144,acastronova@cuahsi.org,Upstream of lower basin144,42.359584,-71.16035,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/144?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/166,http://selfie.cuahsi.org/MWRA/166,acastronova@cuahsi.org,Downstream of lower basin166,42.366465,-71.072931,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/166?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/70,http://selfie.cuahsi.org/MWRA/70,acastronova@cuahsi.org,Alewife Brook 70,42.411409,-71.132738,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/70?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/57,http://selfie.cuahsi.org/MWRA/57,acastronova@cuahsi.org,Upper Mystic 57,42.414906,-71.132357,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/57?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/56,http://selfie.cuahsi.org/MWRA/56,acastronova@cuahsi.org,Upper Mystic 56,42.417905,-71.110741,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/56?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/66,http://selfie.cuahsi.org/MWRA/66,acastronova@cuahsi.org,Upper Mystic 66,42.41641,-71.1311512,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/66?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/67,http://selfie.cuahsi.org/MWRA/67,acastronova@cuahsi.org,Lower Mystic basin 67,42.400203,-71.085266,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/67?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/74,http://selfie.cuahsi.org/MWRA/74,acastronova@cuahsi.org,Alewife Brook 74,42.398172,-71.142684,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/74?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/83,http://selfie.cuahsi.org/MWRA/83,acastronova@cuahsi.org,Upper Mystic 83,42.415422,-71.134267,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/83?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/167,http://selfie.cuahsi.org/MWRA/167,acastronova@cuahsi.org,Lower Mystic basin 167,42.396092,-71.076343,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/167?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/172,http://selfie.cuahsi.org/MWRA/172,acastronova@cuahsi.org,Alewife Brook 172,42.399196,-71.141342,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/172?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/174,http://selfie.cuahsi.org/MWRA/174,acastronova@cuahsi.org,Alewife Brook 174,42.397693,-71.143199,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/174?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/176,http://selfie.cuahsi.org/MWRA/176,acastronova@cuahsi.org,Lower Mystic basin 176,42.406249,-71.072309,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/176?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/59,http://selfie.cuahsi.org/MWRA/59,acastronova@cuahsi.org,Lower Mystic basin 059,42.395306,-71.075787,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/59?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/145,http://selfie.cuahsi.org/MWRA/145,acastronova@cuahsi.org,Lower Charles basin 145,42.352331,-71.089154,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/145?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/177,http://selfie.cuahsi.org/MWRA/177,acastronova@cuahsi.org,Lower Mystic basin 177,42.388996,-71.072712,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/177?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/180,http://selfie.cuahsi.org/MWRA/180,acastronova@cuahsi.org,Former Nut Is. outfall 180,42.275772,-70.950652,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/180?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/181,http://selfie.cuahsi.org/MWRA/181,acastronova@cuahsi.org,Former Nut Is. outfall 181,42.274861,-70.953466,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/181?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/182,http://selfie.cuahsi.org/MWRA/182,acastronova@cuahsi.org,Former Nut Is. outfall 182,42.271152,-70.956192,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/182?f=${C:f:1}
+https://geoconnex.us/cuahsi/his/MWRA/183,http://selfie.cuahsi.org/MWRA/183,acastronova@cuahsi.org,Unassigned 183,42.391941,-71.049816,QueryString,f?=.*,http://selfie.cuahsi.org/MWRA/183?f=${C:f:1}
