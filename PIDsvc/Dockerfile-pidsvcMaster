@@ -1,6 +1,6 @@
 FROM tomcat:8.0
 WORKDIR /usr/local/tomcat/webapps
-COPY ./pidsvc-latest.war pidsvc.war
+COPY ./pidsvc-GA.war pidsvc.war
 WORKDIR /usr/local/tomcat/conf
 COPY ./context_master.xml .
 COPY ./postgresql-9.4-1202.jdbc41.jar /usr/local/tomcat/lib
