@@ -1,6 +1,6 @@
 FROM bitnami/postgresql:latest
 RUN mkdir -p /docker-entrypoint-initdb.d 
-RUN mkdir -p /var/lib/apt/lists/partial
-RUN apt-get update
-RUN apt-get install -y wget
+USER 0
+RUN apt-get update -y && apt-get install -y wget
+USER 1001
 COPY ./postgresql.sql /docker-entrypoint-initdb.d/
