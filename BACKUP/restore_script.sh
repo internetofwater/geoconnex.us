@@ -1,5 +1,5 @@
 #!/bin/bash
-FILES=~/geoconnex.us-1/BACKUP/backup_current/*.xml
+FILES=~/geoconnex.us/BACKUP/backup_current/*.xml
 for f in $FILES
 do
   echo "Posting file $f..."
