@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup xmlns="urn:csiro:xmlns:pidsvc:backup:1.0">
+  <mapping>
+    <path>/cuahsi/his/TNCWaterData/Siphon7</path>
+    <type>1:1</type>
+    <description>StatenX experimental station at Siphon 7 on Staten Island</description>
+    <creator>acastronova@cuahsi.org</creator>
+    <action>
+      <type>303</type>
+      <name>location</name>
+      <value>http://selfie.cuahsi.org/TNCWaterData/Siphon7</value>
+    </action>
+    <conditions>
+      <condition>
+        <type>QueryString</type>
+        <match>f?=.*</match>
+        <actions>
+          <action>
+            <type>303</type>
+            <name>location</name>
+            <value>http://selfie.cuahsi.org/TNCWaterData/Siphon7?f=${C:f:1}</value>
+          </action>
+        </actions>
+      </condition>
+    </conditions>
+  </mapping>
+</backup>
