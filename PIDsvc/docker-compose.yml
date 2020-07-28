@@ -58,7 +58,7 @@ services:
                 - "8080"
                 - "8009"
             restart: always                
-        apache-replica:
+        apache-replica-1:
             build:
                 context: .
                 dockerfile: Dockerfile-ApacheReplica
@@ -66,6 +66,15 @@ services:
                 - pidsvc-replica
             ports:
                 - "8096:80" 
-            restart: always                
+            restart: always
+        apache-replica-2:
+            build:
+                context: .
+                dockerfile: Dockerfile-ApacheReplica
+            depends_on:
+                - pidsvc-replica
+            ports:
+                - "8097:80" 
+            restart: always
 volumes:
     data_volume:
