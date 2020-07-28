@@ -11,4 +11,4 @@ geoconnex.us {
    reverse_proxy @pidsvc localhost:8095
    reverse_proxy @normal localhost:8096 localhost:8095
 
-{
+}
