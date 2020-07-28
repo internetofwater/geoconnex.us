@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup xmlns="urn:csiro:xmlns:pidsvc:backup:1.0" scope="record" type="partial">
+  <mapping>
+    <path>^/wade/sites/(([A-Z])([A-Z])(_)[A-Za-z0-9\-\_]+).*$</path>
+    <type>Regex</type>
+    <title>WaDE Sites</title>
+    <creator>iow</creator>
+    <action>
+    <type>303</type>
+    <name>location</name>
+    <value>https://wade-test.geoconnex.us/collections/WaDE/items/$1</value>
+    </action>
+    <conditions>
+      <condition>
+        <type>QueryString</type>
+        <match>f=.*</match>
+        <actions>
+          <action>
+            <type>303</type>
+            <name>location</name>
+            <value>https://wade-test.geoconnex.us/collections/WaDE/items/$1?f=${C:f}</value>
+          </action>
+        </actions>
+      </condition>
+    </conditions>
+  </mapping>
+</backup>
