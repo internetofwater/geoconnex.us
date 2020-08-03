@@ -34,8 +34,8 @@ The features registered in `https://geoconnex.us` are either community reference
 
 These features can also be described using their role in the linked-data system.
 
-1. Monitoring: locations that organizations monitor the environment.
-1. Cataloging: environmental, jurisdictional, or hydrologic units.
+1. Monitoring: locations at which organizations monitor the environment.
+1. Cataloging: environmental, jurisdictional, or hydrologic units that can be used to group and sort data.
 1. Environmental: real-world features that are the subject of monitoring.
 
 Features are registered in the [namespaces](https://github.com/internetofwater/geoconnex.us/tree/master/namespaces) folder. Namespaces contains organizations, datasets, and a special `https://geoconnex.us/ref` namespace reserved for community reference features not owned by a single organization.
