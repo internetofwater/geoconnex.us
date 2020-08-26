@@ -69,11 +69,11 @@ sites <- sites$uri
 nodes <- '
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- {{#s2}}
+ {{#s}}
    <url>
       <loc>{{{loc}}}</loc>
    </url>
- {{/s2}}
+ {{/s}}
 </urlset>
 '
 
@@ -87,6 +87,31 @@ site_nodes <- lapply(sites, map_sites)
 site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/50000))
 
 for (i in 1:length(site_nodes)){
+  s <- site_nodes[[i]]
   sitemap <- whisker.render(nodes)
   write_lines(sitemap,paste0("xml/sitemap",i,".xml"))
+}
 
+
+## Write sitemap index
+
+index <- '
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ {{#s}}
+   <sitemap>
+      <loc>{{{loc}}}</loc>
+   </sitemap>
+ {{/s}}
+</sitemapindex>
+'
+
+map_sitemaps <- function(maps) {
+  list(
+    loc=maps
+  )
+}
+
+maps<-list.files(path="../namespaces/sitemap/xml",pattern=".xml",recursive=TRUE)
+
+index_nodes <- lapply()
