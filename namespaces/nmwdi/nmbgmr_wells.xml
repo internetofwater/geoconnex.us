@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup type="partial" scope="record" xmlns="urn:csiro:xmlns:pidsvc:backup:1.0"><mapping><path>^/nmwdi/nmbgmr/wells/([a-zA-Z0-9_\-\.\/]+).*$</path><type>Regex</type><title>NMWDI NMBGMR Wells</title><creator>jake.ross@nmt.edu</creator><action><type>303</type><name>location</name><value>http://wells.newmexicowaterdata.org/collections/nmbgmr_wells/items/$1</value></action></mapping></backup>
