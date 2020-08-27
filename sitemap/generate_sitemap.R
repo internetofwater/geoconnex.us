@@ -84,7 +84,7 @@ map_sites <- function(sites) {
 }
 
 site_nodes <- lapply(sites, map_sites)
-site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/50000))
+site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/1000))
 
 for (i in 1:length(site_nodes)){
   s <- site_nodes[[i]]
@@ -113,9 +113,9 @@ map_sitemaps <- function(maps) {
 }
 
 maps <- list.files(path="../sitemap/xml",pattern=".xml",recursive=TRUE)
-maps <- paste0("https://geoconnex.us/sitemaps/",maps)
+maps <- paste0("https://geoconnex.us/",maps)
 map_nodes <- lapply(maps, map_sitemaps)
 
 s <- map_nodes
 sitemapindex <- whisker.render(index)
-write_lines(sitemapindex,paste0("xml/sitemapindex.xml"))
+write_lines(sitemapindex,paste0("sitemapindex.xml"))
