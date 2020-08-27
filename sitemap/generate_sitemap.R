@@ -87,11 +87,11 @@ site_nodes <- lapply(sites, map_sites)
 s <- site_nodes
 sitemap <- whisker.render(nodes)
 write_lines(sitemap,paste0("master_sitemap.xml"))
-
+site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/2000))
 for (i in 1:length(site_nodes)){
   s <- site_nodes[[i]]
   sitemap <- whisker.render(nodes)
-  write_lines(sitemap,paste0("xml5k/sitemap",i,".xml"))
+  write_lines(sitemap,paste0("xml2k/sitemap",i,".xml"))
 }
 
 
