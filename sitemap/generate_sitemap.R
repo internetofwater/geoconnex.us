@@ -83,7 +83,10 @@ map_sites <- function(sites) {
 }
 
 site_nodes <- lapply(sites, map_sites)
-site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/50000))
+#site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/50000))
+s <- site_nodes
+sitemap <- whisker.render(nodes)
+write_lines(sitemap,paste0("master_sitemap.xml"))
 
 for (i in 1:length(site_nodes)){
   s <- site_nodes[[i]]
