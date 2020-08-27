@@ -118,4 +118,4 @@ map_nodes <- lapply(maps, map_sitemaps)
 
 s <- map_nodes
 sitemapindex <- whisker.render(index)
-write_lines(sitemapindex,paste0("sitemapindex.xml"))
+write_lines(sitemapindex,paste0("xml/sitemapindex.xml"))
