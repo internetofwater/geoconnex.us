@@ -83,12 +83,12 @@ map_sites <- function(sites) {
 }
 
 site_nodes <- lapply(sites, map_sites)
-site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/25000))
+site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/5000))
 
 for (i in 1:length(site_nodes)){
   s <- site_nodes[[i]]
   sitemap <- whisker.render(nodes)
-  write_lines(sitemap,paste0("xml25k/sitemap",i,".xml"))
+  write_lines(sitemap,paste0("xml5k/sitemap",i,".xml"))
 }
 
 
@@ -110,10 +110,10 @@ map_sitemaps <- function(maps) {
   )
 }
 
-maps <- list.files(path="../sitemap/xml",pattern=".xml",recursive=TRUE)
+maps <- list.files(path="../sitemap/xml5k",pattern=".xml",recursive=TRUE)
 maps <- paste0("https://geoconnex.us/sitemap2/",maps)
 map_nodes <- lapply(maps, map_sitemaps)
 
 s <- map_nodes
 sitemapindex <- whisker.render(index)
-write_lines(sitemapindex,paste0("sitemapindex25k.xml"))
+write_lines(sitemapindex,paste0("sitemapindex5k.xml"))
