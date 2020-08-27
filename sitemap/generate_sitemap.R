@@ -4,6 +4,7 @@ library(sf)
 library(nhdplusTools)
 library(mapedit)
 library(xml2)
+library(zip)
 
 # Start by retrieving list of HUC12 codes, which are used as part of multiple regex redirects
 # nhdplusTools::download_wbd(outdir= "wbd", url = "https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/WBD/National/GDB/WBD_National_GDB.zip")
@@ -83,15 +84,18 @@ map_sites <- function(sites) {
 }
 
 site_nodes <- lapply(sites, map_sites)
-#site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/50000))
 s <- site_nodes
 sitemap <- whisker.render(nodes)
 write_lines(sitemap,paste0("master_sitemap.xml"))
+zip("master_sitemap.zip","master_sitemap.xml")
+unlink("master_sitemap.xml")
 
+site_nodes <- lapply(sites, map_sites)
+site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/1000))
 for (i in 1:length(site_nodes)){
   s <- site_nodes[[i]]
   sitemap <- whisker.render(nodes)
-  write_lines(sitemap,paste0("xml5k/sitemap",i,".xml"))
+  write_lines(sitemap,paste0("xml1k/sitemap",i,".xml"))
 }
 
 
@@ -113,10 +117,10 @@ map_sitemaps <- function(maps) {
   )
 }
 
-maps <- list.files(path="../sitemap/xml5k",pattern=".xml",recursive=TRUE)
-maps <- paste0("https://geoconnex.us/sitemaps5k/",maps)
+maps <- list.files(path="../sitemap/xml1k",pattern=".xml",recursive=TRUE)
+maps <- paste0("https://geoconnex.us/",maps)
 map_nodes <- lapply(maps, map_sitemaps)
 
 s <- map_nodes
 sitemapindex <- whisker.render(index)
-write_lines(sitemapindex,paste0("sitemapindex5k.xml"))
+write_lines(sitemapindex,paste0("sitemapindex1k.xml"))
