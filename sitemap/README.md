@@ -1,7 +1,7 @@
 Sitemap Preparation
 ================
 
-This directory includes a script that:
+This directory includes a [script](generate_sitemap.R) that:
 
 1. Collates all PIDs listed in contributed CSV files
 1. Retrieves lists of PIDs that are represented in the PIDsvc with regex redirects from geospatial source files
