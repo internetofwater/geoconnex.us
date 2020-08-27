@@ -112,6 +112,10 @@ map_sitemaps <- function(maps) {
   )
 }
 
-maps<-list.files(path="../namespaces/sitemap/xml",pattern=".xml",recursive=TRUE)
+maps <- list.files(path="../sitemap/xml",pattern=".xml",recursive=TRUE)
+maps <- paste0("https://geoconnex.us/sitemaps/",maps)
+map_nodes <- lapply(maps, map_sitemaps)
 
-index_nodes <- lapply()
+s <- map_nodes
+sitemapindex <- whisker.render(index)
+write_lines(sitemapindex,paste0("sitemapindex.xml"))
