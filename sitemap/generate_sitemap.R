@@ -95,7 +95,7 @@ site_nodes <- split(site_nodes,ceiling(seq_along(site_nodes)/1000))
 for (i in 1:length(site_nodes)){
   s <- site_nodes[[i]]
   sitemap <- whisker.render(nodes)
-  write_lines(sitemap,paste0("xml1k/sitemap",i,".xml"))
+  write_lines(sitemap,paste0("xml1k/sitemap1k_",i,".xml"))
 }
 
 
