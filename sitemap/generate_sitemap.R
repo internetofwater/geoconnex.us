@@ -113,7 +113,7 @@ map_sitemaps <- function(maps) {
 }
 
 maps <- list.files(path="../sitemap/xml",pattern=".xml",recursive=TRUE)
-maps <- paste0("https://geoconnex.us/",maps)
+maps <- paste0("https://geoconnex.us/sitemap2/",maps)
 map_nodes <- lapply(maps, map_sitemaps)
 
 s <- map_nodes
