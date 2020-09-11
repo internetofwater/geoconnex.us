@@ -43,6 +43,7 @@ Features are registered in the [namespaces](https://github.com/internetofwater/g
 **See the [OGC API Features](https://info.geoconnex.us/) for the reference features hosted by geoconnex.us**
 
 ## Geoconnex.us-related presentations and publications.
+- [New Mexico Water Data Initiative including geoconnex.us](https://webresources.internetofwater.us/presentations/geoconnex%20federal.pptx)
 - [Roundtable presentation including geoconnex.us](https://www.westernstateswater.org/wp-content/uploads/2020/06/CO_Roundable_IoW.pdf)
 - [Second Environmental Linked Features Interoperability Experiment](https://github.com/opengeospatial/SELFIE) 
 - [ESIP Sessions on Structured Data in the Web](https://2020esipsummermeeting.sched.com/event/cIvv/structured-data-on-the-web-putting-best-practice-to-work) [slides](https://docs.google.com/presentation/d/1LSXHz2_Y7hrkGZPC_sNoJWl8AIujI8AAWktl9amIR4E/edit#slide=id.g8250495469_1_30)
