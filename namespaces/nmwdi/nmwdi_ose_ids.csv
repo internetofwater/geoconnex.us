@@ -1,0 +1,2 @@
+id, target, creator
+https://geoconnex.us/nmwdi/ose/wells/{NMWDI-OSE-\d+}, https://wells.newmexicowaterdata.org/collections/ose/items/{NMWDI-OSE-\d+},jake.ross@nmt.edu
