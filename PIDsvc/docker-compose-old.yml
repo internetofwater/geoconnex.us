@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+        postgres:
+            build:
+                context: .
+                dockerfile: Dockerfile-PostgreSQL
+            volumes:
+                - /srv/OfLW/data/PIDsvc/:/var/lib/postgresql/data
+            network_mode: "bridge"
+        tomcat3:
+            build:
+                context: .
+                dockerfile: Dockerfile-Tomcat
+            links:
+                - postgres:postgres
+            ports:
+                - "8096:8080"
+                - "8097:8009"
+            network_mode: "bridge"
+        apache:
+            build:
+                context: .
+                dockerfile: Dockerfile-Apache
+            links:
+                - tomcat3
+            ports:
+                - "8095:80"
+            network_mode: "bridge"
