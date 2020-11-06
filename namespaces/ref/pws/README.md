@@ -11,11 +11,14 @@ https://info.geoconnex.us/collections/pws. PIDs are based on the EPA SDWIS PWSID
 
 The landing-content is based on Service Area Boundaries where available, which is currently:
 
+ - AZ
  - CA
  - NC
  - NJ
+ - NM
  - PA
  - TX
+ - UT
  
 
 Landing-content for everywhere else is based on the Census Place boundary if EPA SDWIS sepcifies the "CITY SERVED" and this name could be matched to the U.S. Census Places. If no such match was available, the centroid of the state in which the water system is.
