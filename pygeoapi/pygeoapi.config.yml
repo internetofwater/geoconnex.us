@@ -82,8 +82,11 @@ resources:
         keywords:
             - Hydrologic Regions
         context:
-            - NAME: https://schema.org/name
-            - gnis_url: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              NAME: schema:name
+              gnis_url: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -110,8 +113,11 @@ resources:
         keywords:
             - Hydrologic Subregions
         context:
-            - NAME: https://schema.org/name
-            - gnis_url: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              NAME: schema:name
+              gnis_url: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -138,8 +144,11 @@ resources:
         keywords:
             - Hydrologic Basins
         context:
-            - NAME: https://schema.org/name
-            - gnis_url: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              NAME: schema:name
+              gnis_url: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -166,8 +175,11 @@ resources:
         keywords:
             - Hydrologic Subbasins
         context:
-            - NAME: https://schema.org/name
-            - gnis_url: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              NAME: schema:name
+              gnis_url: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -194,8 +206,11 @@ resources:
         keywords:
             - Watersheds
         context:
-            - NAME: https://schema.org/name
-            - gnis_url: https://schema.org/subjectOf"
+            - schema: https://schema.org/
+              NAME: schema:name
+              gnis_url: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -224,8 +239,11 @@ resources:
             - National Aquifers
             - Principle Aquifers
         context:
-            - AQ_NAME: https://schema.org/name
-            - LINK: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              AQ_NAME: schema:name
+              LINK: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -257,9 +275,12 @@ resources:
         keywords:
             - Stream Gage
         context:
-            - name: https://schema.org/name
-            - description: https://schema.org/description
-            - subjectOf: https://schema.org/subjectOf
+            - schema: https://schema.org/name
+              name: schema:name
+              description: schema:description
+              subjectOf: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -288,8 +309,11 @@ resources:
             - States
             - Census
         context:
-            - NAME: https://schema.org/name
-            - census_profile: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              NAME: schema:name
+              census_profile: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -323,8 +347,11 @@ resources:
             - Counties
             - Census
         context:
-            - NAME: https://schema.org/name
-            - census_profile: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              NAME: schema:name
+              census_profile: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -454,8 +481,11 @@ resources:
             - Places
             - Census
         context:
-            - NAME: https://schema.org/name
-            - census_profile: https://schema.org/subjectOf
+            - schema: https://schema.org/
+              NAME: schema:name
+              census_profile: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -493,6 +523,20 @@ resources:
             - SDWIS: https://schema.org/subjectOf
             - PROVIDER: https://schema.org/isBasedOn
             - CITY_SERVED_uri: https://schema.org/geoIntersects
+            - schema: https://schema.org/
+              NAME: schema:name
+              SDWIS: 
+                  "@id": schema:subjectOf
+                  "@type": "@id"
+              PROVIDER: 
+                  "@id": schema:isBasedOn
+                  "@type": "@id"
+              ST_uri: 
+                  "@id": schema:geoWithin
+                  "@type": "@id"
+              CITY_SERVED_uri: 
+                  "@id": schema:geoIntersects
+                  "@type": "@id"
         links: 
             - type: application/html
               rel: canonical
