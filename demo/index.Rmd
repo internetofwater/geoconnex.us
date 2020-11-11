@@ -302,7 +302,7 @@ mapview::mapview(list("Pecos Headwaters" = convert(hu08),
 ```
 Just working with spatial intersections from the HUC8 reference feature collection, we find the relevant HUC8 is the Pecos Headwaters. Now, we can make use of all data within the Geoconnex.us system that has been published by all organizations. On build-out, we will be able to interact with a knowledge graph that is being continually updated by web crawlers that harvest JSON-LD from all participating provider websites. Parts of this knowledge graph, in turn, would be re-presented in the reference features JSON-LD. In this example, the JSON-LD from the page for the Pecos Headwaters (https://geoconnex.us/ref/hu08/13060001) might include links with the relationship label "geoContains" for every water data site about a location within that HUC8. For this exercise, we will load a pre-processed list of dataframes with the same information. 
 
-(Can take this further by making an actual graph, putting in a triple store, and interacting with SPARQL --- may be more trouble than worth)
+<!-- (Can take this further by making an actual graph, putting in a triple store, and interacting with SPARQL --- may be more trouble than worth) -->
 
 Layers can be turned on and off with the layers button on the top left for greater readability. That's a lot of data though!
 
