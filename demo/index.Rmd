@@ -126,8 +126,8 @@ gages <- gages[huc8,]
 wade <- sf::read_sf("https://wade-test.geoconnex.us/collections/WaDE/items?StateID=NM&limit=10000000")
 wade <- wade[huc8,]
 
-within_hu08_13060001 <- list(huc8,pws,sdwis2,npdes,wells,gages,wade)
-names(within_hu08_13060001) <- c("HUC8","PWS","NMED-SDWIS_Sample_Points","NMED-NPDES","NMBGMR-Wells","Reference Gages", "WaDE Sites")
+within_hu08_13060001 <- list(huc8,pws,wade,sdwis2,npdes,wells,gages)
+names(within_hu08_13060001) <- c("HUC8","PWS","WaDE Sites","NMED-SDWIS_Sample_Points","NMED-NPDES","NMBGMR-Wells","Reference Gages")
 save(within_hu08_13060001,file="graph.rds")
 rm(list=ls())
 load("graph.rds")
@@ -135,14 +135,14 @@ load("graph.rds")
 # A Tour through Geoconnex.us
 
 ## Introduction
-What is geoconnex.us? It is a framework for providers of water data to publish structured, linked metadata in a manner such that web crawlers can organize this metadata into a knowledge graph. This metadata should be formatted as JSON-LD. This knowledge grpah can be leveraged to create a wide array of information products to answer innumerable water-related questions. This vignette serves as a mockup of what navigating through the Geoconnex knowlege graph might look like on build-out. 
+What is geoconnex.us? It is a framework for providers of water data to publish structured, linked metadata in a manner such that web crawlers can organize this metadata into a knowledge graph. This metadata should be formatted as JSON-LD. This knowledge graph can be leveraged to create a wide array of information products to answer innumerable water-related questions. This vignette serves as a mockup of what navigating through the Geoconnex knowledge graph might look like on build-out. Here, we use R as the primary way of interacting with a small proof-of-concept knowledge graph. However, on build-out, the complete graph will be published with Public Domain license, and will be free to use by anyone to create custom interfaces for humans and machines to meet many use cases.
 
 ## Beginning our journey -- community reference features
 
-The geoconnex.us framework includes a large and growing catalog of "community reference features" -- neutral internet representations of real-world locations and areas that can be sed by water data providers to describe what their published data is about. Many of these reference features are available from the website https://info.geoconnex.us, which is powered by [PyGeoAPI](https://pygeoapi.io), a python implementation of [OGC API-Features](https://www.ogc.org/standards/ogcapi-features). This API enables programmtic interaction with spatial features on the web. 
+The geoconnex.us framework includes a large and growing catalog of "community reference features" -- neutral internet representations of real-world locations and areas that can be used by water data providers to describe what their published data is about. Many of these reference features are available from the website https://info.geoconnex.us, which is powered by [PyGeoAPI](https://pygeoapi.io), a python implementation of [OGC API-Features](https://www.ogc.org/standards/ogcapi-features). This API enables programmatic interaction with spatial features on the web. 
 
 
-What's available from info.geoconnex.us? We have collated a variety of common hydrologic and administrative locations and boundaries, and will continue to add more.
+What's available from https://info.geoconnex.us? We have collated a variety of common hydrologic and administrative locations and boundaries, and will continue to add more.
 
 ```{r, include=FALSE}
 convert <- function(x) {
@@ -204,9 +204,9 @@ nm <- sf::read_sf(nm_url)
 mapview::mapview(list(`New Mexico` = convert(nm)))
 ```
 
-The search above gave us one state that we can retrieve by it's ID. Below, we grab its JSON-LD format, and print two versions of what can be interpreted, the raw JSON-LD and the "flattened" form that interprets the fields according to published linked data vocabularies such as https://schema.org.
+The search above gave us one state that we can retrieve by its ID. Below, we grab its JSON-LD format, and print two versions of what can be interpreted, the raw JSON-LD and the "flattened" form that interprets the fields according to published linked data vocabularies such as https://schema.org.
 
-```{r, message=FALSE, warning=FALSE,  attr.output='style="max-height: 100px;"'}
+```{r, message=FALSE, warning=FALSE,  attr.output='style="max-height: 250px;"'}
 accept_jsonld <- httr::add_headers("Accept" = "application/ld+json")
 
 nm_ld <- rawToChar(httr::GET(nm$id, config = accept_jsonld)$content)
@@ -220,9 +220,9 @@ nm_ld
 nm_ld <- fromJSON(nm_ld)
 ```
 
-This gives us some basic information. The `@id` here is especially useful. Note that the `@id` (the subject of all the triples in the document) is the same as the `id` of the State GeoJSON we mapped above and used to retrieve this JSON-LD document. 
+This gives us some basic information. The `@id` here is especially useful. Note that the `@id` (the subject of all the triples in the document) is the same as the `id` of the State GeoJSON we mapped above and used to retrieve this JSON-LD document. These `@id`s are all in the form of [HTTP URI (Uniform Resource Identifier)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier), and should redirect to landing pages on the web.
 
-Notice that we can get a name using a linked data property `https://schema.org/name` here. This is an example of structured data that would allow automated creation of information products that is an aim of geoconnex.us.
+Notice that we can get a name using a linked data property `https://schema.org/name` here. This is an example of structured data that would allow automated creation of information products, a key aim of geoconnex.us.
 
 ```{r, message=FALSE, warning=FALSE}
 
@@ -230,9 +230,7 @@ nm_feature <- sf::read_sf(nm_ld$`@id`)
 
 nm_feature_name <- nm_ld$`https://schema.org/name`[[1]]$`@value`
 
-nm_map_layer <- setNames(list(nm_feature), nm_feature_name)
-
-mapview::mapview(list("NM"=convert(nm_map_layer$`New Mexico`)))
+print(nm_feature_name)
 
 ```
 
@@ -249,7 +247,7 @@ mapview::mapview(list("Las Vegas"=convert(LasVegas)))
 print(LasVegas$uri)
 
 ```
-By printing the `uri`, we can see the Uniform Resource Identifier (URI) for the city of Las Vegas, NM. Now, what if I want to see which Public Water Systems (PWS) serve this city? Let's see what Queryables the PWS reference features offer:
+By printing the `uri`, we can see the URI for the city of Las Vegas, NM. Now, what if I want to see which Public Water Systems (PWS) serve this city? Let's see what Queryables the PWS reference features offer:
 
 ```{r, message=FALSE, warning=FALSE}
 knitr::kable(fromJSON("https://info.geoconnex.us/collections/pws/queryables"))
@@ -266,11 +264,11 @@ LasVegas_PWS <- sf::read_sf(paste0("https://info.geoconnex.us/collections/pws/it
 list <- convert_L(list("Las Vegas PWS"=LasVegas_PWS,"Las Vegas"=LasVegas))
 
 mapview::mapview(list("Las Vegas PWS"=convert(LasVegas_PWS),
-                      "Las Vegas"=convert(LasVegas)), col.regions=c("blue","green"))
+                      "City of Las Vegas"=convert(LasVegas)), col.regions=c("blue","green"))
 
 ```
 
-Clicking around, we can find what seems to be the main water provider, PWSID NM3518025 (@id https://geoconnex.us/ref/pws/NM3518025). The embedded JSON-LD harvested includes a "subjectOf" link to the USEPA Safe Drinking Water Information System (SDWIS), indicating that this EPA page is about this particular water system. As geoconnex.us expands and developed, every community reference feature such as this one should have many links that can direct us to all kinds of metadata and data published by other organiztions that are relevant to the feature.
+Clicking around, we can find what seems to be the main water provider, PWSID NM3518025 (`@id` https://geoconnex.us/ref/pws/NM3518025). The embedded JSON-LD harvested includes a `subjectOf` link to the USEPA Safe Drinking Water Information System (SDWIS), indicating that this EPA page is about this particular water system. As geoconnex.us expands and developed, every community reference feature such as this one should have many links that can direct us to all kinds of metadata and data published by other organizations that are relevant to the feature.
 
 ```{r, message=FALSE, warning=FALSE}
 lv_pws_ld <- rawToChar(httr::GET("https://geoconnex.us/ref/pws/NM3518025", config = accept_jsonld)$content)
@@ -300,7 +298,7 @@ mapview::mapview(list("Pecos Headwaters" = convert(hu08),
                       "Las Vegas" = convert(LasVegas)),col.regions=c("green","blue"),alpha.regions=c(0.1,0.6))
 
 ```
-Just working with spatial intersections from the HUC8 reference feature collection, we find the relevant HUC8 is the Pecos Headwaters. Now, we can make use of all data within the Geoconnex.us system that has been published by all organizations. On build-out, we will be able to interact with a knowledge graph that is being continually updated by web crawlers that harvest JSON-LD from all participating provider websites. Parts of this knowledge graph, in turn, would be re-presented in the reference features JSON-LD. In this example, the JSON-LD from the page for the Pecos Headwaters (https://geoconnex.us/ref/hu08/13060001) might include links with the relationship label "geoContains" for every water data site about a location within that HUC8. For this exercise, we will load a pre-processed list of dataframes with the same information. 
+Just working with spatial intersections from the HUC8 reference feature collection, we find the relevant HUC8 is the Pecos Headwaters. Now, we can make use of all data within the geoconnex.us system that has been published by all organizations. On build-out, we will be able to interact with a knowledge graph that is being continually updated by web crawlers that harvest JSON-LD from all participating provider websites. Parts of this knowledge graph, in turn, would be re-presented in the reference features JSON-LD. In this example, the JSON-LD from the page for the Pecos Headwaters (https://geoconnex.us/ref/hu08/13060001) might include links with the relationship label `geoContains` for every water data site about a location within that HUC8. For this exercise, we will load a pre-processed list of dataframes with the same information. 
 
 <!-- (Can take this further by making an actual graph, putting in a triple store, and interacting with SPARQL --- may be more trouble than worth) -->
 
@@ -313,18 +311,18 @@ t <- convert_L(within_hu08_13060001)
 mapview::mapview(convert_L(within_hu08_13060001),
                  col.regions=c("green",
                                "blue",
-                               "violet",
-                               "red",
+                               "white",
                                "orange",
+                               "red",
                                "black",
-                               "white"),
+                               "violet"),
                  cex = c(3,
                          3,
-                         9,
-                         10,
-                         10,
-                         8,
-                         4),
+                         4,
+                         6,
+                         6,
+                         6,
+                         6),
                  alpha.regions = c(0.1,
                                    0.6,
                                    0.9,
@@ -343,9 +341,13 @@ It looks like, in addition to the HUC8 and the PWS, we also have data from:
 * Streamgages currently or historically in the USGS National Water Information System (NWIS)
 * points of diversion with data managed by the Western States Water Council [Water Data Exchange (WaDE)](https://www.westernstateswater.org/wade/)
 
-A key part of the philosophy of geoconnex is that metadata is published independently by organizations and harvested automatically. Hovering around these various features on the map, we can that all sites have a `uri` (`@id`) that begins with "https://geoconnex.us/". However, if one follows these links, one is taken to different websites hosted on different servers by different organizations that are not aware of each other. For example, https://geoconnex.us/nmwdi/nmbgmr/wells/WL-0183 redirects to http://wells.newmexicowaterdata.org/collections/nmbgmr_wells/items/WL-0183 , a PyGeoAPI instance operated by the [New Mexico Water Data Initiative](https://newmexicowaterdata.org/). Meanwhile 	https://geoconnex.us/wade/sites/NM_146344 redirects to https://wade-test.geoconnex.us/collections/WaDE/items/NM_146344, a separate PyGeoAPI instance operated by the [Water Data Exchange](https://www.westernstateswater.org/wade/). However, since both data systems provide JSON-LD markup, their metadata can be harvested automatically to create the data discovery workflow visualized here. 
+A key part of the philosophy of geoconnex is that metadata is published independently by organizations and harvested automatically. Hovering around these various features on the map, we can that all sites have a `uri` (`@id`) that begins with "https://geoconnex.us/". However, if one follows these links, one is taken to different websites hosted on different servers by different organizations that are not aware of each other. 
 
-This allows us to browse through the metadata. For example, perhaps we are only interested the SDWIS points and the NPDES permit for the Las Vegas drinking water system:
+For example, https://geoconnex.us/nmwdi/nmbgmr/wells/WL-0183 redirects to http://wells.newmexicowaterdata.org/collections/nmbgmr_wells/items/WL-0183 , a PyGeoAPI instance operated by the [New Mexico Water Data Initiative](https://newmexicowaterdata.org/).
+
+Meanwhile 	https://geoconnex.us/wade/sites/NM_146344 redirects to https://wade-test.geoconnex.us/collections/WaDE/items/NM_146344, a separate PyGeoAPI instance operated by the [Water Data Exchange](https://www.westernstateswater.org/wade/).
+
+However, since both data systems provide JSON-LD markup, their metadata can be harvested automatically to create the data discovery workflow visualized here. This allows us to browse through the metadata. For example, perhaps we are only interested the SDWIS points and the NPDES permit for the Las Vegas drinking water system:
 
 <!-- (I'm just filtering by variables that include the PWSID here, but it should really be filtering over a predicate like schema:about or is) -->
 
@@ -357,9 +359,12 @@ lv <- st_as_sfc(st_bbox(lv))
 npdes <- npdes[lv,]
 lv <- filter(within_hu08_13060001$PWS,uri=="https://geoconnex.us/ref/pws/NM3518025")
 
-mapview::mapview(list("Las Vegas PWS"=convert(lv))) +
-mapview::mapview(list("Las Vegas NPDES Points"=convert(npdes)), col.regions="red")  
+sdwis <- filter(within_hu08_13060001$`NMED-SDWIS_Sample_Points`,
+             pws == "https://geoconnex.us/ref/pws/NM3518025")
 
+mapview::mapview(list("Las Vegas PWS"=convert(lv))) +
+mapview::mapview(list("Las Vegas SDWIS Sample Points"=convert(sdwis)), col.regions="orange") + 
+mapview::mapview(list("Las Vegas NPDES Points"=convert(npdes)), col.regions="red")  
 
 ```
 
@@ -385,7 +390,7 @@ knitr::kable(select(data,result,resultTime))
 
 ## Complementary Tools - the NLDI and API Clients
 
-Above, we showed how a knowledge graph created by geoconnex can simplify searching for relevant data, relative to the status quo of needing to know about all of those data systems, and how to access their metadata separately. However, other complementary tools can be used alongside Geoconnex assets to further refine data dsicovery and access. Let's say we're interested in conditions directly downstream of the Las Vegas WWTP. We can use the [USGS Network-Linked Data Index](https://waterdata.usgs.gov/blog/nldi-intro/) to discover relevant data in that system. We can use the WWTP (`@id` 	https://geoconnex.us/nmwdi/nmbgmr/wells/NM0028827) as a starting point, and use the NLDI service to find the downstream mainstem. 
+Above, we showed how a knowledge graph created by geoconnex can simplify searching for relevant data, relative to the status quo of needing to know about all of those data systems, and how to access their metadata separately. However, other complementary tools can be used alongside Geoconnex assets to further refine data discovery and access. Let's say we're interested in conditions directly downstream of the Las Vegas WWTP. We can use the [USGS Network-Linked Data Index](https://waterdata.usgs.gov/blog/nldi-intro/) to discover relevant data in that system. We can use the WWTP (`@id` https://geoconnex.us/nmwdi/nmbgmr/wells/NM0028827) as a starting point, and use the NLDI service to find the downstream mainstem. 
 
 ```{r, message=FALSE, warning=FALSE}
 geom_site <- sf::read_sf("https://geoconnex.us/nmwdi/nmbgmr/wells/NM0028827")
@@ -411,7 +416,7 @@ knitr::kable(fromJSON("https://labs.waterdata.usgs.gov/api/nldi/linked-data"))
 
 ```
 
-We can use the NLDI to find NWIS Sites and WaDE sites (which are also available from the Reference Gages feature collection in info.geoconnex.us and from WaDE itself from wade-test.geoconnex.us, respectively), as well as Water Quality Portal (WQP) Sites. In the future, any organizations interested in participating in Geoconnex should also consider adding their location metadata to the NLDI. 
+We can use the NLDI to find [USGS National Water Information System (NWIS)](https://waterdata.usgs.gov/nwis?wat) Sites and WaDE sites (which are also available from the Reference Gages feature collection in [info.geoconnex.us](https://geoconnex.us) and from WaDE itself from [wade-test.geoconnex.us](https://wade-test.geoconnex.us), respectively), as well as [Water Quality Portal (WQP)](https://www.waterqualitydata.us/) Sites. In the future, any organizations interested in participating in Geoconnex should also consider adding their location metadata to the NLDI. 
 
 Rather than finding these sites from the knowledge graph about the Pecos Headwaters HUC8, below we use the NLDI to find only those sites that are indexed to the mainstem of the Pecos River downstream of the Las Vegas WWTP.
 
@@ -509,10 +514,16 @@ jsonld::jsonld_flatten(wade_ld)
 wade_metadata <- fromJSON(jsonld::jsonld_flatten(wade_ld))
 ```
 
-Note the linked data for `"https://schema.org/url":`, which denotes an external link. In this case, the link is to the WaDE 2.0 API Call. Note that the WaDE 2.0 API is only available on an experimental basis and all data is provisional. Parsing the JSON response from that call, we receive a rich amount of information about the water right associated with the point of diversion originating from the New Mexico Office of the State Engineer and organized by WaDE.
+Note the linked data for `"https://schema.org/url":`, which denotes an external link. In this case, the link is to the WaDE 2.0 API Call. Note that the WaDE 2.0 API is only available on an experimental basis and all data is provisional. Parsing the JSON response from that call, we receive a rich amount of information about the water right associated with the point of diversion originating from the New Mexico Office of the State Engineer and organized by WaDE. Below, we display some information available from the API, such as the name of the originating organization, and the [Beneficial Uses](http://purl.org/iow/terms/c_679694c0) associated with the site
 
 ```{r, message=FALSE, warning=FALSE, attr.output='style="max-height: 250px;"'}
 prettify(readLines(wade_metadata$`https://schema.org/url`[[3]]$`@value`))
+
+x <- fromJSON(readLines(wade_metadata$`https://schema.org/url`[[3]]$`@value`),flatten=TRUE)
+
+x$Organizations$OrganizationName
+
+knitr::kable(x$Organizations$BeneficialUses)
 ```
 ## Conclusion
 
