@@ -16,5 +16,13 @@ Examples:
 * An HU06: https://geoconnex.us/usgs/hydrologic-unit/070700
 * An HU08: https://geoconnex.us/usgs/hydrologic-unit/07070005
 
-Contacts: 
+## monitoring-location
+
+All monitoring locations used by the USGS Waterdata system
+
+Examples:
+* https://waterdata.usgs.gov/monitoring-location/08383500
+* https://waterdata.usgs.gov/monitoring-location/05428500
+
+Contacts:
 * <dblodgett@usgs.gov>
