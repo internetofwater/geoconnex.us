@@ -11,7 +11,9 @@ Persistent identifiers are important for maintaining a system of linked environm
 The value of `https://geoconnex.us` can be illustrated considering two use cases:
 
 1. Indexing and discovering models and research from public sector, private sector, or academic projects about a particular place or environmental feature.  
-1. Building a federated multi-organization monitoring network in which all member-systems reference common monitored features and are discoverable through a community index.  
+1. Building a federated multi-organization monitoring network in which all member-systems reference common monitored features and are discoverable through a community index.
+
+See https://geoconnex.us/demo for a mockup of data discovery and access workflows that `https://geoconnex.us` aspires to enable.
 
 These use cases imply requirements that `https://geoconnex.us` helps satisfy:
 
