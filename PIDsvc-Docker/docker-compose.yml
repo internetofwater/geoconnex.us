@@ -1,0 +1,34 @@
+version: '3'
+services:
+        postgres:
+            build:
+                context: .
+                dockerfile: Dockerfile-PostgreSQL
+            volumes:
+                - data_volume:/var/lib/postgresql/data
+            environment:
+                - POSTGRES_USER=pidsvc-admin
+                - POSTGRES_DB=pidsvc
+                - POSTGRES_PASSWORD=apassword
+            restart: always
+        tomcat3:
+            build:
+                context: .
+                dockerfile: Dockerfile-Tomcat
+            depends_on:
+                - postgres
+            expose:
+                - "8080"
+                - "8009"
+            restart: always
+        apache:
+            build:
+                context: .
+                dockerfile: Dockerfile-Apache
+            depends_on:
+                - tomcat3
+            ports:
+                - "8095:80"
+            restart: always
+volumes:
+    data_volume:

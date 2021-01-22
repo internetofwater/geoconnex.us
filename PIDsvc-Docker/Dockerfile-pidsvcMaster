@@ -1,0 +1,18 @@
+FROM tomcat:8.0
+WORKDIR /usr/local/tomcat/webapps
+COPY ./pidsvc-GA.war pidsvc.war
+WORKDIR /usr/local/tomcat/conf
+COPY ./context_master.xml context.xml
+COPY ./postgresql-9.4-1202.jdbc41.jar /usr/local/tomcat/lib
+ENV TOMCAT_HOME=/usr/local/tomcat/  
+ENV HOSTNAME=localhost 
+ENV DEPLOYMENT_DIR=/usr/local/ 
+ENV PIDSVC_HOME=%TOMCAT_HOME%/webapps/pidsvc/ 
+
+# Add Tini
+ENV TINI_VERSION v0.13.0
+ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
+RUN chmod +x /tini
+ENTRYPOINT ["/tini", "--"]
+
+CMD ["catalina.sh", "run"]
