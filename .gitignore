@@ -7,3 +7,5 @@ l.txt
 l.csv
 .timestamp
 .LISTING
+pygeoapi/schemas.opengis.net/**
+pygeoapi/ext_data/**
