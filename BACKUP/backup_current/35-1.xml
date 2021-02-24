@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <backup xmlns="urn:csiro:xmlns:pidsvc:backup:1.0">
   <mapping>
-    <path>/cuahsi/his/Isábena/Barasona</path>
+    <path>/cuahsi/his/Isbena/Barasona</path>
     <type>1:1</type>
     <description>EM48</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -25,7 +25,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Cab1</path>
+    <path>/cuahsi/his/Isbena/Cab1</path>
     <type>1:1</type>
     <description>Cab1</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -49,7 +49,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Cab2</path>
+    <path>/cuahsi/his/Isbena/Cab2</path>
     <type>1:1</type>
     <description>Cab2</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -73,7 +73,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Calvera</path>
+    <path>/cuahsi/his/Isbena/Calvera</path>
     <type>1:1</type>
     <description>R065</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -97,7 +97,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Campo</path>
+    <path>/cuahsi/his/Isbena/Campo</path>
     <type>1:1</type>
     <description>A258</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -121,7 +121,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Capella</path>
+    <path>/cuahsi/his/Isbena/Capella</path>
     <type>1:1</type>
     <description>A047</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -145,7 +145,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Car</path>
+    <path>/cuahsi/his/Isbena/Car</path>
     <type>1:1</type>
     <description>Car</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -169,7 +169,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Carrasquero</path>
+    <path>/cuahsi/his/Isbena/Carrasquero</path>
     <type>1:1</type>
     <description>Carrasquero</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -193,7 +193,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Casa_Llera</path>
+    <path>/cuahsi/his/Isbena/Casa_Llera</path>
     <type>1:1</type>
     <description>P031</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -217,7 +217,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Castigaleu</path>
+    <path>/cuahsi/his/Isbena/Castigaleu</path>
     <type>1:1</type>
     <description>P032</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -241,7 +241,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Ceg1</path>
+    <path>/cuahsi/his/Isbena/Ceg1</path>
     <type>1:1</type>
     <description>Ceg1</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -265,7 +265,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Ceg2</path>
+    <path>/cuahsi/his/Isbena/Ceg2</path>
     <type>1:1</type>
     <description>Ceg2</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -289,7 +289,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Ceguera</path>
+    <path>/cuahsi/his/Isbena/Ceguera</path>
     <type>1:1</type>
     <description>Ceguera</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -313,7 +313,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Cerler</path>
+    <path>/cuahsi/his/Isbena/Cerler</path>
     <type>1:1</type>
     <description>P102</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -337,7 +337,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Chordal</path>
+    <path>/cuahsi/his/Isbena/Chordal</path>
     <type>1:1</type>
     <description>R063</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -361,7 +361,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/El_Grado</path>
+    <path>/cuahsi/his/Isbena/El_Grado</path>
     <type>1:1</type>
     <description>EM47</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -385,7 +385,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Eriste</path>
+    <path>/cuahsi/his/Isbena/Eriste</path>
     <type>1:1</type>
     <description>A145</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -409,7 +409,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Las_Paules</path>
+    <path>/cuahsi/his/Isbena/Las_Paules</path>
     <type>1:1</type>
     <description>P030</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -433,7 +433,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Las1</path>
+    <path>/cuahsi/his/Isbena/Las1</path>
     <type>1:1</type>
     <description>Las1</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -457,7 +457,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Las2</path>
+    <path>/cuahsi/his/Isbena/Las2</path>
     <type>1:1</type>
     <description>Las2</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -481,7 +481,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Lascuarre_tube</path>
+    <path>/cuahsi/his/Isbena/Lascuarre_tube</path>
     <type>1:1</type>
     <description>Lascuarre_tube</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -505,7 +505,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Roda</path>
+    <path>/cuahsi/his/Isbena/Roda</path>
     <type>1:1</type>
     <description>Roda</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -529,7 +529,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Samper</path>
+    <path>/cuahsi/his/Isbena/Samper</path>
     <type>1:1</type>
     <description>P029</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -553,7 +553,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Via1</path>
+    <path>/cuahsi/his/Isbena/Via1</path>
     <type>1:1</type>
     <description>Via1</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -577,7 +577,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Via2</path>
+    <path>/cuahsi/his/Isbena/Via2</path>
     <type>1:1</type>
     <description>Via2</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -601,7 +601,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Villacarli_Bridge</path>
+    <path>/cuahsi/his/Isbena/Villacarli_Bridge</path>
     <type>1:1</type>
     <description>Villacarli Bridge</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -625,7 +625,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Villacarli_Bridge_1</path>
+    <path>/cuahsi/his/Isbena/Villacarli_Bridge_1</path>
     <type>1:1</type>
     <description>Villacarli_Bridge_1</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -649,7 +649,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Villacarli_Bridge_2</path>
+    <path>/cuahsi/his/Isbena/Villacarli_Bridge_2</path>
     <type>1:1</type>
     <description>Villacarli_Bridge_2</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -673,7 +673,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Villacarli</path>
+    <path>/cuahsi/his/Isbena/Villacarli</path>
     <type>1:1</type>
     <description>Villacarli</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -697,7 +697,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A01</path>
+    <path>/cuahsi/his/Isbena/A01</path>
     <type>1:1</type>
     <description>A01</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -721,7 +721,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A02</path>
+    <path>/cuahsi/his/Isbena/A02</path>
     <type>1:1</type>
     <description>A02</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -745,7 +745,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A03</path>
+    <path>/cuahsi/his/Isbena/A03</path>
     <type>1:1</type>
     <description>A03</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -769,7 +769,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A04</path>
+    <path>/cuahsi/his/Isbena/A04</path>
     <type>1:1</type>
     <description>A04</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -793,7 +793,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A05</path>
+    <path>/cuahsi/his/Isbena/A05</path>
     <type>1:1</type>
     <description>A05</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -817,7 +817,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A06</path>
+    <path>/cuahsi/his/Isbena/A06</path>
     <type>1:1</type>
     <description>A06</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -841,7 +841,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A07</path>
+    <path>/cuahsi/his/Isbena/A07</path>
     <type>1:1</type>
     <description>A07</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -865,7 +865,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A08</path>
+    <path>/cuahsi/his/Isbena/A08</path>
     <type>1:1</type>
     <description>A08</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -889,7 +889,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A10</path>
+    <path>/cuahsi/his/Isbena/A10</path>
     <type>1:1</type>
     <description>A10</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -913,7 +913,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A11</path>
+    <path>/cuahsi/his/Isbena/A11</path>
     <type>1:1</type>
     <description>A11</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -937,7 +937,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A12</path>
+    <path>/cuahsi/his/Isbena/A12</path>
     <type>1:1</type>
     <description>A12</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -961,7 +961,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A14</path>
+    <path>/cuahsi/his/Isbena/A14</path>
     <type>1:1</type>
     <description>A14</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -985,7 +985,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A15</path>
+    <path>/cuahsi/his/Isbena/A15</path>
     <type>1:1</type>
     <description>A15</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1009,7 +1009,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A16</path>
+    <path>/cuahsi/his/Isbena/A16</path>
     <type>1:1</type>
     <description>A16</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1033,7 +1033,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A17</path>
+    <path>/cuahsi/his/Isbena/A17</path>
     <type>1:1</type>
     <description>A17</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1057,7 +1057,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A18</path>
+    <path>/cuahsi/his/Isbena/A18</path>
     <type>1:1</type>
     <description>A18</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1081,7 +1081,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A19</path>
+    <path>/cuahsi/his/Isbena/A19</path>
     <type>1:1</type>
     <description>A19</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1105,7 +1105,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A20</path>
+    <path>/cuahsi/his/Isbena/A20</path>
     <type>1:1</type>
     <description>A20</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1129,7 +1129,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A21</path>
+    <path>/cuahsi/his/Isbena/A21</path>
     <type>1:1</type>
     <description>A21</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1153,7 +1153,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A22</path>
+    <path>/cuahsi/his/Isbena/A22</path>
     <type>1:1</type>
     <description>A22</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1177,7 +1177,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A23</path>
+    <path>/cuahsi/his/Isbena/A23</path>
     <type>1:1</type>
     <description>A23</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1201,7 +1201,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A24</path>
+    <path>/cuahsi/his/Isbena/A24</path>
     <type>1:1</type>
     <description>A24</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1225,7 +1225,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A25</path>
+    <path>/cuahsi/his/Isbena/A25</path>
     <type>1:1</type>
     <description>A25</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1249,7 +1249,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A26</path>
+    <path>/cuahsi/his/Isbena/A26</path>
     <type>1:1</type>
     <description>A26</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1273,7 +1273,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A27</path>
+    <path>/cuahsi/his/Isbena/A27</path>
     <type>1:1</type>
     <description>A27</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1297,7 +1297,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A28</path>
+    <path>/cuahsi/his/Isbena/A28</path>
     <type>1:1</type>
     <description>A28</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1321,7 +1321,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A30</path>
+    <path>/cuahsi/his/Isbena/A30</path>
     <type>1:1</type>
     <description>A30</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1345,7 +1345,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A31</path>
+    <path>/cuahsi/his/Isbena/A31</path>
     <type>1:1</type>
     <description>A31</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1369,7 +1369,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A32</path>
+    <path>/cuahsi/his/Isbena/A32</path>
     <type>1:1</type>
     <description>A32</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1393,7 +1393,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A33</path>
+    <path>/cuahsi/his/Isbena/A33</path>
     <type>1:1</type>
     <description>A33</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1417,7 +1417,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A35</path>
+    <path>/cuahsi/his/Isbena/A35</path>
     <type>1:1</type>
     <description>A35</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1441,7 +1441,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A37</path>
+    <path>/cuahsi/his/Isbena/A37</path>
     <type>1:1</type>
     <description>A37</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1465,7 +1465,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A38</path>
+    <path>/cuahsi/his/Isbena/A38</path>
     <type>1:1</type>
     <description>A38</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1489,7 +1489,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A39</path>
+    <path>/cuahsi/his/Isbena/A39</path>
     <type>1:1</type>
     <description>A39</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1513,7 +1513,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A40</path>
+    <path>/cuahsi/his/Isbena/A40</path>
     <type>1:1</type>
     <description>A40</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1537,7 +1537,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A41</path>
+    <path>/cuahsi/his/Isbena/A41</path>
     <type>1:1</type>
     <description>A41</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1561,7 +1561,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A42</path>
+    <path>/cuahsi/his/Isbena/A42</path>
     <type>1:1</type>
     <description>A42</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1585,7 +1585,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A43</path>
+    <path>/cuahsi/his/Isbena/A43</path>
     <type>1:1</type>
     <description>A43</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1609,7 +1609,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A44</path>
+    <path>/cuahsi/his/Isbena/A44</path>
     <type>1:1</type>
     <description>A44</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1633,7 +1633,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A45</path>
+    <path>/cuahsi/his/Isbena/A45</path>
     <type>1:1</type>
     <description>A45</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1657,7 +1657,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A46</path>
+    <path>/cuahsi/his/Isbena/A46</path>
     <type>1:1</type>
     <description>A46</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1681,7 +1681,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A47</path>
+    <path>/cuahsi/his/Isbena/A47</path>
     <type>1:1</type>
     <description>A47</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1705,7 +1705,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A48</path>
+    <path>/cuahsi/his/Isbena/A48</path>
     <type>1:1</type>
     <description>A48</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1729,7 +1729,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A49</path>
+    <path>/cuahsi/his/Isbena/A49</path>
     <type>1:1</type>
     <description>A49</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1753,7 +1753,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A50</path>
+    <path>/cuahsi/his/Isbena/A50</path>
     <type>1:1</type>
     <description>A50</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1777,7 +1777,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A51</path>
+    <path>/cuahsi/his/Isbena/A51</path>
     <type>1:1</type>
     <description>A51</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1801,7 +1801,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A52</path>
+    <path>/cuahsi/his/Isbena/A52</path>
     <type>1:1</type>
     <description>A52</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1825,7 +1825,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A53</path>
+    <path>/cuahsi/his/Isbena/A53</path>
     <type>1:1</type>
     <description>A53</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1849,7 +1849,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A54</path>
+    <path>/cuahsi/his/Isbena/A54</path>
     <type>1:1</type>
     <description>A54</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1873,7 +1873,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A55</path>
+    <path>/cuahsi/his/Isbena/A55</path>
     <type>1:1</type>
     <description>A55</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1897,7 +1897,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A56</path>
+    <path>/cuahsi/his/Isbena/A56</path>
     <type>1:1</type>
     <description>A56</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1921,7 +1921,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A57</path>
+    <path>/cuahsi/his/Isbena/A57</path>
     <type>1:1</type>
     <description>A57</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1945,7 +1945,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A58</path>
+    <path>/cuahsi/his/Isbena/A58</path>
     <type>1:1</type>
     <description>A58</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1969,7 +1969,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A59</path>
+    <path>/cuahsi/his/Isbena/A59</path>
     <type>1:1</type>
     <description>A59</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -1993,7 +1993,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A60</path>
+    <path>/cuahsi/his/Isbena/A60</path>
     <type>1:1</type>
     <description>A60</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2017,7 +2017,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A61</path>
+    <path>/cuahsi/his/Isbena/A61</path>
     <type>1:1</type>
     <description>A61</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2041,7 +2041,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A62</path>
+    <path>/cuahsi/his/Isbena/A62</path>
     <type>1:1</type>
     <description>A62</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2065,7 +2065,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A63</path>
+    <path>/cuahsi/his/Isbena/A63</path>
     <type>1:1</type>
     <description>A63</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2089,7 +2089,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A64</path>
+    <path>/cuahsi/his/Isbena/A64</path>
     <type>1:1</type>
     <description>A64</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2113,7 +2113,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A65</path>
+    <path>/cuahsi/his/Isbena/A65</path>
     <type>1:1</type>
     <description>A65</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2137,7 +2137,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A66</path>
+    <path>/cuahsi/his/Isbena/A66</path>
     <type>1:1</type>
     <description>A66</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2161,7 +2161,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A67</path>
+    <path>/cuahsi/his/Isbena/A67</path>
     <type>1:1</type>
     <description>A67</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2185,7 +2185,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A69</path>
+    <path>/cuahsi/his/Isbena/A69</path>
     <type>1:1</type>
     <description>A69</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2209,7 +2209,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A70</path>
+    <path>/cuahsi/his/Isbena/A70</path>
     <type>1:1</type>
     <description>A70</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2233,7 +2233,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A71</path>
+    <path>/cuahsi/his/Isbena/A71</path>
     <type>1:1</type>
     <description>A71</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2257,7 +2257,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A72</path>
+    <path>/cuahsi/his/Isbena/A72</path>
     <type>1:1</type>
     <description>A72</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2281,7 +2281,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A73</path>
+    <path>/cuahsi/his/Isbena/A73</path>
     <type>1:1</type>
     <description>A73</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2305,7 +2305,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A74</path>
+    <path>/cuahsi/his/Isbena/A74</path>
     <type>1:1</type>
     <description>A74</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2329,7 +2329,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A75</path>
+    <path>/cuahsi/his/Isbena/A75</path>
     <type>1:1</type>
     <description>A75</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2353,7 +2353,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A79</path>
+    <path>/cuahsi/his/Isbena/A79</path>
     <type>1:1</type>
     <description>A79</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2377,7 +2377,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A80</path>
+    <path>/cuahsi/his/Isbena/A80</path>
     <type>1:1</type>
     <description>A80</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2401,7 +2401,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A81</path>
+    <path>/cuahsi/his/Isbena/A81</path>
     <type>1:1</type>
     <description>A81</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2425,7 +2425,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A82</path>
+    <path>/cuahsi/his/Isbena/A82</path>
     <type>1:1</type>
     <description>A82</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2449,7 +2449,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A83</path>
+    <path>/cuahsi/his/Isbena/A83</path>
     <type>1:1</type>
     <description>A83</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2473,7 +2473,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A84</path>
+    <path>/cuahsi/his/Isbena/A84</path>
     <type>1:1</type>
     <description>A84</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2497,7 +2497,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/A85</path>
+    <path>/cuahsi/his/Isbena/A85</path>
     <type>1:1</type>
     <description>A85</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2521,7 +2521,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B01</path>
+    <path>/cuahsi/his/Isbena/B01</path>
     <type>1:1</type>
     <description>B01</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2545,7 +2545,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B02</path>
+    <path>/cuahsi/his/Isbena/B02</path>
     <type>1:1</type>
     <description>B02</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2569,7 +2569,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B04</path>
+    <path>/cuahsi/his/Isbena/B04</path>
     <type>1:1</type>
     <description>B04</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2593,7 +2593,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B05</path>
+    <path>/cuahsi/his/Isbena/B05</path>
     <type>1:1</type>
     <description>B05</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2617,7 +2617,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B06</path>
+    <path>/cuahsi/his/Isbena/B06</path>
     <type>1:1</type>
     <description>B06</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2641,7 +2641,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B07</path>
+    <path>/cuahsi/his/Isbena/B07</path>
     <type>1:1</type>
     <description>B07</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2665,7 +2665,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B08</path>
+    <path>/cuahsi/his/Isbena/B08</path>
     <type>1:1</type>
     <description>B08</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2689,7 +2689,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B09</path>
+    <path>/cuahsi/his/Isbena/B09</path>
     <type>1:1</type>
     <description>B09</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2713,7 +2713,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B10</path>
+    <path>/cuahsi/his/Isbena/B10</path>
     <type>1:1</type>
     <description>B10</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2737,7 +2737,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B11</path>
+    <path>/cuahsi/his/Isbena/B11</path>
     <type>1:1</type>
     <description>B11</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2761,7 +2761,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B12</path>
+    <path>/cuahsi/his/Isbena/B12</path>
     <type>1:1</type>
     <description>B12</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2785,7 +2785,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B13</path>
+    <path>/cuahsi/his/Isbena/B13</path>
     <type>1:1</type>
     <description>B13</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2809,7 +2809,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B14</path>
+    <path>/cuahsi/his/Isbena/B14</path>
     <type>1:1</type>
     <description>B14</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2833,7 +2833,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B15</path>
+    <path>/cuahsi/his/Isbena/B15</path>
     <type>1:1</type>
     <description>B15</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2857,7 +2857,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B16</path>
+    <path>/cuahsi/his/Isbena/B16</path>
     <type>1:1</type>
     <description>B16</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2881,7 +2881,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B17</path>
+    <path>/cuahsi/his/Isbena/B17</path>
     <type>1:1</type>
     <description>B17</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2905,7 +2905,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B18</path>
+    <path>/cuahsi/his/Isbena/B18</path>
     <type>1:1</type>
     <description>B18</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2929,7 +2929,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B19</path>
+    <path>/cuahsi/his/Isbena/B19</path>
     <type>1:1</type>
     <description>B19</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2953,7 +2953,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B20</path>
+    <path>/cuahsi/his/Isbena/B20</path>
     <type>1:1</type>
     <description>B20</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -2977,7 +2977,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B21</path>
+    <path>/cuahsi/his/Isbena/B21</path>
     <type>1:1</type>
     <description>B21</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3001,7 +3001,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B22</path>
+    <path>/cuahsi/his/Isbena/B22</path>
     <type>1:1</type>
     <description>B22</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3025,7 +3025,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B24</path>
+    <path>/cuahsi/his/Isbena/B24</path>
     <type>1:1</type>
     <description>B24</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3049,7 +3049,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B25</path>
+    <path>/cuahsi/his/Isbena/B25</path>
     <type>1:1</type>
     <description>B25</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3073,7 +3073,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B26</path>
+    <path>/cuahsi/his/Isbena/B26</path>
     <type>1:1</type>
     <description>B26</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3097,7 +3097,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B27</path>
+    <path>/cuahsi/his/Isbena/B27</path>
     <type>1:1</type>
     <description>B27</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3121,7 +3121,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B28</path>
+    <path>/cuahsi/his/Isbena/B28</path>
     <type>1:1</type>
     <description>B28</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3145,7 +3145,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B29</path>
+    <path>/cuahsi/his/Isbena/B29</path>
     <type>1:1</type>
     <description>B29</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3169,7 +3169,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B30</path>
+    <path>/cuahsi/his/Isbena/B30</path>
     <type>1:1</type>
     <description>B30</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3193,7 +3193,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B31</path>
+    <path>/cuahsi/his/Isbena/B31</path>
     <type>1:1</type>
     <description>B31</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3217,7 +3217,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B32</path>
+    <path>/cuahsi/his/Isbena/B32</path>
     <type>1:1</type>
     <description>B32</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3241,7 +3241,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B35</path>
+    <path>/cuahsi/his/Isbena/B35</path>
     <type>1:1</type>
     <description>B35</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3265,7 +3265,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B36</path>
+    <path>/cuahsi/his/Isbena/B36</path>
     <type>1:1</type>
     <description>B36</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3289,7 +3289,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B37</path>
+    <path>/cuahsi/his/Isbena/B37</path>
     <type>1:1</type>
     <description>B37</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3313,7 +3313,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B38</path>
+    <path>/cuahsi/his/Isbena/B38</path>
     <type>1:1</type>
     <description>B38</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3337,7 +3337,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B39</path>
+    <path>/cuahsi/his/Isbena/B39</path>
     <type>1:1</type>
     <description>B39</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3361,7 +3361,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B40</path>
+    <path>/cuahsi/his/Isbena/B40</path>
     <type>1:1</type>
     <description>B40</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3385,7 +3385,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B41</path>
+    <path>/cuahsi/his/Isbena/B41</path>
     <type>1:1</type>
     <description>B41</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3409,7 +3409,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B43</path>
+    <path>/cuahsi/his/Isbena/B43</path>
     <type>1:1</type>
     <description>B43</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3433,7 +3433,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B44</path>
+    <path>/cuahsi/his/Isbena/B44</path>
     <type>1:1</type>
     <description>B44</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3457,7 +3457,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B45</path>
+    <path>/cuahsi/his/Isbena/B45</path>
     <type>1:1</type>
     <description>B45</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3481,7 +3481,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B46</path>
+    <path>/cuahsi/his/Isbena/B46</path>
     <type>1:1</type>
     <description>B46</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3505,7 +3505,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B47</path>
+    <path>/cuahsi/his/Isbena/B47</path>
     <type>1:1</type>
     <description>B47</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3529,7 +3529,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B48</path>
+    <path>/cuahsi/his/Isbena/B48</path>
     <type>1:1</type>
     <description>B48</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3553,7 +3553,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B49</path>
+    <path>/cuahsi/his/Isbena/B49</path>
     <type>1:1</type>
     <description>B49</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3577,7 +3577,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B50</path>
+    <path>/cuahsi/his/Isbena/B50</path>
     <type>1:1</type>
     <description>B50</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3601,7 +3601,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B51</path>
+    <path>/cuahsi/his/Isbena/B51</path>
     <type>1:1</type>
     <description>B51</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3625,7 +3625,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B52</path>
+    <path>/cuahsi/his/Isbena/B52</path>
     <type>1:1</type>
     <description>B52</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3649,7 +3649,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B53</path>
+    <path>/cuahsi/his/Isbena/B53</path>
     <type>1:1</type>
     <description>B53</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3673,7 +3673,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B54</path>
+    <path>/cuahsi/his/Isbena/B54</path>
     <type>1:1</type>
     <description>B54</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3697,7 +3697,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B55</path>
+    <path>/cuahsi/his/Isbena/B55</path>
     <type>1:1</type>
     <description>B55</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3721,7 +3721,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B56</path>
+    <path>/cuahsi/his/Isbena/B56</path>
     <type>1:1</type>
     <description>B56</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3745,7 +3745,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B57</path>
+    <path>/cuahsi/his/Isbena/B57</path>
     <type>1:1</type>
     <description>B57</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3769,7 +3769,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B58</path>
+    <path>/cuahsi/his/Isbena/B58</path>
     <type>1:1</type>
     <description>B58</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3793,7 +3793,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B59</path>
+    <path>/cuahsi/his/Isbena/B59</path>
     <type>1:1</type>
     <description>B59</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3817,7 +3817,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B60</path>
+    <path>/cuahsi/his/Isbena/B60</path>
     <type>1:1</type>
     <description>B60</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3841,7 +3841,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B61</path>
+    <path>/cuahsi/his/Isbena/B61</path>
     <type>1:1</type>
     <description>B61</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3865,7 +3865,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B63</path>
+    <path>/cuahsi/his/Isbena/B63</path>
     <type>1:1</type>
     <description>B63</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3889,7 +3889,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B64</path>
+    <path>/cuahsi/his/Isbena/B64</path>
     <type>1:1</type>
     <description>B64</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3913,7 +3913,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B65</path>
+    <path>/cuahsi/his/Isbena/B65</path>
     <type>1:1</type>
     <description>B65</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3937,7 +3937,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B66</path>
+    <path>/cuahsi/his/Isbena/B66</path>
     <type>1:1</type>
     <description>B66</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3961,7 +3961,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B67</path>
+    <path>/cuahsi/his/Isbena/B67</path>
     <type>1:1</type>
     <description>B67</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -3985,7 +3985,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B68</path>
+    <path>/cuahsi/his/Isbena/B68</path>
     <type>1:1</type>
     <description>B68</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4009,7 +4009,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B69</path>
+    <path>/cuahsi/his/Isbena/B69</path>
     <type>1:1</type>
     <description>B69</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4033,7 +4033,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B70</path>
+    <path>/cuahsi/his/Isbena/B70</path>
     <type>1:1</type>
     <description>B70</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4057,7 +4057,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B71</path>
+    <path>/cuahsi/his/Isbena/B71</path>
     <type>1:1</type>
     <description>B71</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4081,7 +4081,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B72</path>
+    <path>/cuahsi/his/Isbena/B72</path>
     <type>1:1</type>
     <description>B72</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4105,7 +4105,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B73</path>
+    <path>/cuahsi/his/Isbena/B73</path>
     <type>1:1</type>
     <description>B73</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4129,7 +4129,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B74</path>
+    <path>/cuahsi/his/Isbena/B74</path>
     <type>1:1</type>
     <description>B74</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4153,7 +4153,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B75</path>
+    <path>/cuahsi/his/Isbena/B75</path>
     <type>1:1</type>
     <description>B75</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4177,7 +4177,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B76</path>
+    <path>/cuahsi/his/Isbena/B76</path>
     <type>1:1</type>
     <description>B76</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4201,7 +4201,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B77</path>
+    <path>/cuahsi/his/Isbena/B77</path>
     <type>1:1</type>
     <description>B77</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4225,7 +4225,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B78</path>
+    <path>/cuahsi/his/Isbena/B78</path>
     <type>1:1</type>
     <description>B78</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4249,7 +4249,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B79</path>
+    <path>/cuahsi/his/Isbena/B79</path>
     <type>1:1</type>
     <description>B79</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4273,7 +4273,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B80</path>
+    <path>/cuahsi/his/Isbena/B80</path>
     <type>1:1</type>
     <description>B80</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4297,7 +4297,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B81</path>
+    <path>/cuahsi/his/Isbena/B81</path>
     <type>1:1</type>
     <description>B81</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4321,7 +4321,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/B82</path>
+    <path>/cuahsi/his/Isbena/B82</path>
     <type>1:1</type>
     <description>B82</description>
     <creator>acastronova@cuahsi.org</creator>
@@ -4345,7 +4345,7 @@
     </conditions>
   </mapping>
   <mapping>
-    <path>/cuahsi/his/Isábena/Cabecera</path>
+    <path>/cuahsi/his/Isbena/Cabecera</path>
     <type>1:1</type>
     <description>Cabecera</description>
     <creator>acastronova@cuahsi.org</creator>

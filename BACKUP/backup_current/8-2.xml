@@ -8427,7 +8427,7 @@
   <mapping>
     <path>/cuahsi/his/CocoRaHs/CA1QC000018</path>
     <type>1:1</type>
-    <description>PRÈVOST 0.6 N</description>
+    <description>PRVOST 0.6 N</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -8739,7 +8739,7 @@
   <mapping>
     <path>/cuahsi/his/CocoRaHs/CA1QC000038</path>
     <type>1:1</type>
-    <description>MONTRÈAL 1.8 S - JEANNE-MANCE</description>
+    <description>MONTRAL 1.8 S - JEANNE-MANCE</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -8763,7 +8763,7 @@
   <mapping>
     <path>/cuahsi/his/CocoRaHs/CA1QC000039</path>
     <type>1:1</type>
-    <description>QUÈBEC 4.1 N</description>
+    <description>QUBEC 4.1 N</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -8787,7 +8787,7 @@
   <mapping>
     <path>/cuahsi/his/CocoRaHs/CA1QC000041</path>
     <type>1:1</type>
-    <description>MONTRÈAL 1.9 S</description>
+    <description>MONTRAL 1.9 S</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>

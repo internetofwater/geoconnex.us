@@ -3,7 +3,7 @@
   <mapping>
     <path>/cuahsi/his/Para_La_Naturaleza/Rio_Toro_Negro</path>
     <type>1:1</type>
-    <description>Río Toro Negro</description>
+    <description>Ro Toro Negro</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -51,7 +51,7 @@
   <mapping>
     <path>/cuahsi/his/Para_La_Naturaleza/Rio_Grande_de_Manati</path>
     <type>1:1</type>
-    <description>Río Grande de Manatí</description>
+    <description>Ro Grande de Manat</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>

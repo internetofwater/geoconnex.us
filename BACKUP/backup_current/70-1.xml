@@ -1779,7 +1779,7 @@
   <mapping>
     <path>/cuahsi/his/Scotland_NWIS/349617JHI_NWIS_South</path>
     <type>1:1</type>
-    <description>FENWICK WATER U/S FENWICK</description>
+    <description>FENWICKWATER U/S FENWICK</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>

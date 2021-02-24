@@ -243,7 +243,7 @@
   <mapping>
     <path>/cuahsi/his/ShaleNetworkODM/CHE_JT3H_P328</path>
     <type>1:1</type>
-    <description>James Tharp 3H (Patterson 328ï¼&lt;U+0089&gt;</description>
+    <description>James Tharp 3H (Patterson 328&lt;U+0089&gt;</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -267,7 +267,7 @@
   <mapping>
     <path>/cuahsi/his/ShaleNetworkODM/CHE_RA8H_P328</path>
     <type>1:1</type>
-    <description>Rolling Areas 8H (Patterson 328ï¼&lt;U+0089&gt;</description>
+    <description>Rolling Areas 8H (Patterson 328&lt;U+0089&gt;</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>

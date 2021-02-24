@@ -27,7 +27,7 @@
   <mapping>
     <path>/cuahsi/his/MMA_Atacama/S3_PA1_ATM1</path>
     <type>1:1</type>
-    <description>Presión atmosférica</description>
+    <description>Presin atmosfrica</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -51,7 +51,7 @@
   <mapping>
     <path>/cuahsi/his/MMA_Atacama/S3_PA1_TD1</path>
     <type>1:1</type>
-    <description>Profundidad del pozo: 150 cm. Profundidad del nivel de agua bajo la profundidad máxima puntera.</description>
+    <description>Profundidad del pozo: 150 cm. Profundidad del nivel de agua bajo la profundidad mxima puntera.</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -99,7 +99,7 @@
   <mapping>
     <path>/cuahsi/his/MMA_Atacama/S3_PA1_SA1</path>
     <type>1:1</type>
-    <description>En río Astaburuaga  inmediatamente arriba del canal de la estación fluviométrica de la DGA.</description>
+    <description>En ro Astaburuaga  inmediatamente arriba del canal de la estacin fluviomtrica de la DGA.</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -147,7 +147,7 @@
   <mapping>
     <path>/cuahsi/his/MMA_Atacama/S2_RL1_ATM1</path>
     <type>1:1</type>
-    <description>Presión atmosférica</description>
+    <description>Presin atmosfrica</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -171,7 +171,7 @@
   <mapping>
     <path>/cuahsi/his/MMA_Atacama/03041003-3</path>
     <type>1:1</type>
-    <description>Río Valle Ancho Antes Junta Barros Negros</description>
+    <description>Ro Valle Ancho Antes Junta Barros Negros</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>

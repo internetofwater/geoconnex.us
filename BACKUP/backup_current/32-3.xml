@@ -3,7 +3,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1126</path>
     <type>1:1</type>
-    <description>Nová Pec</description>
+    <description>Nov Pec</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -27,7 +27,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1127</path>
     <type>1:1</type>
-    <description>Bezdekov pod Tremšínem</description>
+    <description>Bezdekov pod Tremnem</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -51,7 +51,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1128</path>
     <type>1:1</type>
-    <description>Míšov</description>
+    <description>Mov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -99,7 +99,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1130</path>
     <type>1:1</type>
-    <description>Ješetice</description>
+    <description>Jeetice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -123,7 +123,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1131</path>
     <type>1:1</type>
-    <description>Praha - Velká Chuchle</description>
+    <description>Praha - Velk Chuchle</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -219,7 +219,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1135</path>
     <type>1:1</type>
-    <description>Deštnice</description>
+    <description>Detnice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -267,7 +267,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1137</path>
     <type>1:1</type>
-    <description>Tábor meteo</description>
+    <description>Tbor meteo</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -315,7 +315,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1139</path>
     <type>1:1</type>
-    <description>Ceský Krumlov meteo</description>
+    <description>Cesk Krumlov meteo</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -339,7 +339,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1140</path>
     <type>1:1</type>
-    <description>Veselí nad Lužnicí</description>
+    <description>Vesel nad Lunic</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -387,7 +387,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1142</path>
     <type>1:1</type>
-    <description>Pocátky meteo</description>
+    <description>Poctky meteo</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -435,7 +435,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1144</path>
     <type>1:1</type>
-    <description>Konstantinovy Lázne meteo</description>
+    <description>Konstantinovy Lzne meteo</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -459,7 +459,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1145</path>
     <type>1:1</type>
-    <description>Plzen - Košutka</description>
+    <description>Plzen - Koutka</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -507,7 +507,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1147</path>
     <type>1:1</type>
-    <description>Svatý Jan meteo</description>
+    <description>Svat Jan meteo</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -579,7 +579,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1150</path>
     <type>1:1</type>
-    <description>Ceské Budejovice meteo</description>
+    <description>Cesk Budejovice meteo</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -627,7 +627,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1152</path>
     <type>1:1</type>
-    <description>Bosen  Mužský</description>
+    <description>Bosen  Musk</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -651,7 +651,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1153</path>
     <type>1:1</type>
-    <description>Bystrice nad Pernštejnem</description>
+    <description>Bystrice nad Perntejnem</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -675,7 +675,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1154</path>
     <type>1:1</type>
-    <description>Bystrice pod Hostýnem</description>
+    <description>Bystrice pod Hostnem</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -699,7 +699,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1155</path>
     <type>1:1</type>
-    <description>Decín</description>
+    <description>Decn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -723,7 +723,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1156</path>
     <type>1:1</type>
-    <description>Domažlice</description>
+    <description>Domalice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -747,7 +747,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1157</path>
     <type>1:1</type>
-    <description>Frýdek-Místek  Místek</description>
+    <description>Frdek-Mstek  Mstek</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -771,7 +771,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1158</path>
     <type>1:1</type>
-    <description>Hluboká nad Vltavou</description>
+    <description>Hlubok nad Vltavou</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -795,7 +795,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1159</path>
     <type>1:1</type>
-    <description>Hrušová</description>
+    <description>Hruov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -891,7 +891,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1163</path>
     <type>1:1</type>
-    <description>Luisino Údolí</description>
+    <description>Luisino dol</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -915,7 +915,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1164</path>
     <type>1:1</type>
-    <description>Milešov</description>
+    <description>Mileov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -939,7 +939,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1165</path>
     <type>1:1</type>
-    <description>Olešnice</description>
+    <description>Olenice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -963,7 +963,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1166</path>
     <type>1:1</type>
-    <description>Pocátky CHMÚ</description>
+    <description>Poctky CHM</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1011,7 +1011,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1168</path>
     <type>1:1</type>
-    <description>Slatiny  Milíceves</description>
+    <description>Slatiny  Milceves</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1059,7 +1059,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1170</path>
     <type>1:1</type>
-    <description>Snežník</description>
+    <description>Snenk</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1083,7 +1083,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1171</path>
     <type>1:1</type>
-    <description>Trutnov  ZŠ Komenského</description>
+    <description>Trutnov  Z Komenskho</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1203,7 +1203,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1176</path>
     <type>1:1</type>
-    <description>Pancír</description>
+    <description>Pancr</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1251,7 +1251,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1178</path>
     <type>1:1</type>
-    <description>Klencí pod Cerchovem</description>
+    <description>Klenc pod Cerchovem</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1299,7 +1299,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1180</path>
     <type>1:1</type>
-    <description>Merklín</description>
+    <description>Merkln</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1323,7 +1323,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1181</path>
     <type>1:1</type>
-    <description>Svatá Katerina</description>
+    <description>Svat Katerina</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1347,7 +1347,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1182</path>
     <type>1:1</type>
-    <description>Nýrsko</description>
+    <description>Nrsko</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1371,7 +1371,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1183</path>
     <type>1:1</type>
-    <description>Tremošná</description>
+    <description>Tremon</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1395,7 +1395,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1184</path>
     <type>1:1</type>
-    <description>Nekmír</description>
+    <description>Nekmr</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1419,7 +1419,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1185</path>
     <type>1:1</type>
-    <description>Teškov</description>
+    <description>Tekov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1443,7 +1443,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1186</path>
     <type>1:1</type>
-    <description>Prívetice</description>
+    <description>Prvetice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1467,7 +1467,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1187</path>
     <type>1:1</type>
-    <description>Manetín</description>
+    <description>Manetn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1515,7 +1515,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1189</path>
     <type>1:1</type>
-    <description>Horní Belá</description>
+    <description>Horn Bel</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1539,7 +1539,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1190</path>
     <type>1:1</type>
-    <description>Únešov</description>
+    <description>neov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1563,7 +1563,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1191</path>
     <type>1:1</type>
-    <description>Javorná</description>
+    <description>Javorn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1587,7 +1587,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1192</path>
     <type>1:1</type>
-    <description>Horšovský Týn</description>
+    <description>Horovsk Tn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1635,7 +1635,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1194</path>
     <type>1:1</type>
-    <description>Myslív</description>
+    <description>Myslv</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1731,7 +1731,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1198</path>
     <type>1:1</type>
-    <description>Nýrany</description>
+    <description>Nrany</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1755,7 +1755,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1199</path>
     <type>1:1</type>
-    <description>Dnešice</description>
+    <description>Dneice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1803,7 +1803,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1201</path>
     <type>1:1</type>
-    <description>Velký Malahov</description>
+    <description>Velk Malahov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1899,7 +1899,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1205</path>
     <type>1:1</type>
-    <description>Bolešiny</description>
+    <description>Boleiny</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1947,7 +1947,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1207</path>
     <type>1:1</type>
-    <description>Strážov</description>
+    <description>Strov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1971,7 +1971,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1208</path>
     <type>1:1</type>
-    <description>Mochtín</description>
+    <description>Mochtn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -1995,7 +1995,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1209</path>
     <type>1:1</type>
-    <description>Bešiny</description>
+    <description>Beiny</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2019,7 +2019,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1210</path>
     <type>1:1</type>
-    <description>Horšice</description>
+    <description>Horice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2043,7 +2043,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1211</path>
     <type>1:1</type>
-    <description>Mecín</description>
+    <description>Mecn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2067,7 +2067,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1212</path>
     <type>1:1</type>
-    <description>Malý Bor</description>
+    <description>Mal Bor</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2091,7 +2091,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1213</path>
     <type>1:1</type>
-    <description>Strašín</description>
+    <description>Stran</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2115,7 +2115,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1214</path>
     <type>1:1</type>
-    <description>Ustálec</description>
+    <description>Ustlec</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2139,7 +2139,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1215</path>
     <type>1:1</type>
-    <description>Petrovice u Sušice</description>
+    <description>Petrovice u Suice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2187,7 +2187,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1217</path>
     <type>1:1</type>
-    <description>Horaždovice</description>
+    <description>Horadovice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2235,7 +2235,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1219</path>
     <type>1:1</type>
-    <description>Mrákov</description>
+    <description>Mrkov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2259,7 +2259,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1220</path>
     <type>1:1</type>
-    <description>Lštení</description>
+    <description>Lten</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2283,7 +2283,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1221</path>
     <type>1:1</type>
-    <description>Chlístov</description>
+    <description>Chlstov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2355,7 +2355,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1224</path>
     <type>1:1</type>
-    <description>Mírkov</description>
+    <description>Mrkov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2403,7 +2403,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1226</path>
     <type>1:1</type>
-    <description>Všepadly</description>
+    <description>Vepadly</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2475,7 +2475,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1229</path>
     <type>1:1</type>
-    <description>Spálené Porící</description>
+    <description>Splen Porc</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2499,7 +2499,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1230</path>
     <type>1:1</type>
-    <description>Nové Mitrovice</description>
+    <description>Nov Mitrovice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2547,7 +2547,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1232</path>
     <type>1:1</type>
-    <description>Príkosice</description>
+    <description>Prkosice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2595,7 +2595,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1234</path>
     <type>1:1</type>
-    <description>Plánice</description>
+    <description>Plnice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2619,7 +2619,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1235</path>
     <type>1:1</type>
-    <description>Chválenice</description>
+    <description>Chvlenice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2667,7 +2667,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1237</path>
     <type>1:1</type>
-    <description>Žihle</description>
+    <description>ihle</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2691,7 +2691,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1238</path>
     <type>1:1</type>
-    <description>Mýto</description>
+    <description>Mto</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2763,7 +2763,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1241</path>
     <type>1:1</type>
-    <description>Rybník</description>
+    <description>Rybnk</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2811,7 +2811,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1243</path>
     <type>1:1</type>
-    <description>Staré Sedlište</description>
+    <description>Star Sedlite</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2835,7 +2835,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1244</path>
     <type>1:1</type>
-    <description>Chodová Planá</description>
+    <description>Chodov Plan</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2859,7 +2859,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1245</path>
     <type>1:1</type>
-    <description>Stráž</description>
+    <description>Str</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2931,7 +2931,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1248</path>
     <type>1:1</type>
-    <description>Belá nad Radbuzou</description>
+    <description>Bel nad Radbuzou</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2955,7 +2955,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1249</path>
     <type>1:1</type>
-    <description>Malé Kyšice- Poteplí</description>
+    <description>Mal Kyice- Potepl</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -2979,7 +2979,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1250</path>
     <type>1:1</type>
-    <description>Košátky</description>
+    <description>Kotky</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3003,7 +3003,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1251</path>
     <type>1:1</type>
-    <description>Želízy</description>
+    <description>elzy</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3027,7 +3027,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1252</path>
     <type>1:1</type>
-    <description>Dolní Bukovina</description>
+    <description>Doln Bukovina</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3051,7 +3051,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1253</path>
     <type>1:1</type>
-    <description>Velký Reckov</description>
+    <description>Velk Reckov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3075,7 +3075,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1254</path>
     <type>1:1</type>
-    <description>Mladá Boleslav</description>
+    <description>Mlad Boleslav</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3099,7 +3099,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1255</path>
     <type>1:1</type>
-    <description>Mezihorí</description>
+    <description>Mezihor</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3243,7 +3243,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1261</path>
     <type>1:1</type>
-    <description>Lékarova Lhota</description>
+    <description>Lkarova Lhota</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3339,7 +3339,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1265</path>
     <type>1:1</type>
-    <description>Rýmarov</description>
+    <description>Rmarov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3387,7 +3387,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1267</path>
     <type>1:1</type>
-    <description>Tichá</description>
+    <description>Tich</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3411,7 +3411,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1268</path>
     <type>1:1</type>
-    <description>Jeseník nad Odrou</description>
+    <description>Jesenk nad Odrou</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3435,7 +3435,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1269</path>
     <type>1:1</type>
-    <description>Jablunkov - Lomná</description>
+    <description>Jablunkov - Lomn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3507,7 +3507,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1272</path>
     <type>1:1</type>
-    <description>Baška</description>
+    <description>Baka</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3555,7 +3555,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1274</path>
     <type>1:1</type>
-    <description>Olešná</description>
+    <description>Olen</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3579,7 +3579,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1275</path>
     <type>1:1</type>
-    <description>Stará Belá</description>
+    <description>Star Bel</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3603,7 +3603,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1276</path>
     <type>1:1</type>
-    <description>Frýdek Místek</description>
+    <description>Frdek Mstek</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3627,7 +3627,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1277</path>
     <type>1:1</type>
-    <description>Raškovice</description>
+    <description>Rakovice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3651,7 +3651,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1278</path>
     <type>1:1</type>
-    <description>Vyšní Lhoty</description>
+    <description>Vyn Lhoty</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3723,7 +3723,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1281</path>
     <type>1:1</type>
-    <description>Žermanice</description>
+    <description>ermanice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3771,7 +3771,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1283</path>
     <type>1:1</type>
-    <description>Šance</description>
+    <description>ance</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3795,7 +3795,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1284</path>
     <type>1:1</type>
-    <description>Smikovský rybník.</description>
+    <description>Smikovsk rybnk.</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3843,7 +3843,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1286</path>
     <type>1:1</type>
-    <description>Horepník</description>
+    <description>Horepnk</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -3867,7 +3867,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1287</path>
     <type>1:1</type>
-    <description>Slavíkovice</description>
+    <description>Slavkovice</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4035,7 +4035,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1294</path>
     <type>1:1</type>
-    <description>Jánský most</description>
+    <description>Jnsk most</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4059,7 +4059,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1295</path>
     <type>1:1</type>
-    <description>Chomutov  (MÚ)</description>
+    <description>Chomutov (M)</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4083,7 +4083,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1296</path>
     <type>1:1</type>
-    <description>Bílý Potok - Záluží</description>
+    <description>Bl Potok - Zlu</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4107,7 +4107,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1297</path>
     <type>1:1</type>
-    <description>Ceský Jiretín</description>
+    <description>Cesk Jiretn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4131,7 +4131,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1298</path>
     <type>1:1</type>
-    <description>Bílina (CD)</description>
+    <description>Blina (CD)</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4155,7 +4155,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1299</path>
     <type>1:1</type>
-    <description>Vilémov</description>
+    <description>Vilmov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4203,7 +4203,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1301</path>
     <type>1:1</type>
-    <description>Zahrádky</description>
+    <description>Zahrdky</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4275,7 +4275,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1304</path>
     <type>1:1</type>
-    <description>Dolní Žandov</description>
+    <description>Doln andov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4299,7 +4299,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1305</path>
     <type>1:1</type>
-    <description>Rovná</description>
+    <description>Rovn</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4395,7 +4395,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1310</path>
     <type>1:1</type>
-    <description>Stráž nad Ohrí</description>
+    <description>Str nad Ohr</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4419,7 +4419,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1311</path>
     <type>1:1</type>
-    <description>Hora Svatého Šebestiána</description>
+    <description>Hora Svatho ebestina</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
@@ -4443,7 +4443,7 @@
   <mapping>
     <path>/cuahsi/his/HYDRODATACZ-HR/1312</path>
     <type>1:1</type>
-    <description>Žichov</description>
+    <description>ichov</description>
     <creator>acastronova@cuahsi.org</creator>
     <action>
       <type>303</type>
