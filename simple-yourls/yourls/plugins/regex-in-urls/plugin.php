@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Regex Character Matching in Short URLs
-Plugin URI: http://yourls.org/
+Plugin URI: https://github.com/Webb-Ben/geoconnex.us/tree/master/simple-yourls/yourls/plugins/regex-in-urls
 Description: Regex characters and metacharacters in Short URLs
 Version: 1.0
 Author: Ben Webb

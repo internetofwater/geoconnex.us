@@ -12,47 +12,36 @@ def main(argv):
         backup_list = os.listdir(path)
         backup_list.remove('.DS_Store')
 
-        if len(argv) != 1 and argv[1].lower() == 'false':
-            backup_list = sorted(backup_list, reverse=True)
-            for i in range(118):
-                backup_list.pop(0)
-        elif len(argv) != 1 and argv[1].lower() == 'true':
-            backup_list = sorted(backup_list)
-            for i in range(162):
-                backup_list.pop(0)
-        else:
-            for i in range(124):
-                backup_list.pop(0)
+        if len(argv) > 1:
+            for i in argv:
+                if i.lower() == '-s':
+                    backup_list = sorted(backup_list)
+                elif i.lower() == '-r':
+                    backup_list = [backup_list.pop() for f in backup_list]
 
     except:
-        print('Usage: python populate_db.py [optional_bool:sorted_in_order]')
+        print('Usage: python populate_db.py [optional flags -S -R]')
+        print('-s|S\tSort alphabetically\n-r|R\tReverse order')
         exit()
 
     for filename in backup_list:
         t = time.time()
-        try:
-            # print('Opening ', filename)
-            tree = ET.parse(path + filename)
-            root = tree.getroot()
-        except ET.ParseError:
-            print('Bad encoding', path + filename)
-            continue
+        root = ET.parse(path + filename).getroot()
+        entries = {'success': 0, 'preexisting': 0}
 
-        entries = {'success': 0, 'fail': 0, 'preexisting': 0}
         for child in root:
-            print('\r', child[0].text.replace('/', '', 1), end='')
+            long_url = child[4][2].text
+            short_url = child[0].text.replace('/', '', 1)
+            title = child[2].text
+            print('\r', short_url, end='')
             try:
-                urls.expand(child[0].text.replace('/', '', 1))
+                urls.expand(short_url)
                 entries['preexisting'] += 1
             except KeyError:
-                try:
-                    urls.shorten(child[4][2].text, keyword=child[0].text.replace('/', '', 1), title=child[2].text)
-                    entries['success'] += 1
-                except:
-                    entries['fail'] += 1
+                urls.shorten(long_url, keyword=short_url, title=title)
+                entries['success'] += 1
 
-        print('\r', filename, ': % .2f seconds :' % (time.time()-t), entries)
-
+        print('\r', filename, 'in % .2f seconds :' % (time.time()-t), entries)
 
 if __name__ == "__main__":
     main(sys.argv)
