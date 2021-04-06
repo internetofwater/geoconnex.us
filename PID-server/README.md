@@ -8,7 +8,7 @@ This deploys the geoconnex.us PID server, which is based on [YOURLS](https://you
 
 YOURLS plugins used & activated:
 - [reset-urls](https://gist.github.com/ozh/a0090f46569b50835520d95f9481d9fd#file-plugin-php) 
-- [always-302](https://github.com/tinjaw/Always-302)
+- [always-303](https://github.com/tinjaw/Always-302)
 - [keep-querystring](https://github.com/rinogo/yourls-keep-query-string)
 - [redirect-index](https://github.com/tomslominski/yourls-redirect-index)
 - [regex-in-urls](https://github.com/webb-ben/plugins/tree/master/regex-in-urls)
@@ -36,6 +36,8 @@ YOURLS plugins used & activated:
 `python yourls_client.py --uri-stem https://geoconnex.us/ \ `<br> 
 `--addr https://pids.geoconnex.us -u <user> -p <password> \ `<br>
 `<https://csv-url.csv>`
+
+See [python](python/README.md) for details on how to customize the dockerized actions to populate the PID server database.
 
 ### License
 This service is licensed under the [MIT License](LICENSE).
