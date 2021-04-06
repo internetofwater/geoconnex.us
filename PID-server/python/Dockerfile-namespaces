@@ -1,0 +1,11 @@
+FROM python
+
+WORKDIR /usr/src/app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY yourls_api.py .
+COPY yourls_client.py .
+
+CMD [ "python", "yourls_client.py", "--addr", "http://simple-yourls_yourls_1", "/data/"]
