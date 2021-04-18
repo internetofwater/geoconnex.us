@@ -4,7 +4,7 @@ ca-gage-assessment
 Homepage:
 * https://github.com/internetofwater/CA-Gages
 
-This namespace is used for identifiers associated with the California SB19 streamgage network planning process being undertaken by the California Water Boards and Department of Water Resources. It will eventually include identifiers
+This namespace is used for identifiers associated with the [California SB19 streamgage network planning process](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB19) being undertaken by the California Water Boards and Department of Water Resources. It will eventually include identifiers
 for all  streamgages in California to be integrated into the public streamgage network (eventually to be consolidated into [CDEC](https://cdec.water.ca.gov/)) as well as features such as watersheds and other 
 geographies of interest that may have attributes of interest for streamgage network planning. All features will eventually be represented from a variety of sources in a dedicated data server, for now at https://sb19.linked-data.internetofwater.dev
 
