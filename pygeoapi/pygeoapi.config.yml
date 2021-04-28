@@ -29,8 +29,8 @@
 
 server:
     bind:
-        host: info.geoconnex.us #change to your hostname if running your own instance
-        port: 80
+        host: localhost #change to your hostname if running your own instance
+        port: 5000
     url: https://info.geoconnex.us #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
@@ -42,6 +42,9 @@ server:
         url: https://tile.openstreetmap.org/{z}/{x}/{y}.png
         attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>'
     ogc_schemas_location: /opt/schemas.opengis.net
+    templates:
+      path: /skin-dashboard/templates
+      static: /skin-dashboard/static
 
 logging:
     level: ERROR
