@@ -78,6 +78,7 @@ resources:
     hu02:
         type: collection
         title: HU02
+        geojsonld: false
         description: Two-digit Hydrologic Regions
         keywords:
             - Hydrologic Regions
@@ -100,15 +101,17 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/hu02.gpkg
-            id_field: HUC2
-            table: hu02
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/hu02.gpkg
+              id_field: HUC2
+              table: hu02
+              uri_field: uri
     hu04:
         type: collection
         title: HU04
+        geojsonld: false
         description: Four-digit Hydrologic Subregion
         keywords:
             - Hydrologic Subregions
@@ -131,15 +134,17 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/hu04.gpkg
-            id_field: HUC4
-            table: hu04
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/hu04.gpkg
+              id_field: HUC4
+              table: hu04
+              uri_field: uri
     hu06:
         type: collection
         title: HU06
+        geojsonld: false
         description: Six-digit Hydrologic Basins
         keywords:
             - Hydrologic Basins
@@ -162,15 +167,17 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/hu06.gpkg
-            id_field: HUC6
-            table: hu06
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/hu06.gpkg
+              id_field: HUC6
+              table: hu06
+              uri_field: uri
     hu08:
         type: collection
         title: HU08
+        geojsonld: false
         description: Eight-digit Hydrologic Subbasins
         keywords:
             - Hydrologic Subbasins
@@ -193,15 +200,17 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/hu08.gpkg
-            id_field: HUC8
-            table: hu08
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/hu08.gpkg
+              id_field: HUC8
+              table: hu08
+              uri_field: uri
     hu10:
         type: collection
         title: HU10
+        geojsonld: false
         description: Ten-digit Watersheds
         keywords:
             - Watersheds
@@ -224,17 +233,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/hu10.gpkg
-            id_field: HUC10
-            table: hu10
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/hu10.gpkg
+              id_field: HUC10
+              table: hu10
+              uri_field: uri
     nat_aq:
         type: collection
         title: National Aquifers
+        geojsonld: false
         description: National Aquifers of the United States
-        uri_stem: https://geoconnex.us/ref/nat_aq/
         keywords:
             - National Aquifers
             - Principle Aquifers
@@ -262,15 +272,17 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/nat_aq.gpkg
-            id_field: NAT_AQFR_CD
-            table: nat_aq
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/nat_aq.gpkg
+              id_field: NAT_AQFR_CD
+              table: nat_aq
+              uri_field: uri
     gages:
         type: collection
         title: Reference Gages
+        geojsonld: false
         description: US Reference Stream Gage Monitoring Locations
         keywords:
             - Stream Gage
@@ -294,17 +306,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/ref_gages.gpkg
-            id_field: id
-            table: ref_gages
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/ref_gages.gpkg
+              id_field: id
+              table: ref_gages
+              uri_field: uri
     states:
         type: collection
         title: States
         description: U.S. States
-        uri_stem: https://geoconnex.us/ref/states/
+        geojsonld: false
         keywords:
             - States
             - Census
@@ -332,17 +345,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/states.gpkg
-            id_field: GEOID
-            table: states
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/states.gpkg
+              id_field: GEOID
+              table: states
+              uri_field: uri
     counties:
         type: collection
         title: Counties
+        geojsonld: false
         description: U.S. Counties
-        uri_stem: https://geoconnex.us/ref/counties/
         keywords:
             - Counties
             - Census
@@ -370,17 +384,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/counties.gpkg
-            id_field: GEOID
-            table: counties
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/counties.gpkg
+              id_field: GEOID
+              table: counties
+              uri_field: uri
     aiannh:
         type: collection
         title: American Indian/Alaska Native Areas/Hawaiian Home Lands (AIANNH)
+        geojsonld: false
         description: Native American Lands
-        uri_stem: https://geoconnex.us/ref/aiannh/
         keywords:
             - American Indian Areas
             - Alaska Native Areas
@@ -401,17 +416,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/aiannh.gpkg
-            id_field: GEOID
-            table: aiannh
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/aiannh.gpkg
+              id_field: GEOID
+              table: aiannh
+              uri_field: uri
     cbsa:
         type: collection
         title: Core-based statistical areas (CBSA)
+        geojsonld: false
         description: U.S. Metropolitan and Micropolitan Statistical Areas
-        uri_stem: https://geoconnex.us/ref/cbsa/
         keywords:
             - Core-based statistical areas
             - Metropolitan Statistical Areas
@@ -432,17 +448,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/cbsa.gpkg
-            id_field: GEOID
-            table: cbsa
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/cbsa.gpkg
+              id_field: GEOID
+              table: cbsa
+              uri_field: uri
     ua10:
         type: collection
         title: Urban Areas
+        geojsonld: false
         description: Urbanized Areas and Urban Clusters (2010 Census)
-        uri_stem: https://geoconnex.us/ref/ua10/
         keywords:
             - Urban Areas
             - Census
@@ -466,17 +483,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/ua10.gpkg
-            id_field: GEOID10
-            table: ua10
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/ua10.gpkg
+              id_field: GEOID10
+              table: ua10
+              uri_field: uri
     places:
         type: collection
         title: Places
         description: U.S. legally incororated and Census designated places
-        uri_stem: https://geoconnex.us/ref/places/
+        geojsonld: false
         keywords:
             - Places
             - Census
@@ -504,17 +522,18 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/places.gpkg
-            id_field: GEOID
-            table: places
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/places.gpkg
+              id_field: GEOID
+              table: places
+              uri_field: uri
     pws:
         type: collection
         title: Public Water Systems
         description: U.S. Public Water Systems
-        uri_stem: https://geoconnex.us/ref/pws/
+        geojsonld: false
         keywords:
             - Public Water Systems
         context:
@@ -550,9 +569,10 @@ resources:
             temporal:
                 begin: null
                 end: null
-        provider:
-            name: SQLiteGPKG
-            data: /ext_data/pws.gpkg
-            id_field: PWSID
-            table: pws
-            uri_field: uri
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /ext_data/pws.gpkg
+              id_field: PWSID
+              table: pws
+              uri_field: uri
