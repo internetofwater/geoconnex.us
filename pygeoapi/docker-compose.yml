@@ -2,7 +2,7 @@ version: '3'
 
 services:
   pygeoapi:
-    image: geopython/pygeoapi:latest
+    image: webbben/pygeoapi-uri-travis:latest
     user: root
     ports:
       - "5000:80"
