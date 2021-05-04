@@ -104,7 +104,7 @@
             <tbody>
               {% for ft in data['features'] %}
               <tr>
-                <td data-label="id"><a href="{{ ft['properties'][data['uri_field']]" title="{{ ft.id }}">{{ ft.id | string | truncate( 12 )  }}</a></td>
+                <td data-label="id"><a href="{{ ft['properties'][data['uri_field']] }}" title="{{ ft.id }}">{{ ft.id | string | truncate( 12 )  }}</a></td>
                 {% if data['title_field'] %}
                   <td data-label="name"><a href="{{ data['items_path']}}/{{ ft['id'] }}" title="{{ ft['properties'][data['title_field']] }}">{{ ft['properties'][data['title_field']] | string | truncate( 35 ) }}</a></td>
                 {% endif %}
