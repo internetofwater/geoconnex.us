@@ -1,0 +1,2 @@
+id,target,creator,description
+https://geoconnex.us/ref/gages/([0-9]+).*$, https://info.geoconnex.us/collections/gages/items/$1, iow, US Reference Streamgages
