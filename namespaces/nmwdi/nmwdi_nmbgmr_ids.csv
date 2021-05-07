@@ -1,2 +1,2 @@
-id, target, creator
-https://geoconnex.us/nmwdi/nmbgmr/wells/{NMWDI-\d+}, https://wells.newmexicowaterdata.org/collections/nmbgmr_wells/items/{NMWDI-\d+},jake.ross@nmt.edu
+id,target,creator,description
+https://geoconnex.us/nmwdi/nmbgmr/wells/([-a-zA-Z0-9_./]+).*$, http://wells.newmexicowaterdata.org/collections/nmbgmr_wells/items/$1, jake.ross@nmt.edu, NMWDI NMBGMR Wells
