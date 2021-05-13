@@ -1,6 +1,4 @@
 name: Get All Changed Files
-  # You may pin to the exact commit or the version.
-  # uses: jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42
   uses: jitterbit/get-changed-files@v1
   with:
     # GitHub token for GitHub API requests. Users shouldn't need to set this themselves.
