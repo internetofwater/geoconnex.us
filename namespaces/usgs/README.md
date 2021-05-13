@@ -29,11 +29,9 @@ Examples:
 Points of interest from the Geospatial Fabric V1.1.
 See: https://doi.org/10.5066/P971JAGF for more.
 
-Examples:
-https://geoconnex.us/usgs/gfv11_pois/6742250
-https://geoconnex.us/usgs/gfv11_pois/8448680
-
-
+Examples:  
+https://geoconnex.us/usgs/gfv11_pois/17111  
+https://geoconnex.us/usgs/gfv11_pois/40200
 
 Contacts:
 * <dblodgett@usgs.gov>
