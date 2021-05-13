@@ -290,7 +290,7 @@ resources:
         keywords:
             - Stream Gage
         context:
-            - schema: https://schema.org/name
+            - schema: https://schema.org/
               name: schema:name
               description: schema:description
               subjectOf: 
