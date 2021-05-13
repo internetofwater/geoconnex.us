@@ -1,0 +1,16 @@
+name: Get All Changed Files
+  # You may pin to the exact commit or the version.
+  # uses: jitterbit/get-changed-files@b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42
+  uses: jitterbit/get-changed-files@v1
+  with:
+    # GitHub token for GitHub API requests. Users shouldn't need to set this themselves.
+
+    token: ${{ github.token }}
+    # Format of the steps output context. Can be 'space-delimited', 'csv', or 'json'.
+
+    format:  'csv'
+- run: |
+    mapfile -d ',' -t added_modified_files < <(printf '%s,' '${{ steps.files.outputs.added_modified }}')
+    for added_modified_file in "${added_modified_files[@]}"; do
+      echo "Do something with this ${added_modified_file}."
+    done
