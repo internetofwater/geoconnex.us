@@ -1,6 +1,6 @@
-name: Get All Changed Files
-  uses: jitterbit/get-changed-files@v1
-  with:
+- name: Get All Changed Files
+    uses: jitterbit/get-changed-files@v1
+    with:
     # GitHub token for GitHub API requests. Users shouldn't need to set this themselves.
 
     token: ${{ github.token }}
