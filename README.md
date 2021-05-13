@@ -1,3 +1,6 @@
+![logo](https://user-images.githubusercontent.com/44071350/111527969-eb43b980-8736-11eb-82ca-3418b045df4b.png)
+
+
 # Permanent Identifiers (PIDs) for US Hydrologic Features
 
 This is the registry for PIDs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic and other spatial features in the United States as an implementation of [Internet of Water](https://github.com/opengeospatial/SELFIE/blob/master/docs/demo/internet_of_water.md) principles.
@@ -13,7 +16,7 @@ The value of `https://geoconnex.us` can be illustrated considering two use cases
 1. Indexing and discovering models and research from public sector, private sector, or academic projects about a particular place or environmental feature.  
 1. Building a federated multi-organization monitoring network in which all member-systems reference common monitored features and are discoverable through a community index.
 
-See https://geoconnex.us/demo for a mockup of data discovery and access workflows that `https://geoconnex.us` aspires to enable.
+See [https://geoconnex.us/demo](https://geoconnex.us/demo) for a mockup of data discovery and access workflows that `https://geoconnex.us` aspires to enable.
 
 These use cases imply requirements that `https://geoconnex.us` helps satisfy:
 
@@ -45,6 +48,7 @@ Features are registered in the [namespaces](https://github.com/internetofwater/g
 **See the [OGC API Features](https://info.geoconnex.us/) for the reference features hosted by geoconnex.us**
 
 ## Geoconnex.us-related presentations and publications.
+- [National Hydrography Infrastructure and Geoconnex](https://drive.google.com/file/d/1J0NKYOq3pGjQXr58FKO8sd7uHpGA8kNB/view?usp=sharing)
 - [New Mexico Water Data Initiative including geoconnex.us](https://webresources.internetofwater.us/presentations/geoconnex%20federal.pptx)
 - [Roundtable presentation including geoconnex.us](https://www.westernstateswater.org/wp-content/uploads/2020/06/CO_Roundable_IoW.pdf)
 - [Second Environmental Linked Features Interoperability Experiment](https://github.com/opengeospatial/SELFIE)
