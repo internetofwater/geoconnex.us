@@ -20,7 +20,7 @@ jobs:
       id: post
       uses: docker://internetofwater/post-geoconnex:latest
       env:
-         working-directory: . 
+         working-directory: PID-server 
          USER: ${{ secrets.YOURLS_USER }}
          PW: ${{ secrets.YOURLS_KEY }}
 
