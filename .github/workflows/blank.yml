@@ -22,6 +22,4 @@ jobs:
       with:
          shell: bash
          args: |
-          for added_modified_file in "${{ steps.files.outputs.added_modified }}"; do
-            echo "Do something with this ${added_modified_file}."
-          done
+          echo "Do something with this ${{ steps.files.outputs.added_modified }}."
