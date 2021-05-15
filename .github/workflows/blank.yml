@@ -8,6 +8,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+    - name: checkout
+      uses: actions/checkout@v2
     - name: get all changed files
       id: files
       uses: jitterbit/get-changed-files@v1
