@@ -21,7 +21,9 @@ jobs:
       uses: docker://internetofwater/post-geoconnex:latest
       env:
          working-directory: . 
+         USER: ${{ secrets.YOURLS_USER }}
+         PW: ${{ secrets.YOURLS_KEY }}
 
       with:
          shell: bash
-         args: python yourls_client.py -s https://geoconnex.us/ -a https://pids.geoconnex.us -u iow -p nieps ${{ steps.files.outputs.added_modified }}
+         args: python yourls_client.py -s https://geoconnex.us/ -a https://pids.geoconnex.us -u $USER -p $PW ${{ steps.files.outputs.added_modified }}
