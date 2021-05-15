@@ -9,13 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: get all changed files
+      id: files
       uses: jitterbit/get-changed-files@v1
       with:
         token: ${{ github.token }}
         format: 'csv'
+      
+    - name: post the files
+      id: post
+      uses: docker://internetofwater/post-geoconnex:latest
 
-    - run: |
-        mapfile -d ',' -t added_modified_files < <(printf '%s,' '${{ steps.files.outputs.added_modified }}')
-        for added_modified_file in "${added_modified_files[@]}"; do
-          echo "Do something with this ${added_modified_file}."
-        done
+      with:
+         args: |
+          for added_modified_file in "${{ steps.files.outputs.added_modified }}"; do
+            echo "Do something with this ${added_modified_file}."
+          done
