@@ -2,7 +2,7 @@ name: make thing
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - '**.csv'
 
