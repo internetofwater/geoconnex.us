@@ -1,6 +1,8 @@
 name: make thing
 on:
   push:
+    branches:
+      - main
     paths:
       - '**.csv'
 
