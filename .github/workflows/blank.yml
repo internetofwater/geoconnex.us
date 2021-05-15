@@ -1,14 +1,21 @@
-- name: Get All Changed Files
-    uses: jitterbit/get-changed-files@v1
-    with:
-    # GitHub token for GitHub API requests. Users shouldn't need to set this themselves.
+name: make thing
+on:
+  push:
+    paths:
+      - '**.csv'
 
-    token: ${{ github.token }}
-    # Format of the steps output context. Can be 'space-delimited', 'csv', or 'json'.
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: get all changed files
+      uses: jitterbit/get-changed-files@v1
+      with:
+        branch: token ${{ github.token }}
+        format: 'csv'
 
-    format:  'csv'
-- run: |
-    mapfile -d ',' -t added_modified_files < <(printf '%s,' '${{ steps.files.outputs.added_modified }}')
-    for added_modified_file in "${added_modified_files[@]}"; do
-      echo "Do something with this ${added_modified_file}."
-    done
+    - run: |
+        mapfile -d ',' -t added_modified_files < <(printf '%s,' '${{ steps.files.outputs.added_modified }}')
+        for added_modified_file in "${added_modified_files[@]}"; do
+          echo "Do something with this ${added_modified_file}."
+        done
