@@ -11,7 +11,7 @@ jobs:
     - name: get all changed files
       uses: jitterbit/get-changed-files@v1
       with:
-        branch: token ${{ github.token }}
+        token: ${{ github.token }}
         format: 'csv'
 
     - run: |
