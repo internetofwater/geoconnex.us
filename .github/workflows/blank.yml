@@ -14,6 +14,10 @@ jobs:
       with:
         token: ${{ github.token }}
         format: 'csv'
+      
+    - name: post the files
+      id: post
+      uses: docker://internetofwater/post-geoconnex:latest
 
     - run: |
         mapfile -d ',' -t added_modified_files < <(printf '%s,' '${{ steps.files.outputs.added_modified }}')
