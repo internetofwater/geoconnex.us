@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: get all changed files
+      id: files
       uses: jitterbit/get-changed-files@v1
       with:
         token: ${{ github.token }}
