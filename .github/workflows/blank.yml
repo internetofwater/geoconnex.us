@@ -21,5 +21,5 @@ jobs:
       with:
          shell: bash
          args: |
-          wget https://raw.githubusercontent.com/internetofwater/IoW-YOURLS/main/python/yourls_client.py &&
+          wget https://raw.githubusercontent.com/internetofwater/IoW-YOURLS/main/python/yourls_client.py
           python yourls_client.py -s https://geoconnex.us/ -a https://pids.geoconnex.us -u iow -p nieps ${{ steps.files.outputs.added_modified }}.
