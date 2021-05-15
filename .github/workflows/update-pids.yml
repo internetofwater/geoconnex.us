@@ -1,0 +1,30 @@
+name: update pid server
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '**.csv'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: get all changed files
+      id: files
+      uses: jitterbit/get-changed-files@v1
+      with:
+        token: ${{ github.token }}
+      
+    - name: post the files
+      id: post
+      uses: docker://internetofwater/post-geoconnex:latest
+      env:
+         working-directory: .
+
+      with:
+         shell: bash
+         args: python yourls_client.py -s https://geoconnex.us/ -a https://pids.geoconnex.us -u ${{ secrets.YOURLS_USER }} -p ${{ secrets.YOURLS_KEY }} ${{ steps.files.outputs.added_modified }}
+
