@@ -21,4 +21,4 @@ jobs:
       with:
          shell: bash
          args: |
-          echo "Do something with this ${{ steps.files.outputs.added_modified }}."
+          python yourls_client.py -s https://geoconnex.us/ -a https://pids.geoconnex.us -u iow -p nieps ${{ steps.files.outputs.added_modified }}.
