@@ -20,6 +20,7 @@ jobs:
       uses: docker://internetofwater/post-geoconnex:latest
 
       with:
+         shell: bash
          args: |
           for added_modified_file in "${{ steps.files.outputs.added_modified }}"; do
             echo "Do something with this ${added_modified_file}."
