@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - '**.csv'
+      - 'namespaces/**.csv'
 
 jobs:
   update:
