@@ -1,4 +1,4 @@
-name: ci
+name: info.geoconnex.us pygeoapi build
 
 on:
   push:
