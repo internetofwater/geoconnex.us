@@ -47,6 +47,6 @@ These reference features are intended to be ["community reference locations"](ht
 ## Install
 Installation is quite simple
 ```
-wget https://raw.githubusercontent.com/internetofwater/geoconnex.us/master/pygeoapi/docker-compose.yml
-docker-compose up -d
+docker run -d -p 5000:80 --restart always internetofwater/pygeoapi-geoconnex:latest
+docker run -d --name watchtower -v /var/run/docker.sock:/var/run/docker.sock --restart always containrrr/watchtower -i 30 --cleanup
 ```
