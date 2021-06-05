@@ -1,4 +1,4 @@
-#dont need this anymore
+#dont need this anymore, but useful for test deployment
 version: '3'
 
 services:
