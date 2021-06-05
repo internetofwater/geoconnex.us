@@ -7,7 +7,7 @@ on:
       - 'pygeoapi-ci'
     paths:
       - 'pygeoapi/**.yml'
-      - 'pygoeapi/Dockerfile'
+      - 'pygeoapi/Dockerfile'
 
 jobs:
   docker:
