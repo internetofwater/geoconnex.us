@@ -1,6 +1,6 @@
 FROM geopython/pygeoapi:latest
 
-#Add data
+#Add data directory
 RUN mkdir /data
 
 #last updated 2021-06-04 15:36:00 UTC-5
