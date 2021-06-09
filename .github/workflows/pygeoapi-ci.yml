@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - 'master'
-      - 'pygeoapi-ci'
     paths:
-      - 'pygeoapi/**.yml'
       - 'pygeoapi/Dockerfile'
 
 jobs:
