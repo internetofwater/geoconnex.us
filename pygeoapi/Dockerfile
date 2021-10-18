@@ -1,5 +1,5 @@
-FROM geopython/pygeoapi:latest
-#pygeoapi last updated 2021-10-15
+FROM webbben/pygeoapi-gzip:latest
+#pygeoapi last updated 2021-10-18
 
 #Add data directory
 RUN mkdir /data
