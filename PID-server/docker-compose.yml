@@ -1,0 +1,39 @@
+version: '3.6'
+
+services:
+    mysql:
+        image: webbben/pids-geoconnex-mysql:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: arootpassword
+        restart: always
+        networks:
+            - yourls_host
+
+    yourls:
+        image: webbben/pids-geoconnex-yourls:latest
+        environment:
+            YOURLS_DB_PASS: arootpassword
+            YOURLS_SITE: http://localhost:8080
+            YOURLS_USER: yourls-admin
+            YOURLS_PASS: apassword
+            YOURLS_URL_CONVERT: 62
+            YOURLS_PRIVATE_API: "true"
+            YOURLS_UNIQUE_URLS: "false"
+        restart: always
+        networks: 
+            - yourls_host
+        ports:
+            - 8080:80
+
+    adminer:
+        image: adminer
+        restart: always
+        networks:
+            - yourls_host
+        ports:
+            - 6080:8080
+
+networks:
+    yourls_host:
+volumes:
+    data_volume:
