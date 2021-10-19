@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<backup type="partial" scope="record" xmlns="urn:csiro:xmlns:pidsvc:backup:1.0"><mapping><path>^/nmwdi/ose/wells/([a-zA-Z0-9_\-\.\/]+).*$</path><type>Regex</type><title>NMWDI OSE Wells</title><creator>Jake.ross@nmt.edu</creator><action><type>303</type><name>location</name><value>http://wells.newmexicowaterdata.org/collections/ose_wells/items/$1</value></action></mapping></backup>
