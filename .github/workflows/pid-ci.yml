@@ -1,0 +1,26 @@
+name: trigger pids.geoconnex.us build
+
+on:
+  push:
+    branches:
+      - 'master'
+    paths:
+      - 'namespaces/**'
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'namespaces'
+          destination-github-username: 'webb-ben'
+          destination-repository-name: 'pids.geoconnex.us'
+          user-email: 'benjamin.miller.webb@gmail.com'
+          target-branch: main
+          target-directory: namespaces
