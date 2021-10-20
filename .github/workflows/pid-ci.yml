@@ -15,13 +15,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Pushes to another repository
-        uses: cpina/github-action-push-to-another-repository@main
+        uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'namespaces'
-          destination-github-username: 'webb-ben'
-          destination-repository-name: 'pids.geoconnex.us'
-          user-email: 'benjamin.miller.webb@gmail.com'
-          target-branch: main
-          target-directory: namespaces
+          source_file: 'namespaces/.'
+          destination_repo: 'webb-ben/pids.geoconnex.us'
+          destination_branch: 'main'
+          destination_folder: 'namespaces'
+          user_email: 'benjamin.miller.webb@gmail.com'
+          user_name: 'webb-ben'
+          commit_message: 'CI/CD for /geoconnex.us/namespaces'
