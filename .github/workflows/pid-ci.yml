@@ -3,10 +3,10 @@ name: trigger pids.geoconnex.us build
 on:
   push:
     branches:
-      - 'master'
       - 'dev'
-    paths:
-      - 'namespaces/**'
+    #   - 'master'
+    # paths:
+    #   - 'namespaces/**'
 
 jobs:
   copy-file:
@@ -21,5 +21,6 @@ jobs:
         with:
           source_file: 'namespaces'
           destination_repo: 'webb-ben/pids.geoconnex.us'
+          destination_branch: 'dev'
           user_email: 'benjamin.miller.webb@gmail.com'
           user_name: 'webb-ben'
