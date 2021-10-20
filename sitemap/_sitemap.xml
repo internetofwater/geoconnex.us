@@ -1,353 +1,272 @@
 <ns0:sitemapindex xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/nmwdi/nmwdi_ose_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.517776 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/nmwdi/nmwdi_nmbgmr_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.517894 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/wade/sites__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.518025 </lastmod>
-	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_NCEIWW2_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.518177 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_UMBCGW_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.518278 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MobileCrowdHydrology_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.518404 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Nooksack_Microclimate_Network_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.518504 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_UNH_Snow_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.518968 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Panola_ODM_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519093 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_AndrewsforestLTER_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519192 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_LaSelvastreamdischarge_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519288 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_LittleBearRiver_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519389 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MuddyRiver_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519484 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_GLEON_Sunapee_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519578 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_GlobalRiversObservatory_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519676 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_SNOTEL_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519842 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Scotland_NWIS_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.519954 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_czo_ariz_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520050 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MOPEX_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520184 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MWDIS_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520281 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_GlacialRidge_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520375 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Kansas_Weather_Data_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520469 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.410369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_LCZOODM2_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520562 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MMA_Atacama_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520655 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_GLEON_Auburn_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520746 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_czo_boulder_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520838 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_czo_psu_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.520937 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Provo_River_GAMUT_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.521037 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_NE_WN_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.521132 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_DRWI_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.521227 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Swedish_Monitoring_Data_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.521353 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_UMBCWQ_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.521447 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_czo_merced_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.521553 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MWRA_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.521652 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_GHCN_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.523400 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Weiherbach_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.523531 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Nevados_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.523631 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MAAERI_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.523732 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_SagehenCreek_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.523825 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_CRWA_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.523920 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_CUISO_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.524011 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_czo_luquillo_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.524102 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.414370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_ShaleNetworkODM_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.529718 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_CCBEPDAP_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.529991 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_ODM_KentState_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.530097 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_HYDRODATACZ-D_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.530307 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_FCELTER_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.530406 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_TarlandWaterQuality_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.530503 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_MudLake_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.530624 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_CedarRiver_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.530805 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_LTERNTLWoodruff_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.530902 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Brazil_UCB_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.531206 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_GLEON_Dorset_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.531318 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_SCAN_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.531437 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_YosemiteHydroclimateNetwork_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.531544 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_TRWA_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.531641 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_IEER_at_Wilkes_University_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.531738 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_HYDRODATACZ-HR_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.531947 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.422369 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_CocoRaHs_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.535541 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.426370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Clarksburg_SP_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.535679 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.426370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_ShaleNetworkODM_ids__1.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536089 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.426370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Is&#225;bena_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536218 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Gongga_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536319 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.426370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_LoganRiver_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536424 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.426370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Para_La_Naturaleza_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536518 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_CALVIN_HHS_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536615 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Logan_River_GAMUT_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536709 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_czo_udel_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536810 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Hassberge_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536903 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_FarmRWA_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.536998 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_TNCWaterData_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.537091 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_NevCAN_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.537186 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_RMBL_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.537278 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_UBWPAD_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.537372 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_LUWL_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.537464 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_NHGS_WOF_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.537899 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_FRC_WQM_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538014 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Red_Butte_Creek_GAMUT_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538109 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_GLEON_LakeAnnie_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538208 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_TuolumneMdw_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538302 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_NEON_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538651 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_IRWA_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538768 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_NashRWA_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538874 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_Mazar_River_Project_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.538994 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_czo_catalina_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.539093 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_SKC_Milltown_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.539207 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CUAHSI/CUAHSI_HIS_ORSANCO_HAB_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.539302 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/hu06/hu06__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.539494 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/hu02/hu02__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.539622 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/hu08/hu08__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.539971 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/states/states__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.540112 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/counties/counties__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.540529 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.430370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/pws/pws__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.544958 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.438370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/pws/pws__1.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.549345 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.442370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/pws/pws__3.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.552136 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.446370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/pws/pws__2.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.556488 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.450370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/nat_aq/nat_aq__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.556664 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.450370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/aiannh/aiannh__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.556854 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.450370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/ua10/ua10__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.557303 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.450370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/places/places__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560016 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/cbsa/cbsa__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560261 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/ref/hu10/hu10__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560393 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ref/hu04/hu04__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560537 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/ref/gages/gages__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560660 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/iow/autotest1__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560783 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/iow/test3__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560889 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/iow/sta-demo__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.560988 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/iow/autotest2__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.561085 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/CHyLD/chyld-pilot_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.561386 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/nhdplusv2/huc12pourpoints__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.561522 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/nhdplusv2/comid__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.561617 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/SELFIE/SELFIE_ids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.561737 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/usgs/hydrologic-unit__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.562141 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/usgs/gfv11_pois__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.562249 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/usgs/monitoring-location__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.562343 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap><sitemap>
 		<loc> https://geoconnex.us/sitemap/namespaces/ca-gage-assessment/ca_gages_pids__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.562763 </lastmod>
-	</sitemap><sitemap>
-		<loc> https://geoconnex.us/sitemap/namespaces/epa/hmw/hmw__0.xml </loc>
-		<lastmod> 2021-10-20 16:42:14.562933 </lastmod>
+		<lastmod> 2021-10-20 18:37:09.454370 </lastmod>
 	</sitemap></ns0:sitemapindex>
