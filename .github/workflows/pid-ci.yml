@@ -5,8 +5,8 @@ on:
     branches:
       - 'master'
       - 'dev'
-    paths:
-      - 'namespaces/**'
+    # paths:
+    #   - 'namespaces/**'
 
 jobs:
   docker:
@@ -25,4 +25,4 @@ jobs:
           destination_folder: 'namespaces'
           user_email: 'benjamin.miller.webb@gmail.com'
           user_name: 'webb-ben'
-          commit_message: 'CI/CD for /geoconnex.us/namespaces'
+
