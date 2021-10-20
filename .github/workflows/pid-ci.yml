@@ -19,9 +19,8 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: 'namespaces/.'
+          source_file: 'namespaces/'
           destination_repo: 'webb-ben/pids.geoconnex.us'
-          destination_branch: 'main'
           destination_folder: 'namespaces'
           user_email: 'benjamin.miller.webb@gmail.com'
           user_name: 'webb-ben'
