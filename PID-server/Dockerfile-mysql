@@ -1,4 +1,3 @@
 FROM webbben/pids-geoconnex-mysql:latest
 
-ENV MYSQL_ROOT_PASSWORD=${DB_PASS:-adbpassword}
-
+ENV YOURLS_DB_SITE=${YOURLS_DB_SITE:-adbpassword}
