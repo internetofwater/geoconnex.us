@@ -1,7 +1,7 @@
 FROM webbben/pids-geoconnex-yourls:latest
 
-ENV YOURLS_DB_PASS=${DB_PASS:-arootpassword}
-ENV YOURLS_SITE=${YOURLS_HOST:-http://localhost:8080}
+ENV YOURLS_DB_PASS=${YOURLS_DB_PASS:-arootpassword}
+ENV YOURLS_SITE=${YOURLS_SITE:-http://localhost:8080}
 ENV YOURLS_USER=${YOURLS_USER:-yourls-admin}
 ENV YOURLS_PASS=${YOURLS_PASS:-apassword}
 ENV YOURLS_URL_CONVERT=62
