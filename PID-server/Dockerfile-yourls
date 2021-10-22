@@ -1,6 +1,5 @@
 FROM webbben/pids-geoconnex-yourls:latest
 
-ENV YOURLS_DB_SITE=${YOURLS_DB_SITE:-mysql}
 ENV YOURLS_DB_PASS=${YOURLS_DB_PASS:-arootpassword}
 ENV YOURLS_SITE=${YOURLS_SITE:-http://localhost:8080}
 ENV YOURLS_USER=${YOURLS_USER:-yourls-admin}
