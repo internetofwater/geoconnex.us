@@ -5,8 +5,8 @@ on:
     branches:
       - 'dev'
     #   - 'master'
-    paths:
-      - 'namespaces/**'
+    # paths:
+    #   - 'namespaces/**'
 
 jobs:
   copy-file:
@@ -22,6 +22,6 @@ jobs:
           source-directory: 'namespaces'
           destination-repository-name : 'webb-ben/pids.geoconnex.us'
           target-branch: 'dev'
-          target-directory: 'namespaces'
+          target-directory: 'build/namespaces'
           user-email: 'benjamin.miller.webb@gmail.com'
           user-name: 'webb-ben'
