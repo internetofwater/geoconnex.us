@@ -28,5 +28,6 @@ jobs:
         with:
           path: backup/yourls.sql.gz
           destination: yourls-data/backup/yourls.sql.gz
+          gzip: false
           headers: |-
-            content-type: application/json
+            content-type: application/x-gzip
