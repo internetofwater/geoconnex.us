@@ -34,9 +34,7 @@ jobs:
             content-type: application/x-gzip
 
       - name: Push to mysql
-        with:
-          project_id: ${{ secrets.GCP_PROJECT_ID }}
-          service_account_key: ${{ secrets.GCP_SA_KEY }}
         run: |-
           gcloud sql import sql yourls-mysql gs://yourls-data/backup/yourls.sql.gz \
             --database=yourls
+            --project=${{ secrets.GCP_PROJECT_ID }}
