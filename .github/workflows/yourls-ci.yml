@@ -37,4 +37,3 @@ jobs:
         run: |-
           gcloud sql import sql yourls-mysql gs://yourls-data/backup/yourls.sql.gz \
             --database=yourls
-            --project=${{ secrets.GCP_PROJECT_ID }}
