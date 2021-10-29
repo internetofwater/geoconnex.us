@@ -32,7 +32,7 @@ jobs:
 
       - name: Push to mysql
         run: |-
-          gcloud sql import sql
+          gcloud sql import sql \
             yourls-mysql \
             gs://yourls-data/backup/yourls.sql.gz \
             --database=yourls \
