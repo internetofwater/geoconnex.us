@@ -5,8 +5,8 @@ on:
     branches:
       - 'dev'
     #   - 'master'
-    paths:
-      - 'PID-server/**'
+    # paths:
+    #   - 'PID-server/**'
 
 jobs:
   upload-file:
@@ -32,8 +32,6 @@ jobs:
 
       - name: Push to mysql
         run: |-
-          gcloud sql import sql \
-            yourls-mysql \
-            gs://yourls-data/backup/yourls.sql.gz \
+          gcloud sql import sql yourls-mysql gs://yourls-data/backup/yourls.sql.gz \
             --database=yourls \
             --quiet
