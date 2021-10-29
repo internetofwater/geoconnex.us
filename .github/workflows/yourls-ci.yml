@@ -28,6 +28,7 @@ jobs:
         with:
           path: PID-server/backup
           destination: yourls-data/backup
+          parent: false
           headers: |-
             content-type: application/x-gzip
 
@@ -35,4 +36,5 @@ jobs:
         run: |-
           gcloud sql import sql yourls-mysql gs://yourls-data/backup/yourls.sql.gz \
             --database=yourls \
+            --async
             --quiet
