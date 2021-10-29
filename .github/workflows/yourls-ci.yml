@@ -28,6 +28,7 @@ jobs:
         with:
           path: PID-server/backup
           destination: yourls-data/backup
+          gzip: false
           parent: false
           headers: |-
             content-type: application/x-gzip
