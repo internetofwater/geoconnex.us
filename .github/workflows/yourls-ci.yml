@@ -36,4 +36,5 @@ jobs:
       - name: Push to mysql
         run: |-
           gcloud sql import sql yourls-mysql gs://yourls-data/backup/yourls.sql.gz \
-            --database=yourls
+            --database=yourls \
+            --project=${{ secrets.GCP_PROJECT_ID }}
