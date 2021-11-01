@@ -5,8 +5,8 @@ on:
     branches:
       - 'dev'
     #   - 'master'
-    # paths:
-    #   - 'PID-server/**'
+    paths:
+      - 'PID-server/**'
 
 jobs:
   upload-file:
