@@ -1,0 +1,27 @@
+name: Copy namespaces to pids.geoconnex.us
+
+on:
+  push:
+    branches:
+      - 'dev'
+    #   - 'master'
+    paths:
+      - 'namespaces/**'
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Push to pids.geoconnex.us
+        uses: DevOpenWRT-Router/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'namespaces'
+          destination-repository-name : 'webb-ben/pids.geoconnex.us'
+          target-branch: 'dev'
+          target-directory: 'build/namespaces'
+          user-email: 'benjamin.miller.webb@gmail.com'
+          user-name: 'webb-ben'
