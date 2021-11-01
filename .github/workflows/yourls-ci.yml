@@ -1,4 +1,4 @@
-name: CI/CD for yourls server
+name: Build PID-server on Google Cloud
 
 on:
   push:

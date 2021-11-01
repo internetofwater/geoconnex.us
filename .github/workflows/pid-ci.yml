@@ -1,4 +1,4 @@
-name: trigger pids.geoconnex.us build
+name: Copy namespaces to pids.geoconnex.us
 
 on:
   push:
