@@ -3,8 +3,8 @@ name: Build PID-server on Google Cloud
 on:
   push:
     branches:
-      - 'dev'
-    #   - 'master'
+      # - 'dev'
+      - 'master'
     paths:
       - 'PID-server/backup/**'
 
