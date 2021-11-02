@@ -1,2 +1,3 @@
 id, target, creator, description
 https://geoconnex.us/iow/homepage, https://internetofwater.org, kyle.onda@gmail.com, Testing the auto-update github action
+https://geoconnex.us/iow/foo, https://google.com, kyle.onda@duke.edu, Testing CI/CD
