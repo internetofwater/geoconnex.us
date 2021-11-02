@@ -1,4 +1,4 @@
-FROM webbben/pids-geoconnex-yourls:latest
+FROM internetofwater/yourls:latest
 
 ENV YOURLS_URL_CONVERT=62
 ENV YOURLS_PRIVATE_API="true"
