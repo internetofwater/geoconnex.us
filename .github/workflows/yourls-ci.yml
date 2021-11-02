@@ -6,7 +6,7 @@ on:
       - 'dev'
     #   - 'master'
     paths:
-      - 'PID-server/**'
+      - 'PID-server/backup/**'
 
 jobs:
   upload-file:
