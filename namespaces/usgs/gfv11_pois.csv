@@ -1,2 +1,0 @@
-id,target,creator,description
-https://geoconnex.us//usgs/gfv11_pois/([a-zA-Z0-9_]+).*$, https://www.sciencebase.gov/catalogMaps/mapping/ows/609c8a63d34ea221ce3acfd3?service=WFS&version=1.0.0&request=GetFeature&srsName=EPSG:4326&typeName=sb::gfv11&outputFormat=json&cql_filter=prvdr_d%3D%27$1%27, dblodgett@usgs.gov, USGS Geospatial Fabric V1.1 Points of Interest

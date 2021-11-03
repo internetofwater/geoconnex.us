@@ -1,2 +1,0 @@
-id,target,creator,description
-https://geoconnex.us//nmwdi/ose/locations/([-a-zA-Z0-9_./]+).*$, http://locations.newmexicowaterdata.org/collections/OSEThings/items/$1, jake.ross@nmt.edu, NMWDI OSE Wells
