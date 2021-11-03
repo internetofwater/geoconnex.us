@@ -1,14 +1,17 @@
+#dont need this anymore, but useful for test deployment
 version: '3'
 
 services:
-  pygeoapi:
-    image: geopython/pygeoapi:latest
+  info-geoconnex-us:
+    image: internetofwater/pygeoapi-geoconnex:latest
     user: root
     ports:
       - "5000:80"
+    restart: always
+  watchtower:
+    image: containrrr/watchtower
     volumes:
-      - ./ext_data:/ext_data
-      - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
-      - ./schemas.opengis.net:/opt/schemas.opengis.net
-      - ./pygeoapi-skin-dashboard:/skin-dashboard
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /root/.docker/config.json:/config.json
+    command: --interval 30 --cleanup
     restart: always
