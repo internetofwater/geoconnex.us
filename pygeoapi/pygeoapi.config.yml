@@ -1,4 +1,6 @@
-# =================================================================
+# 
+# LAST UPDATE: 2021-06-04 15:25:00-5
+#=================================================================
 #
 # Authors: Tom Kralidis <tomkralidis@gmail.com>
 #
@@ -31,9 +33,10 @@ server:
     bind:
         host: localhost #change to your hostname if running your own instance
         port: 5000
-    url: https://info.geoconnex.us #change to host URL  if running your own instance
+    url: https://reference.geoconnex.us #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
+    gzip: true
     language: en-US
     cors: true
     pretty_print: true
@@ -107,7 +110,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/hu02.gpkg
+              data: /data/hu02.gpkg
               id_field: HUC2
               table: hu02
               uri_field: uri
@@ -140,7 +143,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/hu04.gpkg
+              data: /data/hu04.gpkg
               id_field: HUC4
               table: hu04
               uri_field: uri
@@ -173,7 +176,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/hu06.gpkg
+              data: /data/hu06.gpkg
               id_field: HUC6
               table: hu06
               uri_field: uri
@@ -206,7 +209,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/hu08.gpkg
+              data: /data/hu08.gpkg
               id_field: HUC8
               table: hu08
               uri_field: uri
@@ -239,7 +242,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/hu10.gpkg
+              data: /data/hu10.gpkg
               id_field: HUC10
               table: hu10
               uri_field: uri
@@ -278,7 +281,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/nat_aq.gpkg
+              data: /data/nat_aq.gpkg
               id_field: NAT_AQFR_CD
               table: nat_aq
               uri_field: uri
@@ -312,7 +315,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/ref_gages.gpkg
+              data: /data/ref_gages.gpkg
               id_field: id
               table: ref_gages
               uri_field: uri
@@ -351,7 +354,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/states.gpkg
+              data: /data/states.gpkg
               id_field: GEOID
               table: states
               uri_field: uri
@@ -390,7 +393,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/counties.gpkg
+              data: /data/counties.gpkg
               id_field: GEOID
               table: counties
               uri_field: uri
@@ -422,7 +425,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/aiannh.gpkg
+              data: /data/aiannh.gpkg
               id_field: GEOID
               table: aiannh
               uri_field: uri
@@ -454,7 +457,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/cbsa.gpkg
+              data: /data/cbsa.gpkg
               id_field: GEOID
               table: cbsa
               uri_field: uri
@@ -489,7 +492,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/ua10.gpkg
+              data: /data/ua10.gpkg
               id_field: GEOID10
               table: ua10
               uri_field: uri
@@ -528,7 +531,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/places.gpkg
+              data: /data/places.gpkg
               id_field: GEOID
               table: places
               uri_field: uri
@@ -575,7 +578,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /ext_data/pws.gpkg
+              data: /data/pws.gpkg
               id_field: PWSID
               table: pws
               uri_field: uri
