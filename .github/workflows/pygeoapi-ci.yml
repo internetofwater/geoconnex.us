@@ -1,4 +1,4 @@
-name: info.geoconnex.us pygeoapi build
+name: reference.geoconnex.us pygeoapi build
 
 on:
   push:
