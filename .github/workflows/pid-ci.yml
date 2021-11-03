@@ -3,8 +3,8 @@ name: Copy namespaces to pids.geoconnex.us
 on:
   push:
     branches:
-      # - 'dev'
-      - 'master'
+      - 'dev'
+      # - 'master'
     paths:
       - 'namespaces/**'
 
@@ -21,7 +21,7 @@ jobs:
         with:
           source-directory: 'namespaces'
           destination-repository-name : 'internetofwater/pids.geoconnex.us'
-          target-branch: 'main'
+          target-branch: 'dev'
           target-directory: 'build/namespaces'
           user-email: 'benjamin.miller.webb@gmail.com'
           user-name: 'webb-ben'
