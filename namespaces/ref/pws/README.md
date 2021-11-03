@@ -7,7 +7,7 @@ Homepage:
 This is a reference collection of Public Water Systems. These features should be considered community cataloging features and can be referenced as such. 
 
 The current implementation creating these ids and landing-content is in: https://github.com/ksonda/geoconnex_prep and hosted on
-https://info.geoconnex.us/collections/pws. PIDs are based on the EPA SDWIS PWSID (STXXXXXXX)
+https://reference.geoconnex.us/collections/pws. PIDs are based on the EPA SDWIS PWSID (STXXXXXXX)
 
 The landing-content is based on Service Area Boundaries where available, which is currently:
 

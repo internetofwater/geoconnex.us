@@ -78,7 +78,7 @@ for(i in 1:length(l)){
 huc8 <- sf::read_sf("https://geoconnex.us/ref/hu08/13060001")
 
 ## PWS
-pws <- sf::read_sf("https://info.geoconnex.us/collections/pws/items?ST=NM&limit=6000")
+pws <- sf::read_sf("https://reference.geoconnex.us/collections/pws/items?ST=NM&limit=6000")
 pws <- pws[huc8,]
 pws <- filter(pws, PWSID!="NM3591925" & PWSID!="NM3591525" & PWSID!="NM3592725")
 
@@ -119,7 +119,7 @@ wells <- wells %>% filter(organization_key == "PointID")
 wells <- wells[huc8,]
 
 ### Reference Gages
-gages <- sf::read_sf("https://info.geoconnex.us/collections/gages/items?limit=100000000")
+gages <- sf::read_sf("https://reference.geoconnex.us/collections/gages/items?limit=100000000")
 gages <- gages[huc8,]
 
 ## WaDE
@@ -139,10 +139,10 @@ What is geoconnex.us? It is a framework for providers of water data to publish s
 
 ## Beginning our journey -- community reference features
 
-The geoconnex.us framework includes a large and growing catalog of "community reference features" -- neutral internet representations of real-world locations and areas that can be used by water data providers to describe what their published data is about. Many of these reference features are available from the website https://info.geoconnex.us, which is powered by [PyGeoAPI](https://pygeoapi.io), a python implementation of [OGC API-Features](https://www.ogc.org/standards/ogcapi-features). This API enables programmatic interaction with spatial features on the web. 
+The geoconnex.us framework includes a large and growing catalog of "community reference features" -- neutral internet representations of real-world locations and areas that can be used by water data providers to describe what their published data is about. Many of these reference features are available from the website https://reference.geoconnex.us, which is powered by [PyGeoAPI](https://pygeoapi.io), a python implementation of [OGC API-Features](https://www.ogc.org/standards/ogcapi-features). This API enables programmatic interaction with spatial features on the web. 
 
 
-What's available from https://info.geoconnex.us? We have collated a variety of common hydrologic and administrative locations and boundaries, and will continue to add more.
+What's available from https://reference.geoconnex.us? We have collated a variety of common hydrologic and administrative locations and boundaries, and will continue to add more.
 
 ```{r, include=FALSE}
 convert <- function(x) {
@@ -177,7 +177,7 @@ for(i in 1:length(l)){
 ```
 ```{r}
 
-collection_url <- "https://info.geoconnex.us/collections"
+collection_url <- "https://reference.geoconnex.us/collections"
 collections <- jsonlite::fromJSON(collection_url)
 
 knitr::kable(select(collections$collections, title, description))
@@ -197,7 +197,7 @@ Let's use New Mexico as our area of interest.
 
 
 ```{r, message=FALSE, warning=FALSE}
-nm_url <- "https://info.geoconnex.us/collections/states/items?STUSPS=NM"
+nm_url <- "https://reference.geoconnex.us/collections/states/items?STUSPS=NM"
 
 nm <- sf::read_sf(nm_url)
 
@@ -238,7 +238,7 @@ Now let's pivot to look at some data that might be of particular interest. Let's
 
 ```{r, message=FALSE, warning=FALSE}
 ## nm
-NM_places <- sf::read_sf("https://info.geoconnex.us/collections/places/items?STATEFP=35&limit=10000000")
+NM_places <- sf::read_sf("https://reference.geoconnex.us/collections/places/items?STATEFP=35&limit=10000000")
 
 LasVegas <- filter(NM_places, NAME=="Las Vegas")
 
@@ -250,7 +250,7 @@ print(LasVegas$uri)
 By printing the `uri`, we can see the URI for the city of Las Vegas, NM. Now, what if I want to see which Public Water Systems (PWS) serve this city? Let's see what Queryables the PWS reference features offer:
 
 ```{r, message=FALSE, warning=FALSE}
-knitr::kable(fromJSON("https://info.geoconnex.us/collections/pws/queryables"))
+knitr::kable(fromJSON("https://reference.geoconnex.us/collections/pws/queryables"))
 
 ```
 
@@ -259,7 +259,7 @@ We can query by `CITY_SERVED_uri`. Let's try it.
 ```{r, message=FALSE, warning=FALSE}
 LasVegasURI <- "https://geoconnex.us/ref/places/3539940"
 
-LasVegas_PWS <- sf::read_sf(paste0("https://info.geoconnex.us/collections/pws/items?CITY_SERVED_uri=",LasVegasURI))
+LasVegas_PWS <- sf::read_sf(paste0("https://reference.geoconnex.us/collections/pws/items?CITY_SERVED_uri=",LasVegasURI))
 
 list <- convert_L(list("Las Vegas PWS"=LasVegas_PWS,"Las Vegas"=LasVegas))
 
@@ -285,7 +285,7 @@ Now let's find some more of this other data published by other organizations, no
 
 ```{r,message=FALSE, warning=FALSE}
 
-hu08_url <- paste0("https://info.geoconnex.us/collections/hu08/items?bbox=",
+hu08_url <- paste0("https://reference.geoconnex.us/collections/hu08/items?bbox=",
                    paste(sf::st_bbox(nm_feature), collapse = ","))
 
 hu08 <- sf::read_sf(hu08_url)
@@ -416,7 +416,7 @@ knitr::kable(fromJSON("https://labs.waterdata.usgs.gov/api/nldi/linked-data"))
 
 ```
 
-We can use the NLDI to find [USGS National Water Information System (NWIS)](https://waterdata.usgs.gov/nwis?wat) Sites and WaDE sites (which are also available from the Reference Gages feature collection in [info.geoconnex.us](https://geoconnex.us) and from WaDE itself from [wade-test.geoconnex.us](https://wade-test.geoconnex.us), respectively), as well as [Water Quality Portal (WQP)](https://www.waterqualitydata.us/) Sites. In the future, any organizations interested in participating in Geoconnex should also consider adding their location metadata to the NLDI. 
+We can use the NLDI to find [USGS National Water Information System (NWIS)](https://waterdata.usgs.gov/nwis?wat) Sites and WaDE sites (which are also available from the Reference Gages feature collection in [reference.geoconnex.us](https://geoconnex.us) and from WaDE itself from [wade-test.geoconnex.us](https://wade-test.geoconnex.us), respectively), as well as [Water Quality Portal (WQP)](https://www.waterqualitydata.us/) Sites. In the future, any organizations interested in participating in Geoconnex should also consider adding their location metadata to the NLDI. 
 
 Rather than finding these sites from the knowledge graph about the Pecos Headwaters HUC8, below we use the NLDI to find only those sites that are indexed to the mainstem of the Pecos River downstream of the Las Vegas WWTP.
 

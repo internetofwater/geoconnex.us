@@ -1,4 +1,4 @@
-# https://info.geoconnex.us pygeoapi configuration
+# https://reference.geoconnex.us pygeoapi configuration
 
 The geoconnex reference data server is a work in progress based on the [pygeoapi project.](https://pygeoapi.io/)
 
@@ -32,7 +32,7 @@ See existing datasets for sample configuration. The configuration should include
             - uri: "@id"
 ```
 
-The `uri` element is required and ensures that the attributes get associated with the feature's PID rather than the URL of the https://info.geoconnex.us reference data server.
+The `uri` element is required and ensures that the attributes get associated with the feature's PID rather than the URL of the https://reference.geoconnex.us reference data server.
 
 Many other context elements are possible. The [ELFIE project](https://opengeospatial.github.io/ELFIE/) has focused on that topic and can be a source of inspiration.
 
@@ -40,7 +40,7 @@ It is expected that the attributes and richness of these contexts will expand ov
 
 ### PIDs for features
 
-The features hosed in the https://info.geoconnex.us are intended to provide landing pages for PIDs registered in the `https://geoconnex.us/ref/` namespace, more info on those features can be found [here](https://github.com/internetofwater/geoconnex.us/tree/master/namespaces/ref)
+The features hosed in the https://reference.geoconnex.us are intended to provide landing pages for PIDs registered in the `https://geoconnex.us/ref/` namespace, more info on those features can be found [here](https://github.com/internetofwater/geoconnex.us/tree/master/namespaces/ref)
 
 These reference features are intended to be ["community reference locations"](https://github.com/internetofwater/geoconnex.us/wiki/Community-Reference-Locations) and will be created based on broadly-recognized reference data or by a community group interested in registering a wholistic set of reference identifiers that unify multiple organization's identifiers of a similar type. Please [open a new general issue](https://github.com/internetofwater/geoconnex.us/issues/new?template=general.md&title=%5Bgeneral%5D) to discuss an idea for a new set of reference identifiers.
 
