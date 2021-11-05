@@ -32,9 +32,9 @@ The preferred way to create the redirects yourself is by following these steps:
 
 If you have a collection of >300,000 features that cannot be easily and consistently subdivided, please submit a request for a regular expression redirect. To do so, you may [create an issue of type "Request regex redirect"](https://github.com/internetofwater/geoconnex.us/issues/new?assignees=dblodgett-usgs%2C+ksonda&labels=PID+request&template=request-regex-redirect.md&title=[regex+redirect+request) and fill out the template.
 
-### Adding geospatial reference features to reference.geoconnex.us
+### Adding geospatial reference features to info.geoconnex.us
 
-[https://reference.geoconnex.us](https://reference.geoconnex.us) is available to host community reference features. See the readme in the [pygeoapi](pygeoapi) folder for more info.
+[https://info.geoconnex.us](https://info.geoconnex.us) is available to host community reference features. See the readme in the [pygeoapi](pygeoapi) folder for more info.
 
 ## Licensing of geoconnex.us contributions.
 

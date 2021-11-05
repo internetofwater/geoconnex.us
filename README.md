@@ -45,7 +45,7 @@ These features can also be described using their role in the linked-data system.
 
 Features are registered in the [namespaces](https://github.com/internetofwater/geoconnex.us/tree/master/namespaces) folder. Namespaces contains organizations, datasets, and a special `https://geoconnex.us/ref` namespace reserved for community reference features not owned by a single organization.
 
-**See the [OGC API Features](https://reference.geoconnex.us/) for the reference features hosted by geoconnex.us**
+**See the [OGC API Features](https://info.geoconnex.us/) for the reference features hosted by geoconnex.us**
 
 ## Geoconnex.us-related presentations and publications.
 - [National Hydrography Infrastructure and Geoconnex](https://drive.google.com/file/d/1J0NKYOq3pGjQXr58FKO8sd7uHpGA8kNB/view?usp=sharing)
