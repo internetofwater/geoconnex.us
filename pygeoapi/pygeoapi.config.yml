@@ -332,16 +332,16 @@ resources:
               name_at_outlet: schema:name
             - wiki: https://www.wikidata.org/wiki/
               head_nhdpv2_COMID:
-                "@id": wiki:Q7376362
+                "@id": wiki:Property:P885
                 "@type": "@id"
               outlet_nhdpv2_COMID:
-                "@id": wiki:Q1233637
+                "@id": wiki:Property:P403
                 "@type": "@id"
               head_nhdpv2HUC12:
-                "@id": wiki:Q7376362
+                "@id": wiki:Property:P885
                 "@type": "@id"
               outlet_nhdpv2HUC12:
-                "@id": wiki:Q1233637
+                "@id": wiki:Property:P403
                 "@type": "@id"
               lengthkm: https://www.wikidata.org/wiki/Property:P2043
               outlet_drainagearea_sqkm: https://www.wikidata.org/wiki/Property:P2053
@@ -364,7 +364,7 @@ resources:
               data: /data/mainstems.gpkg
               id_field: id
               table: mainstems
-              uri_field: id
+              uri_field: uri
     states:
         type: collection
         title: States
