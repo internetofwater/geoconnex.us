@@ -330,10 +330,19 @@ resources:
             - schema: https://schema.org/
               type: "@type"
               name_at_outlet: schema:name
-              head_nhdpv2_COMID: https://www.wikidata.org/wiki/Q7376362
-              outlet_nhdpv2_COMID: https://www.wikidata.org/wiki/Q1233637
-              head_nhdpv2HUC12: https://www.wikidata.org/wiki/Q7376362
-              outlet_nhdpv2HUC12: https://www.wikidata.org/wiki/Q1233637
+            - wiki: https://www.wikidata.org/wiki/
+              head_nhdpv2_COMID:
+                "@id": wiki:Q7376362
+                "@type": "@id"
+              outlet_nhdpv2_COMID:
+                "@id": wiki:Q1233637
+                "@type": "@id"
+              head_nhdpv2HUC12:
+                "@id": wiki:Q7376362
+                "@type": "@id"
+              outlet_nhdpv2HUC12:
+                "@id": wiki:Q1233637
+                "@type": "@id"
               lengthkm: https://www.wikidata.org/wiki/Property:P2043
               outlet_drainagearea_sqkm: https://www.wikidata.org/wiki/Property:P2053
         links:
