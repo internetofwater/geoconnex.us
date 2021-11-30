@@ -328,7 +328,9 @@ resources:
             - Mainstem
         context:
             - schema: https://schema.org/
-              type: "@type"
+              featuretype:
+                "@id": "@type"
+                "@type": "@id"
               name_at_outlet: schema:name
             - wiki: https://www.wikidata.org/wiki/
               head_nhdpv2_COMID:
