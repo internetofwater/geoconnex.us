@@ -32,6 +32,8 @@ ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/co
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/pws.gpkg /data/
 #ref_gages last updated 2021-06-04
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/ref_gages.gpkg /data/
+#mainstems last updated 2021-11-30
+ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/mainstems.gpkg /data/
 
 #add requirements and mods
 COPY ./pygeoapi.config.yml /pygeoapi/local.config.yml
