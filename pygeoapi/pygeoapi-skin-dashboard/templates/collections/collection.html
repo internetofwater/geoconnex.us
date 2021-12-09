@@ -16,6 +16,12 @@
         <div class="col-sm">
           <h1>{{ data['title'] }}</h1>
           <p>{{ data['description'] }}</p>
+		  <ul>
+          <li>
+            <a title="{{data['links'][0]['rel'] }}" href="{{ data['links'][0]['href'] }}">
+            <span>{{ data['links'][0]['title'] }}</span> (<span>{{ data['links'][0]['type'] }}</span>)
+            </a></li>
+      </ul>
           <p>
             {% for kw in data['keywords'] %}
               <span class="badge badge-info">{{ kw }}</span>
