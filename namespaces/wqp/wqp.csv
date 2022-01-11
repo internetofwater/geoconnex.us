@@ -1,0 +1,2 @@
+id,target,creator,description
+https://geoconnex.us//wqp/([-a-zA-Z0-9_./]+).*$, https://www.waterqualitydata.us/provider/$1, kyle.onda@duke.edu, WQP Sites
