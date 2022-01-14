@@ -7,16 +7,29 @@ The `geoconnex.us` project is about providing technical infrastructure and guida
 
 In short, `geoconnex.us` aims to make water data as easily discoverable, accessible, and usable as possible.
 
-## Why geoconnex.us?
+## What is geoconnex.us?
 
-Persistent identifiers are important for maintaining a system of linked environmental data systems in order to reduce the problem of broken links when data publishers change URLs and maintain the integrity of search indexes built by web crawlers.
-
-The value of `https://geoconnex.us` can be illustrated considering two use cases:
+Geoconnex aims to be a [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph) for water data in the United States. The value of `https://geoconnex.us` can be illustrated considering two use cases:
 
 1. Indexing and discovering models and research from public sector, private sector, or academic projects about a particular place or environmental feature.  
 1. Building a federated multi-organization monitoring network in which all member-systems reference common monitored features and are discoverable through a community index.
 
-See [https://geoconnex.us/demo](https://geoconnex.us/demo) for a mockup of data discovery and access workflows that `https://geoconnex.us` aspires to enable.
+See [https://geoconnex.us/demo](https://geoconnex.us/demo) for a mockup of data discovery and access workflows that `https://geoconnex.us` aspires to enable. 
+
+Architecturally, geoconnex.us involves:
+
+1. A set of community-curated web resources about hydrologic *reference features* (e.g. watersheds, monitoring locations, dams, bridges, etc.) about which many organizations may collect and publish data. 
+1. Web resources about hydrologic features that organizations publish on the web, including embedded JSON-LD metadata, using common ontologies such as [schema.org](https://schema.org), and domain-specific ontologies such as [HY-Features](https://www.opengis.net/def/schema/hy_features/hyf) for hydrology and [SOSA/SSN](https://www.w3.org/TR/vocab-ssn/) for sensor data.
+1. A harvester that collects the JSON-LD published above, and publishes the resulting knowledge graph as both a public domain data product and an open API, allowing for the building of search interfaces.
+
+See the figure below:
+<img width="1230" alt="image" src="https://user-images.githubusercontent.com/44071350/149584683-48c60f86-1f53-4ad3-a2d0-458a9dcf3150.png">
+
+
+
+Persistent identifiers are important for maintaining a system of linked environmental data systems in order to reduce the problem of broken links when data publishers change URLs and maintain the integrity of search indexes built by web crawlers.
+
+
 
 These use cases imply requirements that `https://geoconnex.us` helps satisfy:
 
