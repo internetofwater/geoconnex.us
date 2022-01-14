@@ -32,7 +32,7 @@ See the figure below:
 The features registered in `https://geoconnex.us` are either community reference features or associated with a particular organization or database.
 
 1. community reference features: monitoring and environmental features collated by a person or group in the interest of the community. These features are available via OGC API Features at [reference.geoconnex.us](https://reference.geoconnex.us/collections). See this [R Shiny application](https://internetofwater.shinyapps.io/geoconnex-reference-features) for a simple map-based search interface for reference features.
-1. organization specific features: features owned by a particular organizational entity or from a specific dataset. These
+1. organization specific features: features owned by a particular organizational entity or from a specific dataset. 
 
 
 ## Geoconnex.us-related presentations and publications.
