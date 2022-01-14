@@ -1,11 +1,11 @@
 ![logo](https://user-images.githubusercontent.com/44071350/111527969-eb43b980-8736-11eb-82ca-3418b045df4b.png)
 
 
-# Permanent Identifiers (PIDs) for US Hydrologic Features
+# About the project
 
-This is the registry for PIDs with the base https://geoconnex.us, principally to assign permanent identifiers and redirects for hydrologic and other spatial features in the United States as an implementation of [Internet of Water](https://github.com/opengeospatial/SELFIE/blob/master/docs/demo/internet_of_water.md) principles.
+The `geoconnex.us` project is about providing technical infrastructure and guidance to create an open, community-contribution model for a knowledge graph linking hydrologic features in the United States, published in accordance with [Spatial Data on the Web best practives](https://www.w3.org/TR/sdw-bp/) as an implementation of [Internet of Water](https://github.com/opengeospatial/SELFIE/blob/master/docs/demo/internet_of_water.md) principles.
 
-The `https://geoconnex.us` project is intentionally incremental -- seeking to build useful capabilities incrementally as we scale up adoption and capabilities. The project's success is contingent on broad contribution and adoption. See [the contributing guidelines](https://github.com/internetofwater/geoconnex.us/blob/master/CONTRIBUTING.md) for more.
+In short, `geoconnex.us` aims to make water data as easily discoverable, accessible, and usable as possible.
 
 ## Why geoconnex.us?
 
