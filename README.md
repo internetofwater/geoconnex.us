@@ -19,46 +19,21 @@ See [https://geoconnex.us/demo](https://geoconnex.us/demo) for a mockup of data 
 Architecturally, geoconnex.us involves:
 
 1. A set of community-curated web resources about hydrologic *reference features* (e.g. watersheds, monitoring locations, dams, bridges, etc.) about which many organizations may collect and publish data. 
-1. Web resources about hydrologic features that organizations publish on the web, including embedded JSON-LD metadata, using common ontologies such as [schema.org](https://schema.org), and domain-specific ontologies such as [HY-Features](https://www.opengis.net/def/schema/hy_features/hyf) for hydrology and [SOSA/SSN](https://www.w3.org/TR/vocab-ssn/) for sensor data.
-1. A harvester that collects the JSON-LD published above, and publishes the resulting knowledge graph as both a public domain data product and an open API, allowing for the building of search interfaces.
+1. Web resources about hydrologic features that organizations publish on the web, including embedded JSON-LD metadata, using common ontologies such as [schema.org](https://schema.org), and domain-specific ontologies such as [HY-Features](https://www.opengis.net/def/schema/hy_features/hyf) for hydrology and [SOSA/SSN](https://www.w3.org/TR/vocab-ssn/) for sensor data. Guidance for embedded JSON-LD is under development at [docs.geoconnex.us](https://github.com/internetofwater/docs.geoconnex.us)
+1. A registry of persistent identifiers (PIDs) that point to the above resources. Learn how to submit identifiers for the registry here: [CONTRIBUTING](CONTRIBUTING.md). PIDs are important to maintain so that data publishers can change the URLs of their web resources while the knowledge graph and any search engine remain functional (preventing [link rot](https://en.wikipedia.org/wiki/Link_rot))
+1. A harvester that collects the JSON-LD published above, and publishes the resulting knowledge graph as both a public domain data product and an open API, allowing for the building of search interfaces. The harvester codebase is under development at [harvest.geoconnex.us](https://github.com/internetofwater/harvest.geoconnex.us), and the knowledge graph itself will be available from [graph.geoconnex.us](https://graph.geoconnex.us)
 
 See the figure below:
 <img width="1230" alt="image" src="https://user-images.githubusercontent.com/44071350/149584683-48c60f86-1f53-4ad3-a2d0-458a9dcf3150.png">
 
 
-
-Persistent identifiers are important for maintaining a system of linked environmental data systems in order to reduce the problem of broken links when data publishers change URLs and maintain the integrity of search indexes built by web crawlers.
-
-
-
-These use cases imply requirements that `https://geoconnex.us` helps satisfy:
-
-1. A shared reference network of environmental features.
-1. The ability to use the reference network to index and provide access to information resources from many organizations.
-1. Support for multiple disciplines' information models, conceptual models, research topics, and monitoring practices.
-
-`https://geoconnex.us` seeks to achieve these goals with sustainable and automatable solutions to link multi-disciplinary, multi-organization environmental data without the requirement to transfer custody or burden of maintenance of data.
-
-`https://geoconnex.us` is built on [W3C best practices](https://www.w3.org/TR/sdw-bp/), providing guidance and a common approach for encoding environmental feature data and links between and among features and observational data about them.
-
-`https://geoconnex.us` is intended to satisfy the needs of many use cases and many kinds of features, from disaster response and resilience to environmental health and the built environment.
-
-## Features in `https://geoconnex.us`
+## What is in geoconnex.us?
 
 The features registered in `https://geoconnex.us` are either community reference features or associated with a particular organization or database.
 
-1. community reference features: monitoring and environmental features collated by a person or group in the interest of the community
-1. organization specific features: features owned by a particular organizational entity or from a specific dataset
+1. community reference features: monitoring and environmental features collated by a person or group in the interest of the community. These features are available via OGC API Features at [reference.geoconnex.us](https://reference.geoconnex.us/collections). See this [R Shiny application](https://internetofwater.shinyapps.io/geoconnex-reference-features) for a simple map-based search interface for reference features.
+1. organization specific features: features owned by a particular organizational entity or from a specific dataset. These
 
-These features can also be described using their role in the linked-data system.
-
-1. Monitoring: locations at which organizations monitor the environment.
-1. Cataloging: environmental, jurisdictional, or hydrologic units that can be used to group and sort data.
-1. Environmental: real-world features that are the subject of monitoring.
-
-Features are registered in the [namespaces](https://github.com/internetofwater/geoconnex.us/tree/master/namespaces) folder. Namespaces contains organizations, datasets, and a special `https://geoconnex.us/ref` namespace reserved for community reference features not owned by a single organization.
-
-**See the [OGC API Features](https://reference.geoconnex.us/) for the reference features hosted by geoconnex.us**
 
 ## Geoconnex.us-related presentations and publications.
 - [National Hydrography Infrastructure and Geoconnex](https://drive.google.com/file/d/1J0NKYOq3pGjQXr58FKO8sd7uHpGA8kNB/view?usp=sharing)
