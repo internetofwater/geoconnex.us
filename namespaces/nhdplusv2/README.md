@@ -16,10 +16,22 @@ HUC12s currently redirect to a HUC12 outlet (pour point) feature in the Network 
 
 NHDPlusV2 Common Identifiers:
 
-* The "COMID" is a shared identifier for NHDPlus flowlines and catchments. 
+* The "COMID" is a shared identifier for NHDPlus flowlines and catchments.
 * https://geoconnex.us/nhdplusv2/comid/13293480
 
 COMIDs currently redirect to a flowline representation of the identified catchment from the Network Linked Data Index. In the future, this should redirect to a more complete description of the catchment and associated data.
 
-Contacts: 
+NHDPlusV2 Reachcodes
+
+* Reachcodes identify collections of flowlines. They are commonly used in hydrographic addressing.
+* https://geoconnex.us/nhdplusv2/reachcode/12040104000071
+
+Redirects currently resolve a geojson representation of the reach.
+
+NHDPlusV2 Waterbodies
+
+* NHDPlusV2 waterbodies are a snapshot of the NHD Waterbodies layer included in the NHDPlusV2 dataset. Waterbody "comid" identifiers are used for the redirect.
+* https://geoconnex.us//nhdplusv2/nhdwaterbody_comid/806161
+
+Contacts:
 * Creator <dblodgett@usgs.gov>
