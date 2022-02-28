@@ -2,7 +2,7 @@ WaDE
 ===
 
 Homepage:
-* https://www.wade.westernstateswater.org/
+* https://westernstateswater.org/wade
 
 These mappings are for Western States Water Council Water Data Exchange (WaDE) sites. Sites are standardized representations of points of diversion (PODs), points of use (POUs) and other points of interest having to do with water rights administration in the western states. This collection will grow and evolve over time.
 
