@@ -299,11 +299,19 @@ resources:
               subjectOf:
                   "@id": schema:subjectOf
                   "@type": "@id"
+            - hyf: https://www.opengis.net/def/schema/hy_features/hyf/
+              mainstem_uri:
+                "@id": hyf:flowpath
+                "@type": "@id"
+            - sosa: http://www.w3.org/ns/sosa/
+              mainstem_uri:
+                "@id": sosa:isSampleOf
+                "@type": "@id"
         links:
             - type: application/html
               rel: canonical
               title: data source
-              href: https://github.com/dblodgett-usgs/ref_gages
+              href: https://github.com/internetofwater/ref_gages
               hreflang: en-US
         extents:
             spatial:
