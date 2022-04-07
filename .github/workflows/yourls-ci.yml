@@ -7,6 +7,7 @@ on:
       - 'master'
     paths:
       - 'PID-server/backup/**'
+  workflow_dispatch:  
 
 jobs:
   upload-file:
