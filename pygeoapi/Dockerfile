@@ -1,5 +1,5 @@
 FROM internetofwater/pygeoapi:latest
-#pygeoapi last updated 2022-02-23
+#pygeoapi last updated 2022-04-07
 
 #Add data directory
 RUN mkdir /data
