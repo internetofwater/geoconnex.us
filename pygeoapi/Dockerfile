@@ -1,4 +1,4 @@
-FROM internetofwater/pygeoapi:stable
+FROM internetofwater/pygeoapi:latest
 #pygeoapi last updated 2022-02-23
 
 #Add data directory
