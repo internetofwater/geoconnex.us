@@ -248,9 +248,9 @@ resources:
               uri_field: uri
     nat_aq:
         type: collection
-        title: National Aquifers
+        title: USGS National Aquifers
         geojsonld: false
-        description: National Aquifers of the United States
+        description: National Aquifers of the United States from USGS National Water Information System National Aquifer code list.
         keywords:
             - National Aquifers
             - Principle Aquifers
@@ -260,6 +260,9 @@ resources:
               LINK:
                   "@id": schema:subjectOf
                   "@type": "@id"
+              sameas:
+                  "@id": schema:sameAs
+                  "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -267,13 +270,13 @@ resources:
               href: https://cida.usgs.gov/ngwmn/
               hreflang: en-US
             - type: application/html
-              rel: canonical
-              title: data source
-              href: https://cida.usgs.gov/ngwmn/
+              rel: alternate
+              title: code list with links
+              href: https://water.usgs.gov/ogw/NatlAqCode-reflist.html
               hreflang: en-US
         extents:
             spatial:
-                bbox: [-170, 15, -51, 72]
+                bbox: [-160, 18, -64, 50]
                 crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
             temporal:
                 begin: null
@@ -284,6 +287,78 @@ resources:
               data: /data/nat_aq.gpkg
               id_field: NAT_AQFR_CD
               table: nat_aq
+              uri_field: uri
+    principle_aq:
+        type: collection
+        title: USGS Principle Aquifers
+        geojsonld: false
+        description: Principle Aquifers of the United States from 2003 USGS data release
+        keywords:
+            - National Aquifers
+            - Principle Aquifers
+        context:
+            - schema: https://schema.org/
+              AQ_NAME: schema:name
+              sameas:
+                  "@id": schema:sameAs
+                  "@type": "@id"
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://water.usgs.gov/GIS/metadata/usgswrd/XML/aquifers_us.xml
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-160, 18, -64, 50]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /data/princi_aq.gpkg
+              id_field: AQ_CODE
+              table: princi_aq
+              uri_field: uri
+    sec_hydrg_reg:
+        type: collection
+        title: USGS Secondary Hydrogeologic Regions
+        geojsonld: false
+        description: Secondary Hydrogeologic Regions of the Conterminous United States from 2018 USGS data release
+        keywords:
+            - National Aquifers
+            - Principle Aquifers
+            - Hydrogeologic Regions
+        context:
+            - schema: https://schema.org/
+              SHR: schema:name
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://doi.org/10.5066/F7F76BSS
+              hreflang: en-US
+        links:
+            - type: application/html
+              rel: canonical
+              title: report documenting data
+              href: https://doi.org/10.1111/gwat.12806
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-125, 26, -66, 50]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /data/sec_hydrg_reg.gpkg
+              id_field: id
+              table: sec_hydrg_reg
               uri_field: uri
     gages:
         type: collection
