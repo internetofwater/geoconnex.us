@@ -31,7 +31,7 @@
 			"hyf:HY_IndirectPosition": {
 				"hyf:distanceExpression": {
 					"hyf:HY_DistanceFromReferent": {
-						"hyf:interpolative": "{{ data.nhdpv2_REACH_measure }}"
+						"hyf:interpolative": {{ data.nhdpv2_REACH_measure }}
 					}
 				},
 				"hyf:distanceDescription": {
