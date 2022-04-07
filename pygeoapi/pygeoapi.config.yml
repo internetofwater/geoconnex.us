@@ -288,7 +288,7 @@ resources:
               id_field: NAT_AQFR_CD
               table: nat_aq
               uri_field: uri
-    princi_aq:
+    principle_aq:
         type: collection
         title: USGS Principle Aquifers
         geojsonld: false
