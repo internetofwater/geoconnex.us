@@ -14,7 +14,7 @@ ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/co
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/hu08.gpkg /data/
 #HU10 last updated 2021-06-04
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/hu10.gpkg /data/
-#nat_aq last updated 2021-06-04
+#nat_aq last updated 2022-04-07
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/nat_aq.gpkg /data/
 #states last updated 2021-06-04
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/states.gpkg /data/
@@ -34,6 +34,10 @@ ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/co
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/ref_gages.gpkg /data/
 #mainstems last updated 2021-12-01
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/mainstems.gpkg /data/
+#secondary hydrogeologic regions last updated 2022-04-07
+ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/sec_hydrg_reg.gpkg /data/
+#principle aquifers last updated 2022-04-07
+ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/princi_aq.gpkg /data/
 
 #add requirements and mods
 COPY ./pygeoapi.config.yml /pygeoapi/local.config.yml
