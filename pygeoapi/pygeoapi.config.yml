@@ -318,7 +318,7 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /data/princi.gpkg
+              data: /data/princi_aq.gpkg
               id_field: AQ_CODE
               table: princi_aq
               uri_field: uri
@@ -358,7 +358,7 @@ resources:
               name: SQLiteGPKG
               data: /data/sec_hydrg_reg.gpkg
               id_field: id
-              table: princi_aq
+              table: sec_hydrg_reg
               uri_field: uri
     gages:
         type: collection
