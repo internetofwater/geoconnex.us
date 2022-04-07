@@ -71,12 +71,12 @@ metadata:
         name: Team geoconnex
         url: https://github.com/internetofwater/geoconnex.us
     contact:
-        address: 2111 Campus Dr
-        city: Durham
-        stateorprovince: North Carolina
-        postalcode: 27708
+        address: 113 Brattle St
+        city: Cambridge
+        stateorprovince: Massachussetts
+        postalcode: 02138
         country: USA
-        email: kyle.onda@duke.edu
+        email: konda@lincolninst.edu
         url: https://internetofwater.org
         role: pointOfContact
 
@@ -367,21 +367,7 @@ resources:
         description: US Reference Stream Gage Monitoring Locations
         keywords:
             - Stream Gage
-        context:
-            - schema: https://schema.org/
-              name: schema:name
-              description: schema:description
-              subjectOf:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
-            - hyf: https://www.opengis.net/def/schema/hy_features/hyf/
-              mainstem_uri:
-                  "@id": hyf:flowpath
-                  "@type": "@id"
-            - sosa: http://www.w3.org/ns/sosa/
-              mainstem_uri:
-                  "@id": sosa:isSampleOf
-                  "@type": "@id"
+        template: jsonld/ref-gages.jsonld
         links:
             - type: application/html
               rel: canonical

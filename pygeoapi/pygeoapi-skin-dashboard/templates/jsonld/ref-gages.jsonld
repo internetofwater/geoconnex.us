@@ -1,0 +1,59 @@
+{
+	"@context": [
+		{
+			"schema": "http://schema.org/",
+			"skos": "https://www.w3.org/TR/skos-reference/",
+			"hyf": "https://www.opengis.net/def/schema/hy_features/hyf/",
+			"gsp": "http://www.opengeospatial.org/standards/geosparql/",
+			"name": "schema:name",
+			"sameAs": "schema:sameAs",
+			"related": "skos:related",
+			"description": "schema:description",
+			"geo": "schema:geo",
+			"image": {
+				"@id": "schema:image",
+				"@type": "@id"
+			}
+		}
+	],
+	"@id": "{{ data["@id"] }}",
+	"@type": [
+		"https://www.opengis.net/def/schema/hy_features/hyf/HY_HydrometricFeature",
+		"https://www.opengis.net/def/schema/hy_features/hyf/HY_HydroLocation"
+	],
+    "name": "{{ data.name }}",
+	"description": "{{ data.description }}",
+{% if (data.nhdpv2_REACHCODE or data.mainstem_uri) %}    
+	"hyf:referencedPosition":   
+    [
+{% if data.nhdpv2_REACHCODE %}  
+		{
+			"hyf:HY_IndirectPosition": {
+				"hyf:distanceExpression": {
+					"hyf:HY_DistanceFromReferent": {
+						"hyf:interpolative": "{{ data.nhdpv2_REACH_measure }}"
+					}
+				},
+				"hyf:distanceDescription": {
+					"hyf:HY_DistanceDescription": "upstream"
+				},
+				"hyf:linearElement": "https://geoconnex.us/nhdplusv2/reachcode/{{ data.nhdpv2_REACHCODE }}"
+			}
+		}
+{% if data.mainstem_uri %} 
+,
+{% endif %} 
+{% endif %}  
+{% if data.mainstem_uri %}  
+		{
+			"hyf:HY_IndirectPosition": {
+				"hyf:linearElement": "{{ data.mainstem_uri }}"
+			}
+		}
+{% endif %} 
+	],     
+{% endif %}    
+	"hyf:HY_HydroLocationType": "hydrometricStation",
+    "geo": {{ data['schema:geo'] | to_json | safe }},
+    "gsp:hasGeometry": {{ data['gsp:hasGeometry'] | to_json }}
+}

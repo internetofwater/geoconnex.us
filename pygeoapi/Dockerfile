@@ -41,5 +41,5 @@ ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/co
 
 #add requirements and mods
 COPY ./pygeoapi.config.yml /pygeoapi/local.config.yml
-COPY ./schemas.opengis.net /opt/schemas.opengis.net
+# COPY ./schemas.opengis.net /opt/schemas.opengis.net
 COPY ./pygeoapi-skin-dashboard /skin-dashboard
