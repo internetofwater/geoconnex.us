@@ -11,7 +11,7 @@ Belitz, K., Watson, E., Johnson, T.D., and Sharpe, J.B., 2018, Data release for 
 The current implementation creating these ids and landing-content is in: https://github.com/internetofwater/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/sec_hydrg_reg geojson source for the landing content is available in [this repository here.](https://github.com/internetofwater/geoconnex.us/blob/master/pygeoapi/ext_data/sec_hydrg_reg.geojson)
 
 Example:
-https://geoconnex.us/ref/sec_hydrg_reg/SHR47
+https://geoconnex.us/ref/sec_hydrg_reg/S47
 
 Contacts:
 * dblodgett <dblodgett@usgs.gov>
