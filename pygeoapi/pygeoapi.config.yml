@@ -252,7 +252,7 @@ resources:
         description: National Aquifers of the United States from USGS National Water Information System National Aquifer code list.
         keywords:
             - National Aquifers
-            - Principle Aquifers
+            - Principal Aquifers
         context:
             - schema: https://schema.org/
               AQ_NAME: schema:name
@@ -287,14 +287,14 @@ resources:
               id_field: NAT_AQFR_CD
               table: nat_aq
               uri_field: uri
-    principle_aq:
+    principal_aq:
         type: collection
-        title: USGS Principle Aquifers
+        title: USGS Principal Aquifers
         geojsonld: false
-        description: Principle Aquifers of the United States from 2003 USGS data release
+        description: Principal Aquifers of the United States from 2003 USGS data release
         keywords:
             - National Aquifers
-            - Principle Aquifers
+            - Principal Aquifers
         context:
             - schema: https://schema.org/
               AQ_NAME: schema:name
@@ -328,7 +328,7 @@ resources:
         description: Secondary Hydrogeologic Regions of the Conterminous United States from 2018 USGS data release
         keywords:
             - National Aquifers
-            - Principle Aquifers
+            - Principal Aquifers
             - Hydrogeologic Regions
         context:
             - schema: https://schema.org/

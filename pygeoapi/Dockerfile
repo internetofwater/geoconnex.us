@@ -36,7 +36,7 @@ ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/co
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/mainstems.gpkg /data/
 #secondary hydrogeologic regions last updated 2022-04-08
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/sec_hydrg_reg.gpkg /data/
-#principle aquifers last updated 2022-04-07
+#principal aquifers last updated 2022-04-11
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/princi_aq.gpkg /data/
 
 #add requirements and mods

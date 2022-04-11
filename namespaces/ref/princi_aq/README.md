@@ -11,7 +11,7 @@ These aquifers have a 1:1 correspondence with the [National Aquifers of the Unit
 The current implementation creating these ids and landing-content is in: https://github.com/internetofwater/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/nat_aq geojson source for the landing content is available in [this repository here.](https://github.com/internetofwater/geoconnex.us/blob/master/pygeoapi/ext_data/nat_aq.geojson)
 
 Example:
-* https://geoconnex.us/ref/principle_aq/108
+* https://geoconnex.us/ref/principal_aq/108
 
 Contacts:
 * dblodgett <dblodgett@usgs.gov>
