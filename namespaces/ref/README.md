@@ -15,7 +15,7 @@ Expected types are:
 - dams
 - gages
 - wells
-- principle-aquifers
+- principal-aquifers
 - mainstems
 
 Each reference feature type should either be an established set of persistent features or be created through a community process that is intended to integrate all available sources of relevant features into a community reference collection.
