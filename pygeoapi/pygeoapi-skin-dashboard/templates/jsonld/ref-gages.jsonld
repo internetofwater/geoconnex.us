@@ -1,8 +1,8 @@
 {
 	"@context": [
 		{
-			"schema": "http://schema.org/",
-			"skos": "https://www.w3.org/TR/skos-reference/",
+			"schema": "https://schema.org/",
+			"skos": "http://www.w3.org/2004/02/skos/core#",
 			"hyf": "https://www.opengis.net/def/schema/hy_features/hyf/",
 			"gsp": "http://www.opengis.net/ont/geosparql#",
 			"name": "schema:name",
