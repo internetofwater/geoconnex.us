@@ -24,7 +24,9 @@
 	],
     "name": "{{ data.name }}",
     "description": "{{ data.description }}",
-    "subjectOf": "{{ data.subjectOf }}",
+    "subjectOf":{
+	    "schema:url": "{{ data.subjectOf }}"
+    },
     "provider": "{{ data.provider }}"
 {% if (data.nhdpv2_REACHCODE or data.mainstem_uri) %}    
 	"hyf:referencedPosition":   
