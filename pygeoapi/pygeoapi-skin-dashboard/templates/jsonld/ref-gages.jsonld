@@ -29,12 +29,12 @@
     "name": "{{ data.name }}",
     "description": "{{ data.description }}",
 {% if data.subjectOf %}  
-    "subjectOf":{
+    "subjectOf": {
 	    "schema:url": "{{ data.subjectOf }}"
     },
 {% endif %} 
 {% if data.provider %}
-    "provider": "{{ data.provider }}"
+    "provider": "{{ data.provider }}",
 {% endif %} 
 {% if (data.nhdpv2_REACHCODE or data.mainstem_uri) %}    
 	"hyf:referencedPosition":   
