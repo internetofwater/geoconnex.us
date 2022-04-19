@@ -7,6 +7,7 @@ on:
       - 'master'
     paths:
       - 'PID-server/backup/**'
+  workflow_dispatch:  
 
 jobs:
   upload-file:
@@ -16,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@master
+        uses: google-github-actions/setup-gcloud@main
         with:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
