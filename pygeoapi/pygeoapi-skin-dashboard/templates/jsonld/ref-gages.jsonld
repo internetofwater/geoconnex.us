@@ -7,6 +7,7 @@
 			"gsp": "http://www.opengis.net/ont/geosparql#",
 			"name": "schema:name",
 			"sameAs": "schema:sameAs",
+			"subjectOf": "schema:subjectOf",
 			"related": "skos:related",
 			"description": "schema:description",
 			"geo": "schema:geo",
@@ -22,7 +23,9 @@
 		"https://www.opengis.net/def/schema/hy_features/hyf/HY_HydroLocation"
 	],
     "name": "{{ data.name }}",
-	"description": "{{ data.description }}",
+    "description": "{{ data.description }}",
+    "subjectOf": "{{ data.subjectOf }}",
+    "provider": "{{ data.provider }}"
 {% if (data.nhdpv2_REACHCODE or data.mainstem_uri) %}    
 	"hyf:referencedPosition":   
     [
