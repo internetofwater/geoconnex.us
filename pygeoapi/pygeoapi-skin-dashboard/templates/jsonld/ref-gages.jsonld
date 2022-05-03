@@ -42,14 +42,16 @@
 {% if data.nhdpv2_REACHCODE %}  
 		{
 			"hyf:HY_IndirectPosition": {
+{% if data.nhdpv2_REACH_measure %} 
 				"hyf:distanceExpression": {
-					"hyf:HY_DistanceFromReferent": {
+					"hyf:HY_DistanceFromReferent": { 
 						"hyf:interpolative": {{ data.nhdpv2_REACH_measure }}
 					}
 				},
 				"hyf:distanceDescription": {
 					"hyf:HY_DistanceDescription": "upstream"
 				},
+{% endif %} 
 				"hyf:linearElement": "https://geoconnex.us/nhdplusv2/reachcode/{{ data.nhdpv2_REACHCODE }}"
 			}
 		}
