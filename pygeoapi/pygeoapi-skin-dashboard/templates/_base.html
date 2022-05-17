@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-  <meta name="twitter:card" content="summary" />
   <meta charset="{{ config['server']['encoding'] }}">
   <title>{% block title %}{{ config['metadata']['identification']['title'] }} -{% endblock %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="language" content="{{ config['server']['language'] }}">
   <meta name="description" content="{{ config['metadata']['identification']['title'] }}">
   <meta name="keywords" content="{{ config['metadata']['identification']['keywords']|join(',') }}">
+  <meta name="twitter:card" content="summary">
   <link rel="shortcut icon" href="{{ config['server']['url'] }}/static/img/favicon.ico" type="image/x-icon">
 
     <!-- Custom fonts for this template-->
