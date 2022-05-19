@@ -706,7 +706,7 @@ resources:
         keywords:
             - Dams
         context:
-            - schema: https://schema.org
+            - schema: https://schema.org/
               name: schema:name
               description: schema:description
               provider: 
