@@ -40,7 +40,7 @@ server:
     language: en-US
     cors: true
     pretty_print: true
-    limit: 10000
+    limit: 100
     map:
         url: https://tile.openstreetmap.org/{z}/{x}/{y}.png
         attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>'
