@@ -6,7 +6,7 @@ Homepage:
 
 This is a reference collection of streamgages. These features should be considered community cataloging features and can be referenced as such.
 
-The current implementation creating these ids and landing-content is in: https://github.com/dblodgett-usgs/ref_gages_ and hosted on https://reference.geoconnex.us/collections/gages geojson source for the landing content is available [here.](https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/gages.gpkg)
+The current implementation creating these ids and landing-content is in: https://github.com/internetofwater/ref_gages and hosted on https://reference.geoconnex.us/collections/gages GeoPackage source for the landing content is available [here.](https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/ref_gages.gpkg)
 
 Contacts: 
 * Creator: <dblodgett@usgs.gov>
