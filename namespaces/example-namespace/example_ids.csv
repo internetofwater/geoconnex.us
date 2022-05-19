@@ -1,2 +1,2 @@
-"id","target","creator","description","latitude","longitude","c1_type","c1_match","c1_value","c2_type","c2_match","c2_value"
-"https://geoconnex.us/iow/sites/1","https://internetofwater.org/sites/1","dblodgett@usgs.gov","This is an example PID with two conditions","36.0014","-78.9382","QueryString","f=.*","https://internetofwater.org/sites/1?f=${C:f:1}","Extension","^.html$","https://internetofwater.org/sites/1.html"
+"id","target","creator","description"
+"https://geoconnex.us/iow/sites/1","https://internetofwater.org/sites/1","dblodgett@usgs.gov","This is an example PID with two conditions"
