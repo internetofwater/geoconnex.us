@@ -706,9 +706,15 @@ resources:
         keywords:
             - Dams
         context:
-            - name: https://schema.org/name
-            - description: https://schema.org/description
-            - provider: https://nid.usace.army.mil
+            - schema: https://schema.org
+              name: schema:name
+              description: schema:description
+              provider: 
+                "@id": schema:provider
+                "@type": schema:url
+              subjectOf: 
+                "@id": schema:subjectOf
+                "@type": schema:url
         links:
             - type: application/html
               rel: canonical
