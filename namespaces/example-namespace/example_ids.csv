@@ -1,2 +1,2 @@
-"id","target","creator","description"
-"https://geoconnex.us/iow/sites/1","https://internetofwater.org/sites/1","dblodgett@usgs.gov","This is an example PID with two conditions"
+"id","target","creator","description","sitemap"
+"https://geoconnex.us/iow/sites/1","https://internetofwater.org/sites/1","dblodgett@usgs.gov","This is an example PID with two conditions","http://example.com/example.jsonld"
