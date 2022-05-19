@@ -698,3 +698,39 @@ resources:
               id_field: PWSID
               table: pws
               uri_field: uri
+    dams:
+        type: collection
+        title: Reference Dams
+        geojsonld: false
+        description: US Reference Dams
+        keywords:
+            - Dams
+        context:
+            - name: https://schema.org/name
+            - description: https://schema.org/description
+            - provider: https://nid.usace.army.mil
+        links:
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+              hreflang: en-US
+            - type: application/html
+              rel: canonical
+              title: descriptive data source
+              href: https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural/2010-urban-rural.html
+              hreflang: en-US
+        extents:
+            spatial:
+                bbox: [-170, 15, -51, 72]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        providers:
+            - type: feature
+              name: SQLiteGPKG
+              data: /data/ref_dams.gpkg
+              id_field: id
+              table: ref_dams
+              uri_field: uri
