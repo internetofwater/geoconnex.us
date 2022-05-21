@@ -38,7 +38,7 @@ ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/co
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/sec_hydrg_reg.gpkg /data/
 #principal aquifers last updated 2022-04-11
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/princi_aq.gpkg /data/
-#gages last updated 2022-05-18
+#gages last updated 2022-05-21
 ADD https://www.hydroshare.org/resource/4a22e88e689949afa1cf71ae009eaf1b/data/contents/ref_dams.gpkg /data
 
 #add requirements and mods
