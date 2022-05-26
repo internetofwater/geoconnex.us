@@ -20,7 +20,8 @@
 				"@type": "@id"
 			},
                         "hyf:linearElement": {
-				"@type": "@id"}
+				"@type": "@id"
+			}
 		}
 	],
 	"@id": "{{ data["@id"] }}",
