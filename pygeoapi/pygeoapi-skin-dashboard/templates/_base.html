@@ -39,7 +39,7 @@
         <a class="sidebar-brand d-flex align-items-center justify-content-center" style="background-color:white"
           href="{{ config['server']['url'] }}" class="logo" role="button">
             <img src="https://raw.githubusercontent.com/internetofwater/geoconnex.us/master/pygeoapi/pygeoapi-skin-dashboard/static/img/logo.png" title="{{ config['metadata']['identification']['title'] }}" style="height:40px;vertical-align: middle;" /></a>
-          
+
         </a>
 
         <!-- Divider -->
@@ -139,7 +139,7 @@
               <!-- Begin Page Content -->
               <div class="container-fluid">
 
-                <!-- Page Heading 
+                <!-- Page Heading
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                   <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                   <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
@@ -160,7 +160,7 @@
                         <div class="col-md-3">
                           <b>Service provided by:</b><br/>
                           <a itemprop="url" href="{{ config['metadata']['provider']['url'] }}">{{ config['metadata']['provider']['name'] }}</a><br/>
-                                             
+
                           <b>Address</b><br/>
                           {{ config['metadata']['contact']['address'] }}<br/>
                           {{ config['metadata']['contact']['city'] }},
@@ -196,7 +196,7 @@
                         </div>
                         <div class="col-md-3">
                             {% if config['metadata']['identification']['terms_of_service'] %}
-                            <p> 
+                            <p>
                               <b>Terms of service</b><br/>
                               {{ config['metadata']['identification']['terms_of_service'] | urlize() }}
                             </p>
@@ -209,20 +209,20 @@
                               </p>
                             {% endif %}
                             <p>Powered by <a title="pygeoapi" href="https://pygeoapi.io">pygeoapi</a> {{ version }}.</p>
-                        </div>    
+                        </div>
                       </div>
                     </div>
                   </div>
 
                 </footer>
                 <!-- End of Footer -->
-    
+
       </div>
       <!-- End of Content Wrapper -->
 
   </div>
   <!-- End of Page Wrapper -->
-  
+
 
 
   {% block extrafoot %}
@@ -237,7 +237,8 @@
           var head = document.getElementsByTagName('head')[0];
           var jsonld_datablock = document.createElement('script');
           jsonld_datablock.type = "application/ld+json";
-          jsonld_datablock.textContent = xhr.responseText;
+          //remove full context path, because search engines don't expect it here, pyld requires it.
+          jsonld_datablock.textContent = xhr.responseText.replace('docs/jsonldcontext.jsonld','');
           head.appendChild(jsonld_datablock);
         }
       };
