@@ -45,7 +45,7 @@
 {% if data.nhdpv2_REACHCODE %}  
 		{
 			"hyf:HY_IndirectPosition": {
-{% if data.nhdpv2_REACH_measure %} 
+{% if data.nhdpv2_REACH_measure is not none %} 
 				"hyf:distanceExpression": {
 					"hyf:HY_DistanceFromReferent": { 
 						"hyf:interpolative": {{ data.nhdpv2_REACH_measure }}
