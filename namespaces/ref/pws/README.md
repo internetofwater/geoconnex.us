@@ -9,7 +9,7 @@ This is a reference collection of Public Water Systems. These features should be
 The current implementation creating these ids and landing-content is in: https://github.com/cgs-earth/ref_pws and hosted on
 https://reference.geoconnex.us/collections/pws. PIDs are based on the EPA SDWIS PWSID (STXXXXXXX)
 
-The landing-content is generally based on those curated by SimpleLab Inc, with methodology described at https://github.com/SimpleLab-Inc/wsb and summarized briefly below.
+The landing content is based on data available from EPA SDWIS. The geometries are generally based on those curated by SimpleLab Inc, with methodology described at https://github.com/SimpleLab-Inc/wsb and summarized briefly below.
 
 In general, this methodology includes Service Area Boundaries where widely available, which is currently:
 
