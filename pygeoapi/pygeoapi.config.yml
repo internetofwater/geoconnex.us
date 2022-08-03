@@ -659,23 +659,23 @@ resources:
         keywords:
             - Public Water Systems
         context:
-            - NAME: https://schema.org/name
-            - ST_uri: https://schema.org/geoWithin
-            - SDWIS: https://schema.org/subjectOf
-            - PROVIDER: https://schema.org/isBasedOn
-            - CITY_SERVED_uri: https://schema.org/geoIntersects
+            - name: https://schema.org/name
+            - state_uri: https://schema.org/geoWithin
+            - sdwis_link: https://schema.org/subjectOf
+            - source_url: https://schema.org/isBasedOn
+            - place_uri: https://schema.org/geoIntersects
             - schema: https://schema.org/
-              NAME: schema:name
-              SDWIS:
+              name: schema:name
+              sdwis_link:
                   "@id": schema:subjectOf
                   "@type": "@id"
-              PROVIDER:
+              source_url:
                   "@id": schema:isBasedOn
                   "@type": "@id"
-              ST_uri:
+              state_uri:
                   "@id": schema:geoWithin
                   "@type": "@id"
-              CITY_SERVED_uri:
+              place_link:
                   "@id": schema:geoIntersects
                   "@type": "@id"
         links:
@@ -683,6 +683,11 @@ resources:
               rel: canonical
               title: EPA PWSID List source
               href: https://echo.epa.gov/tools/data-downloads/sdwa-download-summary
+              hreflang: en-US
+            - type: application/html
+              rel: canonical
+              title: geographic data source
+              href: https://github.com/cgs-earth/ref_pws
               hreflang: en-US
         extents:
             spatial:
@@ -694,9 +699,9 @@ resources:
         providers:
             - type: feature
               name: SQLiteGPKG
-              data: /data/pws.gpkg
-              id_field: PWSID
-              table: pws
+              data: /data/ref_pws.gpkg
+              id_field: pwsid
+              table: ref_pws
               uri_field: uri
     dams:
         type: collection
