@@ -28,8 +28,8 @@ ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/co
 ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/ua10.gpkg /data/
 #places last updated 2021-06-04
 ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/places.gpkg /data/
-#pws last updated 2021-06-04
-ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/pws.gpkg /data/
+#pws last updated 2022-08-03
+ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/ref_pws.gpkg /data/
 #ref_gages last updated 2022-06-03
 ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/ref_gages.gpkg /data/
 #mainstems last updated 2021-12-01
