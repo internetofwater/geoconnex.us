@@ -417,7 +417,7 @@ resources:
               outlet_drainagearea_sqkm: https://www.wikidata.org/wiki/Property:P2053
             - hyf: https://www.opengis.net/def/schema/hy_features/hyf
               downstream_mainstem_id:
-                  "@id": hyf:encompassingCatchment
+                  "@id": hyf:downstreamWaterBody
                   "@type": "@id"
         links:
             - type: application/html
