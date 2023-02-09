@@ -32,7 +32,7 @@ ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/co
 ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/ref_pws.gpkg /data/
 #ref_gages last updated 2022-06-03
 ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/ref_gages.gpkg /data/
-#mainstems last updated 2023-02-06
+#mainstems last updated 2023-02-09
 ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/mainstems.gpkg /data/
 #secondary hydrogeologic regions last updated 2022-04-08
 ADD https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/sec_hydrg_reg.gpkg /data/
