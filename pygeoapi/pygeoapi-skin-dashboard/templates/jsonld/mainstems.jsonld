@@ -1,0 +1,84 @@
+{
+    "@context": [
+        {
+            "schema": "https://schema.org/",
+            "gsp": "http://www.opengis.net/ont/geosparql#",
+            "wiki": "https://www.wikidata.org/wiki/",
+            "hyf": "https://www.opengis.net/def/schema/hy_features/hyf"
+        },
+        {
+            "name_at_outlet": "schema:name",
+            "superseded_by_mainstem": {
+                "@id": "schema:supersededBy",
+                "@type": "@id"
+            },   
+            "head_nhdpv2_COMID": {
+                "@id": "wiki:Property:P885",
+                "@type": "@id"
+            },
+            "outlet_nhdpv2_COMID": {
+                "@id": "wiki:Property:P403",
+                "@type": "@id"
+            },
+            "head_nhdpv2HUC12": {
+                "@id": "wiki:Property:P885",
+                "@type": "@id"
+            },
+            "outlet_nhdpv2HUC12": {
+                "@id": "wiki:Property:P403",
+                "@type": "@id"
+            },
+            "lengthkm": "https://www.wikidata.org/wiki/Property:P2043",
+            "outlet_drainagearea_sqkm": "https://www.wikidata.org/wiki/Property:P2053",
+            "downstream_mainstem_id": {
+                "@id": "hyf:downstreamWaterbody",
+                "@type": "@id"
+            },
+            "encompassing_mainstem_basin": {
+                "@id": "hyf:encompassingCatchment",
+                "@type": "@id"
+            },
+            "geo": "schema:geo"
+        }
+    ],
+    "@id": "{{ data["@id"] }}",
+	"@type": [
+		"hyf:HY_FlowPath",
+		"hyf:HY_WaterBody",
+        "schema:Place"
+	],
+    "name_at_outlet": "{{ data.name_at_outlet }}",
+    "downstream_mainstem_id": "{{ data.downstream_mainstem_id }}",
+    {% if data.encompassing_mainstem_basins %}
+    "encompassing_mainstem_basin": {{ data.encompassing_mainstem_basins.replace("'", '"') }},
+    {% endif %}
+    "head_nhdpv2_COMID": "{{ data.head_nhdpv2_COMID }}",
+    "outlet_nhdpv2_COMID": "{{ data.outlet_nhdpv2_COMID }}",
+    {% if data.head_nhdpv2HUC12 %}
+    "head_nhdpv2HUC12": "{{ data.head_nhdpv2HUC12 }}",
+    {% endif %} 
+    {% if data.outlet_nhdpv2HUC12 %}
+    "outlet_nhdpv2HUC12": "{{ data.outlet_nhdpv2HUC12 }}",
+    {% endif %} 
+    "lengthkm": "{{ data.lengthkm }}",
+    {% if data.outlet_drainagearea %}
+    "outlet_drainagearea_sqkm": "{{ data.outlet_drainagearea }}",
+    {% endif %} 
+    {% if data.head_rf1ID %}
+    "head_rf1ID": "{{ data.head_rf1ID }}",
+    "outlet_rf1ID": "{{ data.outlet_rf1ID }}",
+    {% endif %}
+    {% if data.head_rf1ID %}
+    "head_nhdpv1_COMID": "{{ data.head_nhdpv1_COMID }}",
+    "outlet_nhdpv1_COMID": "{{ data.outlet_nhdpv1_COMID }}",
+    {% endif %}
+    {% if data.head_latestHUC12 %}
+    "head_latestHUC12": "{{ data.head_latestHUC12 }}",
+    "outlet_latestHUC12": "{{ data.outlet_latestHUC12 }}",
+    {% endif %}
+    {% if data.new_mainstemid %}
+    "superseded_by_mainstem": {{ data.new_mainstemid.replace("'", '"') }},
+    {% endif %}
+    "gsp:hasGeometry": {{ data['gsp:hasGeometry'] | to_json }},
+    "geo": {{ data['schema:geo'] | to_json | safe }}
+}
