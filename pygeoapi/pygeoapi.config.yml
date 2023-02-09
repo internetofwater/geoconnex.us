@@ -394,36 +394,12 @@ resources:
         description: US Reference Mainstem Rivers
         keywords:
             - Mainstem
-        context:
-            - schema: https://schema.org/
-              featuretype:
-                  "@id": "@type"
-                  "@type": "@id"
-              name_at_outlet: schema:name
-            - wiki: https://www.wikidata.org/wiki/
-              head_nhdpv2_COMID:
-                  "@id": wiki:Property:P885
-                  "@type": "@id"
-              outlet_nhdpv2_COMID:
-                  "@id": wiki:Property:P403
-                  "@type": "@id"
-              head_nhdpv2HUC12:
-                  "@id": wiki:Property:P885
-                  "@type": "@id"
-              outlet_nhdpv2HUC12:
-                  "@id": wiki:Property:P403
-                  "@type": "@id"
-              lengthkm: https://www.wikidata.org/wiki/Property:P2043
-              outlet_drainagearea_sqkm: https://www.wikidata.org/wiki/Property:P2053
-            - hyf: https://www.opengis.net/def/schema/hy_features/hyf
-              downstream_mainstem_id:
-                  "@id": hyf:downstreamWaterBody
-                  "@type": "@id"
+        template: jsonld/mainstems.jsonld
         links:
             - type: application/html
               rel: canonical
               title: data source
-              href: https://code.usgs.gov/wma/nhgf/mainstems
+              href: https://github.com/internetofwater/ref_rivers
               hreflang: en-US
         extents:
             spatial:
