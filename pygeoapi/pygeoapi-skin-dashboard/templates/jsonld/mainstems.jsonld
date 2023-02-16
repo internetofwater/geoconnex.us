@@ -48,7 +48,9 @@
         "schema:Place"
 	],
     "name_at_outlet": "{{ data.name_at_outlet }}",
+    {% if data.downstream_mainstem_id %}
     "downstream_mainstem_id": "{{ data.downstream_mainstem_id }}",
+    {% endif %}
     {% if data.encompassing_mainstem_basins %}
     "encompassing_mainstem_basin": {{ data.encompassing_mainstem_basins.replace("'", '"') }},
     {% endif %}
