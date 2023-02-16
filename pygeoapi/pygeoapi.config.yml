@@ -1,10 +1,10 @@
 #
-# LAST UPDATE: 2021-06-04 15:25:00-5
+# LAST UPDATE: 2023-02-15 15:25:00-5
 #=================================================================
 #
-# Authors: Tom Kralidis <tomkralidis@gmail.com>
+# Authors: Benjamin Webb <bwebb@lincolninst.edu
 #
-# Copyright (c) 2020 Tom Kralidis
+# Copyright (c) 2023 Ben Webb
 #
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation
@@ -50,7 +50,7 @@ server:
 
 logging:
     level: ERROR
-    logfile: /tmp/pygeoapi.log
+    # logfile: /tmp/pygeoapi.log
 
 metadata:
     identification:
@@ -87,12 +87,13 @@ resources:
         description: Two-digit Hydrologic Regions
         keywords:
             - Hydrologic Regions
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              gnis_url:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  gnis_url:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -120,12 +121,13 @@ resources:
         description: Four-digit Hydrologic Subregion
         keywords:
             - Hydrologic Subregions
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              gnis_url:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  gnis_url:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -153,12 +155,13 @@ resources:
         description: Six-digit Hydrologic Basins
         keywords:
             - Hydrologic Basins
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              gnis_url:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  gnis_url:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -186,12 +189,13 @@ resources:
         description: Eight-digit Hydrologic Subbasins
         keywords:
             - Hydrologic Subbasins
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              gnis_url:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  gnis_url:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -219,12 +223,13 @@ resources:
         description: Ten-digit Watersheds
         keywords:
             - Watersheds
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              gnis_url:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  gnis_url:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -253,15 +258,16 @@ resources:
         keywords:
             - National Aquifers
             - Principal Aquifers
-        context:
-            - schema: https://schema.org/
-              AQ_NAME: schema:name
-              LINK:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
-              sameas:
-                  "@id": schema:sameAs
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  AQ_NAME: schema:name
+                  LINK:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
+                  sameas:
+                      "@id": schema:sameAs
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -295,12 +301,13 @@ resources:
         keywords:
             - National Aquifers
             - Principal Aquifers
-        context:
-            - schema: https://schema.org/
-              AQ_NAME: schema:name
-              sameas:
-                  "@id": schema:sameAs
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  AQ_NAME: schema:name
+                  sameas:
+                      "@id": schema:sameAs
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -330,9 +337,10 @@ resources:
             - National Aquifers
             - Principal Aquifers
             - Hydrogeologic Regions
-        context:
-            - schema: https://schema.org/
-              SHR: schema:name
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  SHR: schema:name
         links:
             - type: application/html
               rel: canonical
@@ -366,7 +374,8 @@ resources:
         description: US Reference Stream Gage Monitoring Locations
         keywords:
             - Stream Gage
-        template: jsonld/ref-gages.jsonld
+        linked-data:
+            item_template: jsonld/ref-gages.jsonld
         links:
             - type: application/html
               rel: canonical
@@ -394,7 +403,8 @@ resources:
         description: US Reference Mainstem Rivers
         keywords:
             - Mainstem
-        template: jsonld/mainstems.jsonld
+        linked-data:
+            item_template: jsonld/mainstems.jsonld
         links:
             - type: application/html
               rel: canonical
@@ -423,12 +433,13 @@ resources:
         keywords:
             - States
             - Census
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              census_profile:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  census_profile:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -462,12 +473,13 @@ resources:
         keywords:
             - Counties
             - Census
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              census_profile:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  census_profile:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -503,8 +515,9 @@ resources:
             - Alaska Native Areas
             - Hawaiian Home Lands
             - Census
-        context:
-            - NAME: https://schema.org/name
+        linked-data:
+            context:
+                - NAME: https://schema.org/name
         links:
             - type: application/html
               rel: canonical
@@ -535,8 +548,9 @@ resources:
             - Metropolitan Statistical Areas
             - Micropolitan Statistical Areas
             - Census
-        context:
-            - NAME: https://schema.org/name
+        linked-data:
+            context:
+                - NAME: https://schema.org/name
         links:
             - type: application/html
               rel: canonical
@@ -565,8 +579,9 @@ resources:
         keywords:
             - Urban Areas
             - Census
-        context:
-            - NAME10: https://schema.org/name
+        linked-data:
+            context:
+                - NAME10: https://schema.org/name
         links:
             - type: application/html
               rel: canonical
@@ -600,12 +615,13 @@ resources:
         keywords:
             - Places
             - Census
-        context:
-            - schema: https://schema.org/
-              NAME: schema:name
-              census_profile:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  NAME: schema:name
+                  census_profile:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -638,26 +654,27 @@ resources:
         geojsonld: false
         keywords:
             - Public Water Systems
-        context:
-            - name: https://schema.org/name
-            - state_uri: https://schema.org/geoWithin
-            - sdwis_link: https://schema.org/subjectOf
-            - source_url: https://schema.org/isBasedOn
-            - place_uri: https://schema.org/geoIntersects
-            - schema: https://schema.org/
-              name: schema:name
-              sdwis_link:
-                  "@id": schema:subjectOf
-                  "@type": "@id"
-              source_url:
-                  "@id": schema:isBasedOn
-                  "@type": "@id"
-              state_uri:
-                  "@id": schema:geoWithin
-                  "@type": "@id"
-              place_link:
-                  "@id": schema:geoIntersects
-                  "@type": "@id"
+        linked-data:
+            context:
+                - name: https://schema.org/name
+                - state_uri: https://schema.org/geoWithin
+                - sdwis_link: https://schema.org/subjectOf
+                - source_url: https://schema.org/isBasedOn
+                - place_uri: https://schema.org/geoIntersects
+                - schema: https://schema.org/
+                  name: schema:name
+                  sdwis_link:
+                      "@id": schema:subjectOf
+                      "@type": "@id"
+                  source_url:
+                      "@id": schema:isBasedOn
+                      "@type": "@id"
+                  state_uri:
+                      "@id": schema:geoWithin
+                      "@type": "@id"
+                  place_link:
+                      "@id": schema:geoIntersects
+                      "@type": "@id"
         links:
             - type: application/html
               rel: canonical
@@ -690,16 +707,17 @@ resources:
         description: US Reference Dams
         keywords:
             - Dams
-        context:
-            - schema: https://schema.org/
-              name: schema:name
-              description: schema:description
-              provider: 
-                "@id": schema:provider
-                "@type": schema:url
-              subjectOf: 
-                "@id": schema:subjectOf
-                "@type": schema:url
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  name: schema:name
+                  description: schema:description
+                  provider:
+                      "@id": schema:provider
+                      "@type": schema:url
+                  subjectOf: 
+                      "@id": schema:subjectOf
+                      "@type": schema:url
         links:
             - type: application/html
               rel: canonical
