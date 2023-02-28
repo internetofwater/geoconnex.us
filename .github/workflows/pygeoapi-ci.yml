@@ -8,6 +8,11 @@ on:
     paths:
       - 'pygeoapi/**'
 
+env:
+  REGISTRY: reference-features-us
+  DATABASE: reference
+  DBUSER: root
+
 jobs:
   upload-file:
     runs-on: ubuntu-latest
@@ -20,33 +25,28 @@ jobs:
         with:
           username: ${{ secrets.HYDRO_USERNAME }}
           password: ${{ secrets.HYDRO_PASSWORD }}
-          dbuser: root
+          dbuser: ${{ env.DBUSER }}
 
       - name: Set up Cloud SDK
         uses: 'google-github-actions/auth@v1'
         with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
+          credentials_json: ${{ secrets.GCP_SA_TOKEN }}
 
       - name: Upload backup to GCP Bucket
         id: upload-files
         uses: google-github-actions/upload-cloud-storage@v0
         with:
           path: .
-          destination: reference-features
+          destination: ${{ env.REGISTRY }}
           gzip: false
           parent: false
           glob: '**/*.sql.gz'
           headers: |-
             content-type: application/x-gzip
 
-
       - name: Push to mysql
         run: |-
-          gcloud sql import sql reference-features gs://reference-features/reference.sql.gz \
-            --verbosity=critical \
-            --quiet \
-            --no-user-output-enabled \
-            --database=reference \
-            --user=root \
-            --project=${{ secrets.GCP_PROJECT_ID }}
+          gcloud sql import sql ${{ env.REGISTRY }} gs://${{ env.REGISTRY }}/${{ env.DATABASE }}.sql.gz \
+            --database=${{ env.DATABASE }} \
+            --user=${{ env.DBUSER }}
 
