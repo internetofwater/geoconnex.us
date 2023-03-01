@@ -9,7 +9,7 @@ on:
       - 'pygeoapi/**'
 
 env:
-  REGISTRY: reference-features-us
+  REGISTRY: reference-features
   DATABASE: reference
   DBUSER: root
 
