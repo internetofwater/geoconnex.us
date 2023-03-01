@@ -33,7 +33,7 @@ server:
     bind:
         host: localhost #change to your hostname if running your own instance
         port: 5000
-    url: https://reference.geoconnex.dev #change to host URL  if running your own instance
+    url: ${PYGEOAPI_URL} #change to host URL  if running your own instance
     mimetype: application/json; charset=UTF-8
     encoding: utf-8
     gzip: true
