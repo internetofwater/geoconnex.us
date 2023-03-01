@@ -1,5 +1,5 @@
-FROM webbben/pygeoapi:test
-#pygeoapi last updated 2023-02-16
+FROM internetofwater/pygeoapi:latest
+#pygeoapi last updated 2023-03-1
 
 #add requirements and mods
 COPY ./pygeoapi.config.yml /pygeoapi/local.config.yml
