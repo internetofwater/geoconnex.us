@@ -349,7 +349,7 @@ resources:
               geom_field: geom
     gages:
         type: collection
-        title: Reference Gagess
+        title: Reference Gages
         description: US Reference Stream Gage Monitoring Locations
         keywords:
             - Stream Gage
@@ -548,7 +548,7 @@ resources:
     places:
         type: collection
         title: Places
-        description: U.S. legally incororated and Census designated places
+        description: U.S. legally incorporated and Census designated places
         keywords:
             - Places
             - Census
