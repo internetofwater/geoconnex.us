@@ -42,23 +42,23 @@
 {% if data.provider %}
     "provider": "{{ data.provider }}",
 {% endif %} 
-{% if (data.nhdpv2_REACHCODE or data.mainstem_uri) %}    
+{% if (data.nhdpv2_reachcode or data.mainstem_uri) %}    
 	"hyf:referencedPosition":   
     [
-{% if data.nhdpv2_REACHCODE %}  
+{% if data.nhdpv2_reachcode %}  
 		{
 			"hyf:HY_IndirectPosition": {
-{% if data.nhdpv2_REACH_measure is not none %} 
+{% if data.nhdpv2_reach_measure is not none %} 
 				"hyf:distanceExpression": {
 					"hyf:HY_DistanceFromReferent": { 
-						"hyf:interpolative": {{ data.nhdpv2_REACH_measure }}
+						"hyf:interpolative": {{ data.nhdpv2_reach_measure }}
 					}
 				},
 				"hyf:distanceDescription": {
 					"hyf:HY_DistanceDescription": "upstream"
 				},
 {% endif %} 
-				"hyf:linearElement": "https://geoconnex.us/nhdplusv2/reachcode/{{ data.nhdpv2_REACHCODE }}"
+				"hyf:linearElement": "https://geoconnex.us/nhdplusv2/reachcode/{{ data.nhdpv2_reachcode }}"
 			}
 		}
 {% if data.mainstem_uri %} 

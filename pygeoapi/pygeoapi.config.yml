@@ -89,7 +89,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   gnis_url:
                       "@id": schema:subjectOf
                       "@type": "@id"
@@ -127,7 +127,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   gnis_url:
                       "@id": schema:subjectOf
                       "@type": "@id"
@@ -155,7 +155,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   gnis_url:
                       "@id": schema:subjectOf
                       "@type": "@id"
@@ -183,7 +183,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   gnis_url:
                       "@id": schema:subjectOf
                       "@type": "@id"
@@ -211,7 +211,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   gnis_url:
                       "@id": schema:subjectOf
                       "@type": "@id"
@@ -240,8 +240,8 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  AQ_NAME: schema:name
-                  LINK:
+                  aq_name: schema:name
+                  link:
                       "@id": schema:subjectOf
                       "@type": "@id"
                   sameas:
@@ -283,7 +283,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  AQ_NAME: schema:name
+                  aq_name: schema:name
                   sameas:
                       "@id": schema:sameAs
                       "@type": "@id"
@@ -319,7 +319,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  SHR: schema:name
+                  shr: schema:name
         links:
             - type: application/html
               rel: canonical
@@ -403,7 +403,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   census_profile:
                       "@id": schema:subjectOf
                       "@type": "@id"
@@ -437,7 +437,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   census_profile:
                       "@id": schema:subjectOf
                       "@type": "@id"
@@ -472,7 +472,7 @@ resources:
             - Census
         linked-data:
             context:
-                - NAME: https://schema.org/name
+                - name: https://schema.org/name
         links:
             - type: application/html
               rel: canonical
@@ -499,7 +499,7 @@ resources:
             - Census
         linked-data:
             context:
-                - NAME: https://schema.org/name
+                - name: https://schema.org/name
         links:
             - type: application/html
               rel: canonical
@@ -524,7 +524,7 @@ resources:
             - Census
         linked-data:
             context:
-                - NAME10: https://schema.org/name
+                - name10: https://schema.org/name
         links:
             - type: application/html
               rel: canonical
@@ -555,7 +555,7 @@ resources:
         linked-data:
             context:
                 - schema: https://schema.org/
-                  NAME: schema:name
+                  name: schema:name
                   census_profile:
                       "@id": schema:subjectOf
                       "@type": "@id"
