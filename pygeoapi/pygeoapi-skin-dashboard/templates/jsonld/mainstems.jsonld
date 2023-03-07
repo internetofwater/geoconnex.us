@@ -54,7 +54,7 @@
     {% if data.encompassing_mainstem_basins %}
     "encompassing_mainstem_basin": {{ data.encompassing_mainstem_basins.replace("'", '"') }},
     {% endif %}
-    "head_nhdpv2_comid: "{{ data.head_nhdpv2_comid }}",
+    "head_nhdpv2_comid": "{{ data.head_nhdpv2_comid }}",
     "outlet_nhdpv2_comid": "{{ data.outlet_nhdpv2_comid }}",
     {% if data.head_nhdpv2huc12 %}
     "head_nhdpv2huc12": "{{ data.head_nhdpv2huc12 }}",
