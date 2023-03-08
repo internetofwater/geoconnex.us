@@ -378,6 +378,9 @@ resources:
             - Mainstem
         linked-data:
             item_template: jsonld/mainstems.jsonld
+            context:
+                - schema: https://schema.org/
+                  name_at_outlet: schema:name
         links:
             - type: application/html
               rel: canonical
