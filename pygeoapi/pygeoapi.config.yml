@@ -590,7 +590,7 @@ resources:
             - Public Water Systems
         linked-data:
             context:
-                - name: https://schema.org/name
+                - pws_name: https://schema.org/name
                 - state_uri: https://schema.org/geoWithin
                 - sdwis_link: https://schema.org/subjectOf
                 - source_url: https://schema.org/isBasedOn
