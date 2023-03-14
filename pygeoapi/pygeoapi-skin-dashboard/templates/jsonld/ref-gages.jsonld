@@ -32,8 +32,8 @@
 		"https://www.opengis.net/def/schema/hy_features/hyf/HY_HydrometricFeature",
 		"https://www.opengis.net/def/schema/hy_features/hyf/HY_HydroLocation"
 	],
-    "name": "{{ data.name }}",
-    "description": "{{ data.description }}",
+    "name": "{{ data.name | safe  }}",
+    "description": "{{ data.description | safe }}",
 {% if data.subjectOf %}  
     "subjectOf": {
 	    "schema:url": "{{ data.subjectOf }}"
