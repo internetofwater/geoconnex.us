@@ -596,7 +596,6 @@ resources:
                 - source_url: https://schema.org/isBasedOn
                 - place_uri: https://schema.org/geoIntersects
                 - schema: https://schema.org/
-                  name: schema:name
                   sdwis_link:
                       "@id": schema:subjectOf
                       "@type": "@id"
