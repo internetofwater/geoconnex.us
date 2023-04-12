@@ -10,9 +10,28 @@ Data hosted by the server can be found [Hydroshare](https://www.hydroshare.org/r
 
 Four pieces of information are required for a new contribution:  
 1. spatial feature geometry and attributes in the [Hydroshare resource](https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/) 
-1. an ADD of the URL for (1) in the [Dockerfile](Dockerfile). If you change the Hydroshare resource but not the config, please add a comment to the Dockerfile indicating the date of the last update
-1. a pygeoapi resource configuration in [pygeoapi.config.yml](pygeoapi.config.yml)
-1. PIDs registered with the `geoconnex.us` pid server for the features
+1. a pygeoapi resource configuration in [pygeoapi.config.yml](pygeoapi.config.yml). Any time you update your pygeoapi config for a reference collection contributiom or jsut the file in the hydroshare resource, please add a comment indicating the date of the udpate to trigger an update to the reference features database. eg.
+
+```
+    dams: #updated 2023-04-11
+        type: collection
+        title: Reference Dams
+        description: US Reference Dams
+        keywords:
+            - Dams
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  name: schema:name
+                  description: schema:description
+                  provider:
+                      "@id": schema:provider
+                      "@type": schema:url
+                  subjectOf: 
+                      "@id": schema:subjectOf
+                      "@type": schema:url
+```
+3. PIDs registered with the `geoconnex.us` pid server for the features
 
 
 ### Spatial Features
