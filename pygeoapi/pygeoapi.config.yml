@@ -628,7 +628,7 @@ resources:
               table: ref_pws
               uri_field: uri
               geom_field: geom
-    dams:
+    dams: #updated 2023-04-11
         type: collection
         title: Reference Dams
         description: US Reference Dams
