@@ -31,6 +31,19 @@ Four pieces of information are required for a new contribution:
                       "@id": schema:subjectOf
                       "@type": schema:url
 ```
+
+Note that in the configuration, the `providers` configuration entry should specify in `table` the same string as the name of the GeoPackage in Hydroshare, minus `.gpkg`. For example, the configuration for collection ref/pws, which is `ref_pws.gpkg` in Hydroshare, would include the provider configuration block:
+
+```
+providers:
+            - type: feature
+              name: PostgreSQL
+              data: *provider-data
+              id_field: pwsid
+              table: ref_pws
+              uri_field: uri
+              geom_field: geom
+```
 3. PIDs registered with the `geoconnex.us` pid server for the features
 
 
