@@ -1,0 +1,2 @@
+id,target,creator,description
+https://geoconnex.us//iow/nhdpv2-census/(2000|2010|2020)/comid/([-0-9]+)/block/([0-9]+).*$,https://nhdpv2-census.internetofwater.app/collections/$1/items/comid_$2_block_$3,ewiggans@lincolninst.edu,NHDPlusV2 Census
