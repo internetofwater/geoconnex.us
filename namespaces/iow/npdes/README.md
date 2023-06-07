@@ -5,6 +5,7 @@ NPDES identifiers are based on USEPA NPDES Permit identifiers for facilities tha
 Example:
 
 - https://geoconnex.us/iow/npdes/CA0004201
+- https://geoconnex.us/iow/npdes/AKG370A12
 
 Homepage:
 * [NPDES harvesting code](https://github.com/cgs-earth/geoconnex-features/tree/main/collections/npdes)
