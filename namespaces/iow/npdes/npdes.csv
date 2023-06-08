@@ -1,2 +1,2 @@
 id,target,creator,description
-https://geoconnex.us//iow/npdes/([-a-zA-Z0-9_./]+).*$, https://features.internetofwater.dev/collections/NPDES/items/$1, ewiggans@lincolninst.edu, NPDES Sites processed by IoW-CGS-Lincoln
+https://geoconnex.us//iow/npdes/([-a-zA-Z0-9_./]+).*$, https://features.internetofwater.dev/collections/NPDES/items/$1, ewiggans@lincolninst.edu, NPDES Sites processed by IoW at CGS-Lincoln
