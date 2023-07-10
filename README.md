@@ -38,6 +38,7 @@ The features registered in `https://geoconnex.us` are automatically harvested an
 
 
 ## Geoconnex.us-related presentations and publications.
+- [Geoconnex.us: a standards-based framework to discover water data](https://github.com/cgs-earth/presentations/blob/master/2023/FOSS4G/GeoconnexFinal.pdf)
 - [National Hydrography Infrastructure and Geoconnex](https://drive.google.com/file/d/1J0NKYOq3pGjQXr58FKO8sd7uHpGA8kNB/view?usp=sharing)
 - [New Mexico Water Data Initiative including geoconnex.us](https://docs.google.com/presentation/d/1yuNpBbQPcmb_Nw8DXiuNTazAjIM8UF7o/edit?usp=sharing&ouid=102421334323378854304&rtpof=true&sd=true)
 - [Roundtable presentation including geoconnex.us](https://www.westernstateswater.org/wp-content/uploads/2020/06/CO_Roundable_IoW.pdf)
