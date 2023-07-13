@@ -29,18 +29,41 @@
 
 <body id="page-top">
 
+  <div id="appbar">
+    <!-- Topbar -->
+    <nav class="navbar navbar-expand navbar-light bg-white topbar static-top shadow">
+
+      <!-- Sidebar Toggle (Topbar) -->
+      <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3" onclick="toggleNav()">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <!-- Topbar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" style="background-color:white"
+      href="{{ config['server']['url'] }}" class="logo" role="button">
+        <img src="https://raw.githubusercontent.com/internetofwater/geoconnex.us/master/pygeoapi/pygeoapi-skin-dashboard/static/img/logo.png" title="{{ config['metadata']['identification']['title'] }}" style="height:40px;vertical-align: middle;" /></a>
+      </a>
+
+      <div class="crumbs">
+        {% block crumbs %}
+        {% endblock %}
+      </div>
+
+      <!-- Topbar Navbar -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="{{ data['links'] | map(rel='self') | attr('href') }}?f=json">JSON</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ data['links'] | map(rel='self') | attr('href') }}?f=jsonld">JSON-LD</a></li>
+      </ul>
+
+    </nav>
+    <!-- End of Topbar -->
+  </div>
+
   <!-- Page Wrapper -->
   <div id="wrapper">
 
       <!-- Sidebar -->
       <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-        <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" style="background-color:white"
-          href="{{ config['server']['url'] }}" class="logo" role="button">
-            <img src="https://raw.githubusercontent.com/internetofwater/geoconnex.us/master/pygeoapi/pygeoapi-skin-dashboard/static/img/logo.png" title="{{ config['metadata']['identification']['title'] }}" style="height:40px;vertical-align: middle;" /></a>
-
-        </a>
 
         <!-- Divider -->
         <hr class="sidebar-divider my-0">
@@ -74,14 +97,12 @@
           </li>
         {% endif %}
 
-        {% if data['processes'] %}
-          <!-- Nav Item -->
-          <li class="nav-item">
-          <a class="nav-link" href="{{ config['server']['url'] }}/processes">
-              <i class="fas fa-fw fa-wrench"></i>
-            Processes</a>
-          </li>
-        {% endif %}
+        <!-- Nav Item -->
+        <li class="nav-item">
+        <a class="nav-link" href="{{ config['server']['url'] }}/processes">
+            <i class="fas fa-fw fa-wrench"></i>
+          Processes</a>
+        </li>
 
         <!-- Divider -->
         <hr class="sidebar-divider">
@@ -113,31 +134,8 @@
           <!-- Main Content -->
           <div id="content">
 
-              <!-- Topbar -->
-              <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-                  <!-- Sidebar Toggle (Topbar) -->
-                  <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                      <i class="fa fa-bars"></i>
-                  </button>
-
-                  <div>
-                    {% block crumbs %}
-                    <a href="{{ config['server']['url'] }}">Home</a>
-                    {% endblock %}
-                  </div>
-
-                  <!-- Topbar Navbar -->
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="{{ data['links'] | map(rel='self') | attr('href') }}?f=json">JSON</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ data['links'] | map(rel='self') | attr('href') }}?f=jsonld">JSON-LD</a></li>
-                  </ul>
-
-              </nav>
-              <!-- End of Topbar -->
-
               <!-- Begin Page Content -->
-              <div class="container-fluid">
+              <div class="container-fluid pt-4">
 
                 <!-- Page Heading
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -223,8 +221,6 @@
   </div>
   <!-- End of Page Wrapper -->
 
-
-
   {% block extrafoot %}
   {% endblock %}
     <script>
@@ -243,6 +239,20 @@
         }
       };
       xhr.send();
+    </script>
+    <script>
+      function toggleNav() {
+        const nav = document.getElementById("accordionSidebar");
+        if (nav.offsetWidth === 0){
+          nav.style.width = "224px";
+          nav.style.display = "block";
+          nav.style.visibility = "visible";
+        } else {
+          nav.style.width = "0";
+          nav.style.display = "none";
+          nav.style.visibility = "hidden";
+        }
+      }
     </script>
   </body>
 </html>
