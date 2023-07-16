@@ -660,3 +660,7 @@ resources:
               table: ref_dams
               uri_field: uri
               geom_field: geom
+    intersector:
+        type: process
+        processor:
+            name: Intersector

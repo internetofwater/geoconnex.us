@@ -16,12 +16,6 @@
         <div class="col-sm">
           <h1>{{ data['title'] }}</h1>
           <p>{{ data['description'] }}</p>
-		  <ul>
-          <li>
-            <a title="{{data['links'][0]['rel'] }}" href="{{ data['links'][0]['href'] }}">
-            <span>{{ data['links'][0]['title'] }}</span> (<span>{{ data['links'][0]['type'] }}</span>)
-            </a></li>
-      </ul>
           <p>
             {% for kw in data['keywords'] %}
               <span class="badge badge-info">{{ kw }}</span>
@@ -62,6 +56,15 @@
               <a title="Display Queryables" href="{{ config['server']['url'] }}/collections/{{ data['id'] }}/queryables">
                 Display Queryables of "{{ data['title'] }}"</a></div>
           </li>
+        </ul>
+        <h3>Links</h3>
+        <ul>
+          {% for link in data['links'] %}
+              <li>
+                <a title="{{ link['rel'] }}" href="{{ link['href'] }}">
+                <span>{{ link['title'] }}</span> (<span>{{ link['type'] }}</span>)
+                </a></li>
+          {% endfor %}
         </ul>
         {% for provider in config['resources'][data['id']]['providers'] %}
           {% if 'tile' in provider['type'] %}

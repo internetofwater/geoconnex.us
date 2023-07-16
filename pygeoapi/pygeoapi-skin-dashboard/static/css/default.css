@@ -11,7 +11,7 @@ main {
 }
 
 .crumbs {
-    background-color:rgb(230, 230, 230);
+    padding-left: 12px;
     padding: 6px;
 }
 
@@ -46,4 +46,19 @@ main {
 
 table:not(.horizontal) {
     max-height: none;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        display: none;
+        visibility: hidden;
+        width: 0px;
+    }
+    .crumbs {
+        display: none !important;
+    }
+    a.nav-link {
+        margin: auto;
+        padding: 4px !important;
+    }
 }

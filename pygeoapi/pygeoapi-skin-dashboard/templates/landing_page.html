@@ -11,6 +11,35 @@
           <mark class="badge badge-info">{{ kw }}</mark>
         {% endfor %}
     </p>
+    {% if data['collection'] %}
+      <section id="collections">
+        <h2>{% trans %}Collections{% endtrans %}</h2>
+        <p>
+          <a href="{{ config['server']['url'] }}/collections?f=html">{% trans %}View the collections in this service{% endtrans %}</a>
+        </p>
+      </section>
+   {% endif %}
+   {% if data['processes'] %}
+    <section id="processes">
+        <h2>{% trans %}Processes{% endtrans %}</h2>
+        <p>
+          <a href="{{ config['server']['url'] }}/processes?f=html">{% trans %}View the processes in this service{% endtrans %}</a>
+        </p>
+    </section>
+    {% endif %}
+    <section id="documentation">
+      <h2>{% trans %}Documentation{% endtrans %}</h2>
+      <p>
+        <a href="https://docs.geoconnex.us/">{% trans %}Geoconnex documentation{% endtrans %}</a>
+      </p>
+      <p>
+        <a href="{{ config['server']['url'] }}/openapi?f=html">{% trans %}Swagger UI{% endtrans %}</a>
+      </p>
+      <p>
+        <a href="{{ config['server']['url'] }}/openapi?f=json">{% trans %}OpenAPI Document{% endtrans %}</a>
+      </p>
+    </section>
+
   </div>
 </div>
 {% endblock %}
