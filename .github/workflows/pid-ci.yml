@@ -23,6 +23,6 @@ jobs:
           source-directory: 'namespaces'
           destination-repository-name : 'internetofwater/pids.geoconnex.us'
           target-branch: 'main'
-          target-directory: 'build/namespaces'
+          target-directory: 'namespaces'
           user-email: 'benjamin.miller.webb@gmail.com'
           user-name: 'webb-ben'
