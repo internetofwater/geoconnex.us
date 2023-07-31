@@ -1,5 +1,0 @@
-FROM internetofwater/yourls:latest
-
-ENV YOURLS_URL_CONVERT=62
-ENV YOURLS_PRIVATE_API="true"
-ENV YOURLS_UNIQUE_URLS="false"
