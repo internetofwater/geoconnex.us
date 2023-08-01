@@ -1,3 +1,0 @@
-FROM internetofwater/yourls-mysql:latest
-
-ENV MYSQL_ROOT_PASSWORD=${YOURLS_DB_PASS:-arootpassword}
