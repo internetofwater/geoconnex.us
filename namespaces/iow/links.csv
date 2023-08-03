@@ -1,4 +1,7 @@
 id, target, creator, description
+https://geoconnex.us/iow/homepage, https://internetofwater.org, kyle.onda@gmail.com, Testing the auto-update github action
+https://geoconnex.us/iow/aboutus, https://internetofwater.org/who-we-are/, kyle.onda@gmail.com, About us
+https://geoconnex.us/demo, https://geoconnex.internetofwater.dev/demo, kyle.onda@duke.edu, geconnex demo
 https://geoconnex.us/iow/nldi, https://labs.waterdata.usgs.gov/about-nldi/index.html, konda@lincolninst.edu, nldi shortlink
 https://geoconnex.us/iow/nldi/demo, https://storymaps.arcgis.com/stories/0ecb1aaf143b4e1981dbe30f38fceec5, konda@lincolninst.edu, nldi demo shortlink
 https://geoconnex.us/iow/map, https://gis.cgs.earth/portal/apps/webappviewer/index.html?id=41e8676b373344dfab9733b4d8f32837, konda@lincolninst.edu, geoconnex content map
