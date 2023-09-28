@@ -2,9 +2,9 @@ USGS
 ===
 
 Homepage:
-* https://waterdata.usgs.gov/
+* https://usgs.gov/
 
-These mappings are for the USGS Waterdata system. This collection will grow and evolve over time.
+These mappings are for USGS systems. This collection will grow and evolve over time.
 
 ## hydrologic-unit
 
@@ -15,6 +15,14 @@ Examples:
 * An HU04: https://geoconnex.us/usgs/hydrologic-unit/0707
 * An HU06: https://geoconnex.us/usgs/hydrologic-unit/070700
 * An HU08: https://geoconnex.us/usgs/hydrologic-unit/07070005
+
+## mainstem
+
+Mainstem IDs for rivers not defined in reference rivers.
+
+Examples: 
+* https://geoconnex.us/usgs/mainstem/9085326
+* https://geoconnex.us/usgs/mainstem/7419739
 
 ## monitoring-location
 
