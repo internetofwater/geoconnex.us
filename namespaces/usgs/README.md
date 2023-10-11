@@ -16,13 +16,13 @@ Examples:
 * An HU06: https://geoconnex.us/usgs/hydrologic-unit/070700
 * An HU08: https://geoconnex.us/usgs/hydrologic-unit/07070005
 
-## mainstem
+## mainstems
 
 Mainstem IDs for rivers not defined in reference rivers.
 
 Examples: 
-* https://geoconnex.us/usgs/mainstem/9085326
-* https://geoconnex.us/usgs/mainstem/7419739
+* https://geoconnex.us/usgs/mainstems/9085326
+* https://geoconnex.us/usgs/mainstems/7419739
 
 ## monitoring-location
 
