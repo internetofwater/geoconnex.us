@@ -1,0 +1,3 @@
+id,target,creator,description
+https://geoconnex.us//ornl/hydrosource/dam_([a-zA-Z0-9_]+).*$,https://hydrosource-features.ornl.gov/collections/dams/items/dam_$1,trugglesa@ornl.gov,dam in ORNL Hydrosource datasets
+https://geoconnex.us//ornl/hydrosource/plant_([a-zA-Z0-9_]+).*$,https://hydrosource-features.ornl.gov/collections/dams/items/plant_$1,trugglesa@ornl.gov,hydro powerplant in ORNL Hydrosource datasets
