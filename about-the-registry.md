@@ -34,7 +34,7 @@ These use cases imply requirements that `https://geoconnex.us` helps satisfy:
 
 The features registered in `https://geoconnex.us` are either community reference features or associated with a particular organization or database.
 
-1. community reference features: monitoring and environmental features collated by a person or group in the interest of the community
+1. community reference features: Hosted at [reference.geoconnex.us](https://github.com/internetofwater/reference.geoconnex.us), these monitoring and environmental features are collated by a person or group in the interest of the community. 
 1. organization specific features: features owned by a particular organizational entity or from a specific dataset
 
 These features can also be described using their role in the linked-data system.

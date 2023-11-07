@@ -8,7 +8,7 @@ The U.S. Geological Survey (USGS) previously identified 62 [Principal Aquifers](
 
 Belitz, K., Watson, E., Johnson, T.D., and Sharpe, J.B., 2018, Data release for secondary hydrogeologic regions of the conterminous United States: U.S. Geological Survey data release, https://doi.org/10.5066/F7F76BSS.
 
-The current implementation creating these ids and landing-content is in: https://github.com/internetofwater/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/sec_hydrg_reg geojson source for the landing content is available in [this repository here.](https://github.com/internetofwater/geoconnex.us/blob/master/pygeoapi/ext_data/sec_hydrg_reg.geojson)
+The current implementation creating these ids and landing-content is in: https://github.com/internetofwater/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/sec_hydrg_reg. The file source for the content is available in [this repository here.](https://github.com/internetofwater/reference.geoconnex.us)
 
 Example:
 https://geoconnex.us/ref/sec_hydrg_reg/S47
