@@ -34,7 +34,7 @@ If you have a collection of >300,000 features that cannot be easily and consiste
 
 ### Adding geospatial reference features to reference.geoconnex.us
 
-[https://reference.geoconnex.us](https://reference.geoconnex.us) is available to host community reference features. See the readme in the [pygeoapi](pygeoapi) folder for more info.
+[https://reference.geoconnex.us](https://reference.geoconnex.us) is available to host community reference features. See the readme in the [reference features repository](https://github.com/internetofwater/reference.geoconnex.us) for more info.
 
 ## Licensing of geoconnex.us contributions.
 

@@ -8,7 +8,7 @@ This map layer contains the shallowest principal aquifers of the conterminous Un
 
 These aquifers have a 1:1 correspondence with the [National Aquifers of the United States.](https://github.com/internetofwater/geoconnex.us/tree/master/namespaces/ref/nat_aq)
 
-The current implementation creating these ids and landing-content is in: https://github.com/internetofwater/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/nat_aq geojson source for the landing content is available in [this repository here.](https://github.com/internetofwater/geoconnex.us/blob/master/pygeoapi/ext_data/nat_aq.geojson)
+The current implementation creating these ids and landing-content is in: https://github.com/internetofwater/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/nat_aq. The file source for the content is available in [this repository here.](https://github.com/internetofwater/reference.geoconnex.us)
 
 Example:
 * https://geoconnex.us/ref/principal_aq/108
