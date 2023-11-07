@@ -20,7 +20,7 @@ See [https://geoconnex.us/demo](https://geoconnex.us/demo) for a mockup of data 
 
 Architecturally, Geoconnex involves:
 
-1. A set of community-curated web resources about hydrologic *reference features* (e.g. watersheds, monitoring locations, dams, bridges, etc.) about which many organizations may collect and publish data. 
+1. A set of community-curated web resources about hydrologic [Reference features](https://github.com/internetofwater/reference.geoconnex.us) (e.g. watersheds, monitoring locations, dams, bridges, etc.) about which many organizations may collect and publish data. 
 1. Web resources about hydrologic features that organizations publish on the web, including embedded JSON-LD metadata, using common ontologies such as [schema.org](https://schema.org), and domain-specific ontologies such as [HY-Features](https://www.opengis.net/def/schema/hy_features/hyf) for hydrology and [SOSA/SSN](https://www.w3.org/TR/vocab-ssn/) for sensor data. Guidance for embedded JSON-LD is under development at [docs.geoconnex.us](https://github.com/internetofwater/docs.geoconnex.us)
 1. A registry of persistent identifiers (PIDs) that point to the above resources. The PIDs in the geoconnex system have the base URI `https://geoconnex.us/`.  Learn how to submit identifiers for the registry here: [CONTRIBUTING](CONTRIBUTING.md). PIDs are important to maintain so that data publishers can change the URLs of their web resources while the knowledge graph and any search engine remain functional (preventing [link rot](https://en.wikipedia.org/wiki/Link_rot)). 
 1. A harvester that collects the JSON-LD published above, and publishes the resulting knowledge graph as both a public domain data product and an open API, allowing for the building of search interfaces. The harvester codebase is under development at [harvest.geoconnex.us](https://github.com/internetofwater/harvest.geoconnex.us), and the knowledge graph itself will be available from [graph.geoconnex.us](https://graph.geoconnex.us)
@@ -31,9 +31,9 @@ See the figure below:
 
 ## What is in graph.geoconnex.us?
 
-The features registered in `https://geoconnex.us` are automatically harvested and included in [graph.geoconnex.us](https://graph.geoconnex.us) are either community reference features or associated with a particular organization or database.
+The features registered in `https://geoconnex.us` are automatically harvested and included in [graph.geoconnex.us](https://graph.geoconnex.us) are either community reference features or associated with a particular organization or database. See [Geoconnex Features App](https://geoconnex.us/iow/map) for a simple map-based search interface for features in geoconnex.
 
-1. community reference features: monitoring and environmental features collated by a person or group in the interest of the community. These features are available via OGC API Features at [reference.geoconnex.us](https://reference.geoconnex.us/collections). See this [R Shiny application](https://internetofwater.shinyapps.io/geoconnex-reference-features) for a simple map-based search interface for reference features.
+1. community reference features: monitoring and environmental features collated by a person or group in the interest of the community. These features are available via OGC API Features at [reference.geoconnex.us](https://reference.geoconnex.us/collections). 
 1. organization specific features: features owned by a particular organizational entity or from a specific dataset. 
 
 
