@@ -2,7 +2,9 @@
 
 This is a community identifier namespace. It is to be used for shared identifiers for thematic collections of features.
 
-PIDs in this namespace will follow the pattern:
+Deployment for reference features is at [this repository](https://github.com/internetofwater/reference.geoconnex.us)
+
+PIDs in this namespace follow the pattern:
 `/ref/{featuretype}/{id}`
 
 Where {featuretype} is the thematic type. 
