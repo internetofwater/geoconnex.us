@@ -139,7 +139,7 @@ What is geoconnex.us? It is a framework for providers of water data to publish s
 
 ## Beginning our journey -- community reference features
 
-The geoconnex.us framework includes a large and growing catalog of "community reference features" -- neutral internet representations of real-world locations and areas that can be used by water data providers to describe what their published data is about. Many of these reference features are available from the website https://reference.geoconnex.us, which is powered by [PyGeoAPI](https://pygeoapi.io), a python implementation of [OGC API-Features](https://www.ogc.org/standards/ogcapi-features). This API enables programmatic interaction with spatial features on the web. 
+The geoconnex.us framework includes a large and growing catalog of "community reference features" -- neutral internet representations of real-world locations and areas that can be used by water data providers to describe what their published data is about. Many of these reference features are available from the website https://reference.geoconnex.us, which is powered by [pygeoapi](https://pygeoapi.io), a python implementation of [OGC API-Features](https://www.ogc.org/standards/ogcapi-features). This API enables programmatic interaction with spatial features on the web. 
 
 
 What's available from https://reference.geoconnex.us? We have collated a variety of common hydrologic and administrative locations and boundaries, and will continue to add more.
@@ -343,9 +343,9 @@ It looks like, in addition to the HUC8 and the PWS, we also have data from:
 
 A key part of the philosophy of geoconnex is that metadata is published independently by organizations and harvested automatically. Hovering around these various features on the map, we can that all sites have a `uri` (`@id`) that begins with "https://geoconnex.us/". However, if one follows these links, one is taken to different websites hosted on different servers by different organizations that are not aware of each other. 
 
-For example, https://geoconnex.us/nmwdi/nmbgmr/wells/WL-0183 redirects to http://wells.newmexicowaterdata.org/collections/nmbgmr_wells/items/WL-0183 , a PyGeoAPI instance operated by the [New Mexico Water Data Initiative](https://newmexicowaterdata.org/).
+For example, https://geoconnex.us/nmwdi/nmbgmr/wells/WL-0183 redirects to http://wells.newmexicowaterdata.org/collections/nmbgmr_wells/items/WL-0183 , a pygeoapi instance operated by the [New Mexico Water Data Initiative](https://newmexicowaterdata.org/).
 
-Meanwhile 	https://geoconnex.us/wade/sites/NM_146344 redirects to https://wade-test.geoconnex.us/collections/WaDE/items/NM_146344, a separate PyGeoAPI instance operated by the [Water Data Exchange](https://www.westernstateswater.org/wade/).
+Meanwhile 	https://geoconnex.us/wade/sites/NM_146344 redirects to https://wade-test.geoconnex.us/collections/WaDE/items/NM_146344, a separate pygeoapi instance operated by the [Water Data Exchange](https://www.westernstateswater.org/wade/).
 
 However, since both data systems provide JSON-LD markup, their metadata can be harvested automatically to create the data discovery workflow visualized here. This allows us to browse through the metadata. For example, perhaps we are only interested the SDWIS points and the NPDES permit for the Las Vegas drinking water system:
 
