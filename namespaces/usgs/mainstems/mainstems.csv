@@ -1,2 +1,2 @@
 id,target,creator,description
-https://geoconnex.us//usgs/mainstems/([0-9_]+).*$, https://hydro.nationalmap.gov/arcgis/rest/services/3DHP_all/MapServer/1/query?where=mainstemid%3D'https%3A%2F%2Fgeoconnex.us%2Fusgs%2Fmainstems%2F$1'&outFields=*&f=geojson&inSR=4269&outSR=4326, dblodgett@usgs.gov, USGS Mainstem ID
+https://geoconnex.us//usgs/mainstems/([0-9_]+).*$, https://hydro.nationalmap.gov/arcgis/rest/services/3DHP_all/MapServer/2/query?where=mainstemid%3D'https%3A%2F%2Fgeoconnex.us%2Fusgs%2Fmainstems%2F$1'&outFields=*&f=geojson&inSR=4269&outSR=4326, dblodgett@usgs.gov, USGS Mainstem ID
