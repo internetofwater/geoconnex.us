@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+    <loc>https://geoconnex.us/sitemap/ref/dams/dams__0.xml</loc>
+    <lastmod>2023-07-31T16:49:46Z</lastmod>
+</sitemap><sitemap>
+    <loc>https://geoconnex.us/sitemap/ref/mainstems/mainstems__0.xml</loc>
+    <lastmod>2023-07-31T16:49:46Z</lastmod>
+</sitemap><sitemap>
+    <loc>https://geoconnex.us/sitemap/ref/gages/gages__0.xml</loc>
+    <lastmod>2023-07-31T16:49:46Z</lastmod>
+</sitemap><sitemap>
+    <loc>https://geoconnex.us/sitemap/cdss/co_gages__0.xml</loc>
+    <lastmod>2024-05-20T17:00:00Z</lastmod>
+</sitemap></sitemapindex>

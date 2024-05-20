@@ -1,0 +1,180 @@
+#=================================================================
+#
+# Authors: Benjamin Webb <bwebb@lincolninst.edu
+#
+# Copyright (c) 2024 Ben Webb
+#
+# Permission is hereby granted, free of charge, to any person
+# obtaining a copy of this software and associated documentation
+# files (the "Software"), to deal in the Software without
+# restriction, including without limitation the rights to use,
+# copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the
+# Software is furnished to do so, subject to the following
+# conditions:
+#
+# The above copyright notice and this permission notice shall be
+# included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+# OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+# HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+# WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+# OTHER DEALINGS IN THE SOFTWARE.
+#
+# =================================================================
+
+server:
+    bind:
+        host: localhost #change to your hostname if running your own instance
+        port: 5000
+    url: ${PYGEOAPI_URL} #change to host URL  if running your own instance
+    mimetype: application/json; charset=UTF-8
+    encoding: utf-8
+    gzip: true
+    language: en-US
+    cors: true
+    pretty_print: true
+    limit: 100
+    map:
+        url: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+        attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>'
+
+logging:
+    level: ERROR
+    # logfile: /tmp/pygeoapi.log
+
+metadata:
+    identification:
+        title: Geoconnex Reference Service
+        description: Provides reference for community features in geoconnex.us
+        keywords:
+            - Geospatial
+            - Geoconnex
+            - Reference
+        keywords_type: theme
+        terms_of_service: https://creativecommons.org/licenses/by/4.0/
+        url: https://github.com/internetofwater/reference.geoconnex.us
+    license:
+        name: CC-BY 4.0 license
+        url: https://creativecommons.org/licenses/by/4.0/
+    provider:
+        name: Internet of Water
+        url: https://github.com/internetofwater/reference.geoconnex.us
+    contact:
+        address: 113 Brattle St
+        city: Cambridge
+        stateorprovince: Massachussetts
+        postalcode: 02138
+        country: USA
+        email: bwebb@lincolninst.edu
+        url: https://internetofwater.org
+        role: pointOfContact
+
+resources:
+    gages:  # updated 2024-04-02
+        type: collection
+        title: Reference Gages
+        description: United States community contributed reference Stream Gage Monitoring Locations
+        keywords:
+            - Stream Gages
+            - USGS
+        linked-data:
+            item_template: jsonld/ref-gages.jsonld
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://github.com/internetofwater/ref_gages
+              hreflang: en-US
+        extents: &extents
+            spatial:
+                bbox: [-109.448547,36.611118,-107.668762,37.322120]
+                crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+            temporal:
+                begin: null
+                end: null
+        providers:
+            - type: feature
+              name: GeoJSON
+              data: /data/geometry/gages.json
+              id_field: id
+    mainstems:
+        type: collection
+        title: Reference Mainstems
+        description: United States community ontributed reference Mainstem Rivers
+        keywords:
+            - Mainstem
+            - Community
+        linked-data:
+            item_template: jsonld/mainstems.jsonld
+            context:
+                - schema: https://schema.org/
+                  name_at_outlet: schema:name
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://github.com/internetofwater/ref_rivers
+              hreflang: en-US
+        extents: *extents
+        providers:
+            - type: feature
+              name: GeoJSON
+              data: /data/geometry/mainstems.json
+              id_field: id
+    dams: # updated 2024-04-23
+        type: collection
+        title: Reference Dams
+        description: United States Community Contributed Reference Dams
+        keywords:
+            - Dams
+            - Community
+        linked-data:
+            context:
+                - schema: https://schema.org/
+                  name: schema:name
+                  description: schema:description
+                  provider:
+                      "@id": schema:provider
+                      "@type": schema:url
+                  subjectOf: 
+                      "@id": schema:subjectOf
+                      "@type": schema:url
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://github.com/internetofwater/ref_dams
+              hreflang: en-US
+        extents: *extents
+        providers:
+            - type: feature
+              name: GeoJSON
+              data: /data/geometry/dams.json
+              id_field: id
+
+    co/gages:
+        type: collection
+        title: Colorado Gages
+        description: Gages from Colorado Division of Water Resources
+        linked-data:
+           item_template: jsonld/co.j2
+        keywords:
+            - colorado
+            - gage
+        links:
+            - type: application/html
+              rel: canonical
+              title: data source
+              href: https://github.com/cgs-earth/geoconnex-features
+              hreflang: en-US
+        extents: *extents
+        providers:
+            - type: feature
+              name: GeoJSON
+              data: /data/geometry/co_gages.json
+              id_field: id
