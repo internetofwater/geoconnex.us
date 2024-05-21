@@ -36,6 +36,7 @@ services:
   yourls-action:
     image: ghcr.io/cgs-earth/yourls-action:0.3.1
     container_name: yourls-action
+    command: ['/namespaces', '--uri_stem', 'https://pids.geoconnex.dev/']
     environment:
       YOURLS_DB_USER: ${YOURLS_DB_USER:-root}
       YOURLS_DB_PASSWORD: ${YOURLS_DB_PASSWORD:-arootpassword}
