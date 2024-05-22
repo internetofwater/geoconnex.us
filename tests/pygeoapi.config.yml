@@ -164,7 +164,7 @@ resources:
     title: Colorado Gages
     description: Gages from Colorado Division of Water Resources
     linked-data:
-      item_template: jsonld/co.j2
+      item_template: jsonld/co.jsonld
     keywords:
       - colorado
       - gage
