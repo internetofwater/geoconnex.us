@@ -2,7 +2,7 @@
 
 The process for adding a PID-URI redirect is generally similar to that used by [w3id.org](https://github.com/perma-id/w3id.org).
 
-There is a strong preference for creating "[1:1](#adding-11-redirects-to-geoconnexus)" redirects. That is, specifying an exact redirect from a geoconnex.us-based PID to the URI of the hydrologic feature you have a web resource about, for each and every individual feature. However, if you need to create PIDs and redirects for a large number of features (>= 300,000), we will require a [regular expression matching redirect](#adding-regular-expression-redirects-to-geoconnexus). For example, redirecting from https://geoconnex.us/example-namespace/*wildcard-string to https://example.org/features?query=*wildcard-string.
+There is a strong preference for creating "[1:1](#adding-11-redirects-to-geoconnexus)" redirects. That is, specifying an exact redirect from a geoconnex.us-based PID to the URI of the hydrologic feature you have a web resource about, for each and every individual feature. However, if you need to create PIDs and redirects for a large number of features (>= 300,000), we will require a "[regular expression matching redirect](#adding-regular-expression-redirects-to-geoconnexus)". For example, redirecting from `https://geoconnex.us/example-namespace/*wildcard-string` to `https://example.org/features?query=*wildcard-string`.
 
 That being said, 1:1 redirects are preferred where possible because they are simpler to resolve and allow you to customize (and change, when needed) your target URI patterns with more specificity. Thus, if you have >=300,000 features, but these features can be split in a consistent way into sub-collections, all of which number <300,000 features (as might be the case for features that can be divided by geography, jurisdiction, theme, or type), then you might consider submitting multiple collections of 1:1 redirects.
 
@@ -21,7 +21,7 @@ The preferred way to create the redirects yourself is by following these steps:
 
 4. (Optional but strongly suggested) Add a `README.md` detailing contact persons and
    (a subset of) your permanent identifiers in your namespace directory. For an example,
-   see [`namespaces/example-namespace/README.md`](namespaces/example-namespace/README.md)
+   see [`namespaces/example-namespace/README.md`]([namespaces/example-namespace/README.md](https://github.com/internetofwater/geoconnex.us/blob/master/namespaces/example-namespace/README.md))
 5. Commit your changes and submit a
    [pull request](https://github.com/internetofwater/geoconnex.us/pulls).
 6. geoconnex.us administrators will review your pull request and merge it if
