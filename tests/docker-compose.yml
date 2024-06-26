@@ -1,0 +1,45 @@
+services:
+  pygeoapi:
+    build:
+      context: .
+      dockerfile: Dockerfile-pygeoapi
+    container_name: reference-geoconnex-dev
+    ports:
+      - 5001:80
+    environment:
+      - PYGEOAPI_URL=http://localhost:5001
+
+  mysql:
+    image: ghcr.io/internetofwater/yourls-mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${YOURLS_DB_PASSWORD:-arootpassword}
+    restart: always
+
+  yourls:
+    build:
+      context: .
+      dockerfile: Dockerfile-yourls
+    environment:
+      DB_SOCKET_DIR: /var
+      YOURLS_DB_HOST: /run/mysqld/mysqld.sock;host=mysql
+      YOURLS_DB_PASS: arootpassword
+      YOURLS_SITE: http://localhost:8080
+      YOURLS_USER: yourls-admin
+      YOURLS_PASS: apassword
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - 8080:80
+
+  yourls-action:
+    image: ghcr.io/cgs-earth/yourls-action:0.3.1
+    container_name: yourls-action
+    command: ['/namespaces', '--uri_stem', 'https://pids.geoconnex.dev/']
+    environment:
+      YOURLS_DB_USER: ${YOURLS_DB_USER:-root}
+      YOURLS_DB_PASSWORD: ${YOURLS_DB_PASSWORD:-arootpassword}
+      YOURLS_DB_HOST: ${YOURLS_DB_HOST:-mysql}
+    volumes:
+        - ./namespaces:/namespaces
