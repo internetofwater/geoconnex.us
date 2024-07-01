@@ -12,7 +12,9 @@ jobs:
         name: setup Python
         with:
           python-version: 3.8
-      - name: test duplicate
+      - name: install yourls action 📦
         run: |
           pip3 install git+https://github.com/cgs-earth/yourls-action.git#subdirectory=yourls-action
+      - name: run duplicate test
+        run: |
           yourls-action validate namespaces
