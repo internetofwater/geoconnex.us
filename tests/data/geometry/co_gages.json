@@ -1,0 +1,1773 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.219851,
+                "name":"BASBBACO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-107.892354,
+                "usgs_id":"",
+                "wd":30.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3002219",
+                "county":"LA PLATA",
+                "modified":1537863660000.0,
+                "provider_id":"BASBBACO",
+                "objectid":548,
+                "water_source":"ANIMAS RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/BASBBACO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/BASBBACO",
+                "fid":180,
+                "gnis_id":"00900284",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"17014859",
+                "abbrev":"BASBBACO",
+                "stream_mile":20.15,
+                "utm_x":243363.8,
+                "uri":"https://geoconnex.us/cdss/gages/BASBBACO",
+                "mainstem_uri":null,
+                "station_name":"BASIN CREEK BELOW RIDGES BASIN RESERVOIR",
+                "por_start":"2018-09-27 00:00:00",
+                "utm_y":4123180.8,
+                "data":[
+                    {
+                        "Unnamed: 0":179,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=BASBBACO&measTypes=Streamflow",
+                        "name":"BASIN CREEK BELOW RIDGES BASIN RESERVOIR",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"BASIN CREEK BELOW RIDGES BASIN RESERVOIR",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"BASBBACO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -107.89235399999995,
+                    37.21985100000006
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.186429,
+                "name":"BASMOUCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-107.879803,
+                "usgs_id":"",
+                "wd":30.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3002207",
+                "county":"LA PLATA",
+                "modified":1405075800000.0,
+                "provider_id":"BASMOUCO",
+                "objectid":549,
+                "water_source":"BASIN CREEK",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/BASMOUCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/BASMOUCO",
+                "fid":181,
+                "gnis_id":"00179296",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"17014889",
+                "abbrev":"BASMOUCO",
+                "stream_mile":0.08,
+                "utm_x":244364.7,
+                "uri":"https://geoconnex.us/cdss/gages/BASMOUCO",
+                "mainstem_uri":null,
+                "station_name":"BASIN CREEK AT THE MOUTH NEAR DURANGO, CO",
+                "por_start":"2014-10-01 00:00:00",
+                "utm_y":4119437.8,
+                "data":[
+                    {
+                        "Unnamed: 0":180,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=BASMOUCO&measTypes=Streamflow",
+                        "name":"BASIN CREEK AT THE MOUTH NEAR DURANGO, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"BASIN CREEK AT THE MOUTH NEAR DURANGO, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"BASMOUCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -107.87980299999998,
+                    37.18642900000003
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.117976,
+                "name":"CHEREDCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.198509,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302200",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"CHEREDCO",
+                "objectid":781,
+                "water_source":"CHERRY CREEK",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/CHEREDCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/CHEREDCO",
+                "fid":311,
+                "gnis_id":"00179355",
+                "huc10":140801.0,
+                "provider_code":"cdss",
+                "comid":"16998772",
+                "abbrev":"CHEREDCO",
+                "stream_mile":0.18,
+                "utm_x":215810.0,
+                "uri":"https://geoconnex.us/cdss/gages/CHEREDCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/55846",
+                "station_name":"CHERRY CREEK AT THE MOUTH NEAR RED MESA",
+                "por_start":"1988-06-07 00:00:00",
+                "utm_y":4112749.0,
+                "data":[
+                    {
+                        "Unnamed: 0":310,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=CHEREDCO&measTypes=Streamflow",
+                        "name":"CHERRY CREEK AT THE MOUTH NEAR RED MESA",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"CHERRY CREEK AT THE MOUTH NEAR RED MESA",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"CHEREDCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.19850899999994,
+                    37.117976000000056
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.009598,
+                "name":"ENTDITCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.189823,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300540",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"ENTDITCO",
+                "objectid":1066,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/ENTDITCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/ENTDITCO",
+                "fid":446,
+                "gnis_id":"00897392",
+                "huc10":140801.0,
+                "provider_code":"cdss",
+                "comid":"16998892",
+                "abbrev":"ENTDITCO",
+                "stream_mile":1.54,
+                "utm_x":216178.1,
+                "uri":"https://geoconnex.us/cdss/gages/ENTDITCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"ENTERPRISE DITCH AT THE COLORADO-NEW MEXICO STATELINE",
+                "por_start":"1991-07-25 00:00:00",
+                "utm_y":4100695.0,
+                "data":[
+                    {
+                        "Unnamed: 0":445,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=ENTDITCO&measTypes=Streamflow",
+                        "name":"ENTERPRISE DITCH AT THE COLORADO-NEW MEXICO STATELINE",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"ENTERPRISE DITCH AT THE COLORADO-NEW MEXICO STATELINE",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"ENTDITCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.18982299999999,
+                    37.00959800000004
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.293838,
+                "name":"FARMERCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-107.794974,
+                "usgs_id":"",
+                "wd":30.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3001011",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"FARMERCO",
+                "objectid":1092,
+                "water_source":"FLORIDA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/FARMERCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/FARMERCO",
+                "fid":466,
+                "gnis_id":"00183961",
+                "huc10":14080104.0,
+                "provider_code":"cdss",
+                "comid":"17015241",
+                "abbrev":"FARMERCO",
+                "stream_mile":31.87,
+                "utm_x":252249.1,
+                "uri":"https://geoconnex.us/cdss/gages/FARMERCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/42750",
+                "station_name":"FLORIDA FARMERS CANAL",
+                "por_start":"1999-05-10 00:00:00",
+                "utm_y":4131132.0,
+                "data":[
+                    {
+                        "Unnamed: 0":465,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=FARMERCO&measTypes=Streamflow",
+                        "name":"FLORIDA FARMERS CANAL",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"FLORIDA FARMERS CANAL",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"FARMERCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -107.79497399999997,
+                    37.29383800000005
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-18T00:00:00+00:00",
+                "latitude":37.056898,
+                "name":"FLOBONCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-107.869961,
+                "usgs_id":"09363200",
+                "wd":30.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3002213",
+                "county":"LA PLATA",
+                "modified":1023706440000.0,
+                "provider_id":"FLOBONCO",
+                "objectid":1112,
+                "water_source":"FLORIDA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/FLOBONCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/FLOBONCO",
+                "fid":480,
+                "gnis_id":"00183961",
+                "huc10":14080104.0,
+                "provider_code":"cdss",
+                "comid":"17015259",
+                "abbrev":"FLOBONCO",
+                "stream_mile":0.67,
+                "utm_x":244803.6,
+                "uri":"https://geoconnex.us/cdss/gages/FLOBONCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/42750",
+                "station_name":"FLORIDA RIVER AT BONDAD, CO.",
+                "por_start":"1956-10-01 00:00:00",
+                "utm_y":4105037.0,
+                "data":[
+                    {
+                        "Unnamed: 0":479,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=FLOBONCO&measTypes=Streamflow",
+                        "name":"FLORIDA RIVER AT BONDAD, CO.",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"FLORIDA RIVER AT BONDAD, CO.",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"FLOBONCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -107.86996099999999,
+                    37.05689800000005
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.312481,
+                "name":"FLOCANCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-107.772819,
+                "usgs_id":"",
+                "wd":30.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3001013",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"FLOCANCO",
+                "objectid":1113,
+                "water_source":"FLORIDA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/FLOCANCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/FLOCANCO",
+                "fid":481,
+                "gnis_id":"00183961",
+                "huc10":14080104.0,
+                "provider_code":"cdss",
+                "comid":"17014821",
+                "abbrev":"FLOCANCO",
+                "stream_mile":33.92,
+                "utm_x":254273.5,
+                "uri":"https://geoconnex.us/cdss/gages/FLOCANCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/42750",
+                "station_name":"FLORIDA CANAL",
+                "por_start":"1994-04-22 00:00:00",
+                "utm_y":4133143.3,
+                "data":[
+                    {
+                        "Unnamed: 0":480,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=FLOCANCO&measTypes=Streamflow",
+                        "name":"FLORIDA CANAL",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"FLORIDA CANAL",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"FLOCANCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -107.77281899999997,
+                    37.31248100000005
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.294836,
+                "name":"FLOFARCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-107.792044,
+                "usgs_id":"09363050",
+                "wd":30.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3002214",
+                "county":"LA PLATA",
+                "modified":1210087320000.0,
+                "provider_id":"FLOFARCO",
+                "objectid":1115,
+                "water_source":"FLORIDA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/FLOFARCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/FLOFARCO",
+                "fid":482,
+                "gnis_id":"00183961",
+                "huc10":14080104.0,
+                "provider_code":"cdss",
+                "comid":"17014821",
+                "abbrev":"FLOFARCO",
+                "stream_mile":31.84,
+                "utm_x":252512.0,
+                "uri":"https://geoconnex.us/cdss/gages/FLOFARCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/42750",
+                "station_name":"FLORIDA RIVER BELOW FLORIDA FARMERS CANAL NEAR DURANGO",
+                "por_start":"1967-10-01 00:00:00",
+                "utm_y":4131235.0,
+                "data":[
+                    {
+                        "Unnamed: 0":481,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=FLOFARCO&measTypes=Streamflow",
+                        "name":"FLORIDA RIVER BELOW FLORIDA FARMERS CANAL NEAR DURANGO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"FLORIDA RIVER BELOW FLORIDA FARMERS CANAL NEAR DURANGO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"FLOFARCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -107.79204399999998,
+                    37.29483600000003
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.150958,
+                "name":"FREDITCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.149267,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300547",
+                "county":"LA PLATA",
+                "modified":1243434060000.0,
+                "provider_id":"FREDITCO",
+                "objectid":1166,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/FREDITCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/FREDITCO",
+                "fid":500,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998732",
+                "abbrev":"FREDITCO",
+                "stream_mile":15.27,
+                "utm_x":220308.0,
+                "uri":"https://geoconnex.us/cdss/gages/FREDITCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"JOSEPH FREED DITCH, CO",
+                "por_start":"2009-06-04 00:00:00",
+                "utm_y":4116263.0,
+                "data":[
+                    {
+                        "Unnamed: 0":499,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=FREDITCO&measTypes=Streamflow",
+                        "name":"JOSEPH FREED DITCH, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"JOSEPH FREED DITCH, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"FREDITCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.14926699999995,
+                    37.15095800000006
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.072279,
+                "name":"GOVDRACO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.165146,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302201",
+                "county":"LA PLATA",
+                "modified":1403702880000.0,
+                "provider_id":"GOVDRACO",
+                "objectid":1229,
+                "water_source":"LONG HOLLOW",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/GOVDRACO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/GOVDRACO",
+                "fid":539,
+                "gnis_id":"00179275",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998830",
+                "abbrev":"GOVDRACO",
+                "stream_mile":1.48,
+                "utm_x":218605.7,
+                "uri":"https://geoconnex.us/cdss/gages/GOVDRACO",
+                "mainstem_uri":null,
+                "station_name":"GOVERNMENT DRAW ABOVE LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                "por_start":"2014-08-12 00:00:00",
+                "utm_y":4107578.5,
+                "data":[
+                    {
+                        "Unnamed: 0":538,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=GOVDRACO&measTypes=Streamflow",
+                        "name":"GOVERNMENT DRAW ABOVE LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"GOVERNMENT DRAW ABOVE LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"GOVDRACO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.165146,
+                    37.07227900000004
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.165474,
+                "name":"HABREDCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.142844,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300561",
+                "county":"LA PLATA",
+                "modified":1186498140000.0,
+                "provider_id":"HABREDCO",
+                "objectid":1279,
+                "water_source":"HAY GULCH",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/HABREDCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/HABREDCO",
+                "fid":562,
+                "gnis_id":"00179113",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998730",
+                "abbrev":"HABREDCO",
+                "stream_mile":1.11,
+                "utm_x":220932.0,
+                "uri":"https://geoconnex.us/cdss/gages/HABREDCO",
+                "mainstem_uri":null,
+                "station_name":"HAY GULCH BELOW RED MESA RESERVOIR",
+                "por_start":"2007-08-07 00:00:00",
+                "utm_y":4117855.0,
+                "data":[
+                    {
+                        "Unnamed: 0":561,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=HABREDCO&measTypes=Streamflow",
+                        "name":"HAY GULCH BELOW RED MESA RESERVOIR",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"HAY GULCH BELOW RED MESA RESERVOIR",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"HABREDCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.14284399999997,
+                    37.165474000000074
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.285429,
+                "name":"HAYDITCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.040137,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300504",
+                "county":"LA PLATA",
+                "modified":1186498260000.0,
+                "provider_id":"HAYDITCO",
+                "objectid":1289,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/HAYDITCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/HAYDITCO",
+                "fid":568,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998696",
+                "abbrev":"HAYDITCO",
+                "stream_mile":30.19,
+                "utm_x":230482.4,
+                "uri":"https://geoconnex.us/cdss/gages/HAYDITCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"HAY GULCH DITCH NEAR HESPERUS",
+                "por_start":"2007-08-08 00:00:00",
+                "utm_y":4130869.5,
+                "data":[
+                    {
+                        "Unnamed: 0":567,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=HAYDITCO&measTypes=Streamflow",
+                        "name":"HAY GULCH DITCH NEAR HESPERUS",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"HAY GULCH DITCH NEAR HESPERUS",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"HAYDITCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.04013699999996,
+                    37.28542900000008
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.176954,
+                "name":"HAYREDCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.136699,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300562",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"HAYREDCO",
+                "objectid":1291,
+                "water_source":"HAY GULCH",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/HAYREDCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/HAYREDCO",
+                "fid":569,
+                "gnis_id":"00179113",
+                "huc10":140801.0,
+                "provider_code":"cdss",
+                "comid":"16998722",
+                "abbrev":"HAYREDCO",
+                "stream_mile":2.09,
+                "utm_x":221520.0,
+                "uri":"https://geoconnex.us/cdss/gages/HAYREDCO",
+                "mainstem_uri":null,
+                "station_name":"HAY GULCH ABOVE RED MESA RESERVOIR",
+                "por_start":"1991-07-30 00:00:00",
+                "utm_y":4119111.0,
+                "data":[
+                    {
+                        "Unnamed: 0":568,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=HAYREDCO&measTypes=Streamflow",
+                        "name":"HAY GULCH ABOVE RED MESA RESERVOIR",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"HAY GULCH ABOVE RED MESA RESERVOIR",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"HAYREDCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.13669899999996,
+                    37.17695400000008
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.168543,
+                "name":"LAPBRECO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.119462,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302207",
+                "county":"LA PLATA",
+                "modified":1172581440000.0,
+                "provider_id":"LAPBRECO",
+                "objectid":1446,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LAPBRECO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LAPBRECO",
+                "fid":674,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998728",
+                "abbrev":"LAPBRECO",
+                "stream_mile":17.66,
+                "utm_x":223019.6,
+                "uri":"https://geoconnex.us/cdss/gages/LAPBRECO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"LA PLATA RIVER NEAR BREEN",
+                "por_start":"2007-03-07 00:00:00",
+                "utm_y":4118126.8,
+                "data":[
+                    {
+                        "Unnamed: 0":673,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LAPBRECO&measTypes=Streamflow",
+                        "name":"LA PLATA RIVER NEAR BREEN",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LA PLATA RIVER NEAR BREEN",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LAPBRECO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.11946199999994,
+                    37.16854300000006
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.115203,
+                "name":"LAPCHECO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.200091,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302206",
+                "county":"LA PLATA",
+                "modified":1172580960000.0,
+                "provider_id":"LAPCHECO",
+                "objectid":1447,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LAPCHECO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LAPCHECO",
+                "fid":675,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998774",
+                "abbrev":"LAPCHECO",
+                "stream_mile":10.72,
+                "utm_x":215658.6,
+                "uri":"https://geoconnex.us/cdss/gages/LAPCHECO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"LA PLATA RIVER BELOW MOUTH OF CHERRY CREEK NEAR RED MESA",
+                "por_start":"2007-03-06 00:00:00",
+                "utm_y":4112445.5,
+                "data":[
+                    {
+                        "Unnamed: 0":674,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LAPCHECO&measTypes=Streamflow",
+                        "name":"LA PLATA RIVER BELOW MOUTH OF CHERRY CREEK NEAR RED MESA",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LA PLATA RIVER BELOW MOUTH OF CHERRY CREEK NEAR RED MESA",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LAPCHECO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.20009099999999,
+                    37.115203000000065
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.289642,
+                "name":"LAPHESCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.040667,
+                "usgs_id":"09365500",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302202",
+                "county":"LA PLATA",
+                "modified":1023706440000.0,
+                "provider_id":"LAPHESCO",
+                "objectid":1449,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LAPHESCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LAPHESCO",
+                "fid":676,
+                "gnis_id":"00897392",
+                "huc10":14080105.0,
+                "provider_code":"cdss",
+                "comid":"16998670",
+                "abbrev":"LAPHESCO",
+                "stream_mile":30.53,
+                "utm_x":230449.7,
+                "uri":"https://geoconnex.us/cdss/gages/LAPHESCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"LA PLATA RIVER AT HESPERUS, CO",
+                "por_start":"1917-10-01 00:00:00",
+                "utm_y":4131339.3,
+                "data":[
+                    {
+                        "Unnamed: 0":675,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LAPHESCO&measTypes=Streamflow",
+                        "name":"LA PLATA RIVER AT HESPERUS, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LA PLATA RIVER AT HESPERUS, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LAPHESCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.04066699999998,
+                    37.28964200000007
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-08-21T00:00:00+00:00",
+                "latitude":37.045859,
+                "name":"LAPLONCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.183011,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302205",
+                "county":"LA PLATA",
+                "modified":1422874440000.0,
+                "provider_id":"LAPLONCO",
+                "objectid":1452,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LAPLONCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LAPLONCO",
+                "fid":678,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998892",
+                "abbrev":"LAPLONCO",
+                "stream_mile":4.44,
+                "utm_x":216919.2,
+                "uri":"https://geoconnex.us/cdss/gages/LAPLONCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"LA PLATA RIVER BELOW MOUTH LONG HOLLOW NEAR RED MESA, CO",
+                "por_start":"2015-02-05 00:00:00",
+                "utm_y":4104699.0,
+                "data":[
+                    {
+                        "Unnamed: 0":677,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LAPLONCO&measTypes=Streamflow",
+                        "name":"LA PLATA RIVER BELOW MOUTH LONG HOLLOW NEAR RED MESA, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LA PLATA RIVER BELOW MOUTH LONG HOLLOW NEAR RED MESA, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LAPLONCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.18301099999996,
+                    37.045859000000064
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":36.999699,
+                "name":"LAPMEXCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.188678,
+                "usgs_id":"09366500",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302204",
+                "county":"LA PLATA",
+                "modified":1023706440000.0,
+                "provider_id":"LAPMEXCO",
+                "objectid":1453,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LAPMEXCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LAPMEXCO",
+                "fid":679,
+                "gnis_id":"00897392",
+                "huc10":14080105.0,
+                "provider_code":"cdss",
+                "comid":"17000640",
+                "abbrev":"LAPMEXCO",
+                "stream_mile":0.01,
+                "utm_x":216243.1,
+                "uri":"https://geoconnex.us/cdss/gages/LAPMEXCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"LA PLATA RIVER AT THE COLORADO-NEW MEXICO STATELINE",
+                "por_start":"1920-10-01 00:00:00",
+                "utm_y":4099593.1,
+                "data":[
+                    {
+                        "Unnamed: 0":678,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LAPMEXCO&measTypes=Streamflow",
+                        "name":"LA PLATA RIVER AT THE COLORADO-NEW MEXICO STATELINE",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LA PLATA RIVER AT THE COLORADO-NEW MEXICO STATELINE",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LAPMEXCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.18867799999998,
+                    36.99969900000008
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.321862,
+                "name":"LITCANCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.036878,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3304666",
+                "county":"LA PLATA",
+                "modified":1382369220000.0,
+                "provider_id":"LITCANCO",
+                "objectid":1504,
+                "water_source":"TRANSBASIN WATER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LITCANCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LITCANCO",
+                "fid":705,
+                "gnis_id":"",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998670",
+                "abbrev":"LITCANCO",
+                "stream_mile":null,
+                "utm_x":230900.7,
+                "uri":"https://geoconnex.us/cdss/gages/LITCANCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"LIGHTNER CREEK CANAL ABOVE HESPERUS",
+                "por_start":"2013-10-22 00:00:00",
+                "utm_y":4134903.8,
+                "data":[
+                    {
+                        "Unnamed: 0":704,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LITCANCO&measTypes=Streamflow",
+                        "name":"LIGHTNER CREEK CANAL ABOVE HESPERUS",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LIGHTNER CREEK CANAL ABOVE HESPERUS",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LITCANCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.03687799999994,
+                    37.32186200000007
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.068287,
+                "name":"LONALOCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.14826,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302209",
+                "county":"LA PLATA",
+                "modified":1403702340000.0,
+                "provider_id":"LONALOCO",
+                "objectid":1528,
+                "water_source":"LONG HOLLOW",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LONALOCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LONALOCO",
+                "fid":721,
+                "gnis_id":"00179275",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998828",
+                "abbrev":"LONALOCO",
+                "stream_mile":2.96,
+                "utm_x":220093.0,
+                "uri":"https://geoconnex.us/cdss/gages/LONALOCO",
+                "mainstem_uri":null,
+                "station_name":"LONG HOLLOW ABOVE LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                "por_start":"2014-06-10 00:00:00",
+                "utm_y":4107085.0,
+                "data":[
+                    {
+                        "Unnamed: 0":720,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LONALOCO&measTypes=Streamflow",
+                        "name":"LONG HOLLOW ABOVE LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LONG HOLLOW ABOVE LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LONALOCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.14826,
+                    37.068287000000055
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2021-12-06T00:00:00+00:00",
+                "latitude":37.057639,
+                "name":"LONBLOCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.175848,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302211",
+                "county":"LA PLATA",
+                "modified":1637316840000.0,
+                "provider_id":"LONBLOCO",
+                "objectid":1529,
+                "water_source":"LONG HOLLOW",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LONBLOCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LONBLOCO",
+                "fid":722,
+                "gnis_id":"00179275",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998832",
+                "abbrev":"LONBLOCO",
+                "stream_mile":0.5,
+                "utm_x":217600.0,
+                "uri":"https://geoconnex.us/cdss/gages/LONBLOCO",
+                "mainstem_uri":null,
+                "station_name":"LONG HOLLOW BELOW LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                "por_start":"2014-10-17 00:00:00",
+                "utm_y":4105985.0,
+                "data":[
+                    {
+                        "Unnamed: 0":721,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LONBLOCO&measTypes=Streamflow",
+                        "name":"LONG HOLLOW BELOW LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LONG HOLLOW BELOW LONG HOLLOW RESERVOIR NEAR RED MESA, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LONBLOCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.17584799999997,
+                    37.05763900000005
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.057262,
+                "name":"LONREDCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.177136,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3302210",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"LONREDCO",
+                "objectid":1536,
+                "water_source":"LONG HOLLOW",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LONREDCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LONREDCO",
+                "fid":726,
+                "gnis_id":"00179275",
+                "huc10":140801.0,
+                "provider_code":"cdss",
+                "comid":"16998832",
+                "abbrev":"LONREDCO",
+                "stream_mile":0.43,
+                "utm_x":217484.0,
+                "uri":"https://geoconnex.us/cdss/gages/LONREDCO",
+                "mainstem_uri":null,
+                "station_name":"LONG HOLLOW AT THE MOUTH NEAR RED MESA",
+                "por_start":"1988-06-09 00:00:00",
+                "utm_y":4105947.0,
+                "data":[
+                    {
+                        "Unnamed: 0":725,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LONREDCO&measTypes=Streamflow",
+                        "name":"LONG HOLLOW AT THE MOUTH NEAR RED MESA",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LONG HOLLOW AT THE MOUTH NEAR RED MESA",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LONREDCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.17713599999996,
+                    37.05726200000004
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.288896,
+                "name":"LPIRDICO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.04057,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300501",
+                "county":"LA PLATA",
+                "modified":1186663020000.0,
+                "provider_id":"LPIRDICO",
+                "objectid":1557,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/LPIRDICO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/LPIRDICO",
+                "fid":739,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998670",
+                "abbrev":"LPIRDICO",
+                "stream_mile":30.5,
+                "utm_x":230456.3,
+                "uri":"https://geoconnex.us/cdss/gages/LPIRDICO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"LA PLATA IRRIGATION DITCH",
+                "por_start":"2007-08-21 00:00:00",
+                "utm_y":4131255.8,
+                "data":[
+                    {
+                        "Unnamed: 0":738,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=LPIRDICO&measTypes=Streamflow",
+                        "name":"LA PLATA IRRIGATION DITCH",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"LA PLATA IRRIGATION DITCH",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"LPIRDICO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.04056999999995,
+                    37.28889600000008
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.295251,
+                "name":"PINDITCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.040127,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300533",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"PINDITCO",
+                "objectid":1836,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/PINDITCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/PINDITCO",
+                "fid":889,
+                "gnis_id":"00897392",
+                "huc10":140801.0,
+                "provider_code":"cdss",
+                "comid":"16998670",
+                "abbrev":"PINDITCO",
+                "stream_mile":31.91,
+                "utm_x":230518.5,
+                "uri":"https://geoconnex.us/cdss/gages/PINDITCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"PINE RIDGE DITCH NEAR HESPERUS",
+                "por_start":"1993-10-01 00:00:00",
+                "utm_y":4131959.5,
+                "data":[
+                    {
+                        "Unnamed: 0":888,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=PINDITCO&measTypes=Streamflow",
+                        "name":"PINE RIDGE DITCH NEAR HESPERUS",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"PINE RIDGE DITCH NEAR HESPERUS",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"PINDITCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.04012699999998,
+                    37.295251000000064
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.006398,
+                "name":"PIODITCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.183847,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3304640",
+                "county":"LA PLATA",
+                "modified":null,
+                "provider_id":"PIODITCO",
+                "objectid":1840,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/PIODITCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/PIODITCO",
+                "fid":891,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998892",
+                "abbrev":"PIODITCO",
+                "stream_mile":1.88,
+                "utm_x":216698.0,
+                "uri":"https://geoconnex.us/cdss/gages/PIODITCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"PIONEER DITCH AT THE COLORADO-NEW MEXICO STATELINE",
+                "por_start":"1991-07-26 00:00:00",
+                "utm_y":4100322.0,
+                "data":[
+                    {
+                        "Unnamed: 0":890,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=PIODITCO&measTypes=Streamflow",
+                        "name":"PIONEER DITCH AT THE COLORADO-NEW MEXICO STATELINE",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"PIONEER DITCH AT THE COLORADO-NEW MEXICO STATELINE",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"PIODITCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.18384699999996,
+                    37.00639800000005
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.139203,
+                "name":"REVDITCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.161655,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300548",
+                "county":"LA PLATA",
+                "modified":1243434240000.0,
+                "provider_id":"REVDITCO",
+                "objectid":1983,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/REVDITCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/REVDITCO",
+                "fid":972,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998770",
+                "abbrev":"REVDITCO",
+                "stream_mile":14.2,
+                "utm_x":219164.2,
+                "uri":"https://geoconnex.us/cdss/gages/REVDITCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"REVIVAL DITCH, CO",
+                "por_start":"2009-06-03 00:00:00",
+                "utm_y":4114994.8,
+                "data":[
+                    {
+                        "Unnamed: 0":971,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=REVDITCO&measTypes=Streamflow",
+                        "name":"REVIVAL DITCH, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"REVIVAL DITCH, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"REVDITCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.16165499999994,
+                    37.139203000000066
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2011-05-23T00:00:00+00:00",
+                "latitude":37.139841,
+                "name":"SALTOXCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-107.753646,
+                "usgs_id":"09363100",
+                "wd":30.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3002218",
+                "county":"LA PLATA",
+                "modified":1023706440000.0,
+                "provider_id":"SALTOXCO",
+                "objectid":2075,
+                "water_source":"SALT CREEK",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/SALTOXCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/SALTOXCO",
+                "fid":1022,
+                "gnis_id":"00184385",
+                "huc10":14080104.0,
+                "provider_code":"cdss",
+                "comid":"17015255",
+                "abbrev":"SALTOXCO",
+                "stream_mile":3.03,
+                "utm_x":255416.0,
+                "uri":"https://geoconnex.us/cdss/gages/SALTOXCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/99051",
+                "station_name":"SALT CREEK NEAR OXFORD, CO.",
+                "por_start":"1956-10-01 00:00:00",
+                "utm_y":4113935.3,
+                "data":[
+                    {
+                        "Unnamed: 0":1021,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=SALTOXCO&measTypes=Streamflow",
+                        "name":"SALT CREEK NEAR OXFORD, CO.",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"SALT CREEK NEAR OXFORD, CO.",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"SALTOXCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -107.75364599999995,
+                    37.13984100000005
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.223693,
+                "name":"TOWCANCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.696594,
+                "usgs_id":"",
+                "wd":34.0,
+                "location_accuracy":"GPS",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3202007",
+                "county":"MONTEZUMA",
+                "modified":1337181900000.0,
+                "provider_id":"TOWCANCO",
+                "objectid":2322,
+                "water_source":"TRANSBASIN WATER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/TOWCANCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/TOWCANCO",
+                "fid":1142,
+                "gnis_id":"",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16963265",
+                "abbrev":"TOWCANCO",
+                "stream_mile":null,
+                "utm_x":171997.1,
+                "uri":"https://geoconnex.us/cdss/gages/TOWCANCO",
+                "mainstem_uri":null,
+                "station_name":"TOWAOC CANAL NEAR TOWAOC, CO",
+                "por_start":"2011-11-01 00:00:00",
+                "utm_y":4126093.0,
+                "data":[
+                    {
+                        "Unnamed: 0":1141,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=TOWCANCO&measTypes=Streamflow",
+                        "name":"TOWAOC CANAL NEAR TOWAOC, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"TOWAOC CANAL NEAR TOWAOC, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"TOWCANCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.69659399999995,
+                    37.223693000000026
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Historic",
+                "por_end":"2012-05-16T00:00:00+00:00",
+                "latitude":37.208325,
+                "name":"TOWEASCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.703446,
+                "usgs_id":"",
+                "wd":34.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"",
+                "county":"MONTEZUMA",
+                "modified":null,
+                "provider_id":"TOWEASCO",
+                "objectid":2323,
+                "water_source":"UNDEFINED",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/TOWEASCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/TOWEASCO",
+                "fid":1143,
+                "gnis_id":"",
+                "huc10":14080107.0,
+                "provider_code":"cdss",
+                "comid":"16963295",
+                "abbrev":"TOWEASCO",
+                "stream_mile":null,
+                "utm_x":171322.2,
+                "uri":"https://geoconnex.us/cdss/gages/TOWEASCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/50964",
+                "station_name":"TOWAOC CANAL (EAST/WEST METER READOUTS)",
+                "por_start":"1995-03-27 00:00:00",
+                "utm_y":4124411.1,
+                "data":[
+                    {
+                        "Unnamed: 0":1142,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=TOWEASCO&measTypes=Streamflow",
+                        "name":"TOWAOC CANAL (EAST/WEST METER READOUTS)",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"TOWAOC CANAL (EAST/WEST METER READOUTS)",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"TOWEASCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.70344599999999,
+                    37.20832500000006
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Historic",
+                "por_end":"2012-05-16T00:00:00+00:00",
+                "latitude":37.208325,
+                "name":"TOWWESCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.703446,
+                "usgs_id":"",
+                "wd":34.0,
+                "location_accuracy":"",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"",
+                "county":"MONTEZUMA",
+                "modified":null,
+                "provider_id":"TOWWESCO",
+                "objectid":2324,
+                "water_source":"UNDEFINED",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/TOWWESCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/TOWWESCO",
+                "fid":1144,
+                "gnis_id":"",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16963295",
+                "abbrev":"TOWWESCO",
+                "stream_mile":null,
+                "utm_x":171322.2,
+                "uri":"https://geoconnex.us/cdss/gages/TOWWESCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/50964",
+                "station_name":"TOWAOC CANAL WEST CHANNEL",
+                "por_start":"1995-03-23 00:00:00",
+                "utm_y":4124411.0,
+                "data":[
+                    {
+                        "Unnamed: 0":1143,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=TOWWESCO&measTypes=Streamflow",
+                        "name":"TOWAOC CANAL WEST CHANNEL",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"TOWAOC CANAL WEST CHANNEL",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"TOWWESCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.70344599999999,
+                    37.20832500000006
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "station_status":"Active",
+                "por_end":"2023-09-25T00:00:00+00:00",
+                "latitude":37.135117,
+                "name":"VOSDITCO",
+                "data_source":"DWR",
+                "div":7.0,
+                "longitude":-108.1618,
+                "usgs_id":"",
+                "wd":33.0,
+                "location_accuracy":"User supplied",
+                "provider_name":"Colorado Decision Support System",
+                "wdid":"3300550",
+                "county":"LA PLATA",
+                "modified":1243434360000.0,
+                "provider_id":"VOSDITCO",
+                "objectid":2393,
+                "water_source":"LA PLATA RIVER",
+                "state":"CO",
+                "more_information":"https://dwr.state.co.us/Tools/Stations/VOSDITCO",
+                "provider_url":"https://dwr.state.co.us/Tools/Stations/VOSDITCO",
+                "fid":1187,
+                "gnis_id":"00897392",
+                "huc10":null,
+                "provider_code":"cdss",
+                "comid":"16998770",
+                "abbrev":"VOSDITCO",
+                "stream_mile":13.99,
+                "utm_x":219135.5,
+                "uri":"https://geoconnex.us/cdss/gages/VOSDITCO",
+                "mainstem_uri":"https://geoconnex.us/ref/mainstems/36825",
+                "station_name":"WARREN VOSBERG DITCH, CO",
+                "por_start":"2009-06-02 00:00:00",
+                "utm_y":4114541.8,
+                "data":[
+                    {
+                        "Unnamed: 0":1186,
+                        "url":"https://dwr.state.co.us/Tools/Stations/ExportAnlTsFileResult?station_num=VOSDITCO&measTypes=Streamflow",
+                        "name":"WARREN VOSBERG DITCH, CO",
+                        "provider_code":"cdss",
+                        "parameter_id":"cdss-discharge",
+                        "parameter_name":"WARREN VOSBERG DITCH, CO",
+                        "parameter_group":"discharge"
+                    }
+                ]
+            },
+            "id":"VOSDITCO",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -108.16179999999997,
+                    37.13511700000004
+                ]
+            }
+        }
+    ],
+    "timeStamp":"2024-05-20T20:38:35.785863Z"
+}

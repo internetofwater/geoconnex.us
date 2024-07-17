@@ -1,0 +1,88 @@
+{%- set provider_hostname = "https://" + data['provider_url'].rpartition("//")[-1].partition("/")[0] -%}
+{
+    "@context": [{
+        "@vocab": "https://schema.org/", 
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dc": "http://purl.org/dc/terms/",
+        "qudt": "http://qudt.org/schema/qudt/",
+        "qudt-units": "http://qudt.org/vocab/unit/",
+        "qudt-quantkinds": "http://qudt.org/vocab/quantitykind/",
+        "gsp": "http://www.opengis.net/ont/geosparql#",
+        "locType": "http://vocabulary.odm2.org/sitetype",
+        "odm2var":"http://vocabulary.odm2.org/variablename/",
+        "odm2varType": "http://vocabulary.odm2.org/variabletype/",
+        "hyf": "https://www.opengis.net/def/schema/hy_features/hyf/",
+        "skos": "https://www.opengis.net/def/schema/hy_features/hyf/HY_HydroLocationType",
+        "ssn": "http://www.w3.org/ns/ssn/",
+        "ssn-system":  "http://www.w3.org/ns/ssn/systems/"
+    }],
+    "@id": "{{ data['@id'] }}",
+    "@type": [
+        "hyf:HY_HydrometricFeature",
+        "hyf:HY_HydroLocation",
+        "locType:stream"
+    ],
+    "hyf:HydroLocationType": "hydrometric station",
+    "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "{{ data.provider_name }} Identifier",
+        "value": "{{ data.provider_id }}"
+    },
+    "name": "{{ data.station_name }}",
+    "description": "Stream/River Site",
+    "provider": {
+        "url": "{{ provider_hostname }}",
+        "@type": "governmentAgency",
+        "name": "{{ data.provider_name }}"
+    },
+    {% if data.mainstem_uri -%}
+    "hyf:referencedPosition": [
+        {
+           "hyf:HY_IndirectPosition": {
+              "hyf:linearElement": "{{ data.mainstem_uri }}"
+           }
+        }
+    ],
+    {%- endif %}            
+    {%-if data.data -%}
+    "subjectOf": [
+        {%- for datum in data.data -%}
+        {
+            "@type": "Dataset",
+            "name": "{{ datum.name }}",
+            "description": "{{ datum.name }} at {{ data.name }}",
+            "url": "{{ data.provider_url }}?params=DISCHRG",
+            "provider": {
+                "url": "{{ provider_hostname }}",
+                "@type": "governmentAgency",
+                "name": "{{ data.provider_name }}"
+            },
+            "variableMeasured": {
+                "@type": "PropertyValue",
+                "name": "{{ datum.parameter_group }}",
+                "description": "Discharge in cubic feet per second",
+                "propertyID": "https://www.wikidata.org/wiki/Q8737769",
+                "url": "https://en.wikipedia.org/wiki/Discharge_(hydrology)",
+                "unitText": "cubic feet per second",
+                "qudt:hasQuantityKind": "qudt-quantkinds:VolumeFlowRate",
+                "qudt:hasUnit": "qudt-units:FT3-PER-SEC",
+                "measurementTechnique": "location-based observation",
+                "measurementMethod": {
+                    "name": "Discharge Measurements at Gaging Stations",
+                    "publisher": "{{ data.provider_name }}",
+                    "url": "https://doi.org/10.3133/tm3A8"
+                }
+            },
+            "temporalCoverage": "{{ data.por_start[:10] }}/..",
+            "ssn-system:frequency": {
+                "value": "15",
+                "unitCode": "qudt-units:Minute"
+            }
+        }
+        {%- if not loop.last %},{% endif -%}
+        {%- endfor -%}
+    ],
+    {%- endif -%}
+    "geo": {{ data['schema:geo'] | to_json | safe }},
+    "gsp:hasGeometry": {{ data['gsp:hasGeometry'] | to_json }}
+}

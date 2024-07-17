@@ -1,0 +1,4 @@
+FROM ghcr.io/internetofwater/yourls:latest
+
+ADD ./data/sitemap /var/www/html/sitemap
+COPY ./data/sitemap/_sitemap.xml /var/www/html/sitemap.xml
