@@ -21,7 +21,7 @@ The preferred way to create the redirects yourself is by following these steps:
 
 4. (Optional but strongly suggested) Add a `README.md` detailing contact persons and
    (a subset of) your permanent identifiers in your namespace directory. For an example,
-   see [`namespaces/example-namespace/README.md`]([namespaces/example-namespace/README.md](https://github.com/internetofwater/geoconnex.us/blob/master/namespaces/example-namespace/README.md))
+   see [`namespaces/example-namespace/README.md`](https://github.com/internetofwater/geoconnex.us/blob/master/namespaces/example-namespace/README.md)
 5. Commit your changes and submit a
    [pull request](https://github.com/internetofwater/geoconnex.us/pulls).
 6. geoconnex.us administrators will review your pull request and merge it if
