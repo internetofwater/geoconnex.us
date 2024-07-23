@@ -1,0 +1,20 @@
+name: Test geoconnex.us
+
+on: [pull_request]
+
+jobs:
+  check-duplicate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        name: setup Python
+        with:
+          python-version: 3.8
+      - name: install yourls action 📦
+        run: |
+          pip3 install git+https://github.com/cgs-earth/yourls-action.git#subdirectory=yourls-action
+      - name: run duplicate test
+        run: |
+          yourls-action validate namespaces
