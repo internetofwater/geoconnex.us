@@ -397,9 +397,9 @@ geom_site <- sf::read_sf("https://geoconnex.us/nmwdi/nmbgmr/wells/NM0028827")
 point <- sf::st_sfc(geom_site$geometry)
 geom_site <- geom_site$geometry[[1]]
 nldi_point<-nhdplusTools::discover_nhdplus_id(point)
-# nldiURL<-"DM = "https://labs.waterdata.usgs.gov/api/nldi/linked-data/nwissite/USGS-08279500/navigate/DM?distance=100"
+# nldiURL<-"DM = "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-08279500/navigate/DM?distance=100"
 
-nldi_query <- URLencode(paste0('https://labs.waterdata.usgs.gov/api/nldi/linked-data/comid/position?f=json&coords=POINT(',geom_site[1],' ',geom_site[2],')'))
+nldi_query <- URLencode(paste0('https://api.water.usgs.gov/nldi/linked-data/comid/position?f=json&coords=POINT(',geom_site[1],' ',geom_site[2],')'))
 start <- sf::read_sf(nldi_query)
 mainstem <- sf::read_sf(paste0(start$navigation,"/DM/flowlines?distance=250"))
 
@@ -412,7 +412,7 @@ mapview::mapview(list("Downstream Mainstem"=sf::st_as_sf(sf::st_geometry(mainste
 The above code constructs the URLs to call the NLDI service directly, however there are convenience tools in [R](https://usgs-r.github.io/nhdplusTools/index.html) and [Python](https://github.com/cheginit/pynhd) to interact with the NLDI. Below we use the R package `nhdplusTools` to discover data indexed to our downstream mainstem in the NLDI. What features are available from the NLDI?
 
 ```{r, message=FALSE, warning=FALSE}
-knitr::kable(fromJSON("https://labs.waterdata.usgs.gov/api/nldi/linked-data"))
+knitr::kable(fromJSON("https://api.water.usgs.gov/nldi/linked-data/"))
 
 ```
 
