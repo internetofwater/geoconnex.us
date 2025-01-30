@@ -39,7 +39,7 @@
     "hyf:referencedPosition": [
         {
            "hyf:HY_IndirectPosition": {
-              "hyf:linearElement": "{{ data.mainstem_uri }}"
+                "hyf:linearElement": {"@id": "{{ data.mainstem_uri }}"}
            }
         }
     ],
