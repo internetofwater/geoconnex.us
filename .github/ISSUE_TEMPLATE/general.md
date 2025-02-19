@@ -1,6 +1,6 @@
 ---
 name: General geoconnex issue
-about: This is just so we have a general button
+about: Something related to a technical issue in Geoconnex
 title: "[general]"
 
 ---
