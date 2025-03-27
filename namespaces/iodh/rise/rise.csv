@@ -1,0 +1,2 @@
+id,target,creator,description
+https://geoconnex.us/iodh/rise/^[0-9]+$,https://api.iodh.internetofwater.app/collections/rise-edr/items/$1,cloftus@lincolninst.edu,USBR Rise OGC EDR API Mappings
