@@ -1,0 +1,2 @@
+id,target,creator,description
+https://geoconnex.us/iodh/snotel/^[0-9]+$,https://api.iodh.internetofwater.app/collections/snotel-edr/items/$1,cloftus@lincolninst.edu,Snotel OGC EDR API Mappings
