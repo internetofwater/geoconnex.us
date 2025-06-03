@@ -74,6 +74,13 @@ metadata:
     url: https://internetofwater.org
     role: pointOfContact
 
+default-provider: &default-provider
+  type: feature
+  name: SQLiteGPKG
+  data: /data/geometry/features.gpkg
+  id_field: fid
+  uri_field: uri
+
 resources:
   gages: # updated 2024-04-02
     type: collection
@@ -98,11 +105,8 @@ resources:
         begin: null
         end: null
     providers:
-      - type: feature
-        name: GeoJSON
-        data: /data/geometry/gages.json
-        id_field: id
-        uri_field: uri
+      - <<: *default-provider
+        table: mainstems
   mainstems:
     type: collection
     title: Reference Mainstems
@@ -123,11 +127,8 @@ resources:
         hreflang: en-US
     extents: *extents
     providers:
-      - type: feature
-        name: GeoJSON
-        data: /data/geometry/mainstems.json
-        id_field: id
-        uri_field: uri
+      - <<: *default-provider
+        table: mainstems
   dams: # updated 2024-04-23
     type: collection
     title: Reference Dams
@@ -154,11 +155,8 @@ resources:
         hreflang: en-US
     extents: *extents
     providers:
-      - type: feature
-        name: GeoJSON
-        data: /data/geometry/dams.json
-        id_field: id
-        uri_field: uri
+      - <<: *default-provider
+        table: dams
   co/gages:
     type: collection
     title: Colorado Gages
@@ -176,11 +174,8 @@ resources:
         hreflang: en-US
     extents: *extents
     providers:
-      - type: feature
-        name: GeoJSON
-        data: /data/geometry/co_gages.json
-        id_field: id
-        uri_field: uri
+      - <<: *default-provider
+        table: co_gages
   NMWDI/Things:
     type: collection
     title: NMWDI Things
