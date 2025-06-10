@@ -106,7 +106,7 @@ resources:
         end: null
     providers:
       - <<: *default-provider
-        table: mainstems
+        table: gages
   mainstems:
     type: collection
     title: Reference Mainstems
@@ -129,6 +129,7 @@ resources:
     providers:
       - <<: *default-provider
         table: mainstems
+        id_field: id
   dams: # updated 2024-04-23
     type: collection
     title: Reference Dams
@@ -176,6 +177,7 @@ resources:
     providers:
       - <<: *default-provider
         table: co_gages
+        id_field: id
   NMWDI/Things:
     type: collection
     title: NMWDI Things
