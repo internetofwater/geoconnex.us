@@ -1,2 +1,2 @@
 "id","target","creator","description"
-"https://geoconnex.us//ref/dams/([0-9]+).*$"," https://reference.geoconnex.us/collections/dams/items/$1","iow"," US Reference Dams"
+"https://geoconnex.us//ref/dams/([0-9]+).*$"," https://reference.geoconnex.us/collections/dams/items/$1",internetofwater@lincolninst.edu," US Reference Dams"

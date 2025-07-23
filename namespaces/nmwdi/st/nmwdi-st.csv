@@ -1,2 +1,2 @@
 id,target,creator,description
-https://geoconnex.us//nmwdi/st/locations/([-a-zA-Z0-9_./]+).*$, http://locations.newmexicowaterdata.org/collections/Things/items/$1, jake.ross@nmt.edu, NMWDI ST Wells
+https://geoconnex.us//nmwdi/st/locations/([-a-zA-Z0-9_./]+).*$, http://locations.newmexicowaterdata.org/collections/Things/items/$1,jake.ross@nmt.edu, NMWDI ST Wells
