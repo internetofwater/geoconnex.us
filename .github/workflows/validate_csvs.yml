@@ -3,7 +3,7 @@ name: Validate all Geoconnex CSVs
 on: [push]
 
 jobs:
-  check-duplicate:
+  validate-csvs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
