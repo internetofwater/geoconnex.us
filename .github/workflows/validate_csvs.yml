@@ -1,0 +1,13 @@
+name: Validate all Geoconnex CSVs
+
+on: [push]
+
+jobs:
+  check-duplicate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: run duplicate test
+        run: |
+          python3 tests/validate.py

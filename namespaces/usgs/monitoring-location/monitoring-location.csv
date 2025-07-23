@@ -1,2 +1,2 @@
 id,target,creator,description
-https://geoconnex.us//usgs/monitoring-location/([a-zA-Z0-9_]+).*$, https://waterdata.usgs.gov/monitoring-location/$1, iow, USGS Monitoring Locations  
+https://geoconnex.us//usgs/monitoring-location/([a-zA-Z0-9_]+).*$, https://waterdata.usgs.gov/monitoring-location/$1,internetofwater@lincolninst.edu,USGS Monitoring Locations  
