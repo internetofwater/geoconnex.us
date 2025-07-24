@@ -1,2 +1,2 @@
 "id","target","creator","description"
-"https://geoconnex.us//ref/gages/([0-9]+).*$"," https://reference.geoconnex.us/collections/gages/items/$1"," iow"," US Reference Streamgages"
+"https://geoconnex.us//ref/gages/([0-9]+).*$"," https://reference.geoconnex.us/collections/gages/items/$1",internetofwater@lincolninst.edu," US Reference Streamgages"

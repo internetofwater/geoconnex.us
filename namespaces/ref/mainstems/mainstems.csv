@@ -1,2 +1,2 @@
 "id","target","creator","description"
-"https://geoconnex.us//ref/mainstems/([0-9]+).*$"," https://reference.geoconnex.us/collections/mainstems/items/$1"," iow"," US Reference Mainstems"
+"https://geoconnex.us//ref/mainstems/([0-9]+).*$","https://reference.geoconnex.us/collections/mainstems/items/$1",internetofwater@lincolninst.edu," US Reference Mainstems"
