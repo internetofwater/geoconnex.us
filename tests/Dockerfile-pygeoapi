@@ -5,3 +5,5 @@ COPY pygeoapi.config.yml /pygeoapi/local.config.yml
 COPY ./data /data
 
 COPY ./data/jsonld /pygeoapi/pygeoapi/templates/jsonld
+
+RUN pip install "shapely<2"
