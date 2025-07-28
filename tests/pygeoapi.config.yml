@@ -91,8 +91,8 @@ resources:
     keywords:
       - Stream Gages
       - USGS
-    linked-data:
-      item_template: jsonld/ref-gages.jsonld
+    templates: 
+      path: /data/jsonld/gages
     links:
       - type: application/html
         rel: canonical
@@ -116,8 +116,9 @@ resources:
     keywords:
       - Mainstem
       - Community
+    templates: 
+      path: /data/jsonld/mainstems
     linked-data:
-      item_template: jsonld/mainstems.jsonld
       context:
         - schema: https://schema.org/
           name_at_outlet: schema:name
@@ -163,8 +164,8 @@ resources:
     type: collection
     title: Colorado Gages
     description: Gages from Colorado Division of Water Resources
-    linked-data:
-      item_template: jsonld/co.jsonld
+    templates: 
+      path: /data/jsonld/co
     keywords:
       - colorado
       - gage
