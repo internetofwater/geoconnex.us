@@ -5,7 +5,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO01060",
-                "uri":"https://geoconnex.us/ref/dams/1000403",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1000403",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -34,7 +34,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00552",
-                "uri":"https://geoconnex.us/ref/dams/1001595",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1001595",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17040183",
                 "nhdpv2_reachcode":"14080101000932",
@@ -63,7 +63,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00248",
-                "uri":"https://geoconnex.us/ref/dams/1001855",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1001855",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -92,7 +92,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02877",
-                "uri":"https://geoconnex.us/ref/dams/1020105",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1020105",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17014369",
                 "nhdpv2_reachcode":"14080104000642",
@@ -121,7 +121,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02881",
-                "uri":"https://geoconnex.us/ref/dams/1022598",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1022598",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17015279",
                 "nhdpv2_reachcode":"14080104000708",
@@ -150,7 +150,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO00894",
-                "uri":"https://geoconnex.us/ref/dams/1023696",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1023696",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17015279",
                 "nhdpv2_reachcode":"14080104000708",
@@ -179,7 +179,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02878",
-                "uri":"https://geoconnex.us/ref/dams/1025706",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1025706",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17014847",
                 "nhdpv2_reachcode":null,
@@ -208,7 +208,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00523",
-                "uri":"https://geoconnex.us/ref/dams/1026348",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1026348",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -237,7 +237,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00334",
-                "uri":"https://geoconnex.us/ref/dams/1028044",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1028044",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17003838",
                 "nhdpv2_reachcode":"14080105001603",
@@ -266,7 +266,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO01404",
-                "uri":"https://geoconnex.us/ref/dams/1035023",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1035023",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -295,7 +295,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02879",
-                "uri":"https://geoconnex.us/ref/dams/1035968",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1035968",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -324,7 +324,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00346",
-                "uri":"https://geoconnex.us/ref/dams/1037356",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1037356",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17003538",
                 "nhdpv2_reachcode":"14080105000820",
@@ -353,7 +353,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00121",
-                "uri":"https://geoconnex.us/ref/dams/1039883",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1039883",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17021537",
                 "nhdpv2_reachcode":"14080103000191",
@@ -382,7 +382,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02099",
-                "uri":"https://geoconnex.us/ref/dams/1040505",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1040505",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17015251",
                 "nhdpv2_reachcode":"14080104000704",
@@ -411,7 +411,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00302",
-                "uri":"https://geoconnex.us/ref/dams/1042631",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1042631",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -440,7 +440,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02880",
-                "uri":"https://geoconnex.us/ref/dams/1045939",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1045939",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17014859",
                 "nhdpv2_reachcode":null,
@@ -469,7 +469,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02944",
-                "uri":"https://geoconnex.us/ref/dams/1051609",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1051609",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17015237",
                 "nhdpv2_reachcode":null,
@@ -498,7 +498,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00583",
-                "uri":"https://geoconnex.us/ref/dams/1056800",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1056800",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17003222",
                 "nhdpv2_reachcode":null,
@@ -527,7 +527,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02952",
-                "uri":"https://geoconnex.us/ref/dams/1061865",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1061865",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -556,7 +556,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO01075",
-                "uri":"https://geoconnex.us/ref/dams/1067006",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1067006",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/16999046",
                 "nhdpv2_reachcode":"14080105000258",
@@ -585,7 +585,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00551",
-                "uri":"https://geoconnex.us/ref/dams/1067372",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1067372",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17039365",
                 "nhdpv2_reachcode":null,
@@ -614,7 +614,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00337",
-                "uri":"https://geoconnex.us/ref/dams/1076356",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1076356",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -643,7 +643,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00520",
-                "uri":"https://geoconnex.us/ref/dams/1077435",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1077435",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17016685",
                 "nhdpv2_reachcode":"14080104000897",
@@ -672,7 +672,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00655",
-                "uri":"https://geoconnex.us/ref/dams/1077436",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1077436",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17016685",
                 "nhdpv2_reachcode":"14080104000897",
@@ -701,7 +701,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00423",
-                "uri":"https://geoconnex.us/ref/dams/1077527",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1077527",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -730,7 +730,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00672",
-                "uri":"https://geoconnex.us/ref/dams/1078565",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1078565",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17040485",
                 "nhdpv2_reachcode":"14080101002308",
@@ -759,7 +759,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00574",
-                "uri":"https://geoconnex.us/ref/dams/1078917",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1078917",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -788,7 +788,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00573",
-                "uri":"https://geoconnex.us/ref/dams/1078918",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1078918",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -817,7 +817,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00368",
-                "uri":"https://geoconnex.us/ref/dams/1078970",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1078970",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17037309",
                 "nhdpv2_reachcode":"14080101000815",
@@ -846,7 +846,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00522",
-                "uri":"https://geoconnex.us/ref/dams/1079210",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1079210",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17003706",
                 "nhdpv2_reachcode":"14080105001617",
@@ -875,7 +875,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00664",
-                "uri":"https://geoconnex.us/ref/dams/1079857",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1079857",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -904,7 +904,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00625",
-                "uri":"https://geoconnex.us/ref/dams/1081606",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1081606",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17001874",
                 "nhdpv2_reachcode":"14080105000818",
@@ -933,7 +933,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00626",
-                "uri":"https://geoconnex.us/ref/dams/1081950",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1081950",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17001874",
                 "nhdpv2_reachcode":"14080105000818",
@@ -962,7 +962,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00628",
-                "uri":"https://geoconnex.us/ref/dams/1082469",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1082469",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17001874",
                 "nhdpv2_reachcode":"14080105000818",
@@ -991,7 +991,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00627",
-                "uri":"https://geoconnex.us/ref/dams/1082474",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1082474",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17001874",
                 "nhdpv2_reachcode":"14080105000818",
@@ -1020,7 +1020,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00624",
-                "uri":"https://geoconnex.us/ref/dams/1082693",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1082693",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17001806",
                 "nhdpv2_reachcode":"14080105000817",
@@ -1049,7 +1049,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO02098",
-                "uri":"https://geoconnex.us/ref/dams/1083043",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1083043",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17014979",
                 "nhdpv2_reachcode":"14080104000433",
@@ -1078,7 +1078,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00589",
-                "uri":"https://geoconnex.us/ref/dams/1084070",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1084070",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -1107,7 +1107,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00449",
-                "uri":"https://geoconnex.us/ref/dams/1089287",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1089287",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/16968630",
                 "nhdpv2_reachcode":"14080106004021",
@@ -1136,7 +1136,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00519",
-                "uri":"https://geoconnex.us/ref/dams/1090906",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1090906",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -1165,7 +1165,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: UT83464",
-                "uri":"https://geoconnex.us/ref/dams/1092444",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1092444",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -1194,7 +1194,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00704",
-                "uri":"https://geoconnex.us/ref/dams/1092811",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1092811",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/17001186",
                 "nhdpv2_reachcode":"14080105000442",
@@ -1223,7 +1223,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00633",
-                "uri":"https://geoconnex.us/ref/dams/1096824",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1096824",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -1252,7 +1252,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: NM00634",
-                "uri":"https://geoconnex.us/ref/dams/1097309",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1097309",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":null,
                 "nhdpv2_reachcode":null,
@@ -1281,7 +1281,7 @@
             "type":"Feature",
             "properties":{
                 "description":"Reference feature for USACE National Inventory of Dams: CO03021",
-                "uri":"https://geoconnex.us/ref/dams/1097312",
+                "uri":"https://pids.geoconnex.dev/ref/dams/1097312",
                 "provider":"https://nid.usace.army.mil",
                 "nhdpv2_comid":"https://geoconnex.us/nhdplusv2/comid/16998828",
                 "nhdpv2_reachcode":"14080105000231",
