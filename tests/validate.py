@@ -4,6 +4,9 @@ import csv
 import re
 
 def valid_email(email: str):
+    # Remove leading and trailing whitespace to allow for more flexibility in
+    # user submissions
+    email = email.strip()
     pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
     return re.match(pattern, email)
 
