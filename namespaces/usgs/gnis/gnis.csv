@@ -1,2 +1,2 @@
 id,target,creator,description
-https://geoconnex.us//usgs/gnis/([0-9_]+).*$, https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1, dblodgett@usgs.gov, USGS GNIS ID
+https://geoconnex.us//usgs/gnis/([0-9_]+).*$, https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1,dblodgett@usgs.gov, USGS GNIS ID
