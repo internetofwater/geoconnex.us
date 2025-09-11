@@ -1,2 +1,2 @@
 "id","target","creator","description","sitemap","id"
-"https://geoconnex.us//ref/hu10/([0-9]+).*$"," https://reference.geoconnex.us/collections/hu10/items/$1"," iow"," Ten Digit Hydrologic Units","https://reference.geoconnex.us/collections/hu10/items?limit=9999&f=json","uri"
+"https://geoconnex.us//ref/hu10/([0-9]+).*$"," https://reference.geoconnex.us/collections/hu10/items/$1",internetofwater@lincolninst.edu," Ten Digit Hydrologic Units","https://reference.geoconnex.us/collections/hu10/items?limit=9999&f=json","uri"

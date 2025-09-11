@@ -1,14 +1,14 @@
-id, target, creator, description
-https://geoconnex.us/iow/homepage, https://internetofwater.org, konda@lincolninst.edu, Internet Of Water homepage
-https://geoconnex.us/iow/aboutus, https://internetofwater.org/who-we-are/, konda@lincolninst.edu, About us
-https://geoconnex.us/demo, https://geoconnex.internetofwater.dev/demo, konda@lincolninst.edu, geconnex demo
-https://geoconnex.us/iow/sitemap, https://reference.geoconnex.us/stac/sitemap, bwebb@lincolninst.edu, geoconnex sitemap
-https://geoconnex.us/iow/nldi, https://waterdata.usgs.gov/blog/nldi-intro/, konda@lincolninst.edu, nldi shortlink
-https://geoconnex.us/iow/nldi/demo, https://storymaps.arcgis.com/stories/0ecb1aaf143b4e1981dbe30f38fceec5, konda@lincolninst.edu, nldi demo shortlink
-https://geoconnex.us/iow/map, https://gis.cgs.earth/portal/apps/webappviewer/index.html?id=41e8676b373344dfab9733b4d8f32837, konda@lincolninst.edu, geoconnex content map
-https://geoconnex.us/iow/cr-demo, https://lincolninstitute.maps.arcgis.com/apps/mapviewer/index.html?webmap=87f4a26d8af24e758b39ec4d137661ac,  konda@lincolninst.edu, geoconnex demo map
-https://geoconnex.us/iow/tracker, https://gis.cgs.earth/portal/apps/storymaps/stories/e5a448012b574548a01acbdb7dfd30db, konda@lincolninst.edu, geoconnex tracker map
-https://geoconnex.us/iow/hyriver, https://hyriver.readthedocs.io/en/latest/examples/notebooks/geoconnex.html, bwebb@lincolninst.edu, geoconnex hyriver apps
-https://geoconnex.us/iow/principles, https://internetofwater.org/internet-of-water-principles/, bwebb@lincolninst.edu, internet of water principles
-https://geoconnex.us/iow/api-mockups, https://cgs-earth.github.io/geoconnex-api-mockups/, konda@lincolninst.edu, geoconnex api mockups
-https://geoconnex.us/iow/guidance, https://internetofwater.github.io/geoconnex-guidance/, konda@lincolninst.edu, geoconnex minimum author guidance
+id,target,creator,description
+https://geoconnex.us/iow/homepage, https://internetofwater.org,konda@lincolninst.edu, Internet Of Water homepage
+https://geoconnex.us/iow/aboutus, https://internetofwater.org/who-we-are/,konda@lincolninst.edu, About us
+https://geoconnex.us/demo, https://geoconnex.internetofwater.dev/demo,konda@lincolninst.edu, geconnex demo
+https://geoconnex.us/iow/sitemap, https://reference.geoconnex.us/stac/sitemap,bwebb@lincolninst.edu, geoconnex sitemap
+https://geoconnex.us/iow/nldi, https://waterdata.usgs.gov/blog/nldi-intro/,konda@lincolninst.edu, nldi shortlink
+https://geoconnex.us/iow/nldi/demo, https://storymaps.arcgis.com/stories/0ecb1aaf143b4e1981dbe30f38fceec5,konda@lincolninst.edu, nldi demo shortlink
+https://geoconnex.us/iow/map, https://gis.cgs.earth/portal/apps/webappviewer/index.html?id=41e8676b373344dfab9733b4d8f32837,konda@lincolninst.edu, geoconnex content map
+https://geoconnex.us/iow/cr-demo, https://lincolninstitute.maps.arcgis.com/apps/mapviewer/index.html?webmap=87f4a26d8af24e758b39ec4d137661ac,konda@lincolninst.edu, geoconnex demo map
+https://geoconnex.us/iow/tracker, https://gis.cgs.earth/portal/apps/storymaps/stories/e5a448012b574548a01acbdb7dfd30db,konda@lincolninst.edu, geoconnex tracker map
+https://geoconnex.us/iow/hyriver, https://hyriver.readthedocs.io/en/latest/examples/notebooks/geoconnex.html,bwebb@lincolninst.edu, geoconnex hyriver apps
+https://geoconnex.us/iow/principles, https://internetofwater.org/internet-of-water-principles/,bwebb@lincolninst.edu, internet of water principles
+https://geoconnex.us/iow/api-mockups, https://cgs-earth.github.io/geoconnex-api-mockups/,konda@lincolninst.edu, geoconnex api mockups
+https://geoconnex.us/iow/guidance, https://internetofwater.github.io/geoconnex-guidance/,konda@lincolninst.edu, geoconnex minimum author guidance
