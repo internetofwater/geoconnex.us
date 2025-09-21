@@ -1,7 +1,12 @@
 NOAA River Forecast Center
 ===
 
-These mappings are for the NOAA (National Oceanic and Atmospheric Administration) River Forecast Center. This source aggregates multiple regional river forecast centers into a single collection. There is not natively a single API for this data. Rather we reverse engineer the frontend code [here](https://www.cbrfc.noaa.gov/wsup/graph/west/map/esp_map.js) which compromises [this map](https://www.cbrfc.noaa.gov/wsup/graph/west/map/esp_map.html)
+These mappings are for the NOAA (National Oceanic and Atmospheric Administration) River Forecast Center (RFC) water supply forecasts aggregated by the Colorado Basin River Forecast Center from many other RFCs. 
+
+All redirects are 1:1 and directly map the PID to the monitoring location ID. 
+
+Example:
+* `https://geoconnex.us/wwdh/noaa_rfc/AFPU1` -> `https://api.wwdh.internetofwater.app/collections/noaa-rfc/items/AFPU1`
 
 Homepage:
 * https://api.wwdh.internetofwater.app/collections/noaa-rfc
