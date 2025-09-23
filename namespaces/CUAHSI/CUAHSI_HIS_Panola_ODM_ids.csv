@@ -1,2 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/Panola_ODM/100,http://selfie.cuahsi.org/Panola%20ODM/100,acastronova@cuahsi.org,Lower Gage,33.6318,-84.1724,QueryString,f?=.*,http://selfie.cuahsi.org/Panola%20ODM/100?f=${C:f:1}

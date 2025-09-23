@@ -1,4 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/ODM_KentState/Port_Airport,http://selfie.cuahsi.org/ODM_KentState/Port_Airport,acastronova@cuahsi.org,Portage County Airport,41.217,-81.25,QueryString,f?=.*,http://selfie.cuahsi.org/ODM_KentState/Port_Airport?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/ODM_KentState/Jennings,http://selfie.cuahsi.org/ODM_KentState/Jennings,acastronova@cuahsi.org,West Branch Mahoning River in Jenning's Woods,41.174,-81.2,QueryString,f?=.*,http://selfie.cuahsi.org/ODM_KentState/Jennings?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/ODM_KentState/KOH,http://selfie.cuahsi.org/ODM_KentState/KOH,acastronova@cuahsi.org,KOH rain gage in Kent  Ohio,41.156,-81.354,QueryString,f?=.*,http://selfie.cuahsi.org/ODM_KentState/KOH?f=${C:f:1}

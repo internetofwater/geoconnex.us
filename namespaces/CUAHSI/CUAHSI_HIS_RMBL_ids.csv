@@ -1,7 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/RMBL/rmbl1,http://selfie.cuahsi.org/RMBL/rmbl1,acastronova@cuahsi.org,Almont,38.654722,-106.861667,QueryString,f?=.*,http://selfie.cuahsi.org/RMBL/rmbl1?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/RMBL/rmbl2,http://selfie.cuahsi.org/RMBL/rmbl2,acastronova@cuahsi.org,Kettle Ponds,38.941667,-106.973056,QueryString,f?=.*,http://selfie.cuahsi.org/RMBL/rmbl2?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/RMBL/rmbl3,http://selfie.cuahsi.org/RMBL/rmbl3,acastronova@cuahsi.org,Snodgras Mtn,38.933056,-106.986111,QueryString,f?=.*,http://selfie.cuahsi.org/RMBL/rmbl3?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/RMBL/rmbl4,http://selfie.cuahsi.org/RMBL/rmbl4,acastronova@cuahsi.org,Billy Barr,38.963056,-106.993333,QueryString,f?=.*,http://selfie.cuahsi.org/RMBL/rmbl4?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/RMBL/rmbl5,http://selfie.cuahsi.org/RMBL/rmbl5,acastronova@cuahsi.org,Judd Falls,38.963611,-106.983611,QueryString,f?=.*,http://selfie.cuahsi.org/RMBL/rmbl5?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/RMBL/rmbl6,http://selfie.cuahsi.org/RMBL/rmbl6,acastronova@cuahsi.org,Mexican Cut,39.028333,-107.063611,QueryString,f?=.*,http://selfie.cuahsi.org/RMBL/rmbl6?f=${C:f:1}

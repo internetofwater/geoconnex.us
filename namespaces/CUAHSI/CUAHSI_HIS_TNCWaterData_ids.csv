@@ -1,2 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/TNCWaterData/Siphon7,http://selfie.cuahsi.org/TNCWaterData/Siphon7,acastronova@cuahsi.org,StatenX experimental station at Siphon 7 on Staten Island,38.1698,-121.527375,QueryString,f?=.*,http://selfie.cuahsi.org/TNCWaterData/Siphon7?f=${C:f:1}
