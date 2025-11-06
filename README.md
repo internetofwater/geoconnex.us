@@ -4,11 +4,11 @@ The Geoconnex project provides both **technical infrastructure and guidance** fo
 
 In short, Geoconnex aims to make water data as easily discoverable, accessible, and usable as possible. 
 <hr/>
-<center>
+<div align="center">
 <i>
-Please see the <a href="https://docs.geoconnex.us"> Geoconnex Docs</a> for more information on the project.
+Please see the <a href="https://docs.geoconnex.us"> Geoconnex Docs</a> for more information on the project and its goals
 </i>
-</center>
+</div>
 
 ## Contributing
 
