@@ -6,9 +6,13 @@ In short, Geoconnex aims to make water data as easily discoverable, accessible, 
 <hr/>
 <center>
 <i>
-Please see the <a href="https://docs.geoconnex.us"> Geoconnex Docs</a> for general background and specifically <a href="https://docs.geoconnex.us/contributing/overview"> the contributing section</a> for how to add your data
+Please see the <a href="https://docs.geoconnex.us"> Geoconnex Docs</a> for more information on the project.
 </i>
 </center>
+
+## Contributing
+
+Please see the [Contributing](https://docs.geoconnex.us/contributing/overview) section of the [docs](https://docs.geoconnex.us) for instructions on how to add your data to Geoconnex.
 
 ## About this Repository
 
