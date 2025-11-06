@@ -33,10 +33,8 @@ The contents of the geoconnex.us and all community contributions are <a href="ht
 For more information, see the <a href="LICENSE.md">license</a>.
 <br/>
 <br/>
-<center>
-<img src="./assets/internet-of-water-coalition-logo.png" height="80px" style="padding-right: 1em">
-<img src="./assets/usgs-logo.png" height="80px" style="padding-left: 1em">
-</center>
-
-
+<div align="center">
+  <img src="./assets/internet-of-water-coalition-logo.png" height="80px" style="padding-right: 1em">
+  <img src="./assets/usgs-logo.png" height="80px" style="padding-left: 1em">
+</div>
 
