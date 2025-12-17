@@ -6,6 +6,11 @@ Homepage:
 
 These mappings are for USGS systems. This collection will grow and evolve over time.
 
+## Geospatial Names Information System (gnis)
+
+- https://geoconnex.us/usgs/gnis/1577073
+- https://geoconnex.us/usgs/gnis/204770
+
 ## hydrologic-unit
 
 All the hydrologic unit ids used by USGS Waterdata Sites are included.

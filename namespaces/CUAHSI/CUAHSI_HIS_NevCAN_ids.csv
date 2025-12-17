@@ -1,3 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/NevCAN/spring4,http://selfie.cuahsi.org/NevCAN/spring4,acastronova@cuahsi.org,Nevada Climate-ecohydrology Assessment Network,38.90611409,-114.3089116,QueryString,f?=.*,http://selfie.cuahsi.org/NevCAN/spring4?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/NevCAN/rockland,http://selfie.cuahsi.org/NevCAN/rockland,acastronova@cuahsi.org,Rockland,38.6495,-119.101,QueryString,f?=.*,http://selfie.cuahsi.org/NevCAN/rockland?f=${C:f:1}

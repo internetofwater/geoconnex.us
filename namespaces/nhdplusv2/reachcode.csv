@@ -1,2 +1,2 @@
 id,target,creator,description
-https://geoconnex.us//nhdplusv2/reachcode/([0-9]+).*$, https://api.water.usgs.gov/geoserver/wmadata/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=wmadata%3Anhdflowline_network&outputFormat=application%2Fjson&cql_filter=reachcode%20=%20%27$1%27, iow, NHDPlusV2 reachcode
+https://geoconnex.us//nhdplusv2/reachcode/([0-9]+).*$, https://api.water.usgs.gov/geoserver/wmadata/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=wmadata%3Anhdflowline_network&outputFormat=application%2Fjson&cql_filter=reachcode%20=%20%27$1%27,internetofwater@lincolninst.edu, NHDPlusV2 reachcode
