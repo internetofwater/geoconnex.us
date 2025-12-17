@@ -38,7 +38,9 @@ server:
   language: en-US
   cors: true
   pretty_print: true
-  limit: 100
+  limits: 
+    default_items: 100
+    max_items: 1000
   map:
     url: https://tile.openstreetmap.org/{z}/{x}/{y}.png
     attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>'
@@ -70,9 +72,16 @@ metadata:
     stateorprovince: Massachussetts
     postalcode: 02138
     country: USA
+    name: Benjamin Webb
     email: bwebb@lincolninst.edu
     url: https://internetofwater.org
     role: pointOfContact
+
+default-provider: &default-provider
+  type: feature
+  name: GeoJSON
+  id_field: id
+  uri_field: uri
 
 resources:
   gages: # updated 2024-04-02
@@ -82,8 +91,8 @@ resources:
     keywords:
       - Stream Gages
       - USGS
-    linked-data:
-      item_template: jsonld/ref-gages.jsonld
+    templates: 
+      path: /data/jsonld/gages
     links:
       - type: application/html
         rel: canonical
@@ -98,11 +107,8 @@ resources:
         begin: null
         end: null
     providers:
-      - type: feature
-        name: GeoJSON
+      - <<: *default-provider
         data: /data/geometry/gages.json
-        id_field: id
-        uri_field: uri
   mainstems:
     type: collection
     title: Reference Mainstems
@@ -110,8 +116,9 @@ resources:
     keywords:
       - Mainstem
       - Community
+    templates: 
+      path: /data/jsonld/mainstems
     linked-data:
-      item_template: jsonld/mainstems.jsonld
       context:
         - schema: https://schema.org/
           name_at_outlet: schema:name
@@ -123,11 +130,8 @@ resources:
         hreflang: en-US
     extents: *extents
     providers:
-      - type: feature
-        name: GeoJSON
+      - <<: *default-provider
         data: /data/geometry/mainstems.json
-        id_field: id
-        uri_field: uri
   dams: # updated 2024-04-23
     type: collection
     title: Reference Dams
@@ -154,17 +158,14 @@ resources:
         hreflang: en-US
     extents: *extents
     providers:
-      - type: feature
-        name: GeoJSON
+      - <<: *default-provider
         data: /data/geometry/dams.json
-        id_field: id
-        uri_field: uri
   co/gages:
     type: collection
     title: Colorado Gages
     description: Gages from Colorado Division of Water Resources
-    linked-data:
-      item_template: jsonld/co.jsonld
+    templates: 
+      path: /data/jsonld/co
     keywords:
       - colorado
       - gage
@@ -176,11 +177,8 @@ resources:
         hreflang: en-US
     extents: *extents
     providers:
-      - type: feature
-        name: GeoJSON
+      - <<: *default-provider
         data: /data/geometry/co_gages.json
-        id_field: id
-        uri_field: uri
   NMWDI/Things:
     type: collection
     title: NMWDI Things
@@ -203,10 +201,8 @@ resources:
         hreflang: en-US
     extents: *extents
     providers:
-      - type: feature
-        name: GeoJSON
+      - <<: *default-provider
         data: /data/geometry/nmwdi-st.json
-        id_field: id
         uri_field: geoconnex
   sitemap:
     type: stac-collection

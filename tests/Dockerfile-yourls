@@ -1,4 +1,7 @@
-FROM ghcr.io/internetofwater/yourls:latest
+FROM internetofwater/yourls:latest
+
+ENV YOURLS_PRIVATE_API=true \
+    YOURLS_NOSTATS=true
 
 ADD ./data/sitemap /var/www/html/sitemap
 COPY ./data/sitemap/_sitemap.xml /var/www/html/sitemap.xml
