@@ -1,2 +1,2 @@
 id,target,creator,description
-https://geoconnex.us//iow/wqp/([-a-zA-Z0-9_./]+).*$, https://sta.geoconnex.dev/collections/WQP/Things/items/'$1',bwebb@lincolninst.edu, WQP SensorThings API Sites
+https://geoconnex.us//iow/wqp/([-a-zA-Z0-9_./()\s]+).*$, https://sta.geoconnex.dev/collections/WQP/Things/items/'$1',bwebb@lincolninst.edu, WQP SensorThings API Sites
