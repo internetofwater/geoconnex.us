@@ -14,11 +14,22 @@ Expected types are:
 - hu04
 - hu06
 - hu08
-- dams
-- gages
-- wells
+- hu10
+- hu12
+- national-aquifers
 - principal-aquifers
+- secondary-hydrogeologic-regions
+- gages
+- dams
+- wells
 - mainstems
+- public-water-systems
+- states
+- counties
+- AIANNH
+- core-based-statistical-areas
+- urban-areas
+- places
 
 Each reference feature type should either be an established set of persistent features or be created through a community process that is intended to integrate all available sources of relevant features into a community reference collection.
 
