@@ -3,5 +3,3 @@ FROM internetofwater/pygeoapi:latest
 COPY pygeoapi.config.yml /pygeoapi/local.config.yml
 
 COPY ./data /data
-
-RUN pip install "shapely<2"
