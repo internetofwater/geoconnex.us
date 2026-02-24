@@ -11,16 +11,6 @@ These mappings are for USGS systems. This collection will grow and evolve over t
 - https://geoconnex.us/usgs/gnis/1577073
 - https://geoconnex.us/usgs/gnis/204770
 
-## hydrologic-unit
-
-All the hydrologic unit ids used by USGS Waterdata Sites are included.
-
-Examples:
-* An HU02: https://geoconnex.us/usgs/hydrologic-unit/07
-* An HU04: https://geoconnex.us/usgs/hydrologic-unit/0707
-* An HU06: https://geoconnex.us/usgs/hydrologic-unit/070700
-* An HU08: https://geoconnex.us/usgs/hydrologic-unit/07070005
-
 ## mainstems
 
 Mainstem IDs for rivers not defined in reference rivers.
