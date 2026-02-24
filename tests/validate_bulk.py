@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -54,3 +55,27 @@ def assert_valid_xml(xml_path: Path):
                 f"For reproducibility, every image must have a valid tag "
                 f"(missing or malformed tag in {xml_path})"
             )
+
+
+def list_dir(dir: Path):
+    """
+    Recursively list all files in a directory
+    """
+    if dir.is_file():
+        if dir.suffix == ".xml":
+            # can do a better check at some point in the future; this is good enough for a sanity check
+            if "__" not in dir.name:
+                raise ValueError(f"All sitemaps must be prefixed with __NUMBER.xml but found {dir.name}")
+            assert_valid_xml(dir)
+            print(f"{dir} is valid")
+        if dir.suffix == ".csv":
+            raise ValueError(f"Found {dir} which is a csv file and should not be present in the bulk directory")
+        return
+
+    for file in dir.iterdir():
+        list_dir(file)
+
+
+bulk_root = Path(__file__).resolve().parent.parent / "namespaces" / "bulk"
+os.chdir(bulk_root)
+list_dir(bulk_root)
