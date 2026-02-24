@@ -4,4 +4,4 @@ COPY pygeoapi.config.yml /pygeoapi/local.config.yml
 
 COPY ./data /data
 
-RUN pip install "shapely<2"
+RUN pip install --no-cache-dir --break-system-packages "shapely<2"
