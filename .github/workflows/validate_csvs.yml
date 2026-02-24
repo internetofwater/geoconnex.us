@@ -1,4 +1,4 @@
-name: Validate all Geoconnex CSVs
+name: Validate all Geoconnex CSVs and bulk XML files
 
 on: [push]
 
@@ -10,4 +10,5 @@ jobs:
         uses: actions/checkout@v4
       - name: run duplicate test
         run: |
-          python3 tests/validate.py
+          python3 tests/validate_csv.py
+          python3 tests/validate_bulk.py
