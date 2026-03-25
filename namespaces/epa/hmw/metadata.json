@@ -1,0 +1,8 @@
+{
+    "max_request_concurrency": 2,
+    "add_associated_mainstems": true,
+    "creator_email": "internetofwater@lincolninst.edu",
+    "dataset_description": "How's My Waterway - community (NHDPlusHuc12) based identifiers",
+    "dataset_has_html_landing_pages": true,
+    "requires_javascript_to_crawl": true
+}
