@@ -1,0 +1,7 @@
+{
+    "max_request_concurrency": 2,
+    "add_associated_mainstems": true,
+    "creator_email": "kyle.onda@duke.edu",
+    "dataset_description": "California Streamgage Network Assessment Catalog",
+    "dataset_has_html_landing_pages": true
+}
