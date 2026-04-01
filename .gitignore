@@ -8,3 +8,4 @@ l.csv
 .timestamp
 .LISTING
 pygeoapi/ext_data/**
+**/.venv/*
