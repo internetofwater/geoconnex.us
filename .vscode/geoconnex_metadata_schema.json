@@ -1,0 +1,125 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "A metadata schema for datasets in the Geoconnex system",
+    "$ref": "#/definitions/DatasetConfig",
+    "definitions": {
+        "DatasetConfig": {
+            "oneOf": [
+                {
+                    "title": "A dataset that should not be crawled; it should have PIDs for redirects, but not be included in the Geoconnex graph",
+                    "additionalProperties": false,
+                    "properties": {
+                        "contact_name": {
+                            "type": "string"
+                        },
+                        "contact_email": {
+                            "type": "string",
+                            "format": "email"
+                        },
+                        "dataset_description": {
+                            "type": "string"
+                        },
+                        "skip_crawling": {
+                            "const": true,
+                            "type": "boolean"
+                        }
+                    },
+                    "required": [
+                        "contact_email",
+                        "dataset_description",
+                        "skip_crawling"
+                    ],
+                    "type": "object"
+                },
+                {
+                    "title": "A dataset that should be included in the Geoconnex graph",
+                    "additionalProperties": false,
+                    "properties": {
+                        "add_associated_mainstems": {
+                            "type": "boolean"
+                        },
+                        "contact_email": {
+                            "type": "string",
+                            "format": "email"
+                        },
+                        "contact_name": {
+                            "type": "string"
+                        },
+                        "dataset_description": {
+                            "type": "string"
+                        },
+                        "dataset_has_html_landing_pages": {
+                            "type": "boolean"
+                        },
+                        "max_request_concurrency": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "requires_javascript_to_crawl": {
+                            "type": "boolean"
+                        },
+                        "skip_crawling": {
+                            "const": false,
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "dataset_documentation_link": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "add_associated_mainstems",
+                        "contact_email",
+                        "dataset_description",
+                        "dataset_has_html_landing_pages",
+                        "max_request_concurrency",
+                        "requires_javascript_to_crawl",
+                        "dataset_documentation_link"
+                    ],
+                    "type": "object"
+                },
+                {
+                    "title": "A bulk download dataset",
+                    "additionalProperties": false,
+                    "properties": {
+                        "add_associated_mainstems": {
+                            "type": "boolean"
+                        },
+                        "contact_email": {
+                            "type": "string"
+                        },
+                        "contact_name": {
+                            "type": "string"
+                        },
+                        "dataset_description": {
+                            "type": "string"
+                        },
+                        "dataset_has_html_landing_pages": {
+                            "type": "boolean"
+                        },
+                        "dataset_documentation_link": {
+                            "type": "string"
+                        },
+                        "source_code_link": {
+                            "type": "string"
+                        },
+                        "bulk_container_image": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "add_associated_mainstems",
+                        "contact_email",
+                        "dataset_description",
+                        "dataset_has_html_landing_pages",
+                        "dataset_documentation_link",
+                        "source_code_link"
+                    ],
+                    "type": "object"
+                }
+            ]
+        }
+    }
+}
