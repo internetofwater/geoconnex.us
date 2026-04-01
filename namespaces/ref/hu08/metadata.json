@@ -2,7 +2,7 @@
     "max_request_concurrency": 5,
     "add_associated_mainstems": true,
     "contact_email": "internetofwater@lincolninst.edu",
-    "dataset_description": "reference data from the Geoconnex reference feature server",
+    "dataset_description": "Eight-digit Hydrologic Regions from USGS NHDPlus High Resolution served from the Geoconnex reference feature server",
     "dataset_has_html_landing_pages": true,
-    "dataset_documentation_link": "https://reference.geoconnex.us/"
+    "dataset_documentation_link": "https://reference.geoconnex.us/collections/hu08"
 }
