@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 import csv
 import re
-from tabnanny import check
 
 
 def valid_email(email: str):
@@ -29,6 +28,7 @@ def assert_valid_csv(csv_path: Path):
                 f"{csv_path.name} invalid email: {row[CREATOR_COLUMN]}"
             )
 
+
 def check_metadata_json(json_path: Path):
     with open(json_path, "r") as f:
         try:
@@ -36,26 +36,28 @@ def check_metadata_json(json_path: Path):
         except json.JSONDecodeError:
             raise ValueError(f"Invalid JSON found at {json_path}")
 
-        skip_crawling_case = "skip_crawling" in metadata 
+        skip_crawling_case = "skip_crawling" in metadata
         bulk_case = "bulk/" in json_path.absolute().as_posix()
         crawl_features_case = "max_request_concurrency" in metadata
 
         match (skip_crawling_case, bulk_case, crawl_features_case):
             case (True, True, _):
                 raise ValueError(
-                    "Cannot have both skip_crawling and bulk in the same metadata file but found it here: " + json_path.absolute().as_posix()
+                    "Cannot have both skip_crawling and bulk in the same metadata file but found it here: "
+                    + json_path.absolute().as_posix()
                 )
             case (True, _, True):
                 raise ValueError(
-                    "Cannot have both skip_crawling and max_request_concurrency in the same metadata file but found it here: " + json_path.absolute().as_posix()
+                    "Cannot have both skip_crawling and max_request_concurrency in the same metadata file but found it here: "
+                    + json_path.absolute().as_posix()
                 )
             case (_, True, True):
                 raise ValueError(
-                    "Cannot have both bulk and max_request_concurrency in the same metadata file but found it here: " + json_path.absolute().as_posix()
+                    "Cannot have both bulk and max_request_concurrency in the same metadata file but found it here: "
+                    + json_path.absolute().as_posix()
                 )
             case (True, False, False) | (False, True, False) | (False, False, True):
                 pass
-            
 
 
 def list_dir(dir: Path):
