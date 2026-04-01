@@ -1,0 +1,5 @@
+{
+    "skip_crawling": true,
+    "contact_email": "dblodgett@usgs.gov",
+    "dataset_description": "Redirects to USGS mainstems in the national map in the ESRI MapServer https://hydro.nationalmap.gov/arcgis/rest/services/3DHP_all/MapServer"
+}

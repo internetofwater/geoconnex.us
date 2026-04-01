@@ -1,4 +1,7 @@
 {
+    // we use a json schema to define the structure of the geoconnex metadata
+    // this allows us to validate the content locally and tests as while as have
+    // real time validation in the editor
     "json.schemas": [
         {
             "fileMatch": [
