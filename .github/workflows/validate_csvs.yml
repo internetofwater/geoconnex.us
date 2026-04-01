@@ -1,4 +1,4 @@
-name: Validate all Geoconnex CSVs and bulk XML files
+name: Validate content of Geoconnex CSVs and Metadata files
 
 on: [push]
 
