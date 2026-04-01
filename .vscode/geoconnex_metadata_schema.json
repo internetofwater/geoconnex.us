@@ -58,7 +58,8 @@
                             ]
                         },
                         "requires_javascript_to_crawl": {
-                            "type": "boolean"
+                            "type": "boolean",
+                            "default": false
                         },
                         "skip_crawling": {
                             "const": false,
@@ -75,7 +76,6 @@
                         "dataset_description",
                         "dataset_has_html_landing_pages",
                         "max_request_concurrency",
-                        "requires_javascript_to_crawl",
                         "dataset_documentation_link"
                     ],
                     "type": "object"
