@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "namespaces/**/metadata.json"
+            ],
+            "url": "./.vscode/geoconnex_metadata_schema.json"
+        }
+    ]
+}
