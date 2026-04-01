@@ -3,5 +3,6 @@
     "add_associated_mainstems": true,
     "contact_email": "ewiggans@lincolninst.edu",
     "dataset_description": "State gages for Nebraska",
-    "dataset_has_html_landing_pages": true
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://features.internetofwater.dev/collections/ne/gages"
 }
