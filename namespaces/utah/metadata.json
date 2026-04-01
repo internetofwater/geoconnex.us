@@ -1,7 +1,8 @@
 {
-    "max_request_concurrency": 2,
+    "max_request_concurrency": 4,
     "add_associated_mainstems": true,
-    "creator_email": "ewiggans@lincolninst.edu",
-    "dataset_description": "NHDPlusV2 Census identifiers redirect to a geojson representation that shows the intersection of NHDPlusV2 flowlines and catchments with census blocks from the years 2000, 2010, and 2020. The `comid` is a shared identifier from NHDPlusV2. The `block` is census geo-identifier which varies by year.",
-    "dataset_has_html_landing_pages": true
+    "contact_email": "aabdallah@utah.gov",
+    "dataset_description": "Utah Water Systems across Utah DWRi, DWRe and DDW",
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://waterrights.utah.gov/"
 }

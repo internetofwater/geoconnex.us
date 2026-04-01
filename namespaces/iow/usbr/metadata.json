@@ -3,5 +3,6 @@
     "add_associated_mainstems": true,
     "contact_email": "konda@lincolninst.edu",
     "dataset_description": "Locations in the USBR RISE API",
-    "dataset_has_html_landing_pages": true
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://data.usbr.gov/rise-api"
 }
