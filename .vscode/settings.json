@@ -1,6 +1,6 @@
 {
     // we use a json schema to define the structure of the geoconnex metadata
-    // this allows us to validate the content locally and tests as while as have
+    // this allows us to validate the content both in tests and in
     // real time validation in the editor
     "json.schemas": [
         {
