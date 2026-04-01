@@ -1,0 +1,8 @@
+{
+    "max_request_concurrency": 5,
+    "add_associated_mainstems": true,
+    "contact_email": "internetofwater@lincolninst.edu",
+    "dataset_description": "National Aquifers of the United States from USGS National Water Information System National Aquifer code list served from the Geoconnex reference feature server",
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://reference.geoconnex.us/collections/nat_aq"
+}

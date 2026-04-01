@@ -1,0 +1,10 @@
+[project]
+name = "checks"
+version = "0.1.0"
+description = "Checks for the Geoconnex Registry"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prek>=0.3.8",
+    "sourcemeta-jsonschema>=14.17.0",
+]

@@ -1,4 +1,4 @@
-name: Validate all Geoconnex CSVs and bulk XML files
+name: Validate content of Geoconnex CSVs and Metadata files
 
 on: [push]
 
@@ -6,9 +6,13 @@ jobs:
   validate-csvs:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: run duplicate test
-        run: |
-          python3 tests/validate_csv.py
-          python3 tests/validate_bulk.py
+      - uses: actions/checkout@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: uv sync dependencies
+        working-directory: ./checks
+        run: uv sync --all-extras
+      - name: Run prek
+        uses: j178/prek-action@v2
