@@ -13,6 +13,6 @@ jobs:
           enable-cache: true
       - name: uv sync dependencies
         working-directory: ./checks
-        run: uv sync --all-extra
+        run: uv sync --all-extras
       - name: Run prek
         uses: j178/prek-action@v2
