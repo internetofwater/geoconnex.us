@@ -21,7 +21,7 @@ def assert_valid_csv(csv_path: Path):
         assert requiredHeaders.issubset(headers), f"{csv_path.name} headers '{headers}' does not contain {requiredHeaders}"
 
         for row in reader:
-            assert len(row) >= 4
+            assert len(row) >= 4, f"{row} has less than 4 columns"
             CREATOR_COLUMN = 2
             assert valid_email(row[CREATOR_COLUMN]), f"{csv_path.name} creator '{row[CREATOR_COLUMN]}' is not a valid email"
 
