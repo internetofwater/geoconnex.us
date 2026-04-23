@@ -68,8 +68,6 @@ def list_dir(dir: Path):
                 raise ValueError(f"All sitemaps must be prefixed with __NUMBER.xml but found {dir.name}")
             assert_valid_xml(dir)
             print(f"{dir} is valid")
-        if dir.suffix == ".csv":
-            raise ValueError(f"Found {dir} which is a csv file and should not be present in the bulk directory")
         return
 
     for file in dir.iterdir():
