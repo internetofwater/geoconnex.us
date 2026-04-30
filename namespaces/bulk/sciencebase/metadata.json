@@ -1,0 +1,9 @@
+{
+    "contact_email": "cloftus@lincolninst.edu",
+    "dataset_description": "USGS Sciencebase Bulk Download",
+    "dataset_has_html_landing_pages": true,
+    "add_associated_mainstems": false,
+    "source_code_link": "https://github.com/internetofwater/sciencebase_bulk_rdf",
+    "dataset_documentation_link": "https://www.sciencebase.gov/catalog/",
+    "bulk_container_image": "ghcr.io/internetofwater/sciencebase_bulk_rdf"
+}
