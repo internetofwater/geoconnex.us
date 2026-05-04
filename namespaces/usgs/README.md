@@ -4,14 +4,7 @@ USGS
 Homepage:
 * https://usgs.gov/
 
-These mappings are for USGS systems. This collection will grow and evolve over time.
-
-## Geospatial Names Information System (gnis)
-
-- https://geoconnex.us/usgs/gnis/1577073
-- https://geoconnex.us/usgs/gnis/204770
-
-Due to the quantity of features in this namespace, this is crawled in bulk using the integration [here](https://github.com/internetofwater/gnis_bulk_rdf)
+These mappings are for USGS systems.
 
 ## mainstems
 
@@ -20,16 +13,6 @@ Mainstem IDs for rivers not defined in reference rivers.
 Examples: 
 * https://geoconnex.us/usgs/mainstems/9085326
 * https://geoconnex.us/usgs/mainstems/7419739
-
-## monitoring-location
-
-All monitoring locations used by the USGS Waterdata system
-
-Examples:
-* https://waterdata.usgs.gov/monitoring-location/08383500
-* https://waterdata.usgs.gov/monitoring-location/05428500
-
-Due to the quantity of features in this namespace, this is crawled in bulk using the integration [here](https://github.com/internetofwater/usgs_monitoring_locations_bulk_exports)
 
 ## gf11_pois
 

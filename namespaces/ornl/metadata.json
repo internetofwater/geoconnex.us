@@ -1,0 +1,5 @@
+{
+    "contact_email": "trugglesa@ornl.gov",
+    "dataset_description": "These mappings are for sites represented in datasets published at HydroSource, https://osource.ornl.gov/about , Oak Ridge National Laboratory's Water-Energy data platform. ",
+    "skip_crawling": true
+}

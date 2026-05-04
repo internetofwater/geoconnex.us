@@ -1,0 +1,5 @@
+{
+    "skip_crawling": true,
+    "dataset_description": "USGS Geospatial Fabric V1.1 Points of Interest",
+    "contact_email": "dblodgett@usgs.gov"
+}
