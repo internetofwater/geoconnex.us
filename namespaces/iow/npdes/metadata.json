@@ -1,0 +1,8 @@
+{
+    "max_request_concurrency": 2,
+    "add_associated_mainstems": true,
+    "contact_email": "ewiggans@lincolninst.edu",
+    "dataset_description": "NPDES identifiers are based on USEPA NPDES Permit identifiers for facilities that discharge to water, and redirect to a landing page that includes a hydrographic address referencing NHDPlusV2, an associated mainstem URI, and a link to the USEPA ECHO page for the facility. ",
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://features.internetofwater.dev/collections/NPDES"
+}

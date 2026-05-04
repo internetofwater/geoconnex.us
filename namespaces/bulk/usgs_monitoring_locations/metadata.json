@@ -1,0 +1,9 @@
+{
+    "contact_email": "cloftus@lincolninst.edu",
+    "dataset_description": "USGS Monitoring Locations Bulk Download",
+    "dataset_has_html_landing_pages": true,
+    "add_associated_mainstems": true,
+    "source_code_link": "https://github.com/internetofwater/usgs_monitoring_locations_bulk_exports",
+    "dataset_documentation_link": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/monitoring-locations",
+    "bulk_container_image": "ghcr.io/internetofwater/usgs_monitoring_locations_bulk_rdf:latest"
+}
