@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - 'master'
-      - 'dev-ci'
-    # paths:
-    #   - 'tests/namespaces/**'
+    paths:
+      - 'tests/namespaces/**'
   workflow_dispatch:
 
 jobs:
