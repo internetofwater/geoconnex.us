@@ -1,0 +1,45 @@
+name: Create sitemap for pids.geoconnex.dev
+
+on:
+  push:
+    branches:
+      - 'master'
+      - 'dev-ci'
+    # paths:
+    #   - 'tests/namespaces/**'
+  workflow_dispatch:
+
+jobs:
+  create-sitemap:
+    if: github.actor != 'github-actions[bot]'   # جلوگیری از loop
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+
+      - name: Generate sitemap
+        uses: cgs-earth/sitemap-generator@0.2.1
+        with:
+          namespace_dir: ${{ github.workspace }}/tests/namespaces
+          sitemap_dir: ${{ github.workspace }}/tests/data/sitemap
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add tests/data/sitemap
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update sitemap (CI)"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          else
+            echo "No changes to commit"
+          fi
