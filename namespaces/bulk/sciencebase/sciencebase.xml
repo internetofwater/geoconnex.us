@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:geoconnex="http://geoconnex.us/schemas/sitemap">
-    <url>
-        <loc>ghcr.io/internetofwater/sciencebase_bulk_rdf:latest</loc>
-        <lastmod>2026-04-21</lastmod>
-        <geoconnex:type>bulk</geoconnex:type>
-    </url>
-</urlset>
