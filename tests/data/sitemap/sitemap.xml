@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:geoconnex="https://geoconnex.us">
 <sitemap>
-  <loc>https://geoconnex.us/sitemap/cdss/co_gages.xml</loc>
+  <loc>https://pids.geoconnex.dev/sitemap/cdss/co_gages.xml</loc>
   <lastmod>2026-05-05T21:03:50Z</lastmod>
   <geoconnex:sitemap_id>cdss:co_gages</geoconnex:sitemap_id>
 </sitemap><sitemap>
-  <loc>https://geoconnex.us/sitemap/ref/dams.xml</loc>
+  <loc>https://pids.geoconnex.dev/sitemap/ref/dams.xml</loc>
   <lastmod>2026-05-05T21:03:50Z</lastmod>
   <geoconnex:sitemap_id>ref:dams</geoconnex:sitemap_id>
 </sitemap><sitemap>
-  <loc>https://geoconnex.us/sitemap/ref/gages.xml</loc>
+  <loc>https://pids.geoconnex.dev/sitemap/ref/gages.xml</loc>
   <lastmod>2026-05-05T21:03:50Z</lastmod>
   <geoconnex:sitemap_id>ref:gages</geoconnex:sitemap_id>
 </sitemap><sitemap>
-  <loc>https://geoconnex.us/sitemap/ref/mainstems.xml</loc>
+  <loc>https://pids.geoconnex.dev/sitemap/ref/mainstems.xml</loc>
   <lastmod>2026-05-05T21:03:50Z</lastmod>
   <geoconnex:sitemap_id>ref:mainstems</geoconnex:sitemap_id>
 </sitemap><sitemap>
-  <loc>https://geoconnex.us/sitemap/nmwdi/st/nmwdi_st.xml</loc>
+  <loc>https://pids.geoconnex.dev/sitemap/nmwdi/st/nmwdi_st.xml</loc>
   <lastmod>2026-05-05T21:03:50Z</lastmod>
   <geoconnex:sitemap_id>nmwdi:st:nmwdi_st</geoconnex:sitemap_id>
 </sitemap></sitemapindex>
