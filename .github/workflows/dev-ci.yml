@@ -23,10 +23,11 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: Generate sitemap
-        uses: cgs-earth/sitemap-generator@0.2.1
+        uses: cgs-earth/sitemap-generator@master
         with:
           namespace_dir: ${{ github.workspace }}/tests/namespaces
           sitemap_dir: ${{ github.workspace }}/tests/data/sitemap
+          base_uri: https://pids.geoconnex.dev
 
       - name: Commit and push changes
         run: |
@@ -37,7 +38,7 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git commit -m "Update sitemap (CI)"
-            git push origin HEAD:${GITHUB_REF#refs/heads/}
+            git push origin HEAD:${GITHUB_HEAD_REF}
           else
             echo "No changes to commit"
           fi
