@@ -22,6 +22,9 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.ref }}
 
+      - name: Remove Sitemap Directory
+        run: rm -rf ${{ github.workspace }}/tests/data/sitemap
+
       - name: Generate sitemap
         uses: cgs-earth/sitemap-generator@master
         with:
