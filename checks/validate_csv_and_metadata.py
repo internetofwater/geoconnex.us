@@ -2,19 +2,11 @@ import json
 import os
 from pathlib import Path
 import csv
-import re
-
-
-def valid_email(email: str):
-    email = email.strip()
-    pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-    return re.match(pattern, email)
-
 
 def assert_valid_csv(csv_path: Path):
     with open(csv_path, "r") as f:
         reader = csv.reader(f, delimiter=",")
-        requiredHeaders = {"id", "target", "creator", "description"}
+        requiredHeaders = {"id", "target"}
         headers = set(next(reader))
 
         assert requiredHeaders.issubset(headers), (
@@ -22,12 +14,7 @@ def assert_valid_csv(csv_path: Path):
         )
 
         for row in reader:
-            assert len(row) >= 4
-            CREATOR_COLUMN = 2
-            assert valid_email(row[CREATOR_COLUMN]), (
-                f"{csv_path.name} invalid email: {row[CREATOR_COLUMN]}"
-            )
-
+            assert len(row) == 2, f"Found row {row} with incorrect number of columns. Expected just {requiredHeaders}"
 
 def check_metadata_json(json_path: Path):
     with open(json_path, "r") as f:

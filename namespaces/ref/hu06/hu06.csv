@@ -1,403 +1,403 @@
-"id","target","creator","description"
-"https://geoconnex.us/ref/hu06/010100","https://reference.geoconnex.us/collections/hu06/items/010100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010200","https://reference.geoconnex.us/collections/hu06/items/010200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010300","https://reference.geoconnex.us/collections/hu06/items/010300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010400","https://reference.geoconnex.us/collections/hu06/items/010400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010500","https://reference.geoconnex.us/collections/hu06/items/010500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010600","https://reference.geoconnex.us/collections/hu06/items/010600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010700","https://reference.geoconnex.us/collections/hu06/items/010700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010801","https://reference.geoconnex.us/collections/hu06/items/010801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010802","https://reference.geoconnex.us/collections/hu06/items/010802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/010900","https://reference.geoconnex.us/collections/hu06/items/010900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/011000","https://reference.geoconnex.us/collections/hu06/items/011000","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020200","https://reference.geoconnex.us/collections/hu06/items/020200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020301","https://reference.geoconnex.us/collections/hu06/items/020301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020302","https://reference.geoconnex.us/collections/hu06/items/020302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020401","https://reference.geoconnex.us/collections/hu06/items/020401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020402","https://reference.geoconnex.us/collections/hu06/items/020402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020403","https://reference.geoconnex.us/collections/hu06/items/020403","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020501","https://reference.geoconnex.us/collections/hu06/items/020501","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020502","https://reference.geoconnex.us/collections/hu06/items/020502","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020503","https://reference.geoconnex.us/collections/hu06/items/020503","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020600","https://reference.geoconnex.us/collections/hu06/items/020600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020700","https://reference.geoconnex.us/collections/hu06/items/020700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020801","https://reference.geoconnex.us/collections/hu06/items/020801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/020802","https://reference.geoconnex.us/collections/hu06/items/020802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030101","https://reference.geoconnex.us/collections/hu06/items/030101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030102","https://reference.geoconnex.us/collections/hu06/items/030102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030201","https://reference.geoconnex.us/collections/hu06/items/030201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030202","https://reference.geoconnex.us/collections/hu06/items/030202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030203","https://reference.geoconnex.us/collections/hu06/items/030203","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030300","https://reference.geoconnex.us/collections/hu06/items/030300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030401","https://reference.geoconnex.us/collections/hu06/items/030401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030402","https://reference.geoconnex.us/collections/hu06/items/030402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030501","https://reference.geoconnex.us/collections/hu06/items/030501","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030502","https://reference.geoconnex.us/collections/hu06/items/030502","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030601","https://reference.geoconnex.us/collections/hu06/items/030601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030602","https://reference.geoconnex.us/collections/hu06/items/030602","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030701","https://reference.geoconnex.us/collections/hu06/items/030701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030702","https://reference.geoconnex.us/collections/hu06/items/030702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030801","https://reference.geoconnex.us/collections/hu06/items/030801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030802","https://reference.geoconnex.us/collections/hu06/items/030802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030901","https://reference.geoconnex.us/collections/hu06/items/030901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/030902","https://reference.geoconnex.us/collections/hu06/items/030902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031001","https://reference.geoconnex.us/collections/hu06/items/031001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031002","https://reference.geoconnex.us/collections/hu06/items/031002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031101","https://reference.geoconnex.us/collections/hu06/items/031101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031102","https://reference.geoconnex.us/collections/hu06/items/031102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031200","https://reference.geoconnex.us/collections/hu06/items/031200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031300","https://reference.geoconnex.us/collections/hu06/items/031300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031401","https://reference.geoconnex.us/collections/hu06/items/031401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031402","https://reference.geoconnex.us/collections/hu06/items/031402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031403","https://reference.geoconnex.us/collections/hu06/items/031403","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031501","https://reference.geoconnex.us/collections/hu06/items/031501","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031502","https://reference.geoconnex.us/collections/hu06/items/031502","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031601","https://reference.geoconnex.us/collections/hu06/items/031601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031602","https://reference.geoconnex.us/collections/hu06/items/031602","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031700","https://reference.geoconnex.us/collections/hu06/items/031700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/031800","https://reference.geoconnex.us/collections/hu06/items/031800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040101","https://reference.geoconnex.us/collections/hu06/items/040101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040102","https://reference.geoconnex.us/collections/hu06/items/040102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040103","https://reference.geoconnex.us/collections/hu06/items/040103","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040201","https://reference.geoconnex.us/collections/hu06/items/040201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040202","https://reference.geoconnex.us/collections/hu06/items/040202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040301","https://reference.geoconnex.us/collections/hu06/items/040301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040302","https://reference.geoconnex.us/collections/hu06/items/040302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040400","https://reference.geoconnex.us/collections/hu06/items/040400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040500","https://reference.geoconnex.us/collections/hu06/items/040500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040601","https://reference.geoconnex.us/collections/hu06/items/040601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040700","https://reference.geoconnex.us/collections/hu06/items/040700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040801","https://reference.geoconnex.us/collections/hu06/items/040801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040802","https://reference.geoconnex.us/collections/hu06/items/040802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/040900","https://reference.geoconnex.us/collections/hu06/items/040900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041000","https://reference.geoconnex.us/collections/hu06/items/041000","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041100","https://reference.geoconnex.us/collections/hu06/items/041100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041201","https://reference.geoconnex.us/collections/hu06/items/041201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041300","https://reference.geoconnex.us/collections/hu06/items/041300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041401","https://reference.geoconnex.us/collections/hu06/items/041401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041402","https://reference.geoconnex.us/collections/hu06/items/041402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041403","https://reference.geoconnex.us/collections/hu06/items/041403","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041600","https://reference.geoconnex.us/collections/hu06/items/041600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041700","https://reference.geoconnex.us/collections/hu06/items/041700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041800","https://reference.geoconnex.us/collections/hu06/items/041800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/041900","https://reference.geoconnex.us/collections/hu06/items/041900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042000","https://reference.geoconnex.us/collections/hu06/items/042000","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042100","https://reference.geoconnex.us/collections/hu06/items/042100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042200","https://reference.geoconnex.us/collections/hu06/items/042200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042300","https://reference.geoconnex.us/collections/hu06/items/042300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042400","https://reference.geoconnex.us/collections/hu06/items/042400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042500","https://reference.geoconnex.us/collections/hu06/items/042500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042600","https://reference.geoconnex.us/collections/hu06/items/042600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042701","https://reference.geoconnex.us/collections/hu06/items/042701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042702","https://reference.geoconnex.us/collections/hu06/items/042702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042800","https://reference.geoconnex.us/collections/hu06/items/042800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/042900","https://reference.geoconnex.us/collections/hu06/items/042900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/043001","https://reference.geoconnex.us/collections/hu06/items/043001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/043002","https://reference.geoconnex.us/collections/hu06/items/043002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/043100","https://reference.geoconnex.us/collections/hu06/items/043100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/043200","https://reference.geoconnex.us/collections/hu06/items/043200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/043300","https://reference.geoconnex.us/collections/hu06/items/043300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050100","https://reference.geoconnex.us/collections/hu06/items/050100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050200","https://reference.geoconnex.us/collections/hu06/items/050200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050301","https://reference.geoconnex.us/collections/hu06/items/050301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050302","https://reference.geoconnex.us/collections/hu06/items/050302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050400","https://reference.geoconnex.us/collections/hu06/items/050400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050500","https://reference.geoconnex.us/collections/hu06/items/050500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050600","https://reference.geoconnex.us/collections/hu06/items/050600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050701","https://reference.geoconnex.us/collections/hu06/items/050701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050702","https://reference.geoconnex.us/collections/hu06/items/050702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050800","https://reference.geoconnex.us/collections/hu06/items/050800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050901","https://reference.geoconnex.us/collections/hu06/items/050901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/050902","https://reference.geoconnex.us/collections/hu06/items/050902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051001","https://reference.geoconnex.us/collections/hu06/items/051001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051002","https://reference.geoconnex.us/collections/hu06/items/051002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051100","https://reference.geoconnex.us/collections/hu06/items/051100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051201","https://reference.geoconnex.us/collections/hu06/items/051201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051202","https://reference.geoconnex.us/collections/hu06/items/051202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051301","https://reference.geoconnex.us/collections/hu06/items/051301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051302","https://reference.geoconnex.us/collections/hu06/items/051302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051401","https://reference.geoconnex.us/collections/hu06/items/051401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/051402","https://reference.geoconnex.us/collections/hu06/items/051402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/060101","https://reference.geoconnex.us/collections/hu06/items/060101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/060102","https://reference.geoconnex.us/collections/hu06/items/060102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/060200","https://reference.geoconnex.us/collections/hu06/items/060200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/060300","https://reference.geoconnex.us/collections/hu06/items/060300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/060400","https://reference.geoconnex.us/collections/hu06/items/060400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070101","https://reference.geoconnex.us/collections/hu06/items/070101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070102","https://reference.geoconnex.us/collections/hu06/items/070102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070200","https://reference.geoconnex.us/collections/hu06/items/070200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070300","https://reference.geoconnex.us/collections/hu06/items/070300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070400","https://reference.geoconnex.us/collections/hu06/items/070400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070500","https://reference.geoconnex.us/collections/hu06/items/070500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070600","https://reference.geoconnex.us/collections/hu06/items/070600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070700","https://reference.geoconnex.us/collections/hu06/items/070700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070801","https://reference.geoconnex.us/collections/hu06/items/070801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070802","https://reference.geoconnex.us/collections/hu06/items/070802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/070900","https://reference.geoconnex.us/collections/hu06/items/070900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/071000","https://reference.geoconnex.us/collections/hu06/items/071000","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/071100","https://reference.geoconnex.us/collections/hu06/items/071100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/071200","https://reference.geoconnex.us/collections/hu06/items/071200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/071300","https://reference.geoconnex.us/collections/hu06/items/071300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/071401","https://reference.geoconnex.us/collections/hu06/items/071401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/071402","https://reference.geoconnex.us/collections/hu06/items/071402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080101","https://reference.geoconnex.us/collections/hu06/items/080101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080102","https://reference.geoconnex.us/collections/hu06/items/080102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080103","https://reference.geoconnex.us/collections/hu06/items/080103","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080201","https://reference.geoconnex.us/collections/hu06/items/080201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080202","https://reference.geoconnex.us/collections/hu06/items/080202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080203","https://reference.geoconnex.us/collections/hu06/items/080203","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080204","https://reference.geoconnex.us/collections/hu06/items/080204","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080301","https://reference.geoconnex.us/collections/hu06/items/080301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080302","https://reference.geoconnex.us/collections/hu06/items/080302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080401","https://reference.geoconnex.us/collections/hu06/items/080401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080402","https://reference.geoconnex.us/collections/hu06/items/080402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080403","https://reference.geoconnex.us/collections/hu06/items/080403","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080500","https://reference.geoconnex.us/collections/hu06/items/080500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080601","https://reference.geoconnex.us/collections/hu06/items/080601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080602","https://reference.geoconnex.us/collections/hu06/items/080602","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080701","https://reference.geoconnex.us/collections/hu06/items/080701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080702","https://reference.geoconnex.us/collections/hu06/items/080702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080703","https://reference.geoconnex.us/collections/hu06/items/080703","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080801","https://reference.geoconnex.us/collections/hu06/items/080801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080802","https://reference.geoconnex.us/collections/hu06/items/080802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080901","https://reference.geoconnex.us/collections/hu06/items/080901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080902","https://reference.geoconnex.us/collections/hu06/items/080902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/080903","https://reference.geoconnex.us/collections/hu06/items/080903","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/090100","https://reference.geoconnex.us/collections/hu06/items/090100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/090201","https://reference.geoconnex.us/collections/hu06/items/090201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/090202","https://reference.geoconnex.us/collections/hu06/items/090202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/090203","https://reference.geoconnex.us/collections/hu06/items/090203","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/090300","https://reference.geoconnex.us/collections/hu06/items/090300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/090400","https://reference.geoconnex.us/collections/hu06/items/090400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100200","https://reference.geoconnex.us/collections/hu06/items/100200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100301","https://reference.geoconnex.us/collections/hu06/items/100301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100302","https://reference.geoconnex.us/collections/hu06/items/100302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100401","https://reference.geoconnex.us/collections/hu06/items/100401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100402","https://reference.geoconnex.us/collections/hu06/items/100402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100500","https://reference.geoconnex.us/collections/hu06/items/100500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100600","https://reference.geoconnex.us/collections/hu06/items/100600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100700","https://reference.geoconnex.us/collections/hu06/items/100700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100800","https://reference.geoconnex.us/collections/hu06/items/100800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100901","https://reference.geoconnex.us/collections/hu06/items/100901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/100902","https://reference.geoconnex.us/collections/hu06/items/100902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101000","https://reference.geoconnex.us/collections/hu06/items/101000","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101101","https://reference.geoconnex.us/collections/hu06/items/101101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101102","https://reference.geoconnex.us/collections/hu06/items/101102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101201","https://reference.geoconnex.us/collections/hu06/items/101201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101202","https://reference.geoconnex.us/collections/hu06/items/101202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101301","https://reference.geoconnex.us/collections/hu06/items/101301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101302","https://reference.geoconnex.us/collections/hu06/items/101302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101303","https://reference.geoconnex.us/collections/hu06/items/101303","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101401","https://reference.geoconnex.us/collections/hu06/items/101401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101402","https://reference.geoconnex.us/collections/hu06/items/101402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101500","https://reference.geoconnex.us/collections/hu06/items/101500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101600","https://reference.geoconnex.us/collections/hu06/items/101600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101701","https://reference.geoconnex.us/collections/hu06/items/101701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101702","https://reference.geoconnex.us/collections/hu06/items/101702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101800","https://reference.geoconnex.us/collections/hu06/items/101800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/101900","https://reference.geoconnex.us/collections/hu06/items/101900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102001","https://reference.geoconnex.us/collections/hu06/items/102001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102002","https://reference.geoconnex.us/collections/hu06/items/102002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102100","https://reference.geoconnex.us/collections/hu06/items/102100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102200","https://reference.geoconnex.us/collections/hu06/items/102200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102300","https://reference.geoconnex.us/collections/hu06/items/102300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102400","https://reference.geoconnex.us/collections/hu06/items/102400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102500","https://reference.geoconnex.us/collections/hu06/items/102500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102600","https://reference.geoconnex.us/collections/hu06/items/102600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102701","https://reference.geoconnex.us/collections/hu06/items/102701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102702","https://reference.geoconnex.us/collections/hu06/items/102702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102801","https://reference.geoconnex.us/collections/hu06/items/102801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102802","https://reference.geoconnex.us/collections/hu06/items/102802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102901","https://reference.geoconnex.us/collections/hu06/items/102901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/102902","https://reference.geoconnex.us/collections/hu06/items/102902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/103001","https://reference.geoconnex.us/collections/hu06/items/103001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/103002","https://reference.geoconnex.us/collections/hu06/items/103002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110100","https://reference.geoconnex.us/collections/hu06/items/110100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110200","https://reference.geoconnex.us/collections/hu06/items/110200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110300","https://reference.geoconnex.us/collections/hu06/items/110300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110400","https://reference.geoconnex.us/collections/hu06/items/110400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110500","https://reference.geoconnex.us/collections/hu06/items/110500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110600","https://reference.geoconnex.us/collections/hu06/items/110600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110701","https://reference.geoconnex.us/collections/hu06/items/110701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110702","https://reference.geoconnex.us/collections/hu06/items/110702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110800","https://reference.geoconnex.us/collections/hu06/items/110800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110901","https://reference.geoconnex.us/collections/hu06/items/110901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/110902","https://reference.geoconnex.us/collections/hu06/items/110902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111001","https://reference.geoconnex.us/collections/hu06/items/111001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111002","https://reference.geoconnex.us/collections/hu06/items/111002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111003","https://reference.geoconnex.us/collections/hu06/items/111003","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111101","https://reference.geoconnex.us/collections/hu06/items/111101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111102","https://reference.geoconnex.us/collections/hu06/items/111102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111201","https://reference.geoconnex.us/collections/hu06/items/111201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111202","https://reference.geoconnex.us/collections/hu06/items/111202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111203","https://reference.geoconnex.us/collections/hu06/items/111203","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111301","https://reference.geoconnex.us/collections/hu06/items/111301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111302","https://reference.geoconnex.us/collections/hu06/items/111302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111303","https://reference.geoconnex.us/collections/hu06/items/111303","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111401","https://reference.geoconnex.us/collections/hu06/items/111401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111402","https://reference.geoconnex.us/collections/hu06/items/111402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/111403","https://reference.geoconnex.us/collections/hu06/items/111403","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120100","https://reference.geoconnex.us/collections/hu06/items/120100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120200","https://reference.geoconnex.us/collections/hu06/items/120200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120301","https://reference.geoconnex.us/collections/hu06/items/120301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120302","https://reference.geoconnex.us/collections/hu06/items/120302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120401","https://reference.geoconnex.us/collections/hu06/items/120401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120402","https://reference.geoconnex.us/collections/hu06/items/120402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120500","https://reference.geoconnex.us/collections/hu06/items/120500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120601","https://reference.geoconnex.us/collections/hu06/items/120601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120602","https://reference.geoconnex.us/collections/hu06/items/120602","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120701","https://reference.geoconnex.us/collections/hu06/items/120701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120702","https://reference.geoconnex.us/collections/hu06/items/120702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120800","https://reference.geoconnex.us/collections/hu06/items/120800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120901","https://reference.geoconnex.us/collections/hu06/items/120901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120902","https://reference.geoconnex.us/collections/hu06/items/120902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120903","https://reference.geoconnex.us/collections/hu06/items/120903","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/120904","https://reference.geoconnex.us/collections/hu06/items/120904","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/121001","https://reference.geoconnex.us/collections/hu06/items/121001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/121002","https://reference.geoconnex.us/collections/hu06/items/121002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/121003","https://reference.geoconnex.us/collections/hu06/items/121003","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/121004","https://reference.geoconnex.us/collections/hu06/items/121004","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/121101","https://reference.geoconnex.us/collections/hu06/items/121101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/121102","https://reference.geoconnex.us/collections/hu06/items/121102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130100","https://reference.geoconnex.us/collections/hu06/items/130100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130201","https://reference.geoconnex.us/collections/hu06/items/130201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130202","https://reference.geoconnex.us/collections/hu06/items/130202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130301","https://reference.geoconnex.us/collections/hu06/items/130301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130302","https://reference.geoconnex.us/collections/hu06/items/130302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130401","https://reference.geoconnex.us/collections/hu06/items/130401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130402","https://reference.geoconnex.us/collections/hu06/items/130402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130403","https://reference.geoconnex.us/collections/hu06/items/130403","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130500","https://reference.geoconnex.us/collections/hu06/items/130500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130600","https://reference.geoconnex.us/collections/hu06/items/130600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130700","https://reference.geoconnex.us/collections/hu06/items/130700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130800","https://reference.geoconnex.us/collections/hu06/items/130800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/130900","https://reference.geoconnex.us/collections/hu06/items/130900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/131000","https://reference.geoconnex.us/collections/hu06/items/131000","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/131100","https://reference.geoconnex.us/collections/hu06/items/131100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/131200","https://reference.geoconnex.us/collections/hu06/items/131200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140100","https://reference.geoconnex.us/collections/hu06/items/140100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140200","https://reference.geoconnex.us/collections/hu06/items/140200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140300","https://reference.geoconnex.us/collections/hu06/items/140300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140401","https://reference.geoconnex.us/collections/hu06/items/140401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140402","https://reference.geoconnex.us/collections/hu06/items/140402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140500","https://reference.geoconnex.us/collections/hu06/items/140500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140600","https://reference.geoconnex.us/collections/hu06/items/140600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140700","https://reference.geoconnex.us/collections/hu06/items/140700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140801","https://reference.geoconnex.us/collections/hu06/items/140801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/140802","https://reference.geoconnex.us/collections/hu06/items/140802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150100","https://reference.geoconnex.us/collections/hu06/items/150100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150200","https://reference.geoconnex.us/collections/hu06/items/150200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150301","https://reference.geoconnex.us/collections/hu06/items/150301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150302","https://reference.geoconnex.us/collections/hu06/items/150302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150400","https://reference.geoconnex.us/collections/hu06/items/150400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150501","https://reference.geoconnex.us/collections/hu06/items/150501","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150502","https://reference.geoconnex.us/collections/hu06/items/150502","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150503","https://reference.geoconnex.us/collections/hu06/items/150503","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150601","https://reference.geoconnex.us/collections/hu06/items/150601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150602","https://reference.geoconnex.us/collections/hu06/items/150602","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150701","https://reference.geoconnex.us/collections/hu06/items/150701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150702","https://reference.geoconnex.us/collections/hu06/items/150702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150801","https://reference.geoconnex.us/collections/hu06/items/150801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150802","https://reference.geoconnex.us/collections/hu06/items/150802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/150803","https://reference.geoconnex.us/collections/hu06/items/150803","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160101","https://reference.geoconnex.us/collections/hu06/items/160101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160102","https://reference.geoconnex.us/collections/hu06/items/160102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160201","https://reference.geoconnex.us/collections/hu06/items/160201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160202","https://reference.geoconnex.us/collections/hu06/items/160202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160203","https://reference.geoconnex.us/collections/hu06/items/160203","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160300","https://reference.geoconnex.us/collections/hu06/items/160300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160401","https://reference.geoconnex.us/collections/hu06/items/160401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160402","https://reference.geoconnex.us/collections/hu06/items/160402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160501","https://reference.geoconnex.us/collections/hu06/items/160501","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160502","https://reference.geoconnex.us/collections/hu06/items/160502","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160503","https://reference.geoconnex.us/collections/hu06/items/160503","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/160600","https://reference.geoconnex.us/collections/hu06/items/160600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170101","https://reference.geoconnex.us/collections/hu06/items/170101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170102","https://reference.geoconnex.us/collections/hu06/items/170102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170103","https://reference.geoconnex.us/collections/hu06/items/170103","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170200","https://reference.geoconnex.us/collections/hu06/items/170200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170300","https://reference.geoconnex.us/collections/hu06/items/170300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170401","https://reference.geoconnex.us/collections/hu06/items/170401","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170402","https://reference.geoconnex.us/collections/hu06/items/170402","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170501","https://reference.geoconnex.us/collections/hu06/items/170501","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170502","https://reference.geoconnex.us/collections/hu06/items/170502","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170601","https://reference.geoconnex.us/collections/hu06/items/170601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170602","https://reference.geoconnex.us/collections/hu06/items/170602","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170603","https://reference.geoconnex.us/collections/hu06/items/170603","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170701","https://reference.geoconnex.us/collections/hu06/items/170701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170702","https://reference.geoconnex.us/collections/hu06/items/170702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170703","https://reference.geoconnex.us/collections/hu06/items/170703","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170800","https://reference.geoconnex.us/collections/hu06/items/170800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/170900","https://reference.geoconnex.us/collections/hu06/items/170900","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/171001","https://reference.geoconnex.us/collections/hu06/items/171001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/171002","https://reference.geoconnex.us/collections/hu06/items/171002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/171003","https://reference.geoconnex.us/collections/hu06/items/171003","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/171100","https://reference.geoconnex.us/collections/hu06/items/171100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/171200","https://reference.geoconnex.us/collections/hu06/items/171200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180101","https://reference.geoconnex.us/collections/hu06/items/180101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180102","https://reference.geoconnex.us/collections/hu06/items/180102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180200","https://reference.geoconnex.us/collections/hu06/items/180200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180201","https://reference.geoconnex.us/collections/hu06/items/180201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180300","https://reference.geoconnex.us/collections/hu06/items/180300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180400","https://reference.geoconnex.us/collections/hu06/items/180400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180500","https://reference.geoconnex.us/collections/hu06/items/180500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180600","https://reference.geoconnex.us/collections/hu06/items/180600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180701","https://reference.geoconnex.us/collections/hu06/items/180701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180702","https://reference.geoconnex.us/collections/hu06/items/180702","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180703","https://reference.geoconnex.us/collections/hu06/items/180703","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180800","https://reference.geoconnex.us/collections/hu06/items/180800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180901","https://reference.geoconnex.us/collections/hu06/items/180901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/180902","https://reference.geoconnex.us/collections/hu06/items/180902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/181001","https://reference.geoconnex.us/collections/hu06/items/181001","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/181002","https://reference.geoconnex.us/collections/hu06/items/181002","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190101","https://reference.geoconnex.us/collections/hu06/items/190101","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190102","https://reference.geoconnex.us/collections/hu06/items/190102","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190103","https://reference.geoconnex.us/collections/hu06/items/190103","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190104","https://reference.geoconnex.us/collections/hu06/items/190104","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190105","https://reference.geoconnex.us/collections/hu06/items/190105","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190201","https://reference.geoconnex.us/collections/hu06/items/190201","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190202","https://reference.geoconnex.us/collections/hu06/items/190202","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190203","https://reference.geoconnex.us/collections/hu06/items/190203","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190204","https://reference.geoconnex.us/collections/hu06/items/190204","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190205","https://reference.geoconnex.us/collections/hu06/items/190205","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190206","https://reference.geoconnex.us/collections/hu06/items/190206","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190207","https://reference.geoconnex.us/collections/hu06/items/190207","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190208","https://reference.geoconnex.us/collections/hu06/items/190208","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190301","https://reference.geoconnex.us/collections/hu06/items/190301","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190302","https://reference.geoconnex.us/collections/hu06/items/190302","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190303","https://reference.geoconnex.us/collections/hu06/items/190303","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190304","https://reference.geoconnex.us/collections/hu06/items/190304","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190305","https://reference.geoconnex.us/collections/hu06/items/190305","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190501","https://reference.geoconnex.us/collections/hu06/items/190501","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190502","https://reference.geoconnex.us/collections/hu06/items/190502","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190503","https://reference.geoconnex.us/collections/hu06/items/190503","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190504","https://reference.geoconnex.us/collections/hu06/items/190504","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190505","https://reference.geoconnex.us/collections/hu06/items/190505","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190601","https://reference.geoconnex.us/collections/hu06/items/190601","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190602","https://reference.geoconnex.us/collections/hu06/items/190602","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190603","https://reference.geoconnex.us/collections/hu06/items/190603","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190604","https://reference.geoconnex.us/collections/hu06/items/190604","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190605","https://reference.geoconnex.us/collections/hu06/items/190605","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190701","https://reference.geoconnex.us/collections/hu06/items/190701","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190704","https://reference.geoconnex.us/collections/hu06/items/190704","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190705","https://reference.geoconnex.us/collections/hu06/items/190705","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190801","https://reference.geoconnex.us/collections/hu06/items/190801","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190802","https://reference.geoconnex.us/collections/hu06/items/190802","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190803","https://reference.geoconnex.us/collections/hu06/items/190803","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190804","https://reference.geoconnex.us/collections/hu06/items/190804","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190901","https://reference.geoconnex.us/collections/hu06/items/190901","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190902","https://reference.geoconnex.us/collections/hu06/items/190902","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/190903","https://reference.geoconnex.us/collections/hu06/items/190903","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200100","https://reference.geoconnex.us/collections/hu06/items/200100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200200","https://reference.geoconnex.us/collections/hu06/items/200200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200300","https://reference.geoconnex.us/collections/hu06/items/200300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200400","https://reference.geoconnex.us/collections/hu06/items/200400","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200500","https://reference.geoconnex.us/collections/hu06/items/200500","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200600","https://reference.geoconnex.us/collections/hu06/items/200600","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200700","https://reference.geoconnex.us/collections/hu06/items/200700","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/200800","https://reference.geoconnex.us/collections/hu06/items/200800","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/210100","https://reference.geoconnex.us/collections/hu06/items/210100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/210200","https://reference.geoconnex.us/collections/hu06/items/210200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/220100","https://reference.geoconnex.us/collections/hu06/items/220100","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/220200","https://reference.geoconnex.us/collections/hu06/items/220200","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
-"https://geoconnex.us/ref/hu06/220300","https://reference.geoconnex.us/collections/hu06/items/220300","internetofwater@lincolninst.edu","US Reference Hydrologic Basins"
+id,target
+https://geoconnex.us/ref/hu06/010100,https://reference.geoconnex.us/collections/hu06/items/010100
+https://geoconnex.us/ref/hu06/010200,https://reference.geoconnex.us/collections/hu06/items/010200
+https://geoconnex.us/ref/hu06/010300,https://reference.geoconnex.us/collections/hu06/items/010300
+https://geoconnex.us/ref/hu06/010400,https://reference.geoconnex.us/collections/hu06/items/010400
+https://geoconnex.us/ref/hu06/010500,https://reference.geoconnex.us/collections/hu06/items/010500
+https://geoconnex.us/ref/hu06/010600,https://reference.geoconnex.us/collections/hu06/items/010600
+https://geoconnex.us/ref/hu06/010700,https://reference.geoconnex.us/collections/hu06/items/010700
+https://geoconnex.us/ref/hu06/010801,https://reference.geoconnex.us/collections/hu06/items/010801
+https://geoconnex.us/ref/hu06/010802,https://reference.geoconnex.us/collections/hu06/items/010802
+https://geoconnex.us/ref/hu06/010900,https://reference.geoconnex.us/collections/hu06/items/010900
+https://geoconnex.us/ref/hu06/011000,https://reference.geoconnex.us/collections/hu06/items/011000
+https://geoconnex.us/ref/hu06/020200,https://reference.geoconnex.us/collections/hu06/items/020200
+https://geoconnex.us/ref/hu06/020301,https://reference.geoconnex.us/collections/hu06/items/020301
+https://geoconnex.us/ref/hu06/020302,https://reference.geoconnex.us/collections/hu06/items/020302
+https://geoconnex.us/ref/hu06/020401,https://reference.geoconnex.us/collections/hu06/items/020401
+https://geoconnex.us/ref/hu06/020402,https://reference.geoconnex.us/collections/hu06/items/020402
+https://geoconnex.us/ref/hu06/020403,https://reference.geoconnex.us/collections/hu06/items/020403
+https://geoconnex.us/ref/hu06/020501,https://reference.geoconnex.us/collections/hu06/items/020501
+https://geoconnex.us/ref/hu06/020502,https://reference.geoconnex.us/collections/hu06/items/020502
+https://geoconnex.us/ref/hu06/020503,https://reference.geoconnex.us/collections/hu06/items/020503
+https://geoconnex.us/ref/hu06/020600,https://reference.geoconnex.us/collections/hu06/items/020600
+https://geoconnex.us/ref/hu06/020700,https://reference.geoconnex.us/collections/hu06/items/020700
+https://geoconnex.us/ref/hu06/020801,https://reference.geoconnex.us/collections/hu06/items/020801
+https://geoconnex.us/ref/hu06/020802,https://reference.geoconnex.us/collections/hu06/items/020802
+https://geoconnex.us/ref/hu06/030101,https://reference.geoconnex.us/collections/hu06/items/030101
+https://geoconnex.us/ref/hu06/030102,https://reference.geoconnex.us/collections/hu06/items/030102
+https://geoconnex.us/ref/hu06/030201,https://reference.geoconnex.us/collections/hu06/items/030201
+https://geoconnex.us/ref/hu06/030202,https://reference.geoconnex.us/collections/hu06/items/030202
+https://geoconnex.us/ref/hu06/030203,https://reference.geoconnex.us/collections/hu06/items/030203
+https://geoconnex.us/ref/hu06/030300,https://reference.geoconnex.us/collections/hu06/items/030300
+https://geoconnex.us/ref/hu06/030401,https://reference.geoconnex.us/collections/hu06/items/030401
+https://geoconnex.us/ref/hu06/030402,https://reference.geoconnex.us/collections/hu06/items/030402
+https://geoconnex.us/ref/hu06/030501,https://reference.geoconnex.us/collections/hu06/items/030501
+https://geoconnex.us/ref/hu06/030502,https://reference.geoconnex.us/collections/hu06/items/030502
+https://geoconnex.us/ref/hu06/030601,https://reference.geoconnex.us/collections/hu06/items/030601
+https://geoconnex.us/ref/hu06/030602,https://reference.geoconnex.us/collections/hu06/items/030602
+https://geoconnex.us/ref/hu06/030701,https://reference.geoconnex.us/collections/hu06/items/030701
+https://geoconnex.us/ref/hu06/030702,https://reference.geoconnex.us/collections/hu06/items/030702
+https://geoconnex.us/ref/hu06/030801,https://reference.geoconnex.us/collections/hu06/items/030801
+https://geoconnex.us/ref/hu06/030802,https://reference.geoconnex.us/collections/hu06/items/030802
+https://geoconnex.us/ref/hu06/030901,https://reference.geoconnex.us/collections/hu06/items/030901
+https://geoconnex.us/ref/hu06/030902,https://reference.geoconnex.us/collections/hu06/items/030902
+https://geoconnex.us/ref/hu06/031001,https://reference.geoconnex.us/collections/hu06/items/031001
+https://geoconnex.us/ref/hu06/031002,https://reference.geoconnex.us/collections/hu06/items/031002
+https://geoconnex.us/ref/hu06/031101,https://reference.geoconnex.us/collections/hu06/items/031101
+https://geoconnex.us/ref/hu06/031102,https://reference.geoconnex.us/collections/hu06/items/031102
+https://geoconnex.us/ref/hu06/031200,https://reference.geoconnex.us/collections/hu06/items/031200
+https://geoconnex.us/ref/hu06/031300,https://reference.geoconnex.us/collections/hu06/items/031300
+https://geoconnex.us/ref/hu06/031401,https://reference.geoconnex.us/collections/hu06/items/031401
+https://geoconnex.us/ref/hu06/031402,https://reference.geoconnex.us/collections/hu06/items/031402
+https://geoconnex.us/ref/hu06/031403,https://reference.geoconnex.us/collections/hu06/items/031403
+https://geoconnex.us/ref/hu06/031501,https://reference.geoconnex.us/collections/hu06/items/031501
+https://geoconnex.us/ref/hu06/031502,https://reference.geoconnex.us/collections/hu06/items/031502
+https://geoconnex.us/ref/hu06/031601,https://reference.geoconnex.us/collections/hu06/items/031601
+https://geoconnex.us/ref/hu06/031602,https://reference.geoconnex.us/collections/hu06/items/031602
+https://geoconnex.us/ref/hu06/031700,https://reference.geoconnex.us/collections/hu06/items/031700
+https://geoconnex.us/ref/hu06/031800,https://reference.geoconnex.us/collections/hu06/items/031800
+https://geoconnex.us/ref/hu06/040101,https://reference.geoconnex.us/collections/hu06/items/040101
+https://geoconnex.us/ref/hu06/040102,https://reference.geoconnex.us/collections/hu06/items/040102
+https://geoconnex.us/ref/hu06/040103,https://reference.geoconnex.us/collections/hu06/items/040103
+https://geoconnex.us/ref/hu06/040201,https://reference.geoconnex.us/collections/hu06/items/040201
+https://geoconnex.us/ref/hu06/040202,https://reference.geoconnex.us/collections/hu06/items/040202
+https://geoconnex.us/ref/hu06/040301,https://reference.geoconnex.us/collections/hu06/items/040301
+https://geoconnex.us/ref/hu06/040302,https://reference.geoconnex.us/collections/hu06/items/040302
+https://geoconnex.us/ref/hu06/040400,https://reference.geoconnex.us/collections/hu06/items/040400
+https://geoconnex.us/ref/hu06/040500,https://reference.geoconnex.us/collections/hu06/items/040500
+https://geoconnex.us/ref/hu06/040601,https://reference.geoconnex.us/collections/hu06/items/040601
+https://geoconnex.us/ref/hu06/040700,https://reference.geoconnex.us/collections/hu06/items/040700
+https://geoconnex.us/ref/hu06/040801,https://reference.geoconnex.us/collections/hu06/items/040801
+https://geoconnex.us/ref/hu06/040802,https://reference.geoconnex.us/collections/hu06/items/040802
+https://geoconnex.us/ref/hu06/040900,https://reference.geoconnex.us/collections/hu06/items/040900
+https://geoconnex.us/ref/hu06/041000,https://reference.geoconnex.us/collections/hu06/items/041000
+https://geoconnex.us/ref/hu06/041100,https://reference.geoconnex.us/collections/hu06/items/041100
+https://geoconnex.us/ref/hu06/041201,https://reference.geoconnex.us/collections/hu06/items/041201
+https://geoconnex.us/ref/hu06/041300,https://reference.geoconnex.us/collections/hu06/items/041300
+https://geoconnex.us/ref/hu06/041401,https://reference.geoconnex.us/collections/hu06/items/041401
+https://geoconnex.us/ref/hu06/041402,https://reference.geoconnex.us/collections/hu06/items/041402
+https://geoconnex.us/ref/hu06/041403,https://reference.geoconnex.us/collections/hu06/items/041403
+https://geoconnex.us/ref/hu06/041600,https://reference.geoconnex.us/collections/hu06/items/041600
+https://geoconnex.us/ref/hu06/041700,https://reference.geoconnex.us/collections/hu06/items/041700
+https://geoconnex.us/ref/hu06/041800,https://reference.geoconnex.us/collections/hu06/items/041800
+https://geoconnex.us/ref/hu06/041900,https://reference.geoconnex.us/collections/hu06/items/041900
+https://geoconnex.us/ref/hu06/042000,https://reference.geoconnex.us/collections/hu06/items/042000
+https://geoconnex.us/ref/hu06/042100,https://reference.geoconnex.us/collections/hu06/items/042100
+https://geoconnex.us/ref/hu06/042200,https://reference.geoconnex.us/collections/hu06/items/042200
+https://geoconnex.us/ref/hu06/042300,https://reference.geoconnex.us/collections/hu06/items/042300
+https://geoconnex.us/ref/hu06/042400,https://reference.geoconnex.us/collections/hu06/items/042400
+https://geoconnex.us/ref/hu06/042500,https://reference.geoconnex.us/collections/hu06/items/042500
+https://geoconnex.us/ref/hu06/042600,https://reference.geoconnex.us/collections/hu06/items/042600
+https://geoconnex.us/ref/hu06/042701,https://reference.geoconnex.us/collections/hu06/items/042701
+https://geoconnex.us/ref/hu06/042702,https://reference.geoconnex.us/collections/hu06/items/042702
+https://geoconnex.us/ref/hu06/042800,https://reference.geoconnex.us/collections/hu06/items/042800
+https://geoconnex.us/ref/hu06/042900,https://reference.geoconnex.us/collections/hu06/items/042900
+https://geoconnex.us/ref/hu06/043001,https://reference.geoconnex.us/collections/hu06/items/043001
+https://geoconnex.us/ref/hu06/043002,https://reference.geoconnex.us/collections/hu06/items/043002
+https://geoconnex.us/ref/hu06/043100,https://reference.geoconnex.us/collections/hu06/items/043100
+https://geoconnex.us/ref/hu06/043200,https://reference.geoconnex.us/collections/hu06/items/043200
+https://geoconnex.us/ref/hu06/043300,https://reference.geoconnex.us/collections/hu06/items/043300
+https://geoconnex.us/ref/hu06/050100,https://reference.geoconnex.us/collections/hu06/items/050100
+https://geoconnex.us/ref/hu06/050200,https://reference.geoconnex.us/collections/hu06/items/050200
+https://geoconnex.us/ref/hu06/050301,https://reference.geoconnex.us/collections/hu06/items/050301
+https://geoconnex.us/ref/hu06/050302,https://reference.geoconnex.us/collections/hu06/items/050302
+https://geoconnex.us/ref/hu06/050400,https://reference.geoconnex.us/collections/hu06/items/050400
+https://geoconnex.us/ref/hu06/050500,https://reference.geoconnex.us/collections/hu06/items/050500
+https://geoconnex.us/ref/hu06/050600,https://reference.geoconnex.us/collections/hu06/items/050600
+https://geoconnex.us/ref/hu06/050701,https://reference.geoconnex.us/collections/hu06/items/050701
+https://geoconnex.us/ref/hu06/050702,https://reference.geoconnex.us/collections/hu06/items/050702
+https://geoconnex.us/ref/hu06/050800,https://reference.geoconnex.us/collections/hu06/items/050800
+https://geoconnex.us/ref/hu06/050901,https://reference.geoconnex.us/collections/hu06/items/050901
+https://geoconnex.us/ref/hu06/050902,https://reference.geoconnex.us/collections/hu06/items/050902
+https://geoconnex.us/ref/hu06/051001,https://reference.geoconnex.us/collections/hu06/items/051001
+https://geoconnex.us/ref/hu06/051002,https://reference.geoconnex.us/collections/hu06/items/051002
+https://geoconnex.us/ref/hu06/051100,https://reference.geoconnex.us/collections/hu06/items/051100
+https://geoconnex.us/ref/hu06/051201,https://reference.geoconnex.us/collections/hu06/items/051201
+https://geoconnex.us/ref/hu06/051202,https://reference.geoconnex.us/collections/hu06/items/051202
+https://geoconnex.us/ref/hu06/051301,https://reference.geoconnex.us/collections/hu06/items/051301
+https://geoconnex.us/ref/hu06/051302,https://reference.geoconnex.us/collections/hu06/items/051302
+https://geoconnex.us/ref/hu06/051401,https://reference.geoconnex.us/collections/hu06/items/051401
+https://geoconnex.us/ref/hu06/051402,https://reference.geoconnex.us/collections/hu06/items/051402
+https://geoconnex.us/ref/hu06/060101,https://reference.geoconnex.us/collections/hu06/items/060101
+https://geoconnex.us/ref/hu06/060102,https://reference.geoconnex.us/collections/hu06/items/060102
+https://geoconnex.us/ref/hu06/060200,https://reference.geoconnex.us/collections/hu06/items/060200
+https://geoconnex.us/ref/hu06/060300,https://reference.geoconnex.us/collections/hu06/items/060300
+https://geoconnex.us/ref/hu06/060400,https://reference.geoconnex.us/collections/hu06/items/060400
+https://geoconnex.us/ref/hu06/070101,https://reference.geoconnex.us/collections/hu06/items/070101
+https://geoconnex.us/ref/hu06/070102,https://reference.geoconnex.us/collections/hu06/items/070102
+https://geoconnex.us/ref/hu06/070200,https://reference.geoconnex.us/collections/hu06/items/070200
+https://geoconnex.us/ref/hu06/070300,https://reference.geoconnex.us/collections/hu06/items/070300
+https://geoconnex.us/ref/hu06/070400,https://reference.geoconnex.us/collections/hu06/items/070400
+https://geoconnex.us/ref/hu06/070500,https://reference.geoconnex.us/collections/hu06/items/070500
+https://geoconnex.us/ref/hu06/070600,https://reference.geoconnex.us/collections/hu06/items/070600
+https://geoconnex.us/ref/hu06/070700,https://reference.geoconnex.us/collections/hu06/items/070700
+https://geoconnex.us/ref/hu06/070801,https://reference.geoconnex.us/collections/hu06/items/070801
+https://geoconnex.us/ref/hu06/070802,https://reference.geoconnex.us/collections/hu06/items/070802
+https://geoconnex.us/ref/hu06/070900,https://reference.geoconnex.us/collections/hu06/items/070900
+https://geoconnex.us/ref/hu06/071000,https://reference.geoconnex.us/collections/hu06/items/071000
+https://geoconnex.us/ref/hu06/071100,https://reference.geoconnex.us/collections/hu06/items/071100
+https://geoconnex.us/ref/hu06/071200,https://reference.geoconnex.us/collections/hu06/items/071200
+https://geoconnex.us/ref/hu06/071300,https://reference.geoconnex.us/collections/hu06/items/071300
+https://geoconnex.us/ref/hu06/071401,https://reference.geoconnex.us/collections/hu06/items/071401
+https://geoconnex.us/ref/hu06/071402,https://reference.geoconnex.us/collections/hu06/items/071402
+https://geoconnex.us/ref/hu06/080101,https://reference.geoconnex.us/collections/hu06/items/080101
+https://geoconnex.us/ref/hu06/080102,https://reference.geoconnex.us/collections/hu06/items/080102
+https://geoconnex.us/ref/hu06/080103,https://reference.geoconnex.us/collections/hu06/items/080103
+https://geoconnex.us/ref/hu06/080201,https://reference.geoconnex.us/collections/hu06/items/080201
+https://geoconnex.us/ref/hu06/080202,https://reference.geoconnex.us/collections/hu06/items/080202
+https://geoconnex.us/ref/hu06/080203,https://reference.geoconnex.us/collections/hu06/items/080203
+https://geoconnex.us/ref/hu06/080204,https://reference.geoconnex.us/collections/hu06/items/080204
+https://geoconnex.us/ref/hu06/080301,https://reference.geoconnex.us/collections/hu06/items/080301
+https://geoconnex.us/ref/hu06/080302,https://reference.geoconnex.us/collections/hu06/items/080302
+https://geoconnex.us/ref/hu06/080401,https://reference.geoconnex.us/collections/hu06/items/080401
+https://geoconnex.us/ref/hu06/080402,https://reference.geoconnex.us/collections/hu06/items/080402
+https://geoconnex.us/ref/hu06/080403,https://reference.geoconnex.us/collections/hu06/items/080403
+https://geoconnex.us/ref/hu06/080500,https://reference.geoconnex.us/collections/hu06/items/080500
+https://geoconnex.us/ref/hu06/080601,https://reference.geoconnex.us/collections/hu06/items/080601
+https://geoconnex.us/ref/hu06/080602,https://reference.geoconnex.us/collections/hu06/items/080602
+https://geoconnex.us/ref/hu06/080701,https://reference.geoconnex.us/collections/hu06/items/080701
+https://geoconnex.us/ref/hu06/080702,https://reference.geoconnex.us/collections/hu06/items/080702
+https://geoconnex.us/ref/hu06/080703,https://reference.geoconnex.us/collections/hu06/items/080703
+https://geoconnex.us/ref/hu06/080801,https://reference.geoconnex.us/collections/hu06/items/080801
+https://geoconnex.us/ref/hu06/080802,https://reference.geoconnex.us/collections/hu06/items/080802
+https://geoconnex.us/ref/hu06/080901,https://reference.geoconnex.us/collections/hu06/items/080901
+https://geoconnex.us/ref/hu06/080902,https://reference.geoconnex.us/collections/hu06/items/080902
+https://geoconnex.us/ref/hu06/080903,https://reference.geoconnex.us/collections/hu06/items/080903
+https://geoconnex.us/ref/hu06/090100,https://reference.geoconnex.us/collections/hu06/items/090100
+https://geoconnex.us/ref/hu06/090201,https://reference.geoconnex.us/collections/hu06/items/090201
+https://geoconnex.us/ref/hu06/090202,https://reference.geoconnex.us/collections/hu06/items/090202
+https://geoconnex.us/ref/hu06/090203,https://reference.geoconnex.us/collections/hu06/items/090203
+https://geoconnex.us/ref/hu06/090300,https://reference.geoconnex.us/collections/hu06/items/090300
+https://geoconnex.us/ref/hu06/090400,https://reference.geoconnex.us/collections/hu06/items/090400
+https://geoconnex.us/ref/hu06/100200,https://reference.geoconnex.us/collections/hu06/items/100200
+https://geoconnex.us/ref/hu06/100301,https://reference.geoconnex.us/collections/hu06/items/100301
+https://geoconnex.us/ref/hu06/100302,https://reference.geoconnex.us/collections/hu06/items/100302
+https://geoconnex.us/ref/hu06/100401,https://reference.geoconnex.us/collections/hu06/items/100401
+https://geoconnex.us/ref/hu06/100402,https://reference.geoconnex.us/collections/hu06/items/100402
+https://geoconnex.us/ref/hu06/100500,https://reference.geoconnex.us/collections/hu06/items/100500
+https://geoconnex.us/ref/hu06/100600,https://reference.geoconnex.us/collections/hu06/items/100600
+https://geoconnex.us/ref/hu06/100700,https://reference.geoconnex.us/collections/hu06/items/100700
+https://geoconnex.us/ref/hu06/100800,https://reference.geoconnex.us/collections/hu06/items/100800
+https://geoconnex.us/ref/hu06/100901,https://reference.geoconnex.us/collections/hu06/items/100901
+https://geoconnex.us/ref/hu06/100902,https://reference.geoconnex.us/collections/hu06/items/100902
+https://geoconnex.us/ref/hu06/101000,https://reference.geoconnex.us/collections/hu06/items/101000
+https://geoconnex.us/ref/hu06/101101,https://reference.geoconnex.us/collections/hu06/items/101101
+https://geoconnex.us/ref/hu06/101102,https://reference.geoconnex.us/collections/hu06/items/101102
+https://geoconnex.us/ref/hu06/101201,https://reference.geoconnex.us/collections/hu06/items/101201
+https://geoconnex.us/ref/hu06/101202,https://reference.geoconnex.us/collections/hu06/items/101202
+https://geoconnex.us/ref/hu06/101301,https://reference.geoconnex.us/collections/hu06/items/101301
+https://geoconnex.us/ref/hu06/101302,https://reference.geoconnex.us/collections/hu06/items/101302
+https://geoconnex.us/ref/hu06/101303,https://reference.geoconnex.us/collections/hu06/items/101303
+https://geoconnex.us/ref/hu06/101401,https://reference.geoconnex.us/collections/hu06/items/101401
+https://geoconnex.us/ref/hu06/101402,https://reference.geoconnex.us/collections/hu06/items/101402
+https://geoconnex.us/ref/hu06/101500,https://reference.geoconnex.us/collections/hu06/items/101500
+https://geoconnex.us/ref/hu06/101600,https://reference.geoconnex.us/collections/hu06/items/101600
+https://geoconnex.us/ref/hu06/101701,https://reference.geoconnex.us/collections/hu06/items/101701
+https://geoconnex.us/ref/hu06/101702,https://reference.geoconnex.us/collections/hu06/items/101702
+https://geoconnex.us/ref/hu06/101800,https://reference.geoconnex.us/collections/hu06/items/101800
+https://geoconnex.us/ref/hu06/101900,https://reference.geoconnex.us/collections/hu06/items/101900
+https://geoconnex.us/ref/hu06/102001,https://reference.geoconnex.us/collections/hu06/items/102001
+https://geoconnex.us/ref/hu06/102002,https://reference.geoconnex.us/collections/hu06/items/102002
+https://geoconnex.us/ref/hu06/102100,https://reference.geoconnex.us/collections/hu06/items/102100
+https://geoconnex.us/ref/hu06/102200,https://reference.geoconnex.us/collections/hu06/items/102200
+https://geoconnex.us/ref/hu06/102300,https://reference.geoconnex.us/collections/hu06/items/102300
+https://geoconnex.us/ref/hu06/102400,https://reference.geoconnex.us/collections/hu06/items/102400
+https://geoconnex.us/ref/hu06/102500,https://reference.geoconnex.us/collections/hu06/items/102500
+https://geoconnex.us/ref/hu06/102600,https://reference.geoconnex.us/collections/hu06/items/102600
+https://geoconnex.us/ref/hu06/102701,https://reference.geoconnex.us/collections/hu06/items/102701
+https://geoconnex.us/ref/hu06/102702,https://reference.geoconnex.us/collections/hu06/items/102702
+https://geoconnex.us/ref/hu06/102801,https://reference.geoconnex.us/collections/hu06/items/102801
+https://geoconnex.us/ref/hu06/102802,https://reference.geoconnex.us/collections/hu06/items/102802
+https://geoconnex.us/ref/hu06/102901,https://reference.geoconnex.us/collections/hu06/items/102901
+https://geoconnex.us/ref/hu06/102902,https://reference.geoconnex.us/collections/hu06/items/102902
+https://geoconnex.us/ref/hu06/103001,https://reference.geoconnex.us/collections/hu06/items/103001
+https://geoconnex.us/ref/hu06/103002,https://reference.geoconnex.us/collections/hu06/items/103002
+https://geoconnex.us/ref/hu06/110100,https://reference.geoconnex.us/collections/hu06/items/110100
+https://geoconnex.us/ref/hu06/110200,https://reference.geoconnex.us/collections/hu06/items/110200
+https://geoconnex.us/ref/hu06/110300,https://reference.geoconnex.us/collections/hu06/items/110300
+https://geoconnex.us/ref/hu06/110400,https://reference.geoconnex.us/collections/hu06/items/110400
+https://geoconnex.us/ref/hu06/110500,https://reference.geoconnex.us/collections/hu06/items/110500
+https://geoconnex.us/ref/hu06/110600,https://reference.geoconnex.us/collections/hu06/items/110600
+https://geoconnex.us/ref/hu06/110701,https://reference.geoconnex.us/collections/hu06/items/110701
+https://geoconnex.us/ref/hu06/110702,https://reference.geoconnex.us/collections/hu06/items/110702
+https://geoconnex.us/ref/hu06/110800,https://reference.geoconnex.us/collections/hu06/items/110800
+https://geoconnex.us/ref/hu06/110901,https://reference.geoconnex.us/collections/hu06/items/110901
+https://geoconnex.us/ref/hu06/110902,https://reference.geoconnex.us/collections/hu06/items/110902
+https://geoconnex.us/ref/hu06/111001,https://reference.geoconnex.us/collections/hu06/items/111001
+https://geoconnex.us/ref/hu06/111002,https://reference.geoconnex.us/collections/hu06/items/111002
+https://geoconnex.us/ref/hu06/111003,https://reference.geoconnex.us/collections/hu06/items/111003
+https://geoconnex.us/ref/hu06/111101,https://reference.geoconnex.us/collections/hu06/items/111101
+https://geoconnex.us/ref/hu06/111102,https://reference.geoconnex.us/collections/hu06/items/111102
+https://geoconnex.us/ref/hu06/111201,https://reference.geoconnex.us/collections/hu06/items/111201
+https://geoconnex.us/ref/hu06/111202,https://reference.geoconnex.us/collections/hu06/items/111202
+https://geoconnex.us/ref/hu06/111203,https://reference.geoconnex.us/collections/hu06/items/111203
+https://geoconnex.us/ref/hu06/111301,https://reference.geoconnex.us/collections/hu06/items/111301
+https://geoconnex.us/ref/hu06/111302,https://reference.geoconnex.us/collections/hu06/items/111302
+https://geoconnex.us/ref/hu06/111303,https://reference.geoconnex.us/collections/hu06/items/111303
+https://geoconnex.us/ref/hu06/111401,https://reference.geoconnex.us/collections/hu06/items/111401
+https://geoconnex.us/ref/hu06/111402,https://reference.geoconnex.us/collections/hu06/items/111402
+https://geoconnex.us/ref/hu06/111403,https://reference.geoconnex.us/collections/hu06/items/111403
+https://geoconnex.us/ref/hu06/120100,https://reference.geoconnex.us/collections/hu06/items/120100
+https://geoconnex.us/ref/hu06/120200,https://reference.geoconnex.us/collections/hu06/items/120200
+https://geoconnex.us/ref/hu06/120301,https://reference.geoconnex.us/collections/hu06/items/120301
+https://geoconnex.us/ref/hu06/120302,https://reference.geoconnex.us/collections/hu06/items/120302
+https://geoconnex.us/ref/hu06/120401,https://reference.geoconnex.us/collections/hu06/items/120401
+https://geoconnex.us/ref/hu06/120402,https://reference.geoconnex.us/collections/hu06/items/120402
+https://geoconnex.us/ref/hu06/120500,https://reference.geoconnex.us/collections/hu06/items/120500
+https://geoconnex.us/ref/hu06/120601,https://reference.geoconnex.us/collections/hu06/items/120601
+https://geoconnex.us/ref/hu06/120602,https://reference.geoconnex.us/collections/hu06/items/120602
+https://geoconnex.us/ref/hu06/120701,https://reference.geoconnex.us/collections/hu06/items/120701
+https://geoconnex.us/ref/hu06/120702,https://reference.geoconnex.us/collections/hu06/items/120702
+https://geoconnex.us/ref/hu06/120800,https://reference.geoconnex.us/collections/hu06/items/120800
+https://geoconnex.us/ref/hu06/120901,https://reference.geoconnex.us/collections/hu06/items/120901
+https://geoconnex.us/ref/hu06/120902,https://reference.geoconnex.us/collections/hu06/items/120902
+https://geoconnex.us/ref/hu06/120903,https://reference.geoconnex.us/collections/hu06/items/120903
+https://geoconnex.us/ref/hu06/120904,https://reference.geoconnex.us/collections/hu06/items/120904
+https://geoconnex.us/ref/hu06/121001,https://reference.geoconnex.us/collections/hu06/items/121001
+https://geoconnex.us/ref/hu06/121002,https://reference.geoconnex.us/collections/hu06/items/121002
+https://geoconnex.us/ref/hu06/121003,https://reference.geoconnex.us/collections/hu06/items/121003
+https://geoconnex.us/ref/hu06/121004,https://reference.geoconnex.us/collections/hu06/items/121004
+https://geoconnex.us/ref/hu06/121101,https://reference.geoconnex.us/collections/hu06/items/121101
+https://geoconnex.us/ref/hu06/121102,https://reference.geoconnex.us/collections/hu06/items/121102
+https://geoconnex.us/ref/hu06/130100,https://reference.geoconnex.us/collections/hu06/items/130100
+https://geoconnex.us/ref/hu06/130201,https://reference.geoconnex.us/collections/hu06/items/130201
+https://geoconnex.us/ref/hu06/130202,https://reference.geoconnex.us/collections/hu06/items/130202
+https://geoconnex.us/ref/hu06/130301,https://reference.geoconnex.us/collections/hu06/items/130301
+https://geoconnex.us/ref/hu06/130302,https://reference.geoconnex.us/collections/hu06/items/130302
+https://geoconnex.us/ref/hu06/130401,https://reference.geoconnex.us/collections/hu06/items/130401
+https://geoconnex.us/ref/hu06/130402,https://reference.geoconnex.us/collections/hu06/items/130402
+https://geoconnex.us/ref/hu06/130403,https://reference.geoconnex.us/collections/hu06/items/130403
+https://geoconnex.us/ref/hu06/130500,https://reference.geoconnex.us/collections/hu06/items/130500
+https://geoconnex.us/ref/hu06/130600,https://reference.geoconnex.us/collections/hu06/items/130600
+https://geoconnex.us/ref/hu06/130700,https://reference.geoconnex.us/collections/hu06/items/130700
+https://geoconnex.us/ref/hu06/130800,https://reference.geoconnex.us/collections/hu06/items/130800
+https://geoconnex.us/ref/hu06/130900,https://reference.geoconnex.us/collections/hu06/items/130900
+https://geoconnex.us/ref/hu06/131000,https://reference.geoconnex.us/collections/hu06/items/131000
+https://geoconnex.us/ref/hu06/131100,https://reference.geoconnex.us/collections/hu06/items/131100
+https://geoconnex.us/ref/hu06/131200,https://reference.geoconnex.us/collections/hu06/items/131200
+https://geoconnex.us/ref/hu06/140100,https://reference.geoconnex.us/collections/hu06/items/140100
+https://geoconnex.us/ref/hu06/140200,https://reference.geoconnex.us/collections/hu06/items/140200
+https://geoconnex.us/ref/hu06/140300,https://reference.geoconnex.us/collections/hu06/items/140300
+https://geoconnex.us/ref/hu06/140401,https://reference.geoconnex.us/collections/hu06/items/140401
+https://geoconnex.us/ref/hu06/140402,https://reference.geoconnex.us/collections/hu06/items/140402
+https://geoconnex.us/ref/hu06/140500,https://reference.geoconnex.us/collections/hu06/items/140500
+https://geoconnex.us/ref/hu06/140600,https://reference.geoconnex.us/collections/hu06/items/140600
+https://geoconnex.us/ref/hu06/140700,https://reference.geoconnex.us/collections/hu06/items/140700
+https://geoconnex.us/ref/hu06/140801,https://reference.geoconnex.us/collections/hu06/items/140801
+https://geoconnex.us/ref/hu06/140802,https://reference.geoconnex.us/collections/hu06/items/140802
+https://geoconnex.us/ref/hu06/150100,https://reference.geoconnex.us/collections/hu06/items/150100
+https://geoconnex.us/ref/hu06/150200,https://reference.geoconnex.us/collections/hu06/items/150200
+https://geoconnex.us/ref/hu06/150301,https://reference.geoconnex.us/collections/hu06/items/150301
+https://geoconnex.us/ref/hu06/150302,https://reference.geoconnex.us/collections/hu06/items/150302
+https://geoconnex.us/ref/hu06/150400,https://reference.geoconnex.us/collections/hu06/items/150400
+https://geoconnex.us/ref/hu06/150501,https://reference.geoconnex.us/collections/hu06/items/150501
+https://geoconnex.us/ref/hu06/150502,https://reference.geoconnex.us/collections/hu06/items/150502
+https://geoconnex.us/ref/hu06/150503,https://reference.geoconnex.us/collections/hu06/items/150503
+https://geoconnex.us/ref/hu06/150601,https://reference.geoconnex.us/collections/hu06/items/150601
+https://geoconnex.us/ref/hu06/150602,https://reference.geoconnex.us/collections/hu06/items/150602
+https://geoconnex.us/ref/hu06/150701,https://reference.geoconnex.us/collections/hu06/items/150701
+https://geoconnex.us/ref/hu06/150702,https://reference.geoconnex.us/collections/hu06/items/150702
+https://geoconnex.us/ref/hu06/150801,https://reference.geoconnex.us/collections/hu06/items/150801
+https://geoconnex.us/ref/hu06/150802,https://reference.geoconnex.us/collections/hu06/items/150802
+https://geoconnex.us/ref/hu06/150803,https://reference.geoconnex.us/collections/hu06/items/150803
+https://geoconnex.us/ref/hu06/160101,https://reference.geoconnex.us/collections/hu06/items/160101
+https://geoconnex.us/ref/hu06/160102,https://reference.geoconnex.us/collections/hu06/items/160102
+https://geoconnex.us/ref/hu06/160201,https://reference.geoconnex.us/collections/hu06/items/160201
+https://geoconnex.us/ref/hu06/160202,https://reference.geoconnex.us/collections/hu06/items/160202
+https://geoconnex.us/ref/hu06/160203,https://reference.geoconnex.us/collections/hu06/items/160203
+https://geoconnex.us/ref/hu06/160300,https://reference.geoconnex.us/collections/hu06/items/160300
+https://geoconnex.us/ref/hu06/160401,https://reference.geoconnex.us/collections/hu06/items/160401
+https://geoconnex.us/ref/hu06/160402,https://reference.geoconnex.us/collections/hu06/items/160402
+https://geoconnex.us/ref/hu06/160501,https://reference.geoconnex.us/collections/hu06/items/160501
+https://geoconnex.us/ref/hu06/160502,https://reference.geoconnex.us/collections/hu06/items/160502
+https://geoconnex.us/ref/hu06/160503,https://reference.geoconnex.us/collections/hu06/items/160503
+https://geoconnex.us/ref/hu06/160600,https://reference.geoconnex.us/collections/hu06/items/160600
+https://geoconnex.us/ref/hu06/170101,https://reference.geoconnex.us/collections/hu06/items/170101
+https://geoconnex.us/ref/hu06/170102,https://reference.geoconnex.us/collections/hu06/items/170102
+https://geoconnex.us/ref/hu06/170103,https://reference.geoconnex.us/collections/hu06/items/170103
+https://geoconnex.us/ref/hu06/170200,https://reference.geoconnex.us/collections/hu06/items/170200
+https://geoconnex.us/ref/hu06/170300,https://reference.geoconnex.us/collections/hu06/items/170300
+https://geoconnex.us/ref/hu06/170401,https://reference.geoconnex.us/collections/hu06/items/170401
+https://geoconnex.us/ref/hu06/170402,https://reference.geoconnex.us/collections/hu06/items/170402
+https://geoconnex.us/ref/hu06/170501,https://reference.geoconnex.us/collections/hu06/items/170501
+https://geoconnex.us/ref/hu06/170502,https://reference.geoconnex.us/collections/hu06/items/170502
+https://geoconnex.us/ref/hu06/170601,https://reference.geoconnex.us/collections/hu06/items/170601
+https://geoconnex.us/ref/hu06/170602,https://reference.geoconnex.us/collections/hu06/items/170602
+https://geoconnex.us/ref/hu06/170603,https://reference.geoconnex.us/collections/hu06/items/170603
+https://geoconnex.us/ref/hu06/170701,https://reference.geoconnex.us/collections/hu06/items/170701
+https://geoconnex.us/ref/hu06/170702,https://reference.geoconnex.us/collections/hu06/items/170702
+https://geoconnex.us/ref/hu06/170703,https://reference.geoconnex.us/collections/hu06/items/170703
+https://geoconnex.us/ref/hu06/170800,https://reference.geoconnex.us/collections/hu06/items/170800
+https://geoconnex.us/ref/hu06/170900,https://reference.geoconnex.us/collections/hu06/items/170900
+https://geoconnex.us/ref/hu06/171001,https://reference.geoconnex.us/collections/hu06/items/171001
+https://geoconnex.us/ref/hu06/171002,https://reference.geoconnex.us/collections/hu06/items/171002
+https://geoconnex.us/ref/hu06/171003,https://reference.geoconnex.us/collections/hu06/items/171003
+https://geoconnex.us/ref/hu06/171100,https://reference.geoconnex.us/collections/hu06/items/171100
+https://geoconnex.us/ref/hu06/171200,https://reference.geoconnex.us/collections/hu06/items/171200
+https://geoconnex.us/ref/hu06/180101,https://reference.geoconnex.us/collections/hu06/items/180101
+https://geoconnex.us/ref/hu06/180102,https://reference.geoconnex.us/collections/hu06/items/180102
+https://geoconnex.us/ref/hu06/180200,https://reference.geoconnex.us/collections/hu06/items/180200
+https://geoconnex.us/ref/hu06/180201,https://reference.geoconnex.us/collections/hu06/items/180201
+https://geoconnex.us/ref/hu06/180300,https://reference.geoconnex.us/collections/hu06/items/180300
+https://geoconnex.us/ref/hu06/180400,https://reference.geoconnex.us/collections/hu06/items/180400
+https://geoconnex.us/ref/hu06/180500,https://reference.geoconnex.us/collections/hu06/items/180500
+https://geoconnex.us/ref/hu06/180600,https://reference.geoconnex.us/collections/hu06/items/180600
+https://geoconnex.us/ref/hu06/180701,https://reference.geoconnex.us/collections/hu06/items/180701
+https://geoconnex.us/ref/hu06/180702,https://reference.geoconnex.us/collections/hu06/items/180702
+https://geoconnex.us/ref/hu06/180703,https://reference.geoconnex.us/collections/hu06/items/180703
+https://geoconnex.us/ref/hu06/180800,https://reference.geoconnex.us/collections/hu06/items/180800
+https://geoconnex.us/ref/hu06/180901,https://reference.geoconnex.us/collections/hu06/items/180901
+https://geoconnex.us/ref/hu06/180902,https://reference.geoconnex.us/collections/hu06/items/180902
+https://geoconnex.us/ref/hu06/181001,https://reference.geoconnex.us/collections/hu06/items/181001
+https://geoconnex.us/ref/hu06/181002,https://reference.geoconnex.us/collections/hu06/items/181002
+https://geoconnex.us/ref/hu06/190101,https://reference.geoconnex.us/collections/hu06/items/190101
+https://geoconnex.us/ref/hu06/190102,https://reference.geoconnex.us/collections/hu06/items/190102
+https://geoconnex.us/ref/hu06/190103,https://reference.geoconnex.us/collections/hu06/items/190103
+https://geoconnex.us/ref/hu06/190104,https://reference.geoconnex.us/collections/hu06/items/190104
+https://geoconnex.us/ref/hu06/190105,https://reference.geoconnex.us/collections/hu06/items/190105
+https://geoconnex.us/ref/hu06/190201,https://reference.geoconnex.us/collections/hu06/items/190201
+https://geoconnex.us/ref/hu06/190202,https://reference.geoconnex.us/collections/hu06/items/190202
+https://geoconnex.us/ref/hu06/190203,https://reference.geoconnex.us/collections/hu06/items/190203
+https://geoconnex.us/ref/hu06/190204,https://reference.geoconnex.us/collections/hu06/items/190204
+https://geoconnex.us/ref/hu06/190205,https://reference.geoconnex.us/collections/hu06/items/190205
+https://geoconnex.us/ref/hu06/190206,https://reference.geoconnex.us/collections/hu06/items/190206
+https://geoconnex.us/ref/hu06/190207,https://reference.geoconnex.us/collections/hu06/items/190207
+https://geoconnex.us/ref/hu06/190208,https://reference.geoconnex.us/collections/hu06/items/190208
+https://geoconnex.us/ref/hu06/190301,https://reference.geoconnex.us/collections/hu06/items/190301
+https://geoconnex.us/ref/hu06/190302,https://reference.geoconnex.us/collections/hu06/items/190302
+https://geoconnex.us/ref/hu06/190303,https://reference.geoconnex.us/collections/hu06/items/190303
+https://geoconnex.us/ref/hu06/190304,https://reference.geoconnex.us/collections/hu06/items/190304
+https://geoconnex.us/ref/hu06/190305,https://reference.geoconnex.us/collections/hu06/items/190305
+https://geoconnex.us/ref/hu06/190501,https://reference.geoconnex.us/collections/hu06/items/190501
+https://geoconnex.us/ref/hu06/190502,https://reference.geoconnex.us/collections/hu06/items/190502
+https://geoconnex.us/ref/hu06/190503,https://reference.geoconnex.us/collections/hu06/items/190503
+https://geoconnex.us/ref/hu06/190504,https://reference.geoconnex.us/collections/hu06/items/190504
+https://geoconnex.us/ref/hu06/190505,https://reference.geoconnex.us/collections/hu06/items/190505
+https://geoconnex.us/ref/hu06/190601,https://reference.geoconnex.us/collections/hu06/items/190601
+https://geoconnex.us/ref/hu06/190602,https://reference.geoconnex.us/collections/hu06/items/190602
+https://geoconnex.us/ref/hu06/190603,https://reference.geoconnex.us/collections/hu06/items/190603
+https://geoconnex.us/ref/hu06/190604,https://reference.geoconnex.us/collections/hu06/items/190604
+https://geoconnex.us/ref/hu06/190605,https://reference.geoconnex.us/collections/hu06/items/190605
+https://geoconnex.us/ref/hu06/190701,https://reference.geoconnex.us/collections/hu06/items/190701
+https://geoconnex.us/ref/hu06/190704,https://reference.geoconnex.us/collections/hu06/items/190704
+https://geoconnex.us/ref/hu06/190705,https://reference.geoconnex.us/collections/hu06/items/190705
+https://geoconnex.us/ref/hu06/190801,https://reference.geoconnex.us/collections/hu06/items/190801
+https://geoconnex.us/ref/hu06/190802,https://reference.geoconnex.us/collections/hu06/items/190802
+https://geoconnex.us/ref/hu06/190803,https://reference.geoconnex.us/collections/hu06/items/190803
+https://geoconnex.us/ref/hu06/190804,https://reference.geoconnex.us/collections/hu06/items/190804
+https://geoconnex.us/ref/hu06/190901,https://reference.geoconnex.us/collections/hu06/items/190901
+https://geoconnex.us/ref/hu06/190902,https://reference.geoconnex.us/collections/hu06/items/190902
+https://geoconnex.us/ref/hu06/190903,https://reference.geoconnex.us/collections/hu06/items/190903
+https://geoconnex.us/ref/hu06/200100,https://reference.geoconnex.us/collections/hu06/items/200100
+https://geoconnex.us/ref/hu06/200200,https://reference.geoconnex.us/collections/hu06/items/200200
+https://geoconnex.us/ref/hu06/200300,https://reference.geoconnex.us/collections/hu06/items/200300
+https://geoconnex.us/ref/hu06/200400,https://reference.geoconnex.us/collections/hu06/items/200400
+https://geoconnex.us/ref/hu06/200500,https://reference.geoconnex.us/collections/hu06/items/200500
+https://geoconnex.us/ref/hu06/200600,https://reference.geoconnex.us/collections/hu06/items/200600
+https://geoconnex.us/ref/hu06/200700,https://reference.geoconnex.us/collections/hu06/items/200700
+https://geoconnex.us/ref/hu06/200800,https://reference.geoconnex.us/collections/hu06/items/200800
+https://geoconnex.us/ref/hu06/210100,https://reference.geoconnex.us/collections/hu06/items/210100
+https://geoconnex.us/ref/hu06/210200,https://reference.geoconnex.us/collections/hu06/items/210200
+https://geoconnex.us/ref/hu06/220100,https://reference.geoconnex.us/collections/hu06/items/220100
+https://geoconnex.us/ref/hu06/220200,https://reference.geoconnex.us/collections/hu06/items/220200
+https://geoconnex.us/ref/hu06/220300,https://reference.geoconnex.us/collections/hu06/items/220300
