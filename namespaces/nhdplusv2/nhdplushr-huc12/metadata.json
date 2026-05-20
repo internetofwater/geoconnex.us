@@ -1,0 +1,8 @@
+{
+    "contact_email": "internetofwater@lincolninst.edu",
+    "dataset_description": "HUC12 layer from NHDPlusHR",
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://api.water.usgs.gov/fabric/pygeoapi/collections/nhdplushr-huc12",
+    "add_associated_mainstems": true,
+    "max_request_concurrency": 4
+}
