@@ -1,0 +1,5 @@
+{
+    "skip_crawling": true,
+    "contact_email": "internetofwater@lincolninst.edu",
+    "dataset_description": "COMID redirects to the USGS NLDI API service"
+}
