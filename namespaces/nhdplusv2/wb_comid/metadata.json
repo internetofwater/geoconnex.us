@@ -1,0 +1,5 @@
+{
+    "skip_crawling": true,
+    "contact_email": "internetofwater@lincolninst.edu",
+    "dataset_description": "National Hydrography Dataset (NHD) Waterbody from NHDPlusV2"
+}
