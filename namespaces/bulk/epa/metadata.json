@@ -1,0 +1,9 @@
+{
+    "contact_email": "cloftus@lincolninst.edu",
+    "dataset_description": "EPA How's My Waterway Bulk Download",
+    "dataset_has_html_landing_pages": true,
+    "add_associated_mainstems": true,
+    "source_code_link": "https://github.com/internetofwater/epa_hmw_bulk_rdf",
+    "dataset_documentation_link": "https://mywaterway.epa.gov/",
+    "bulk_container_image": "ghcr.io/internetofwater/epa_hows_my_waterway_bulk_rdf:latest"
+}
