@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//usgs/sciencebase/([-a-zA-Z0-9_]+).*$,https://www.sciencebase.gov/catalog/item/$1

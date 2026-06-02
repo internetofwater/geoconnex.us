@@ -43,3 +43,6 @@ services:
       YOURLS_DB_HOST: ${YOURLS_DB_HOST:-mysql}
     volumes:
         - ./namespaces:/namespaces
+    depends_on: 
+      - mysql
+    restart: on-failure

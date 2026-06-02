@@ -1,0 +1,8 @@
+{
+    "max_request_concurrency": 5,
+    "add_associated_mainstems": true,
+    "contact_email": "bwebb@lincolninst.edu",
+    "dataset_description": "The proxied version of Water Quality Portal into a standardized OGC API Features endpoint",
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://sta.geoconnex.dev/collections/WQP/Things"
+}

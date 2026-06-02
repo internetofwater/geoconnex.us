@@ -1,4 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/LUWL/UWL-JJ,http://selfie.cuahsi.org/LUWL/UWL-JJ,acastronova@cuahsi.org,Joutjoki,61.00711,25.6508,QueryString,f?=.*,http://selfie.cuahsi.org/LUWL/UWL-JJ?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/LUWL/UWL-Ts,http://selfie.cuahsi.org/LUWL/UWL-Ts,acastronova@cuahsi.org,Tapanilan suunta,60.9911642,25.6094669,QueryString,f?=.*,http://selfie.cuahsi.org/LUWL/UWL-Ts?f=${C:f:1}
-https://geoconnex.us/cuahsi/his/LUWL/VJ-M,http://selfie.cuahsi.org/LUWL/VJ-M,acastronova@cuahsi.org,Merrasoja,61.0201809,25.6479353,QueryString,f?=.*,http://selfie.cuahsi.org/LUWL/VJ-M?f=${C:f:1}

@@ -1,2 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/GLEON_Auburn/MAINE-AUBURN,http://selfie.cuahsi.org/GLEON_Auburn/MAINE-AUBURN,acastronova@cuahsi.org,Lake Auburn Maine,44.13837845,-70.2522077,QueryString,f?=.*,http://selfie.cuahsi.org/GLEON_Auburn/MAINE-AUBURN?f=${C:f:1}

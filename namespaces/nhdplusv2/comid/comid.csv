@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//nhdplusv2/comid/([0-9]+).*$,https://api.water.usgs.gov/nldi/linked-data/comid/$1
