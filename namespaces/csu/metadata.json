@@ -1,0 +1,8 @@
+{
+    "max_request_concurrency": 2,
+    "add_associated_mainstems": false,
+    "contact_email": "kathryn.willi@colostate.edu",
+    "dataset_description": "All locations associated with the Colorado State University Radical Open Science Syndicate (ROSS)'s water quality monitoring program in the Cache La Poudre River watershed.",
+    "dataset_has_html_landing_pages": true,
+    "dataset_documentation_link": "https://zenodo.org/records/12752311"
+}
