@@ -1,0 +1,34 @@
+name: Validate content of Geoconnex CSVs and Metadata files
+
+on: [push]
+
+jobs:
+  validate-csvs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: uv sync dependencies
+        working-directory: ./checks
+        run: uv sync --all-extras
+      - name: Run prek
+        uses: j178/prek-action@v2
+  
+  check-sitemap-builds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v5
+        name: Setup Python
+        with:
+          python-version: 3.12
+
+      - name: Generate sitemap
+        uses: cgs-earth/sitemap-generator@0.2.1
+        with:
+          namespace_dir: ${{ github.workspace }}/namespaces

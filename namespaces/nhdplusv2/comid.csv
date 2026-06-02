@@ -1,2 +1,0 @@
-id,target,creator,description
-https://geoconnex.us//nhdplusv2/comid/([0-9]+).*$, https://labs.waterdata.usgs.gov/api/nldi/linked-data/comid/$1, iow, NHDPlusV2 NLDI comids

@@ -1,2 +1,0 @@
-id,target,creator,description,lat,lon,c1_type,c1_match,c1_value
-https://geoconnex.us/cuahsi/his/AndrewsforestLTER/GSWS02,http://selfie.cuahsi.org/AndrewsforestLTER/GSWS02,acastronova@cuahsi.org,HJA Watershed 2,44.212015,-122.244876,QueryString,f?=.*,http://selfie.cuahsi.org/AndrewsforestLTER/GSWS02?f=${C:f:1}

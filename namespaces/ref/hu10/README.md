@@ -1,4 +1,4 @@
-ref/hu02
+ref/hu10
 ===
 
 Homepage:
@@ -6,7 +6,7 @@ Homepage:
 
 This is a reference collection of 10-digit hydrologic units. These features should be considered community cataloging features and can be referenced as such.
 
-The current implementation creating these ids and landing-content is in: https://github.com/dblodgett-usgs/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/hu10 geojson source for the landing content is available [here.](https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/hu10.geojson)
+The current implementation creating these ids and landing-content is in: https://github.com/dblodgett-usgs/geoconnex_prep and hosted on https://reference.geoconnex.us/collections/hu10. GPKG source for the landing content is available [here.](https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/data/contents/hu10.gpkg)
 
 Contacts: 
 * Creator: <dblodgett@usgs.gov>

@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//nhdplusv2/nhdwaterbody_comid/([0-9]+).*$,https://api.water.usgs.gov/fabric/pygeoapi/collections/nhdwaterbody/items/$1

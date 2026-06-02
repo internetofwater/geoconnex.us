@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//usgs/monitoring-location/([-a-zA-Z0-9_]+).*$, https://waterdata.usgs.gov/monitoring-location/$1

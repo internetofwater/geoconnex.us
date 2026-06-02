@@ -1,2 +1,0 @@
-id,target,creator,description
-https://geoconnex.us//epa/hmw/([0-9]+)$, https://mywaterway.epa.gov/community/$1/overview, iow, How's My Waterway HU12
