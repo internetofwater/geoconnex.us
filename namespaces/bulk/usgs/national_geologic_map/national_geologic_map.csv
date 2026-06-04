@@ -1,2 +1,0 @@
-id,target
-https://geoconnex.us//usgs/national-geologic-map/([-a-zA-Z0-9_]+).*$,https://catalog.geoconnex.us/lookup/https://geoconnex.us/usgs/national-geologic-map/$1
