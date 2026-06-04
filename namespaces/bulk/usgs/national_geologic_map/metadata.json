@@ -1,9 +1,0 @@
-{
-    "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "Geospatial Data within the National Geologic Map Database",
-    "dataset_has_html_landing_pages": false,
-    "add_associated_mainstems": false,
-    "source_code_link": "https://github.com/internetofwater/national_geologic_map_bulk_rdf",
-    "dataset_documentation_link": "https://ngmdb.usgs.gov/Prodesc/proddesc_118545.htm",
-    "bulk_container_image": "ghcr.io/internetofwater/usgs_national_geologic_map_bulk_rdf:latest"
-}
