@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//ckan/New_Mexico_Water_Data_Catalog/([-a-zA-Z0-9_]+).*$,https://catalog.newmexicowaterdata.org/dataset/$1

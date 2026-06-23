@@ -1,2 +1,0 @@
-id,target
-https://geoconnex.us//ckan/nmwdh/([-a-zA-Z0-9_]+).*$,https://catalog.newmexicowaterdata.org/dataset/$1

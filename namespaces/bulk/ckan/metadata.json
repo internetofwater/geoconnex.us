@@ -1,9 +1,0 @@
-{
-    "contact_email": "support@dathere.com",
-    "dataset_description": "CKAN instances bulk download",
-    "dataset_has_html_landing_pages": true,
-    "add_associated_mainstems": false,
-    "source_code_link": "https://github.com/dathere/ckan_geoconnex_bulk_runner",
-    "dataset_documentation_link": "https://github.com/dathere/ckan_geoconnex_bulk_runner",
-    "bulk_container_image": "ghcr.io/dathere/ckan_geoconnex_bulk_runner:latest"
-}
