@@ -1,2 +1,2 @@
 id,target
-https://geoconnex.us/ontology$,https://ontologies.geoconnex.us/
+https://geoconnex.us//def/(.*)$,https://ontologies.geoconnex.us/$1
