@@ -1,0 +1,23 @@
+{
+  "name": "geoconnex",
+  "description": "Skills for contributing and querying data in the geoconnex.us system",
+  "version": "0.1.0",
+  "author": {
+    "name": "Internet of Water Coalition",
+    "url": "https://internetofwater.org"
+  },
+  "homepage": "https://docs.geoconnex.us",
+  "repository": "https://github.com/internetofwater/geoconnex.us",
+  "license": "CC0-1.0",
+  "keywords": [
+    "geoconnex",
+    "water-data",
+    "pid",
+    "linked-data",
+    "hydrology"
+  ],
+  "skills": [
+    "./geoconnex-submission",
+    "./geoconnex-querying"
+  ]
+}
