@@ -1,0 +1,15 @@
+{
+  "name": "geoconnex",
+  "description": "Geoconnex plugins and agent skills",
+  "owner": {
+    "name": "Internet of Water Coalition",
+    "url": "https://internetofwater.org"
+  },
+  "plugins": [
+    {
+      "name": "geoconnex",
+      "source": "./skills",
+      "description": "Skills for contributing and querying data in the geoconnex.us system"
+    }
+  ]
+}
