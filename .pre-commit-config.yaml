@@ -40,3 +40,10 @@ repos:
         entry: uv run checks/validate_csv_and_metadata.py
         language: system
         pass_filenames: false 
+
+      - id: validate_plugins
+        name: validate SKILLS and plugins for agents if the claude CLI is installed. Otherwise skip
+        entry: bash -c 'command -v claude >/dev/null 2>&1 || exit 0; claude plugin validate .'
+        language: system
+        pass_filenames: false
+        files: ^(skills/|\.claude-plugin/)
