@@ -1,0 +1,9 @@
+{
+    "contact_email": "cloftus@lincolninst.edu",
+    "dataset_description": "EPA Water Quality Portal Bulk Download",
+    "dataset_has_html_landing_pages": false,
+    "add_associated_mainstems": true,
+    "source_code_link": "https://github.com/internetofwater/wqp_bulk_exports",
+    "dataset_documentation_link": "https://www.waterqualitydata.us/",
+    "bulk_container_image": "ghcr.io/internetofwater/wqp_bulk_rdf:latest"
+}
