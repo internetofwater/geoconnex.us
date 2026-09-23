@@ -1,0 +1,9 @@
+{
+    "contact_email": "ssteward@lincolninst.edu",
+    "dataset_description": "The RDF Owl-based ontology for the Geoconnex graph",
+    "dataset_has_html_landing_pages": true,
+    "add_associated_mainstems": false,
+    "source_code_link": "https://github.com/internetofwater/ontologies.geoconnex.us/",
+    "dataset_documentation_link": "https://github.com/internetofwater/ontologies.geoconnex.us/",
+    "bulk_container_image": "ghcr.io/internetofwater/geoconnex_ontology_loader:latest"
+}
