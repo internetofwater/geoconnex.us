@@ -1,2 +1,0 @@
-id,target
-https://geoconnex.us//usgs/gnis/([0-9_]+).*$, https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1
