@@ -1,0 +1,9 @@
+{
+    "contact_email": "cloftus@lincolninst.edu",
+    "dataset_description": "Geoconnex v3 Reference Mainstems",
+    "dataset_has_html_landing_pages": false,
+    "add_associated_mainstems": false,
+    "source_code_link": "https://github.com/internetofwater/mainstems_v3_bulk_rdf",
+    "dataset_documentation_link": "https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/",
+    "bulk_container_image": "ghcr.io/internetofwater/mainstems_v3_bulk_rdf:latest"
+}
