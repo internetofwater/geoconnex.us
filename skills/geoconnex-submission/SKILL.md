@@ -23,7 +23,7 @@ The requirements for Geoconnex bulk integrations are described in the docs here:
 
 Bulk integrations live in a public git repo with an associated public Docker image that when ran outputs newline delimited JSON-LD to standard out that complies with the Geoconnex SHACL shape. This method of submission is recommended for most situations. It typically doesn't require an organization to spin up new infrastructure and the bulk container workflow can choose how to process and generate the RDF data most efficiently. It just requires that the user's data can be retrieved publicly somehow from within the container. Data that the container ingests and processes could be hosted in Github releases, a live web API, hydroshare, an S3 bucket etc.
 
-Depending on the user's tolerance for complexity, it may make sense to put a cached version of intermediary ETL artifacts (Geoparquet, etc.) into GitHub releases or other public infrastructure to speed up the crawl time.
+Depending on the user's tolerance for complexity, it may make sense to put a cached version of intermediary ETL artifacts (Geoparquet, etc.) into GitHub releases or other public infrastructure to speed up the crawl time. However for small datasets or those that already provide an export in an efficient format like GPKG, this may be unnecessary. GitHub releases is a convenient way to host and pubilish the docker image but any stable public registry works.
 
 ## Crawlable Landing Pages
 
