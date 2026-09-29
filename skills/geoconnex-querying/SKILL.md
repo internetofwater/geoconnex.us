@@ -96,7 +96,7 @@ https://features.geoconnex.us/collections/GeoconnexFeatures is an OGC API endpoi
 
 The main benefit of this endpoint is that it supports the OGC CQL2 standard. This allows for sophisticated property or text filters that may have poor performance at scale in the https://graph.geoconnex.us endpoint. 
 
-`https://features.geoconnex.us/collections/GeoconnexFeatures/items?bbox=-72.8,40.8,-68.8,47.7&mainstem_uri=https%3A%2F%2Fgeoconnex.us%2Fref%2Fmainstems%2F2290857&limit=100`
-`https://features.geoconnex.us/collections/GeoconnexFeatures/items?filter=feature_name%20ILIKE%20%27reservoir%25%27&limit=1000`
+- `https://features.geoconnex.us/collections/GeoconnexFeatures/items?bbox=-72.8,40.8,-68.8,47.7&mainstem_uri=https%3A%2F%2Fgeoconnex.us%2Fref%2Fmainstems%2F2290857&limit=100`
+- `https://features.geoconnex.us/collections/GeoconnexFeatures/items?filter=feature_name%20ILIKE%20%27reservoir%25%27&limit=1000`
 
 If you want to download all of this data in bulk which totals nearly 4GB, you can use https://storage.googleapis.com/metadata-geoconnex-us/exports/geoconnex_features.parquet
