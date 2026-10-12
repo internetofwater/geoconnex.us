@@ -1,0 +1,9 @@
+{
+    "contact_email": "cloftus@lincolninst.edu",
+    "dataset_description": "12-digit hydrologic unit (HUC12) outlet pour points derived from the NHDPlus V2.1 flow direction rasters. Each point marks the location where surface flow leaves a HUC12 catchment and is linked to the downstream HUC12, ocean, closed basin, or international border it flows into.",
+    "dataset_has_html_landing_pages": false,
+    "add_associated_mainstems": false,
+    "source_code_link": "https://github.com/internetofwater/geoconnex_bulk_runners/tree/main/nhdplusv2:huc12",
+    "dataset_documentation_link": "https://doi.org/10.5066/P9SOT2VG",
+    "bulk_container_image": "ghcr.io/internetofwater/nhdplusv2_huc12_bulk_rdf:latest"
+}

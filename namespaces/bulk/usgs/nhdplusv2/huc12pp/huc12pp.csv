@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//nhdplusv2/huc12/([0-9]+)$,https://api.water.usgs.gov/nldi/linked-data/huc12pp/$1
