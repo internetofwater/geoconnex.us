@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//ref/huc12/([0-9]+).*$,https://reference.geoconnex.us/collections/hu12/items/$1
