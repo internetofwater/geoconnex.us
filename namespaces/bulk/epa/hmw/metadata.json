@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "EPA How's My Waterway Bulk Download",
+    "dataset_name": "EPA How's My Waterway",
+    "dataset_description": "Contains assessment and water quality condition data for waterbodies across the United States. Contains no geometry; links via RDF associations to the proper HUC",
     "dataset_has_html_landing_pages": true,
     "add_associated_mainstems": true,
     "source_code_link": "https://github.com/internetofwater/epa_hmw_bulk_rdf",

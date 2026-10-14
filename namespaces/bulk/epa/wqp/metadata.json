@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "EPA Water Quality Portal Bulk Download",
+    "dataset_name": "EPA Water Quality Portal",
+    "dataset_description": "Contains water quality monitoring data submitted by multiple organizations to the EPA/USGS Water Quality Portal.",
     "dataset_has_html_landing_pages": false,
     "add_associated_mainstems": true,
     "source_code_link": "https://github.com/internetofwater/wqp_bulk_exports",

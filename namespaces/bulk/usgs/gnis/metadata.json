@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "USGS GNIS Bulk Download",
+    "dataset_name": "USGS Geographic Names (GNIS)",
+    "dataset_description": "Contains named geographic feature records from the USGS Geographic Names Information System.",
     "dataset_has_html_landing_pages": true,
     "add_associated_mainstems": false,
     "source_code_link": "https://github.com/internetofwater/gnis_bulk_rdf",

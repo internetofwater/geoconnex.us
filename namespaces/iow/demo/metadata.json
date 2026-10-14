@@ -1,5 +1,6 @@
 {
     "contact_email": "konda@lincolninst.edu",
-    "dataset_description": "Demonstration pids for tutorial purposes",
+    "dataset_name": "Demo Namespace",
+    "dataset_description": "Contains demonstration persistent identifiers used for tutorial purposes and is not a real dataset.",
     "skip_crawling": true
 }

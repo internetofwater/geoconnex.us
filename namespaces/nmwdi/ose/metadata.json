@@ -1,5 +1,6 @@
 {
     "contact_email": "jake.ross@nmt.edu",
-    "dataset_description": "The New Mexico Water Data OSE API",
+    "dataset_name": "New Mexico OSE API",
+    "dataset_description": "Contains redirects to records exposed by the New Mexico Office of the State Engineer (OSE) API, part of the New Mexico Water Data Initiative.",
     "skip_crawling": true
 }

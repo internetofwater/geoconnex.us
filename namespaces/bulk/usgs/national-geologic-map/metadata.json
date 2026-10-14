@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "Geospatial Data within the National Geologic Map Database",
+    "dataset_name": "National Geologic Map Database",
+    "dataset_description": "Contains geospatial data describing mapped geologic units and features from within the USGS National Geologic Map Database.",
     "dataset_has_html_landing_pages": false,
     "add_associated_mainstems": false,
     "source_code_link": "https://github.com/internetofwater/national_geologic_map_bulk_rdf",
