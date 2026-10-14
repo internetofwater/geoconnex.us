@@ -1,5 +1,6 @@
 {
     "skip_crawling": true,
     "contact_email": "internetofwater@lincolninst.edu",
-    "dataset_description": "Redirects for the National Hydrography Dataset (NHD) Flowline Network from NHDPlusV2"
+    "dataset_name": "NHDPlusV2 Reach Code",
+    "dataset_description": "Contains redirects for reach codes identifying flowline features in the National Hydrography Dataset (NHD) Flowline Network from NHDPlusV2."
 }

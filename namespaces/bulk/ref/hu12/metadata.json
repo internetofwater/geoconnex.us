@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "Twelve-digit Hydrologic Regions from USGS NHDPlus High Resolution served from the Geoconnex reference feature server",
+    "dataset_name": "HUC12 Hydrologic Units",
+    "dataset_description": "Contains twelve-digit hydrologic unit boundaries derived from USGS NHDPlus High Resolution, served from the Geoconnex reference feature server.",
     "dataset_has_html_landing_pages": true,
     "add_associated_mainstems": true,
     "source_code_link": "https://github.com/internetofwater/geoconnex_bulk_runners/tree/main/ref%3Ahu12",

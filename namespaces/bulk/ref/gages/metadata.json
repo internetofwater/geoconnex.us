@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "United States Community Contributed Reference Stream Gages from the Geoconnex reference feature server",
+    "dataset_name": "Reference Stream Gages",
+    "dataset_description": "Contains community-contributed stream gage locations served from the Geoconnex reference feature server.",
     "dataset_has_html_landing_pages": true,
     "add_associated_mainstems": true,
     "source_code_link": "https://github.com/internetofwater/geoconnex_bulk_runners/tree/main/ref%3Agages",

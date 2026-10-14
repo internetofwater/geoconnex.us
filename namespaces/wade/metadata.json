@@ -1,5 +1,6 @@
 {
     "contact_email": "adelabdallah@wswc.utah.gov",
-    "dataset_description": "These mappings are for Western States Water Council Water Data Exchange (WaDE) sites. Sites are standardized representations of points of diversion (PODs), points of use (POUs) and other points of interest having to do with water rights administration in the western states.",
+    "dataset_name": "WaDE Water Rights Sites",
+    "dataset_description": "Contains standardized representations of points of diversion, points of use, and other water-rights-related points of interest from the Western States Water Council's Water Data Exchange (WaDE).",
     "skip_crawling": true
 }

@@ -1,5 +1,6 @@
 {
     "skip_crawling": true,
-    "dataset_description": "2020 WBD Snapshot HUC12 Polygons",
+    "dataset_name": "WBD HUC12 Snapshot",
+    "dataset_description": "Contains a 2020 snapshot of Watershed Boundary Dataset (WBD) HUC12 polygons used as a stable reference for the USGS Geospatial Fabric.",
     "contact_email": "internetofwater@lincolninst.edu"
 }

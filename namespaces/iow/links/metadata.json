@@ -1,5 +1,6 @@
 {
     "contact_email": "konda@lincolninst.edu",
-    "dataset_description": "Various IoW related links",
+    "dataset_name": "Internet of Water Links",
+    "dataset_description": "Contains miscellaneous persistent identifier redirects to Internet of Water related resources and web pages.",
     "skip_crawling": true
 }

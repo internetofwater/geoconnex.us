@@ -1,5 +1,6 @@
 {
     "skip_crawling": true,
     "contact_email": "internetofwater@lincolninst.edu",
-    "dataset_description": "COMID redirects to the USGS NLDI API service"
+    "dataset_name": "NHDPlusV2 COMID",
+    "dataset_description": "Contains redirects for NHDPlusV2 common identifiers (COMIDs) that point to the corresponding feature in the USGS Network Linked Data Index (NLDI) API rather than hosting data directly."
 }
