@@ -1,5 +1,6 @@
 {
     "skip_crawling": true,
     "contact_email": "internetofwater@lincolninst.edu",
-    "dataset_description": "National Hydrography Dataset (NHD) Waterbody from NHDPlusV2"
+    "dataset_name": "NHDPlusV2 Waterbody COMID",
+    "dataset_description": "Contains redirects for common identifiers (COMIDs) of waterbody features in the National Hydrography Dataset (NHD) from NHDPlusV2."
 }

@@ -2,7 +2,8 @@
     "max_request_concurrency": 4,
     "add_associated_mainstems": true,
     "contact_email": "ewiggans@lincolninst.edu",
-    "dataset_description": "State gages for Nebraska",
+    "dataset_name": "Nebraska State Gages",
+    "dataset_description": "Contains streamgage locations for Nebraska, served from the Internet of Water features API and sourced from the Nebraska Department of Natural Resources.",
     "dataset_has_html_landing_pages": true,
     "dataset_documentation_link": "https://features.internetofwater.dev/collections/ne/gages"
 }

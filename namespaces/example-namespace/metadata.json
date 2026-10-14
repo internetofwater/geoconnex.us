@@ -1,5 +1,6 @@
 {
     "contact_email": "konda@lincolninst.edu",
-    "dataset_description": "An example namespace for tutorial purposes",
+    "dataset_name": "Example Namespace",
+    "dataset_description": "Contains example persistent identifier mappings used for tutorial and onboarding purposes and is not a real dataset.",
     "skip_crawling": true
 }

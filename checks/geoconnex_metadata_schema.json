@@ -16,6 +16,9 @@
                             "type": "string",
                             "format": "email"
                         },
+                        "dataset_name": {
+                            "type": "string"
+                        },
                         "dataset_description": {
                             "type": "string"
                         },
@@ -26,6 +29,7 @@
                     },
                     "required": [
                         "contact_email",
+                        "dataset_name",
                         "dataset_description",
                         "skip_crawling"
                     ],
@@ -43,6 +47,9 @@
                             "format": "email"
                         },
                         "contact_name": {
+                            "type": "string"
+                        },
+                        "dataset_name": {
                             "type": "string"
                         },
                         "dataset_description": {
@@ -73,6 +80,7 @@
                     "required": [
                         "add_associated_mainstems",
                         "contact_email",
+                        "dataset_name",
                         "dataset_description",
                         "dataset_has_html_landing_pages",
                         "max_request_concurrency",
@@ -91,6 +99,9 @@
                             "type": "string"
                         },
                         "contact_name": {
+                            "type": "string"
+                        },
+                        "dataset_name": {
                             "type": "string"
                         },
                         "dataset_description": {
@@ -112,6 +123,7 @@
                     "required": [
                         "add_associated_mainstems",
                         "contact_email",
+                        "dataset_name",
                         "dataset_description",
                         "dataset_has_html_landing_pages",
                         "dataset_documentation_link",

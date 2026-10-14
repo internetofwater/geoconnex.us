@@ -2,7 +2,8 @@
     "max_request_concurrency": 5,
     "add_associated_mainstems": true,
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "The proxied version of the USACE SNOTEL API as it is present within the USBR / IoW Western Water Datahub here: https://api.wwdh.internetofwater.app/",
+    "dataset_name": "US Department of Agriculture SNOTEL Locations",
+    "dataset_description": "Contains snowpack telemetry (SNOTEL) station data, accessed through a proxied version of the API hosted within the USBR / Internet of Water Western Water Datahub rather than queried directly from the original SNOTEL service.",
     "dataset_has_html_landing_pages": true,
     "dataset_documentation_link": "https://api.wwdh.internetofwater.app/"
 }

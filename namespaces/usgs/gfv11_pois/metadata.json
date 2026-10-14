@@ -1,5 +1,6 @@
 {
     "skip_crawling": true,
-    "dataset_description": "USGS Geospatial Fabric V1.1 Points of Interest",
+    "dataset_name": "Geospatial Fabric Points of Interest",
+    "dataset_description": "Contains points of interest from the USGS Geospatial Fabric version 1.1 used to reference locations along the national hydrographic network.",
     "contact_email": "dblodgett@usgs.gov"
 }

@@ -2,7 +2,8 @@
     "max_request_concurrency": 4,
     "add_associated_mainstems": true,
     "contact_email": "internetofwater@lincolninst.edu",
-    "dataset_description": "Colorado Gages",
+    "dataset_name": "Colorado Gages (Test Fixture)",
+    "dataset_description": "Contains test fixture data representing Colorado streamgages, used to validate the Geoconnex crawling and metadata pipeline.",
     "dataset_has_html_landing_pages": true,
     "dataset_documentation_link": "https://features.geoconnex.dev/collections/co/gages"
 }

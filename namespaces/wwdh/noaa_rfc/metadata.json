@@ -2,7 +2,8 @@
     "max_request_concurrency": 5,
     "add_associated_mainstems": true,
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "The proxied version of the NOAA River Forecast Center APIs as it is present within the USBR / IoW Western Water Datahub here: https://api.wwdh.internetofwater.app/",
+    "dataset_name": "NOAA River Forecast Center Locations",
+    "dataset_description": "Contains river and water supply forecast data from NOAA's River Forecast Centers, accessed through a proxied version of the API hosted within the USBR / Internet of Water Western Water Datahub rather than queried directly from NOAA.",
     "dataset_has_html_landing_pages": true,
     "dataset_documentation_link": "https://api.wwdh.internetofwater.app/"
 }
