@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "USGS Monitoring Locations Bulk Download",
+    "dataset_name": "USGS Monitoring Locations",
+    "dataset_description": "Contains the list of all USGS water monitoring locations, derived from the USGS OGC API Features endpoint.",
     "dataset_has_html_landing_pages": true,
     "add_associated_mainstems": true,
     "source_code_link": "https://github.com/internetofwater/usgs_monitoring_locations_bulk_exports",

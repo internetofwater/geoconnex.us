@@ -2,7 +2,8 @@
     "max_request_concurrency": 5,
     "add_associated_mainstems": true,
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "The proxied version of the USBR RISE API as it is present within the USBR / IoW Western Water Datahub",
+    "dataset_name": "US Bureau of Reclamation RISE API Locations",
+    "dataset_description": "Contains U.S. Bureau of Reclamation location and reservoir data from the RISE API, accessed through a proxied version of the API hosted within the USBR / Internet of Water Western Water Datahub rather than queried directly from the original RISE API.",
     "dataset_has_html_landing_pages": true,
     "dataset_documentation_link": "https://api.wwdh.internetofwater.app/"
 }

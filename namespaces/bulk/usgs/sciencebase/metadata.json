@@ -1,6 +1,7 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "USGS Sciencebase Bulk Download",
+    "dataset_name": "USGS ScienceBase Catalog",
+    "dataset_description": "Contains all scientific studies contained within the USGS ScienceBase data catalog. Each feature's geospatial coordinates represents the spatial extent of the scientific study.",
     "dataset_has_html_landing_pages": true,
     "add_associated_mainstems": false,
     "source_code_link": "https://github.com/internetofwater/sciencebase_bulk_rdf",

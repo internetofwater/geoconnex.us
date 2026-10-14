@@ -1,9 +1,10 @@
 {
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "Geoconnex v3 Reference Mainstems",
+    "dataset_name": "Reference Mainstems",
+    "dataset_description": "Contains the Geoconnex v3 reference mainstem river network. Reference mainstems give every river in the United States a stable identifier that persists across the datasets used to represent it. A monitoring site, model output, a water-related permit, or a photograph of a river can be referenced to a mainstem once, and that reference will remain valid even when the underlying hydrography is replaced. A mainstem identifier is for a river, not a particular set of flowlines. The mainstem registry currently holds about 850,000 mainstem identifiers covering the conterminous United States and the parts of Canada and Mexico needed to cover transboundary networks. Each identifier is defined by a headwater location, an outlet location, and a network dataset in which the path between them can be traced.",
     "dataset_has_html_landing_pages": false,
     "add_associated_mainstems": false,
     "source_code_link": "https://github.com/internetofwater/mainstems_v3_bulk_rdf",
-    "dataset_documentation_link": "https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/",
+    "dataset_documentation_link": "https://doi.org/10.5066/P13LNDDQ",
     "bulk_container_image": "ghcr.io/internetofwater/mainstems_v3_bulk_rdf:latest"
 }

@@ -2,7 +2,8 @@
     "max_request_concurrency": 5,
     "add_associated_mainstems": false,
     "contact_email": "internetofwater@lincolninst.edu",
-    "dataset_description": "Four-digit Hydrologic Regions from USGS NHDPlus High Resolution served from the Geoconnex reference feature server",
+    "dataset_name": "HUC04 Hydrologic Regions",
+    "dataset_description": "Contains four-digit hydrologic region boundaries derived from USGS NHDPlus High Resolution, served from the Geoconnex reference feature server.",
     "dataset_has_html_landing_pages": true,
     "dataset_documentation_link": "https://reference.geoconnex.us/collections/hu04"
 }

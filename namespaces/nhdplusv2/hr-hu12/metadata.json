@@ -1,5 +1,6 @@
 {
     "contact_email": "internetofwater@lincolninst.edu",
-    "dataset_description": "HUC12 layer from NHDPlusHR",
+    "dataset_name": "NHDPlusHR HUC12",
+    "dataset_description": "Contains redirects for twelve-digit hydrologic unit identifiers from the NHDPlus High Resolution dataset.",
     "skip_crawling": true
 }

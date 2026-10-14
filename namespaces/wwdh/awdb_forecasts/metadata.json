@@ -2,7 +2,8 @@
     "max_request_concurrency": 5,
     "add_associated_mainstems": true,
     "contact_email": "cloftus@lincolninst.edu",
-    "dataset_description": "The proxied version of the AWDB (Air and Water Database) API forecast data as it is present within the USBR / IoW Western Water Datahub here: https://api.wwdh.internetofwater.app/",
+    "dataset_name": "US Department of Agriculture AWDB Forecast Locations",
+    "dataset_description": "Contains seasonal water supply forecast data from the Air and Water Database (AWDB), accessed through a proxied version of the API hosted within the USBR / Internet of Water Western Water Datahub rather than queried directly from the original AWDB service.",
     "dataset_has_html_landing_pages": true,
     "dataset_documentation_link": "https://api.wwdh.internetofwater.app/"
 }
