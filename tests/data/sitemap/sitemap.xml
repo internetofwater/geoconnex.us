@@ -2,52 +2,57 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:geoconnex="https://geoconnex.us">
 <sitemap>
   <loc>https://pids.geoconnex.dev/sitemap/cdss/co_gages.xml</loc>
-  <lastmod>2026-05-11T18:14:02Z</lastmod>
+  <lastmod>2026-10-14T14:16:35Z</lastmod>
   <geoconnex:sitemap_id>cdss:co_gages</geoconnex:sitemap_id>
+  <geoconnex:dataset_name>Colorado Gages (Test Fixture)</geoconnex:dataset_name>
+  <geoconnex:dataset_description>Contains test fixture data representing Colorado streamgages, used to validate the Geoconnex crawling and metadata pipeline.</geoconnex:dataset_description>
   <geoconnex:max_request_concurrency>4</geoconnex:max_request_concurrency>
   <geoconnex:add_associated_mainstems>True</geoconnex:add_associated_mainstems>
   <geoconnex:contact_email>internetofwater@lincolninst.edu</geoconnex:contact_email>
-  <geoconnex:dataset_description>Colorado Gages</geoconnex:dataset_description>
   <geoconnex:dataset_has_html_landing_pages>True</geoconnex:dataset_has_html_landing_pages>
   <geoconnex:dataset_documentation_link>https://features.geoconnex.dev/collections/co/gages</geoconnex:dataset_documentation_link>
 </sitemap><sitemap>
-  <loc>https://pids.geoconnex.dev/sitemap/ref/dams.xml</loc>
-  <lastmod>2026-05-11T18:14:02Z</lastmod>
-  <geoconnex:sitemap_id>ref:dams</geoconnex:sitemap_id>
+  <loc>https://pids.geoconnex.dev/sitemap/nmwdi/st/nmwdi_st.xml</loc>
+  <lastmod>2026-10-14T14:16:35Z</lastmod>
+  <geoconnex:sitemap_id>nmwdi:st:nmwdi_st</geoconnex:sitemap_id>
+  <geoconnex:dataset_name>New Mexico Water Data Inventory (Test Fixture)</geoconnex:dataset_name>
+  <geoconnex:dataset_description>Contains test fixture data representing the New Mexico Water Data Inventory, used to validate the Geoconnex crawling and metadata pipeline.</geoconnex:dataset_description>
   <geoconnex:max_request_concurrency>4</geoconnex:max_request_concurrency>
   <geoconnex:add_associated_mainstems>True</geoconnex:add_associated_mainstems>
   <geoconnex:contact_email>internetofwater@lincolninst.edu</geoconnex:contact_email>
-  <geoconnex:dataset_description>Reference Dams</geoconnex:dataset_description>
+  <geoconnex:dataset_has_html_landing_pages>True</geoconnex:dataset_has_html_landing_pages>
+  <geoconnex:dataset_documentation_link>https://newmexicowaterdata.org/</geoconnex:dataset_documentation_link>
+</sitemap><sitemap>
+  <loc>https://pids.geoconnex.dev/sitemap/ref/gages.xml</loc>
+  <lastmod>2026-10-14T14:16:35Z</lastmod>
+  <geoconnex:sitemap_id>ref:gages</geoconnex:sitemap_id>
+  <geoconnex:dataset_name>Reference Gages (Test Fixture)</geoconnex:dataset_name>
+  <geoconnex:dataset_description>Contains test fixture data representing reference stream gage locations, used to validate the Geoconnex crawling and metadata pipeline.</geoconnex:dataset_description>
+  <geoconnex:max_request_concurrency>4</geoconnex:max_request_concurrency>
+  <geoconnex:add_associated_mainstems>True</geoconnex:add_associated_mainstems>
+  <geoconnex:contact_email>internetofwater@lincolninst.edu</geoconnex:contact_email>
   <geoconnex:dataset_has_html_landing_pages>True</geoconnex:dataset_has_html_landing_pages>
   <geoconnex:dataset_documentation_link>https://github.com/internetofwater/reference.geoconnex.us</geoconnex:dataset_documentation_link>
 </sitemap><sitemap>
-  <loc>https://pids.geoconnex.dev/sitemap/ref/gages.xml</loc>
-  <lastmod>2026-05-11T18:14:02Z</lastmod>
-  <geoconnex:sitemap_id>ref:gages</geoconnex:sitemap_id>
+  <loc>https://pids.geoconnex.dev/sitemap/ref/dams.xml</loc>
+  <lastmod>2026-10-14T14:16:35Z</lastmod>
+  <geoconnex:sitemap_id>ref:dams</geoconnex:sitemap_id>
+  <geoconnex:dataset_name>Reference Dams (Test Fixture)</geoconnex:dataset_name>
+  <geoconnex:dataset_description>Contains test fixture data representing reference dam locations, used to validate the Geoconnex crawling and metadata pipeline.</geoconnex:dataset_description>
   <geoconnex:max_request_concurrency>4</geoconnex:max_request_concurrency>
   <geoconnex:add_associated_mainstems>True</geoconnex:add_associated_mainstems>
   <geoconnex:contact_email>internetofwater@lincolninst.edu</geoconnex:contact_email>
-  <geoconnex:dataset_description>Reference Gages</geoconnex:dataset_description>
   <geoconnex:dataset_has_html_landing_pages>True</geoconnex:dataset_has_html_landing_pages>
   <geoconnex:dataset_documentation_link>https://github.com/internetofwater/reference.geoconnex.us</geoconnex:dataset_documentation_link>
 </sitemap><sitemap>
   <loc>https://pids.geoconnex.dev/sitemap/ref/mainstems.xml</loc>
-  <lastmod>2026-05-11T18:14:02Z</lastmod>
+  <lastmod>2026-10-14T14:16:35Z</lastmod>
   <geoconnex:sitemap_id>ref:mainstems</geoconnex:sitemap_id>
+  <geoconnex:dataset_name>Reference Mainstems (Test Fixture)</geoconnex:dataset_name>
+  <geoconnex:dataset_description>Contains test fixture data representing reference mainstem river reaches, used to validate the Geoconnex crawling and metadata pipeline.</geoconnex:dataset_description>
   <geoconnex:max_request_concurrency>4</geoconnex:max_request_concurrency>
   <geoconnex:add_associated_mainstems>True</geoconnex:add_associated_mainstems>
   <geoconnex:contact_email>internetofwater@lincolninst.edu</geoconnex:contact_email>
-  <geoconnex:dataset_description>Reference Mainstems</geoconnex:dataset_description>
   <geoconnex:dataset_has_html_landing_pages>True</geoconnex:dataset_has_html_landing_pages>
   <geoconnex:dataset_documentation_link>https://github.com/internetofwater/reference.geoconnex.us</geoconnex:dataset_documentation_link>
-</sitemap><sitemap>
-  <loc>https://pids.geoconnex.dev/sitemap/nmwdi/st/nmwdi_st.xml</loc>
-  <lastmod>2026-05-11T18:14:02Z</lastmod>
-  <geoconnex:sitemap_id>nmwdi:st:nmwdi_st</geoconnex:sitemap_id>
-  <geoconnex:max_request_concurrency>4</geoconnex:max_request_concurrency>
-  <geoconnex:add_associated_mainstems>True</geoconnex:add_associated_mainstems>
-  <geoconnex:contact_email>internetofwater@lincolninst.edu</geoconnex:contact_email>
-  <geoconnex:dataset_description>New Mexico Water Data Inventory</geoconnex:dataset_description>
-  <geoconnex:dataset_has_html_landing_pages>True</geoconnex:dataset_has_html_landing_pages>
-  <geoconnex:dataset_documentation_link>https://newmexicowaterdata.org/</geoconnex:dataset_documentation_link>
 </sitemap></sitemapindex>
