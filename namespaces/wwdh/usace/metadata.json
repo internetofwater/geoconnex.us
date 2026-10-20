@@ -5,5 +5,6 @@
     "dataset_name": "US Army Corps of Engineers Access2Water API Locations",
     "dataset_description": "Contains U.S. Army Corps of Engineers reservoir and water control data from the Access2Water API, accessed through a proxied version of the API hosted within the USBR / Internet of Water Western Water Datahub rather than queried directly from USACE.",
     "dataset_has_html_landing_pages": true,
-    "dataset_documentation_link": "https://api.wwdh.internetofwater.app/"
+    "dataset_documentation_link": "https://api.wwdh.internetofwater.app/",
+    "add_s2": true
 }

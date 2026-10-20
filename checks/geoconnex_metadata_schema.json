@@ -75,6 +75,10 @@
                         },
                         "dataset_documentation_link": {
                             "type": "string"
+                        },
+                        "add_s2": {
+                            "type": "boolean",
+                            "default": false
                         }
                     },
                     "required": [
@@ -118,6 +122,10 @@
                         },
                         "bulk_container_image": {
                             "type": "string"
+                        },
+                        "add_s2": {
+                            "type": "boolean",
+                            "default": false
                         }
                     },
                     "required": [

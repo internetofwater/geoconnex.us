@@ -5,5 +5,6 @@
     "dataset_name": "California Streamgage Network Assessment",
     "dataset_description": "Contains a catalog assessing the California streamgage network's coverage and conditions, maintained as part of the CA-Gages project.",
     "dataset_has_html_landing_pages": true,
-    "dataset_documentation_link": "https://github.com/internetofwater/CA-Gages"
+    "dataset_documentation_link": "https://github.com/internetofwater/CA-Gages",
+    "add_s2": true
 }
