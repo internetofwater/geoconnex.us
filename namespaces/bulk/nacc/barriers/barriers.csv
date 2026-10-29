@@ -1,2 +1,2 @@
 id,target
-https://geoconnex.us//nacc/barriers/([A-Za-z0-9_-]+).*$,https://services.arcgis.com/QVENGdaPbd4LUkLV/arcgis/rest/services/Aquatic_Barrier_Prioritization_Dams_Crossings_Indicators_05242024/FeatureServer/0/query?where=SARPID%3D%27$1%27&outFields=*&f=html
+https://geoconnex.us//nacc/barriers/([A-Za-z0-9_-]+).*$,https://tool.aquaticbarriers.org/report/combined_barriers/$1/
