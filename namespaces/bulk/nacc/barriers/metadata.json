@@ -1,0 +1,11 @@
+{
+    "contact_email": "cloftus@lincolninst.edu",
+    "dataset_name": "National Aquatic Barriers",
+    "dataset_has_html_landing_pages": true,
+    "dataset_description": "Contains dams and assessed road/stream crossings from the National Aquatic Barrier Prioritization, maintained by the Southeast Aquatic Resources Partnership (SARP) and served at https://aquaticbarriers.org. The dataset is described under the National Aquatic Connectivity Collaborative (NACC), a program of the National Fish Habitat Partnership.",
+    "add_associated_mainstems": true,
+    "source_code_link": "https://github.com/internetofwater/geoconnex_bulk_runners/tree/main/aquaticbarriers",
+    "dataset_documentation_link": "https://aquaticbarriers.org/",
+    "bulk_container_image": "ghcr.io/internetofwater/aquaticbarriers_bulk_rdf:latest",
+    "add_s2": true
+}
