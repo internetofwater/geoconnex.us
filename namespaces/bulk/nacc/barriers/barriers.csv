@@ -1,0 +1,2 @@
+id,target
+https://geoconnex.us//nacc/barriers/([A-Za-z0-9_-]+).*$,https://tool.aquaticbarriers.org/report/combined_barriers/$1/
