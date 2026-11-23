@@ -13,7 +13,7 @@ Geoconnex refers to both a graph database and the overall infrastructure that pr
 3. The Geoconnex OGC API features endpoint at https://features.geoconnex.us/collections/GeoconnexFeatures  
 4. The Geoconnex STAC catalog at https://storage.googleapis.com/harvest-geoconnex-us/stac/catalog.json
 
-## Reference Feature Serever
+## Reference Feature Server
 
 The reference feature server is located at https://reference.geoconnex.us/ and is an OGC API server running pygeoapi. It serves reference hydrologic boundary data for the US like HUCs, States, and Mainstems. It does not include data from external federal agencies (those are submitted as separate contributions to Geoconnex and hosted separately). It is an efficient and interoperables way to quickly load data from a specific reference boundary for GIS workflows. It is populated from gpkg/geojson data on hydroshare here: https://www.hydroshare.org/resource/3295a17b4cc24d34bd6a5c5aaf753c50/ 
 
