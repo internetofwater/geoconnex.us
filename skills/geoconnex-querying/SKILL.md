@@ -100,8 +100,10 @@ The main benefit of this endpoint is that it supports the OGC CQL2 standard. Thi
 - `https://features.geoconnex.us/collections/GeoconnexFeatures/items?bbox=-72.8,40.8,-68.8,47.7&mainstem_uri=https%3A%2F%2Fgeoconnex.us%2Fref%2Fmainstems%2F2290857&limit=100`
 - `https://features.geoconnex.us/collections/GeoconnexFeatures/items?filter=feature_name%20ILIKE%20%27reservoir%25%27&limit=1000`
 
-## Geoconnex STAC Catalog
+## Geoconnex STAC / Portolan Catalog
 
-Geoconnex provides a STAC catalog of all the geospatial data contained in the graph [here](https://storage.googleapis.com/harvest-geoconnex-us/stac/catalog.json). This catalog contains both GeoParquet and PMTiles exports for each dataset. Each feature in Geoconnex is a separate row; some properties like `feature_name` are extracted from the row for more performant querying. The source jsonld RDF data can be found within the `jsonld` column for each feature. The GeoParquet files in this catalog are the source files which populate https://features.geoconnex.us/collections/GeoconnexFeatures as well as the graph. 
+Geoconnex provides a STAC catalog of all the geospatial data contained in the graph [here](https://storage.googleapis.com/harvest-geoconnex-us/stac/catalog.json). The catalog complies with the opinionated [Portolan specification](https://spec.portolan-sdi.org/) which is focused on cataloging cloud native geospatial data. 
 
-Note that this is primarily focused on exposing geospatial data and some basic metadata like the name and description of the feature. For other linked metadata such as dataset info that doesn't have direct geospatial data on it, you should make queries against the full graph database.
+This catalog contains both GeoParquet and PMTiles exports for each dataset. Each feature in Geoconnex is a separate row; some properties like `feature_name` are extracted from the row for more performant querying. The source jsonld RDF data can also be found as an associated Parquet file for each dataset. More info on how to query can be found in the linked AGENTS.md file for the catalog.
+
+Note that this is primarily focused on exposing geospatial data and some basic metadata like the name and description of the feature. For exploring more complex linked relationships you should make queries against the full graph database.
